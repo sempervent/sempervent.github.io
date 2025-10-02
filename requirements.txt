@@ -1,0 +1,47 @@
+# Core MkDocs and Material Theme
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+
+# Enhanced Markdown Extensions
+pymdown-extensions>=10.0.0
+pymdownx.highlight>=10.0.0
+pymdownx.superfences>=10.0.0
+pymdownx.tabbed>=10.0.0
+pymdownx.emoji>=10.0.0
+pymdownx.arithmatex>=10.0.0
+pymdownx.critic>=10.0.0
+pymdownx.caret>=10.0.0
+pymdownx.details>=10.0.0
+pymdownx.keys>=10.0.0
+pymdownx.mark>=10.0.0
+pymdownx.smartsymbols>=10.0.0
+pymdownx.tilde>=10.0.0
+pymdownx.tasklist>=10.0.0
+pymdownx.magiclink>=10.0.0
+pymdownx.inlinehilite>=10.0.0
+
+# Plugins for Enhanced Functionality
+mkdocs-git-revision-date-localized-plugin>=1.2.0
+mkdocs-git-committers-plugin-2>=1.1.0
+mkdocs-minify-plugin>=0.7.0
+mkdocs-social-plugin>=0.1.0
+
+# Mermaid Support
+mkdocs-mermaid2-plugin>=1.1.0
+
+# Search and SEO
+mkdocs-search>=0.3.0
+
+# Performance and Optimization
+mkdocs-redirects>=1.2.0
+mkdocs-exclude>=1.0.0
+
+# Development and Testing
+mkdocs-simple-hooks>=0.3.0
+mkdocs-literate-nav>=0.6.0
+
+# Additional Enhancements
+mkdocs-macros-plugin>=0.7.0
+mkdocs-awesome-pages-plugin>=2.9.0
+mkdocs-git-committers-plugin-2>=1.1.0
+mkdocs-git-revision-date-localized-plugin>=1.2.0

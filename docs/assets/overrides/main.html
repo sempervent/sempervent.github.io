@@ -1,0 +1,184 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- Custom meta tags for SEO -->
+  <meta name="author" content="Joshua N. Grant">
+  <meta name="keywords" content="geospatial, data engineering, cloud architecture, python, aws, postgis, airflow">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:title" content="{{ page.title }} - Joshua N. Grant">
+  <meta property="og:description" content="{{ page.meta.description if page.meta and page.meta.description else config.site_description }}">
+  <meta property="og:image" content="{{ config.site_url }}/assets/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ page.canonical_url }}">
+  <meta property="twitter:title" content="{{ page.title }} - Joshua N. Grant">
+  <meta property="twitter:description" content="{{ page.meta.description if page.meta and page.meta.description else config.site_description }}">
+  <meta property="twitter:image" content="{{ config.site_url }}/assets/og-image.png">
+
+  <!-- Structured Data for Professional Profile -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Joshua N. Grant",
+    "jobTitle": "Geospatial Systems Architect",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Oak Ridge National Laboratory"
+    },
+    "url": "{{ config.site_url }}",
+    "sameAs": [
+      "https://github.com/sempervent",
+      "https://linkedin.com/in/joshuanagrant",
+      "https://notjustadatum.blogspot.com"
+    ],
+    "email": "jngrant@live.com",
+    "telephone": "+1-865-803-3495",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Knoxville",
+      "addressRegion": "TN",
+      "postalCode": "37922",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+
+  <!-- Custom CSS for enhanced styling -->
+  <style>
+    /* Custom professional styling */
+    .md-header__title {
+      font-weight: 600;
+    }
+    
+    /* Enhanced code blocks */
+    .highlight .gp {
+      color: #859900;
+    }
+    
+    /* Professional color scheme adjustments */
+    :root {
+      --md-primary-fg-color: #1976d2;
+      --md-primary-fg-color--light: #42a5f5;
+      --md-primary-fg-color--dark: #1565c0;
+    }
+    
+    /* Custom button styling for CTA */
+    .cta-button {
+      background: linear-gradient(45deg, #1976d2, #42a5f5);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      margin: 8px 0;
+      transition: all 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+    }
+    
+    /* Professional project cards */
+    .project-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 16px 0;
+      background: #fafafa;
+      transition: all 0.3s ease;
+    }
+    
+    .project-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+    
+    /* Enhanced navigation */
+    .md-nav__item--active > .md-nav__link {
+      color: var(--md-primary-fg-color);
+      font-weight: 600;
+    }
+    
+    /* Professional typography */
+    .md-content h1, .md-content h2 {
+      color: #1976d2;
+    }
+    
+    /* Skill tags */
+    .skill-tag {
+      background: #e3f2fd;
+      color: #1976d2;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      margin: 2px;
+      display: inline-block;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+  
+  <!-- Custom JavaScript for enhanced interactivity -->
+  <script>
+    // Add smooth scrolling for anchor links
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a[href^="#"]');
+      links.forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+    });
+    
+    // Add copy-to-clipboard functionality for code blocks
+    document.addEventListener('DOMContentLoaded', function() {
+      const codeBlocks = document.querySelectorAll('pre code');
+      codeBlocks.forEach(block => {
+        const button = document.createElement('button');
+        button.className = 'copy-button';
+        button.textContent = 'Copy';
+        button.style.cssText = `
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          background: #1976d2;
+          color: white;
+          border: none;
+          padding: 4px 8px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 12px;
+        `;
+        
+        const wrapper = document.createElement('div');
+        wrapper.style.position = 'relative';
+        block.parentNode.insertBefore(wrapper, block);
+        wrapper.appendChild(block);
+        wrapper.appendChild(button);
+        
+        button.addEventListener('click', function() {
+          navigator.clipboard.writeText(block.textContent).then(() => {
+            button.textContent = 'Copied!';
+            setTimeout(() => button.textContent = 'Copy', 2000);
+          });
+        });
+      });
+    });
+  </script>
+{% endblock %}
