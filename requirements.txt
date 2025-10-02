@@ -7,8 +7,13 @@ pymdown-extensions>=9.2
 
 # Essential Plugins
 mkdocs-git-revision-date-localized-plugin>=1.2.0
-mkdocs-git-committers-plugin-2>=1.1.0
 mkdocs-minify-plugin>=0.7.0
 
 # Mermaid Support
 mkdocs-mermaid2-plugin>=1.1.0
+
+# Additional Modern Features
+mkdocs-redirects>=1.2.0
+mkdocs-exclude>=1.0.0
+mkdocs-macros-plugin>=0.7.0
+mkdocs-awesome-pages-plugin>=2.9.0

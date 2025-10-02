@@ -2,17 +2,10 @@ site_name: Joshua N. Grant - Geospatial Systems Architect
 site_description: Professional portfolio and technical documentation for Joshua N. Grant, Geospatial Systems Architect at Oak Ridge National Laboratory
 site_author: Joshua N. Grant
 site_url: https://sempervent.github.io
-site_dir: site
 
 theme:
   name: material
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue
@@ -20,7 +13,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue
@@ -28,34 +20,23 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-  font:
-    text: Roboto
-    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.tracking
-    - navigation.path
-    - navigation.indexes
     - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight
-    - search.share
     - content.code.copy
-    - content.code.annotate
     - content.action.edit
     - content.action.view
-    - content.tabs.link
-    - content.tooltips
     - meta
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
-  logo: assets/logo.svg
-  favicon: assets/favicon.png
 
 nav:
   - Home: index.md
@@ -78,9 +59,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -116,24 +94,10 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-  - git-committers:
-      repository: sempervent/sempervent.github.io
-      branch: main
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
-      htmlmin_opts:
-        remove_comments: true
-        remove_empty_space: true
-        remove_all_empty_space: false
-        reduce_empty_attributes: true
-        remove_optional_attribute_quotes: true
-        keep_pre: false
-        keep_closing_tags: false
-        case_sensitive: false
-        minify_css: true
-        minify_js: true
 
 extra:
   social:
@@ -147,6 +111,7 @@ extra:
       link: https://notjustadatum.blogspot.com
   version:
     provider: mike
+  generator: false
   analytics:
     provider: google
     property: G-XXXXXXXXXX  # Replace with your Google Analytics ID
@@ -157,22 +122,6 @@ extra:
       By continuing to use this site, you consent to our use of cookies.
     necessary: true
     strict: true
-  generator: false
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
   copyright: |
     Copyright &copy; 2024 Joshua N. Grant - 
     <a href="https://github.com/sempervent/sempervent.github.io/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>

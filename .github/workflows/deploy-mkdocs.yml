@@ -51,7 +51,7 @@ jobs:
 
       - name: Build with MkDocs
         run: |
-          mkdocs build --clean --config-file mkdocs-minimal.yml
+          mkdocs build --clean
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
