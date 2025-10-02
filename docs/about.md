@@ -11,7 +11,6 @@ Geospatial Systems Architect
 Oak Ridge National Laboratory
 
 - **Location**: Knoxville, TN 37922, United States
-- **Phone**: +1 (865) 803 3495
 - **Email**: [jngrant@live.com](mailto:jngrant@live.com)
 - **Website**: [notjustadatum.blogspot.com](https://notjustadatum.blogspot.com)
 - **GitHub**: [github.com/sempervent](https://github.com/sempervent)

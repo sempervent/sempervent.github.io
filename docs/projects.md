@@ -2,6 +2,27 @@
 
 ## Featured Projects
 
+### OpenSAMPL - Open Source Clock Probe Aggregator and Visualizer
+**Advanced clock synchronization and timing analysis platform**
+
+A comprehensive open-source platform for clock probe aggregation and visualization, developed at Oak Ridge National Laboratory. OpenSAMPL provides advanced tools for precise clock monitoring, time synchronization analysis, and timing accuracy verification across distributed systems.
+
+**Technologies**: Python, NumPy, SciPy, Matplotlib, Pandas, TimeSync, Network Time Protocol (NTP), Docker
+
+**Key Features**:
+- **Clock Probe Aggregation**: Centralized collection and analysis of clock signals
+- **Time Synchronization Analysis**: Precise measurement of clock drift and synchronization
+- **Visualization Tools**: Interactive dashboards for timing analysis and monitoring
+- **Distributed Systems Support**: Multi-node clock monitoring and analysis
+- **Performance Optimization**: High-precision timing algorithms and measurements
+- **Research Applications**: Scientific computing, real-time systems, embedded development
+
+**Repository**: [github.com/ORNL/OpenSAMPL](https://github.com/ORNL/OpenSAMPL)
+**Documentation**: [ornl.github.com/OpenSAMPL](https://ornl.github.com/OpenSAMPL)
+**PyPI Package**: [pypi.org/project/opensampl](https://pypi.org/project/opensampl)
+
+---
+
 ### BlackLake - S3-based Data Portal
 **Enterprise-grade data artifact management platform**
 
@@ -118,6 +139,26 @@ A competitive game where players design and build planets, competing against oth
 
 ---
 
+### pygarden
+**Python package for geospatial data processing and analysis**
+
+A comprehensive Python package for geospatial data processing, spatial analysis, and machine learning applications. Developed as part of the OpenSAMPL ecosystem at Oak Ridge National Laboratory.
+
+**Technologies**: Python, NumPy, Pandas, GeoPandas, Shapely, Rasterio, GDAL, scikit-learn
+
+**Key Features**:
+- **Spatial Data Processing**: Efficient handling of vector and raster data
+- **Machine Learning Integration**: Spatial ML algorithms and workflows
+- **Data Format Support**: Multiple geospatial data format support
+- **Performance Optimization**: High-performance spatial operations
+- **Research Tools**: Advanced spatial analysis capabilities
+- **Documentation**: Comprehensive API documentation and examples
+
+**PyPI Package**: [pypi.org/project/pygarden](https://pypi.org/project/pygarden)
+**Repository**: [github.com/ORNL/pygarden](https://code.ornl.gov/pygarden/pygarden)
+
+---
+
 ### maw
 **CLI for quickly combining tabular data into Parquet**
 
@@ -133,6 +174,10 @@ A high-performance command-line tool written in Rust for efficiently combining a
 - Optimized Parquet output
 
 ## Project Categories
+
+### Research & Open Source Platforms
+- **OpenSAMPL**: Open source clock probe aggregator and visualizer
+- **pygarden**: Python framework for data processing and fast project setup
 
 ### Enterprise Data Platforms
 - **BlackLake**: Production-ready data artifact management platform

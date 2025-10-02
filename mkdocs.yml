@@ -43,6 +43,7 @@ nav:
   - Professional Profile: about.md
   - Projects: projects.md
   - Technical Documentation: documentation.md
+  - Best Practices: best-practices.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
@@ -112,9 +113,6 @@ extra:
   version:
     provider: mike
   generator: false
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX  # Replace with your Google Analytics ID
   consent:
     title: Cookie consent
     description: >- 
@@ -123,5 +121,5 @@ extra:
     necessary: true
     strict: true
   copyright: |
-    Copyright &copy; 2024 Joshua N. Grant - 
+    Copyright &copy; 2025 Joshua N. Grant - 
     <a href="https://github.com/sempervent/sempervent.github.io/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
