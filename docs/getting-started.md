@@ -104,11 +104,33 @@ Oak Ridge National Laboratory
 
 1. **Review Portfolio**: Check out my [Projects](projects.md) for technical examples
 2. **Technical Background**: Read my [Professional Profile](about.md) for detailed experience
-3. **Methodologies**: Explore [Technical Documentation](documentation.md) for implementation approaches
-4. **Reach Out**: Use any of the contact methods above to start a conversation
+3. **Best Practices**: Explore the [Best Practices](../best-practices/) section for proven methodologies
+4. **Hands-on Tutorials**: Follow the [Tutorials](../tutorials/) for step-by-step implementations
+5. **Reach Out**: Use any of the contact methods above to start a conversation
 
-## Additional Resources
+## Available Resources
 
+### Best Practices
+- **[Python Package Development](best-practices/python-package.md)** - Modern Python packaging with `uv`
+- **[Docker & Compose](best-practices/docker-and-compose.md)** - Production containerization
+- **[Rust Development Environment](best-practices/rust-dev-environment.md)** - Senior-level Rust setup
+- **[Geospatial Data Engineering](best-practices/geospatial-data-engineering.md)** - Spatial data management
+- **[AWS Serverless Geospatial](best-practices/aws-serverless-geospatial.md)** - Serverless spatial processing
+- **[ETL Pipeline Design](best-practices/etl-pipeline-design.md)** - Robust data pipelines
+- **[FastAPI Geospatial](best-practices/fastapi-geospatial.md)** - High-performance spatial APIs
+- **[Web Performance Optimization](best-practices/web-performance-optimization.md)** - Core Web Vitals & SEO
+
+### Step-by-Step Tutorials
+- **[PostGIS Geometry Indexing](tutorials/postgis-geometry-indexing.md)** - Spatial database optimization
+- **[PostGIS Raster Indexing](tutorials/postgis-raster-indexing.md)** - Raster data management
+- **[Raster–Vector Workflows](tutorials/postgis-raster-vector-workflows.md)** - Hybrid spatial analysis
+- **[parquet_s3_fdw with Multiple Backends](tutorials/parquet-s3-fdw.md)** - Object store integration
+- **[GeoParquet with Polars](tutorials/geoparquet-with-polars.md)** - High-performance spatial analytics
+- **[Kafka + TimescaleDB IoT Streaming](tutorials/kafka-timescaledb-iot.md)** - Real-time data pipelines
+- **[R Shiny Geospatial Apps](tutorials/r-shiny-geoapp.md)** - Interactive spatial applications
+- **[Monitoring with Grafana & Prometheus](tutorials/monitoring-with-grafana-prometheus.md)** - Observability stack
+
+### Core Documentation
 - [Professional Profile](about.md) - Detailed background and experience
 - [Projects Portfolio](projects.md) - Technical implementations and case studies
-- [Technical Documentation](documentation.md) - Methodologies and best practices
+- [Technical Documentation](documentation.md) - Overview of methodologies and approaches

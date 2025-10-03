@@ -43,7 +43,56 @@ nav:
   - Professional Profile: about.md
   - Projects: projects.md
   - Technical Documentation: documentation.md
-  - Best Practices: best-practices.md
+  - Best Practices:
+    - Python Package: best-practices/python-package.md
+    - Docker & Compose: best-practices/docker-and-compose.md
+    - Rust Development Environment: best-practices/rust-dev-environment.md
+    - Geospatial Data Engineering: best-practices/geospatial-data-engineering.md
+    - Cloud Architecture: best-practices/cloud-architecture.md
+    - Data Engineering: best-practices/data-engineering.md
+    - API Development: best-practices/api-development.md
+    - Database Optimization: best-practices/database-optimization.md
+    - Testing Best Practices: best-practices/testing-best-practices.md
+    - Performance Monitoring: best-practices/performance-monitoring.md
+    - GeoParquet Data Warehouses: best-practices/geoparquet-data-warehouses.md
+    - AWS Serverless Geospatial: best-practices/aws-serverless-geospatial.md
+    - ETL Pipeline Design: best-practices/etl-pipeline-design.md
+    - FastAPI Geospatial: best-practices/fastapi-geospatial.md
+    - Web Performance Optimization: best-practices/web-performance-optimization.md
+    - Conda to Docker Migration: best-practices/conda-to-docker-migration.md
+    - Nginx Production: best-practices/nginx-production.md
+    - Git Production: best-practices/git-production.md
+    - Typing in Python: best-practices/typing-in-python.md
+    - Patroni PostgreSQL HA: best-practices/patroni-postgres-ha.md
+  - Tutorials:
+    - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
+    - PostGIS Geometry Indexing: tutorials/postgis-geometry-indexing.md
+    - PostGIS Raster Indexing: tutorials/postgis-raster-indexing.md
+    - Raster–Vector Workflows: tutorials/postgis-raster-vector-workflows.md
+    - parquet_s3_fdw with Local, MinIO, Vast, and AWS: tutorials/parquet-s3-fdw.md
+    - GeoParquet with Polars: tutorials/geoparquet-with-polars.md
+    - Monitoring with Grafana & Prometheus: tutorials/monitoring-with-grafana-prometheus.md
+    - R Shiny Geospatial App: tutorials/r-shiny-geoapp.md
+    - Real-Time Data Processing: tutorials/real-time-data-processing.md
+    - Kafka + TimescaleDB IoT Streaming: tutorials/kafka-timescaledb-iot.md
+    - jq JSON Parsing Mastery: tutorials/jq-json-parsing-mastery.md
+    - Click CLI to FastAPI Conversion: tutorials/click-to-fastapi-conversion.md
+    - find_files for parquet_s3_fdw: tutorials/find-files-parquet-fdw.md
+    - Mermaid Diagrams in MkDocs: tutorials/mermaid-diagrams.md
+    - TikZ Diagrams in LaTeX: tutorials/latex-tikz-diagrams.md
+    - Jupyter Notebook Best Practices: tutorials/jupyter-notebook-best-practices-geo.md
+    - RKE2 on Raspberry Pi Farm: tutorials/rke2-raspberry-pi.md
+    - ZFS Tank with OS on NVMe: tutorials/zfs-tank-nvme.md
+    - Slimming GPU Docker Images: tutorials/slim-gpu-docker-images.md
+    - FIFO Prefect Flow with Redis: tutorials/prefect-fifo-redis.md
+    - Slimming TensorFlow GPU Images: tutorials/slim-tf-gpu-images.md
+    - iPXE Multi-System Booting: tutorials/ipxe-multi-boot.md
+    - MLflow API Experiments: tutorials/mlflow-api-experiments.md
+    - Ruff Check Ignore in pyproject.toml: tutorials/ruff-check-ignore-pyproject.md
+    - Rust + CSR (Parse & Build from Parquet/DB): tutorials/rust-csr-parquet-db.md
+    - Alembic Migrations: tutorials/alembic-migrations.md
+    - psycopg2 to psycopg 3 Migration: tutorials/psycopg2-to-psycopg3-migration.md
+    - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/postgres-pooling.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
