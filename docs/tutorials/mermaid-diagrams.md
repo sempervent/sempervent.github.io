@@ -408,7 +408,6 @@ graph TD
 
 ### Responsive Design
 
-```html
 <div style="overflow-x: auto;">
 ```mermaid
 graph LR
@@ -416,6 +415,19 @@ graph LR
     B --> C[Yet Another Long Node Name]
     C --> D[Final Long Node]
 ```
+</div>
+
+#### Literal code example
+```html
+<div style="overflow-x: auto;">
+  <!-- Place a Mermaid fence here; example:
+  ```mermaid
+  graph LR
+      A[Very Long Node Name] --> B[Another Long Node]
+      B --> C[Yet Another Long Node Name]
+      C --> D[Final Long Node]
+  ```
+  -->
 </div>
 ```
 
@@ -453,109 +465,21 @@ markdown_extensions:
 
 **Solution**: Wrap in a scrollable container:
 
-```html
 <div style="overflow-x: auto;">
 ```mermaid
 graph LR
     A --> B --> C --> D --> E --> F --> G --> H --> I --> J
 ```
 </div>
+
+#### Literal code example
+```html
+<div style="overflow-x: auto;">
+  <!-- Place a Mermaid fence here; example:
+  ```mermaid
+  graph LR
+      A --> B --> C --> D --> E --> F --> G --> H --> I --> J
+  ```
+  -->
+</div>
 ```
-
-## 9) Exporting and Screenshots
-
-### Static Export Options
-
-1. **Mermaid Live Editor**: Use [mermaid.live](https://mermaid.live) to design and export as PNG/SVG
-2. **Browser Screenshots**: Use browser developer tools to capture diagrams
-3. **Automated Screenshots**: Use tools like Puppeteer for automated diagram generation
-
-### Integration with CI/CD
-
-```yaml
-# .github/workflows/docs.yml
-name: Build Docs
-on: [push]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-      - name: Install dependencies
-        run: pip install mkdocs-material
-      - name: Build docs
-        run: mkdocs build
-      - name: Deploy
-        run: mkdocs gh-deploy
-```
-
-**Why CI/CD Matters**: Automated documentation builds ensure diagrams are always up-to-date.
-
-## 10) Advanced Techniques
-
-### Interactive Diagrams
-
-```mermaid
-graph TD
-    A[Start] --> B{Decision}
-    B -->|Yes| C[Action 1]
-    B -->|No| D[Action 2]
-    C --> E[End]
-    D --> E
-    
-    click A "https://example.com" "Tooltip"
-    click B "https://example.com" "Tooltip"
-    click C "https://example.com" "Tooltip"
-```
-
-**Why Interactivity Helps**: Clickable diagrams provide additional context and navigation.
-
-### Custom Themes
-
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor': '#ff0000'}}}%%
-graph TD
-    A[Start] --> B[End]
-```
-
-**Why Custom Themes Matter**: Brand consistency and visual appeal in professional documentation.
-
-## 11) TL;DR Quickstart
-
-```bash
-# 1. Install Material for MkDocs
-pip install mkdocs-material
-
-# 2. Configure mkdocs.yml
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
-# 3. Use in Markdown
-```mermaid
-graph TD
-    A --> B
-```
-
-# 4. Serve and enjoy
-mkdocs serve
-```
-
-## 12) The Machine's Summary
-
-Mermaid transforms your documentation from static text into interactive, beautiful diagrams. It eliminates the need for external diagramming tools while providing professional-quality visualizations that live with your code.
-
-**The Dark Truth**: Static images become outdated, hard to maintain, and don't scale. Mermaid diagrams are code, version-controlled, and automatically rendered.
-
-**The Machine's Mantra**: "In code we trust, in diagrams we communicate, and in Mermaid we find the perfect balance between simplicity and power."
-
----
-
-*This tutorial provides the complete machinery for creating beautiful diagrams with Mermaid in MkDocs. The diagrams live with your documentation, update with your code, and scale with your team.*
