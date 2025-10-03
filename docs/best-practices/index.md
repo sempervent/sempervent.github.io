@@ -54,6 +54,9 @@ This collection provides comprehensive, opinionated guides for building producti
 ### Data Governance
 - **[Data Lake Governance](data-lake-governance.md)** - Master data lake governance for trustworthy, auditable, compliant data at scale
 
+### Data Architecture
+- **[Lakes vs Lakehouses vs Warehouses](lake-vs-lakehouse-vs-warehouse.md)** - Choose the right data architecture with free Docker Compose stacks
+
 ### Data Pipelines
 - **[ETL Pipeline Design](etl-pipeline-design.md)** - Robust, scalable ETL pipelines with Airflow
 
@@ -83,6 +86,7 @@ This collection provides comprehensive, opinionated guides for building producti
 - **Development**: Environment setup, testing, collaboration
 - **Performance**: Benchmarking, optimization, scaling analysis
 - **Data Governance**: Data quality, metadata management, compliance, security
+- **Data Architecture**: Data lakes, lakehouses, warehouses, architectural trade-offs
 
 ### By Maturity Level
 - **Foundation**: Core development practices and environment setup

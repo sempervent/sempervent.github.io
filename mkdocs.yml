@@ -43,7 +43,8 @@ nav:
   - Professional Profile: about.md
   - Projects: projects.md
   - Technical Documentation: documentation.md
-  - Best Practices: best-practices/index.md
+  - Best Practices:
+    - Overview: best-practices/index.md
     - Python Package: best-practices/python-package.md
     - Docker & Compose: best-practices/docker-and-compose.md
     - Rust Development Environment: best-practices/rust-dev-environment.md
@@ -66,7 +67,9 @@ nav:
     - Patroni PostgreSQL HA: best-practices/patroni-postgres-ha.md
     - Geospatial Benchmarking: best-practices/geospatial-benchmarking.md
     - Data Lake Governance: best-practices/data-lake-governance.md
-  - Tutorials: tutorials/index.md
+    - Lakes vs Lakehouses vs Warehouses: best-practices/lake-vs-lakehouse-vs-warehouse.md
+  - Tutorials:
+    - Overview: tutorials/index.md
     - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
     - PostGIS Geometry Indexing: tutorials/postgis-geometry-indexing.md
     - PostGIS Raster Indexing: tutorials/postgis-raster-indexing.md
