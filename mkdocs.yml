@@ -43,7 +43,7 @@ nav:
   - Professional Profile: about.md
   - Projects: projects.md
   - Technical Documentation: documentation.md
-  - Best Practices:
+  - Best Practices: best-practices/index.md
     - Python Package: best-practices/python-package.md
     - Docker & Compose: best-practices/docker-and-compose.md
     - Rust Development Environment: best-practices/rust-dev-environment.md
@@ -64,7 +64,9 @@ nav:
     - Git Production: best-practices/git-production.md
     - Typing in Python: best-practices/typing-in-python.md
     - Patroni PostgreSQL HA: best-practices/patroni-postgres-ha.md
-  - Tutorials:
+    - Geospatial Benchmarking: best-practices/geospatial-benchmarking.md
+    - Data Lake Governance: best-practices/data-lake-governance.md
+  - Tutorials: tutorials/index.md
     - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
     - PostGIS Geometry Indexing: tutorials/postgis-geometry-indexing.md
     - PostGIS Raster Indexing: tutorials/postgis-raster-indexing.md
@@ -93,6 +95,8 @@ nav:
     - Alembic Migrations: tutorials/alembic-migrations.md
     - psycopg2 to psycopg 3 Migration: tutorials/psycopg2-to-psycopg3-migration.md
     - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/postgres-pooling.md
+    - Mosquitto + Python (MQTT Best Practices): tutorials/mosquitto-mqtt-python.md
+    - Python UDP Messaging: tutorials/python-udp.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
