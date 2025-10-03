@@ -57,6 +57,9 @@ This collection provides comprehensive, opinionated guides for building producti
 ### Data Architecture
 - **[Lakes vs Lakehouses vs Warehouses](lake-vs-lakehouse-vs-warehouse.md)** - Choose the right data architecture with free Docker Compose stacks
 
+### Machine Learning
+- **[ONNX Model Optimization](onnx-model-optimization.md)** - Production-ready machine learning deployment with ONNX
+
 ### Data Pipelines
 - **[ETL Pipeline Design](etl-pipeline-design.md)** - Robust, scalable ETL pipelines with Airflow
 
@@ -87,6 +90,7 @@ This collection provides comprehensive, opinionated guides for building producti
 - **Performance**: Benchmarking, optimization, scaling analysis
 - **Data Governance**: Data quality, metadata management, compliance, security
 - **Data Architecture**: Data lakes, lakehouses, warehouses, architectural trade-offs
+- **Machine Learning**: ONNX model optimization, production deployment, cross-platform compatibility
 
 ### By Maturity Level
 - **Foundation**: Core development practices and environment setup

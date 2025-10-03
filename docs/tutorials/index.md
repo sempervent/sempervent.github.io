@@ -85,16 +85,32 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 - **[Mosquitto + Python (MQTT Best Practices)](mosquitto-mqtt-python.md)** - Master MQTT messaging for IoT and event-driven applications
 - **[Python UDP Messaging](python-udp.md)** - Master UDP networking for high-performance, real-time applications
 
+### Big Data Processing
+- **[Apache Spark Mastery](apache-spark-mastery.md)** - Master distributed data processing with Apache Spark
+- **[Apache Iceberg Mastery](apache-iceberg-mastery.md)** - Build, break, and bend ACID tables in the data lake
+
+### Database Technologies
+- **[Graph vs Vector Databases](graph-vs-vector-databases.md)** - When relationships meet similarity in modern data applications
+
+### Machine Learning
+- **[ONNX Browser Inference](onnx-browser-inference.md)** - Deploy machine learning models directly in the browser
+
+### System Administration
+- **[AWK Unix Text Processing](awk-unix-text-processing.md)** - Master AWK for parsing ls, ps aux, and system data
+
 ## 📚 Tutorial Categories
 
 ### By Technology
-- **Database**: PostgreSQL, PostGIS, TimescaleDB, Kafka
+- **Database**: PostgreSQL, PostGIS, TimescaleDB, Kafka, Graph, Vector
 - **Python**: FastAPI, psycopg, Alembic, Polars
 - **Rust**: Sparse matrices, performance computing
 - **Docker**: Container optimization, GPU workloads
 - **Kubernetes**: RKE2, Raspberry Pi clusters
 - **Infrastructure**: ZFS, iPXE, network booting
 - **Messaging**: MQTT, Mosquitto, UDP, real-time communication
+- **Big Data**: Apache Spark, Apache Iceberg, distributed processing, data engineering
+- **System Administration**: AWK, Unix utilities, text processing, system monitoring
+- **Machine Learning**: ONNX browser inference, client-side ML, web-based AI
 
 ### By Use Case
 - **Data Engineering**: ETL pipelines, streaming data, spatial analytics

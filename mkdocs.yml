@@ -68,6 +68,7 @@ nav:
     - Geospatial Benchmarking: best-practices/geospatial-benchmarking.md
     - Data Lake Governance: best-practices/data-lake-governance.md
     - Lakes vs Lakehouses vs Warehouses: best-practices/lake-vs-lakehouse-vs-warehouse.md
+    - ONNX Model Optimization: best-practices/onnx-model-optimization.md
   - Tutorials:
     - Overview: tutorials/index.md
     - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
@@ -100,6 +101,11 @@ nav:
     - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/postgres-pooling.md
     - Mosquitto + Python (MQTT Best Practices): tutorials/mosquitto-mqtt-python.md
     - Python UDP Messaging: tutorials/python-udp.md
+    - Apache Spark Mastery: tutorials/apache-spark-mastery.md
+    - AWK Unix Text Processing: tutorials/awk-unix-text-processing.md
+    - Apache Iceberg Mastery: tutorials/apache-iceberg-mastery.md
+    - Graph vs Vector Databases: tutorials/graph-vs-vector-databases.md
+    - ONNX Browser Inference: tutorials/onnx-browser-inference.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
