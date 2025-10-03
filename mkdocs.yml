@@ -69,6 +69,12 @@ nav:
     - Data Lake Governance: best-practices/data-lake-governance.md
     - Lakes vs Lakehouses vs Warehouses: best-practices/lake-vs-lakehouse-vs-warehouse.md
     - ONNX Model Optimization: best-practices/onnx-model-optimization.md
+    - RDF/OWL Metadata Automation: best-practices/rdf-owl-metadata-automation.md
+    - YAML Recipe Format: best-practices/yaml-recipe-format.md
+    - Protocol Buffers with Python: best-practices/protobuf-python.md
+    - MCP + FastAPI Full Stack: best-practices/mcp-fastapi-stack.md
+    - Embeddings & Vector Databases: best-practices/embeddings-and-vector-databases.md
+    - R Data Exploration: best-practices/r-data-exploration.md
   - Tutorials:
     - Overview: tutorials/index.md
     - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
@@ -106,6 +112,12 @@ nav:
     - Apache Iceberg Mastery: tutorials/apache-iceberg-mastery.md
     - Graph vs Vector Databases: tutorials/graph-vs-vector-databases.md
     - ONNX Browser Inference: tutorials/onnx-browser-inference.md
+    - Geospatial Knowledge Graph: tutorials/geospatial-knowledge-graph.md
+    - RAG with Ollama + Database: tutorials/rag-ollama-db.md
+    - DuckDB Parquet Data Quality: tutorials/duckdb-parquet-data-quality.md
+    - MCP ↔ MLflow Toolchain: tutorials/mcp-mlflow-toolchain.md
+    - Semantic ML Training: tutorials/semantic-ml-training.md
+    - Remote Dev with tmux & screen: tutorials/remote-dev-tmux-screen.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:

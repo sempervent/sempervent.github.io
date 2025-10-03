@@ -59,6 +59,19 @@ This collection provides comprehensive, opinionated guides for building producti
 
 ### Machine Learning
 - **[ONNX Model Optimization](onnx-model-optimization.md)** - Production-ready machine learning deployment with ONNX
+- **[MCP + FastAPI Full Stack](mcp-fastapi-stack.md)** - Secure AI tool integration with Model Context Protocol
+- **[Embeddings & Vector Databases](embeddings-and-vector-databases.md)** - Production-grade semantic search and RAG systems
+- **[R Data Exploration](r-data-exploration.md)** - Tidyverse vs data.table for production data analysis
+
+### Knowledge Management
+- **[RDF/OWL Metadata Automation](rdf-owl-metadata-automation.md)** - Dynamic knowledge graphs with automated ontological associations
+
+### Fun & Creative
+- **[YAML Recipe Format](yaml-recipe-format.md)** - Why your kitchen needs indentation (humorous but instructive)
+
+### Data Serialization
+- **[Protocol Buffers with Python](protobuf-python.md)** - Production-ready data serialization and microservices communication
+
 
 ### Data Pipelines
 - **[ETL Pipeline Design](etl-pipeline-design.md)** - Robust, scalable ETL pipelines with Airflow
@@ -90,7 +103,11 @@ This collection provides comprehensive, opinionated guides for building producti
 - **Performance**: Benchmarking, optimization, scaling analysis
 - **Data Governance**: Data quality, metadata management, compliance, security
 - **Data Architecture**: Data lakes, lakehouses, warehouses, architectural trade-offs
-- **Machine Learning**: ONNX model optimization, production deployment, cross-platform compatibility
+- **Machine Learning**: ONNX model optimization, production deployment, cross-platform compatibility, embeddings and vector databases, R data exploration
+- **Knowledge Management**: RDF/OWL metadata automation, semantic reasoning, ontological reasoning
+- **Fun & Creative**: YAML recipe format, humorous but instructive content
+- **Data Serialization**: Protocol Buffers, efficient data exchange, microservices communication
+- **AI & Machine Learning**: Model Context Protocol, secure AI tool integration, LLM orchestration
 
 ### By Maturity Level
 - **Foundation**: Core development practices and environment setup

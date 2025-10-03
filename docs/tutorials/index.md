@@ -91,17 +91,23 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 
 ### Database Technologies
 - **[Graph vs Vector Databases](graph-vs-vector-databases.md)** - When relationships meet similarity in modern data applications
+- **[Geospatial Knowledge Graph](geospatial-knowledge-graph.md)** - Build intelligent location-aware systems with PostGIS + Neo4j
+- **[DuckDB Parquet Data Quality](duckdb-parquet-data-quality.md)** - Inspect and validate Parquet files for data quality issues
 
 ### Machine Learning
 - **[ONNX Browser Inference](onnx-browser-inference.md)** - Deploy machine learning models directly in the browser
+- **[RAG with Ollama + Database](rag-ollama-db.md)** - Build intelligent data interfaces with retrieval-augmented generation
+- **[MCP ↔ MLflow Toolchain](mcp-mlflow-toolchain.md)** - Data-agnostic LLM experimentation with Model Context Protocol
+- **[Semantic ML Training](semantic-ml-training.md)** - Master semantic machine learning from embeddings to production
 
 ### System Administration
 - **[AWK Unix Text Processing](awk-unix-text-processing.md)** - Master AWK for parsing ls, ps aux, and system data
+- **[Remote Dev with tmux & screen](remote-dev-tmux-screen.md)** - Bulletproof remote development for when the wire goes dead
 
 ## 📚 Tutorial Categories
 
 ### By Technology
-- **Database**: PostgreSQL, PostGIS, TimescaleDB, Kafka, Graph, Vector
+- **Database**: PostgreSQL, PostGIS, TimescaleDB, Kafka, Graph, Vector, DuckDB
 - **Python**: FastAPI, psycopg, Alembic, Polars
 - **Rust**: Sparse matrices, performance computing
 - **Docker**: Container optimization, GPU workloads
@@ -110,13 +116,14 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 - **Messaging**: MQTT, Mosquitto, UDP, real-time communication
 - **Big Data**: Apache Spark, Apache Iceberg, distributed processing, data engineering
 - **System Administration**: AWK, Unix utilities, text processing, system monitoring
-- **Machine Learning**: ONNX browser inference, client-side ML, web-based AI
+- **Machine Learning**: ONNX browser inference, client-side ML, web-based AI, RAG systems
+- **Geospatial**: PostGIS, Neo4j, knowledge graphs, spatial reasoning
 
 ### By Use Case
 - **Data Engineering**: ETL pipelines, streaming data, spatial analytics
 - **Web Development**: APIs, interactive applications, deployment
-- **System Administration**: Clustering, storage, network management
-- **Machine Learning**: Experiment tracking, model deployment
+- **System Administration**: Clustering, storage, network management, remote development
+- **Machine Learning**: Experiment tracking, model deployment, MCP-MLflow toolchains, semantic ML
 - **Visualization**: Diagrams, notebooks, interactive tools
 
 ### By Complexity
