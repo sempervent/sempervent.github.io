@@ -18,6 +18,9 @@
 - **[Real-Time Data Processing](real-time-data-processing.md)** - Implement Kafka and TimescaleDB for streaming data
 - **[Kafka + TimescaleDB IoT Streaming](kafka-timescaledb-iot.md)** - Stream simulated IoT telemetry into TimescaleDB
 - **[Pulsar → Flink → Pinot (Realtime OLAP) + Superset](pulsar-flink-pinot-superset.md)** - A clean, fast streaming stack with sub-second analytics
+- **[H3 + Tile38 + NATS + DuckDB](h3-tile38-nats-duckdb.md)** - Real-time geofences with hex aggregation and offline analytics
+- **[H3 Raster to Hex](h3-raster-to-hex.md)** - Converting geospatial rasters to hexagonal grids for spatial analysis
+- **[IPFS + SurrealDB + Meilisearch + NATS + Deno + Svelte](ipfs-surreal-meili-nats-deno-svelte.md)** - Content-addressed knowledge with verifiable blobs and fast search
 
 ## Orchestration & Pipelines
 

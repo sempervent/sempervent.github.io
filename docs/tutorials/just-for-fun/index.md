@@ -15,6 +15,8 @@
 - **[Selenium Grid (Docker) + Python](selenium-grid-docker-python.md)** - ChromeDriver headless testing with Docker Compose
 - **[Martin + PostGIS Tiling](martin-postgis-tiling.md)** - Tables, views, SQL functions, and raster tiles with Martin
 - **[Managing People in Software Development](managing-people-software-dev.md)** - From engineer to leader: essential practices for technical managers
+- **[OSC + MQTT + Prometheus + SuperCollider](osc-mqtt-prometheus-supercollider.md)** - Let your metrics sing
+- **[Fractal Art Explorer (JavaScript)](fractal-art-explorer-js.md)** - Real-time Mandelbrot/Julia explorer with palettes, orbit traps, and GPU acceleration
 
 ---
 

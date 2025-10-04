@@ -200,12 +200,16 @@ nav:
       - Apache Spark Mastery: tutorials/database-data-engineering/apache-spark-mastery.md
       - Apache Iceberg Mastery: tutorials/database-data-engineering/apache-iceberg-mastery.md
       - Pulsar → Flink → Pinot (Realtime OLAP) + Superset: tutorials/database-data-engineering/pulsar-flink-pinot-superset.md
+      - H3 + Tile38 + NATS + DuckDB: tutorials/database-data-engineering/h3-tile38-nats-duckdb.md
+      - H3 Raster to Hex: tutorials/database-data-engineering/h3-raster-to-hex.md
+      - IPFS + SurrealDB + Meilisearch + NATS + Deno + Svelte: tutorials/database-data-engineering/ipfs-surreal-meili-nats-deno-svelte.md
       - Graph vs Vector Databases: tutorials/database-data-engineering/graph-vs-vector-databases.md
       - Geospatial Knowledge Graph: tutorials/database-data-engineering/geospatial-knowledge-graph.md
       - DuckDB Parquet Data Quality: tutorials/database-data-engineering/duckdb-parquet-data-quality.md
     - 🤖 Machine Learning & AI:
       - Overview: tutorials/ml-ai/index.md
       - MLflow API Experiments: tutorials/ml-ai/mlflow-api-experiments.md
+      - Local LLM Deployments (Ollama, llama.cpp, vLLM, TGI): tutorials/ml-ai/local-llm-deployments.md
       - ONNX Browser Inference: tutorials/ml-ai/onnx-browser-inference.md
       - RAG with Ollama + Database: tutorials/ml-ai/rag-ollama-db.md
       - MCP ↔ MLflow Toolchain: tutorials/ml-ai/mcp-mlflow-toolchain.md
@@ -230,6 +234,7 @@ nav:
       - Python UDP Messaging: tutorials/development-tools/python-udp.md
       - Python Modbus Device Communication: tutorials/development-tools/python-modbus-devices.md
       - Mixing Tech with Go Glue: tutorials/development-tools/go-tech-mixer.md
+      - Tauri + rqlite + Syncthing: tutorials/development-tools/tauri-rqlite-syncthing.md
     - 🎨 Just for Fun:
       - Overview: tutorials/just-for-fun/index.md
       - Terminal to GIF: tutorials/just-for-fun/terminal-to-gif.md
@@ -243,6 +248,8 @@ nav:
       - Selenium Grid (Docker) + Python: tutorials/just-for-fun/selenium-grid-docker-python.md
       - Martin + PostGIS Tiling: tutorials/just-for-fun/martin-postgis-tiling.md
       - Managing People in Software Development: tutorials/just-for-fun/managing-people-software-dev.md
+      - OSC + MQTT + Prometheus + SuperCollider: tutorials/just-for-fun/osc-mqtt-prometheus-supercollider.md
+      - Fractal Art Explorer (JavaScript): tutorials/just-for-fun/fractal-art-explorer-js.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:

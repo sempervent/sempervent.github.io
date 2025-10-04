@@ -20,6 +20,10 @@
 
 - **[Mixing Tech with Go Glue](go-tech-mixer.md)** - Tutorial on orchestrating PostGIS, Kafka, and Grafana with Go as glue
 
+## Desktop Applications
+
+- **[Tauri + rqlite + Syncthing](tauri-rqlite-syncthing.md)** - Offline-first desktop data with peer-to-peer sync
+
 ---
 
 *These tutorials provide the complete machinery for implementing key development tools and workflows. Each guide includes production-ready examples, configuration files, and best practices for enterprise deployment.*

@@ -10,6 +10,10 @@
 - **[MCP ↔ MLflow Toolchain](mcp-mlflow-toolchain.md)** - Data-agnostic LLM experimentation with Model Context Protocol
 - **[Semantic ML Training](semantic-ml-training.md)** - Master semantic machine learning from embeddings to production
 
+## Local LLM Deployments
+
+- **[Local LLM Deployments (Ollama, llama.cpp, vLLM, TGI)](local-llm-deployments.md)** - Methods, quantization, OpenAI-compatible serving, RAG, and benchmarks
+
 ---
 
 *These tutorials provide the complete machinery for implementing key machine learning and AI technologies and workflows. Each guide includes production-ready examples, configuration files, and best practices for enterprise deployment.*
