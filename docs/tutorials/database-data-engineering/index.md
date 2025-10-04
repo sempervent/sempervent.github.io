@@ -1,0 +1,33 @@
+# Database & Data Engineering Tutorials
+
+**Objective**: Master complex database and data engineering implementations through step-by-step guides. When you need to implement specific database technologies, when you want to follow proven patterns, when you need copy-paste runnable examples—these tutorials become your weapon of choice.
+
+## PostgreSQL & PostGIS
+
+- **[PostGIS Geometry Indexing](postgis-geometry-indexing.md)** - Optimize spatial queries in PostGIS
+- **[PostGIS Raster Indexing](postgis-raster-indexing.md)** - Efficiently manage and query raster data
+- **[Raster–Vector Workflows](postgis-raster-vector-workflows.md)** - Combine raster and vector data for advanced analysis
+- **[Alembic Migrations](alembic-migrations.md)** - Master database schema evolution with Alembic
+- **[PostgreSQL Pooling (PgBouncer + FastAPI)](postgres-pooling.md)** - Optimize database connections for high-concurrency applications
+
+## Data Processing & Analytics
+
+- **[parquet_s3_fdw with Local, MinIO, Vast, and AWS](parquet-s3-fdw.md)** - Query Parquet directly from object storage
+- **[GeoParquet with Polars](geoparquet-with-polars.md)** - High-performance spatial analytics with Polars
+- **[Real-Time Data Processing](real-time-data-processing.md)** - Implement Kafka and TimescaleDB for streaming data
+- **[Kafka + TimescaleDB IoT Streaming](kafka-timescaledb-iot.md)** - Stream simulated IoT telemetry into TimescaleDB
+
+## Big Data Processing
+
+- **[Apache Spark Mastery](apache-spark-mastery.md)** - Master distributed data processing with Apache Spark
+- **[Apache Iceberg Mastery](apache-iceberg-mastery.md)** - Build, break, and bend ACID tables in the data lake
+
+## Database Technologies
+
+- **[Graph vs Vector Databases](graph-vs-vector-databases.md)** - When relationships meet similarity in modern data applications
+- **[Geospatial Knowledge Graph](geospatial-knowledge-graph.md)** - Build intelligent location-aware systems with PostGIS + Neo4j
+- **[DuckDB Parquet Data Quality](duckdb-parquet-data-quality.md)** - Inspect and validate Parquet files for data quality issues
+
+---
+
+*These tutorials provide the complete machinery for implementing key database and data engineering technologies and workflows. Each guide includes production-ready examples, configuration files, and best practices for enterprise deployment.*

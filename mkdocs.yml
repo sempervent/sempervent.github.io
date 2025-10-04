@@ -19,7 +19,7 @@ theme:
       accent: blue
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -45,121 +45,162 @@ nav:
   - Technical Documentation: documentation.md
   - Best Practices:
     - Overview: best-practices/index.md
-    - Python Package: best-practices/python-package.md
-    - Docker & Compose: best-practices/docker-and-compose.md
-    - Rust Development Environment: best-practices/rust-dev-environment.md
-    - Geospatial Data Engineering: best-practices/geospatial-data-engineering.md
-    - Cloud Architecture: best-practices/cloud-architecture.md
-    - Data Engineering: best-practices/data-engineering.md
-    - API Development: best-practices/api-development.md
-    - Database Optimization: best-practices/database-optimization.md
-    - Testing Best Practices: best-practices/testing-best-practices.md
-    - Performance Monitoring: best-practices/performance-monitoring.md
-    - GeoParquet Data Warehouses: best-practices/geoparquet-data-warehouses.md
-    - AWS Serverless Geospatial: best-practices/aws-serverless-geospatial.md
-    - ETL Pipeline Design: best-practices/etl-pipeline-design.md
-    - FastAPI Geospatial: best-practices/fastapi-geospatial.md
-    - Web Performance Optimization: best-practices/web-performance-optimization.md
-    - Conda to Docker Migration: best-practices/conda-to-docker-migration.md
-    - Nginx Production: best-practices/nginx-production.md
-    - Git Production: best-practices/git-production.md
-    - Typing in Python: best-practices/typing-in-python.md
-    - Patroni PostgreSQL HA: best-practices/patroni-postgres-ha.md
-    - Geospatial Benchmarking: best-practices/geospatial-benchmarking.md
-    - Data Lake Governance: best-practices/data-lake-governance.md
-    - Lakes vs Lakehouses vs Warehouses: best-practices/lake-vs-lakehouse-vs-warehouse.md
-    - ONNX Model Optimization: best-practices/onnx-model-optimization.md
-    - RDF/OWL Metadata Automation: best-practices/rdf-owl-metadata-automation.md
-    - YAML Recipe Format: best-practices/yaml-recipe-format.md
-    - Protocol Buffers with Python: best-practices/protobuf-python.md
-    - MCP + FastAPI Full Stack: best-practices/mcp-fastapi-stack.md
-    - Embeddings & Vector Databases: best-practices/embeddings-and-vector-databases.md
-    - R Data Exploration: best-practices/r-data-exploration.md
-    - Python Concurrency: best-practices/python-threading-and-multiprocessing.md
-    - Python Async Best Practices: best-practices/python-async-best-practices.md
-    - Ansible Inventory Management: best-practices/ansible-inventory-management.md
-    - Ansible Playbook Design: best-practices/ansible-playbook-design.md
-    - Ansible Security Hardening: best-practices/ansible-security-hardening.md
-    - Ansible Performance Optimization: best-practices/ansible-performance-optimization.md
-    - Jinja Best Practices: best-practices/jinja-best-practices.md
-    - Git Workflows & Collaboration: best-practices/git-workflows-collaboration.md
-    - Pytest Best Practices: best-practices/pytest-best-practices.md
-    - Time Hygiene (UTC, TZ, Clocks): best-practices/time-hygiene.md
-    - Idempotency & De-dup: best-practices/idempotency-and-dedup.md
-    - Celery Tasks: best-practices/celery-best-practices.md
-    - Grafana: best-practices/grafana.md
-    - Advanced Tmux Workflows: best-practices/tmux-advanced.md
-    - Structured Logging & Observability: best-practices/logging-observability.md
-    - Secrets & Configuration Management: best-practices/secrets-config.md
-    - LaTeX Workflows: best-practices/latex.md
-    - PostgreSQL Connection Pooling: best-practices/postgres-pooling.md
-    - Secrets Management: best-practices/secrets-management.md
-    - Testing & CI/CD Pipelines: best-practices/ci-cd-pipelines.md
-    - Documentation: best-practices/documentation.md
+    - 🐍 Python Development:
+      - Overview: best-practices/python/index.md
+      - Python Package: best-practices/python/python-package.md
+      - Typing in Python: best-practices/python/typing-in-python.md
+      - Python Concurrency: best-practices/python/python-threading-and-multiprocessing.md
+      - Python Async Best Practices: best-practices/python/python-async-best-practices.md
+      - Pytest Best Practices: best-practices/python/pytest-best-practices.md
+      - API Development: best-practices/python/api-development.md
+      - FastAPI Geospatial: best-practices/python/fastapi-geospatial.md
+      - Web Performance Optimization: best-practices/python/web-performance-optimization.md
+    - 🦀 Rust Development:
+      - Overview: best-practices/rust/index.md
+      - Rust Development Environment: best-practices/rust/rust-dev-environment.md
+    - 🐳 Docker & Infrastructure:
+      - Overview: best-practices/docker-infrastructure/index.md
+      - Docker & Compose: best-practices/docker-infrastructure/docker-and-compose.md
+      - Conda to Docker Migration: best-practices/docker-infrastructure/conda-to-docker-migration.md
+      - Nginx Production: best-practices/docker-infrastructure/nginx-production.md
+      - Ansible Inventory Management: best-practices/docker-infrastructure/ansible-inventory-management.md
+      - Ansible Playbook Design: best-practices/docker-infrastructure/ansible-playbook-design.md
+      - Ansible Security Hardening: best-practices/docker-infrastructure/ansible-security-hardening.md
+      - Ansible Performance Optimization: best-practices/docker-infrastructure/ansible-performance-optimization.md
+      - Jinja Best Practices: best-practices/docker-infrastructure/jinja-best-practices.md
+      - Git Workflows & Collaboration: best-practices/docker-infrastructure/git-workflows-collaboration.md
+      - Git Production: best-practices/docker-infrastructure/git-production.md
+      - Advanced Tmux Workflows: best-practices/docker-infrastructure/tmux-advanced.md
+    - 🗄️ Database & Data Management:
+      - Overview: best-practices/database-data/index.md
+      - Patroni PostgreSQL HA: best-practices/database-data/patroni-postgres-ha.md
+      - Database Optimization: best-practices/database-data/database-optimization.md
+      - PostgreSQL Connection Pooling: best-practices/database-data/postgres-pooling.md
+      - Database Migrations & Schema Evolution: best-practices/database-data/database-migrations.md
+      - Foreign Data Wrappers in Postgres: best-practices/database-data/fdw-postgres.md
+      - Data Engineering: best-practices/database-data/data-engineering.md
+      - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
+      - GeoParquet Data Warehouses: best-practices/database-data/geoparquet-data-warehouses.md
+      - AWS Serverless Geospatial: best-practices/database-data/aws-serverless-geospatial.md
+      - Lakes vs Lakehouses vs Warehouses: best-practices/database-data/lake-vs-lakehouse-vs-warehouse.md
+      - Data Lake Governance: best-practices/database-data/data-lake-governance.md
+      - Geospatial Data Engineering: best-practices/database-data/geospatial-data-engineering.md
+      - Geospatial Benchmarking: best-practices/database-data/geospatial-benchmarking.md
+    - 🤖 Machine Learning & AI:
+      - Overview: best-practices/ml-ai/index.md
+      - ONNX Model Optimization: best-practices/ml-ai/onnx-model-optimization.md
+      - MCP + FastAPI Full Stack: best-practices/ml-ai/mcp-fastapi-stack.md
+      - Embeddings & Vector Databases: best-practices/ml-ai/embeddings-and-vector-databases.md
+      - Vibe → Agentic LLMs: best-practices/ml-ai/vibe-to-agentic.md
+      - R Data Exploration: best-practices/ml-ai/r-data-exploration.md
+    - 🏗️ Architecture & Design:
+      - Overview: best-practices/architecture-design/index.md
+      - Cloud Architecture: best-practices/architecture-design/cloud-architecture.md
+      - Secrets Management: best-practices/architecture-design/secrets-management.md
+      - Testing & CI/CD Pipelines: best-practices/architecture-design/ci-cd-pipelines.md
+      - Documentation: best-practices/architecture-design/documentation.md
+      - Caching & Performance Layers: best-practices/architecture-design/caching-performance.md
+      - RDF/OWL Metadata Automation: best-practices/architecture-design/rdf-owl-metadata-automation.md
+      - Protocol Buffers with Python: best-practices/architecture-design/protobuf-python.md
+    - 🔧 Operations & Monitoring:
+      - Overview: best-practices/operations-monitoring/index.md
+      - Performance Monitoring: best-practices/operations-monitoring/performance-monitoring.md
+      - Structured Logging & Observability: best-practices/operations-monitoring/logging-observability.md
+      - Testing Best Practices: best-practices/operations-monitoring/testing-best-practices.md
+      - Secrets & Configuration Management: best-practices/operations-monitoring/secrets-config.md
+      - Grafana: best-practices/operations-monitoring/grafana.md
+    - 🎨 Creative & Fun:
+      - Overview: best-practices/creative-fun/index.md
+      - Time Hygiene (UTC, TZ, Clocks): best-practices/creative-fun/time-hygiene.md
+      - Idempotency & De-dup: best-practices/creative-fun/idempotency-and-dedup.md
+      - Celery Tasks: best-practices/creative-fun/celery-best-practices.md
+      - LaTeX Workflows: best-practices/creative-fun/latex.md
+      - YAML Recipe Format: best-practices/creative-fun/yaml-recipe-format.md
   - Tutorials:
     - Overview: tutorials/index.md
-    - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
-    - PostGIS Geometry Indexing: tutorials/postgis-geometry-indexing.md
-    - PostGIS Raster Indexing: tutorials/postgis-raster-indexing.md
-    - Raster–Vector Workflows: tutorials/postgis-raster-vector-workflows.md
-    - parquet_s3_fdw with Local, MinIO, Vast, and AWS: tutorials/parquet-s3-fdw.md
-    - GeoParquet with Polars: tutorials/geoparquet-with-polars.md
-    - Monitoring with Grafana & Prometheus: tutorials/monitoring-with-grafana-prometheus.md
-    - R Shiny Geospatial App: tutorials/r-shiny-geoapp.md
-    - Real-Time Data Processing: tutorials/real-time-data-processing.md
-    - Kafka + TimescaleDB IoT Streaming: tutorials/kafka-timescaledb-iot.md
-    - jq JSON Parsing Mastery: tutorials/jq-json-parsing-mastery.md
-    - Click CLI to FastAPI Conversion: tutorials/click-to-fastapi-conversion.md
-    - find_files for parquet_s3_fdw: tutorials/find-files-parquet-fdw.md
-    - Mermaid Diagrams in MkDocs: tutorials/mermaid-diagrams.md
-    - TikZ Diagrams in LaTeX: tutorials/latex-tikz-diagrams.md
-    - Jupyter Notebook Best Practices: tutorials/jupyter-notebook-best-practices-geo.md
-    - RKE2 on Raspberry Pi Farm: tutorials/rke2-raspberry-pi.md
-    - ZFS Tank with OS on NVMe: tutorials/zfs-tank-nvme.md
-    - Slimming GPU Docker Images: tutorials/slim-gpu-docker-images.md
-    - FIFO Prefect Flow with Redis: tutorials/prefect-fifo-redis.md
-    - Slimming TensorFlow GPU Images: tutorials/slim-tf-gpu-images.md
-    - TensorFlow GPU Slim Images - Repository Skeleton: tutorials/slim-tf-gpu-images-skeleton.md
-    - iPXE Multi-System Booting: tutorials/ipxe-multi-boot.md
-    - MLflow API Experiments: tutorials/mlflow-api-experiments.md
-    - Ruff Check Ignore in pyproject.toml: tutorials/ruff-check-ignore-pyproject.md
-    - Rust + CSR (Parse & Build from Parquet/DB): tutorials/rust-csr-parquet-db.md
-    - Alembic Migrations: tutorials/alembic-migrations.md
-    - psycopg2 to psycopg 3 Migration: tutorials/psycopg2-to-psycopg3-migration.md
-    - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/postgres-pooling.md
-    - Mosquitto + Python (MQTT Best Practices): tutorials/mosquitto-mqtt-python.md
-    - Python UDP Messaging: tutorials/python-udp.md
-    - Apache Spark Mastery: tutorials/apache-spark-mastery.md
-    - AWK Unix Text Processing: tutorials/awk-unix-text-processing.md
-    - Apache Iceberg Mastery: tutorials/apache-iceberg-mastery.md
-    - Graph vs Vector Databases: tutorials/graph-vs-vector-databases.md
-    - ONNX Browser Inference: tutorials/onnx-browser-inference.md
-    - Geospatial Knowledge Graph: tutorials/geospatial-knowledge-graph.md
-    - RAG with Ollama + Database: tutorials/rag-ollama-db.md
-    - DuckDB Parquet Data Quality: tutorials/duckdb-parquet-data-quality.md
-    - MCP ↔ MLflow Toolchain: tutorials/mcp-mlflow-toolchain.md
-    - Semantic ML Training: tutorials/semantic-ml-training.md
-    - Remote Dev with tmux & screen: tutorials/remote-dev-tmux-screen.md
-    - Deploy SLURM with Ansible on Raspberry Pi Cluster: tutorials/ansible-slurm-raspberrypi.md
-    - Harbor Container Registry Setup: tutorials/harbor-registry-setup.md
-    - Dask with Ansible (CPU + GPU): tutorials/ansible-dask-heterogeneous.md
-    - WebSocket Chat with FastAPI: tutorials/websocket-chat-fastapi.md
-    - Chaos Engineering with Kubernetes and Python: tutorials/chaos-engineering-k8s-python.md
-    - Event-Sourcing in Rust: tutorials/rust-event-sourcing.md
-    - Glitch Observatory (JS): tutorials/js-glitch-observatory.md
-    - Generative Art in R: tutorials/r-generative-art.md
-    - Terminal to GIF: tutorials/terminal-to-gif.md
-    - Redis Streams + Web MIDI: tutorials/redis-midi-music.md
-    - PostGIS Rasters + WebGL Art: tutorials/postgis-webgl-art.md
-    - IoT + IPFS + GraphQL + Blender: tutorials/iot-ipfs-graphql-blender.md
-    - MQTT + TimescaleDB + WebSockets + Three.js: tutorials/mqtt-timescaledb-websockets-threejs.md
-    - Python Modbus Device Communication: tutorials/python-modbus-devices.md
-    - Fastify + Kafka + ClickHouse + WASM + WebGPU: tutorials/fastify-kafka-clickhouse-wasm-webgpu.md
-    - Gonzo Prometheus Exporter: tutorials/gonzo-prometheus-exporter.md
-    - Git Commit Weather Station: tutorials/git-weather-node-redis-ipfs-webrtc.md
-    - Selenium Grid (Docker) + Python: tutorials/selenium-grid-docker-python.md
-    - Martin + PostGIS Tiling: tutorials/martin-postgis-tiling.md
-    - Managing People in Software Development: tutorials/managing-people-software-dev.md
+    - 🚀 Quick Start:
+      - Overview: tutorials/quick-start/index.md
+      - Creating MkDocs GitHub Site: tutorials/quick-start/creating-mkdocs-github-site.md
+      - Monitoring with Grafana & Prometheus: tutorials/quick-start/monitoring-with-grafana-prometheus.md
+    - 🐍 Python Development:
+      - Overview: tutorials/python-development/index.md
+      - psycopg2 to psycopg 3 Migration: tutorials/python-development/psycopg2-to-psycopg3-migration.md
+      - Ruff Check Ignore in pyproject.toml: tutorials/python-development/ruff-check-ignore-pyproject.md
+      - R Shiny Geospatial App: tutorials/python-development/r-shiny-geoapp.md
+      - Click CLI to FastAPI Conversion: tutorials/python-development/click-to-fastapi-conversion.md
+      - WebSocket Chat with FastAPI: tutorials/python-development/websocket-chat-fastapi.md
+      - Glitch Observatory (JS): tutorials/python-development/js-glitch-observatory.md
+      - Chaos Engineering with Kubernetes and Python: tutorials/python-development/chaos-engineering-k8s-python.md
+    - 🦀 Rust Development:
+      - Overview: tutorials/rust-development/index.md
+      - Rust + CSR (Parse & Build from Parquet/DB): tutorials/rust-development/rust-csr-parquet-db.md
+      - Event-Sourcing in Rust: tutorials/rust-development/rust-event-sourcing.md
+    - 🐳 Docker & Infrastructure:
+      - Overview: tutorials/docker-infrastructure/index.md
+      - Slimming GPU Docker Images: tutorials/docker-infrastructure/slim-gpu-docker-images.md
+      - Slimming TensorFlow GPU Images: tutorials/docker-infrastructure/slim-tf-gpu-images.md
+      - TensorFlow GPU Slim Images - Repository Skeleton: tutorials/docker-infrastructure/slim-tf-gpu-images-skeleton.md
+      - RKE2 on Raspberry Pi Farm: tutorials/docker-infrastructure/rke2-raspberry-pi.md
+      - ZFS Tank with OS on NVMe: tutorials/docker-infrastructure/zfs-tank-nvme.md
+      - Deploy SLURM with Ansible on Raspberry Pi Cluster: tutorials/docker-infrastructure/ansible-slurm-raspberrypi.md
+      - Harbor Container Registry Setup: tutorials/docker-infrastructure/harbor-registry-setup.md
+      - Dask with Ansible (CPU + GPU): tutorials/docker-infrastructure/ansible-dask-heterogeneous.md
+    - 🗄️ Database & Data Engineering:
+      - Overview: tutorials/database-data-engineering/index.md
+      - PostGIS Geometry Indexing: tutorials/database-data-engineering/postgis-geometry-indexing.md
+      - PostGIS Raster Indexing: tutorials/database-data-engineering/postgis-raster-indexing.md
+      - Raster–Vector Workflows: tutorials/database-data-engineering/postgis-raster-vector-workflows.md
+      - Alembic Migrations: tutorials/database-data-engineering/alembic-migrations.md
+      - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/database-data-engineering/postgres-pooling.md
+      - parquet_s3_fdw with Local, MinIO, Vast, and AWS: tutorials/database-data-engineering/parquet-s3-fdw.md
+      - GeoParquet with Polars: tutorials/database-data-engineering/geoparquet-with-polars.md
+      - Real-Time Data Processing: tutorials/database-data-engineering/real-time-data-processing.md
+      - Kafka + TimescaleDB IoT Streaming: tutorials/database-data-engineering/kafka-timescaledb-iot.md
+      - Apache Spark Mastery: tutorials/database-data-engineering/apache-spark-mastery.md
+      - Apache Iceberg Mastery: tutorials/database-data-engineering/apache-iceberg-mastery.md
+      - Graph vs Vector Databases: tutorials/database-data-engineering/graph-vs-vector-databases.md
+      - Geospatial Knowledge Graph: tutorials/database-data-engineering/geospatial-knowledge-graph.md
+      - DuckDB Parquet Data Quality: tutorials/database-data-engineering/duckdb-parquet-data-quality.md
+    - 🤖 Machine Learning & AI:
+      - Overview: tutorials/ml-ai/index.md
+      - MLflow API Experiments: tutorials/ml-ai/mlflow-api-experiments.md
+      - ONNX Browser Inference: tutorials/ml-ai/onnx-browser-inference.md
+      - RAG with Ollama + Database: tutorials/ml-ai/rag-ollama-db.md
+      - MCP ↔ MLflow Toolchain: tutorials/ml-ai/mcp-mlflow-toolchain.md
+      - Semantic ML Training: tutorials/ml-ai/semantic-ml-training.md
+    - 🔧 System Administration:
+      - Overview: tutorials/system-administration/index.md
+      - iPXE Multi-System Booting: tutorials/system-administration/ipxe-multi-boot.md
+      - Remote Dev with tmux & screen: tutorials/system-administration/remote-dev-tmux-screen.md
+      - FIFO Prefect Flow with Redis: tutorials/system-administration/prefect-fifo-redis.md
+      - AWK Unix Text Processing: tutorials/system-administration/awk-unix-text-processing.md
+    - 📊 Data Science & Visualization:
+      - Overview: tutorials/data-science-visualization/index.md
+      - Jupyter Notebook Best Practices (Geospatial Edition): tutorials/data-science-visualization/jupyter-notebook-best-practices-geo.md
+      - Mermaid Diagrams in MkDocs: tutorials/data-science-visualization/mermaid-diagrams.md
+      - TikZ Diagrams in LaTeX: tutorials/data-science-visualization/latex-tikz-diagrams.md
+      - Generative Art in R: tutorials/data-science-visualization/r-generative-art.md
+    - 🛠️ Development Tools:
+      - Overview: tutorials/development-tools/index.md
+      - jq JSON Parsing Mastery: tutorials/development-tools/jq-json-parsing-mastery.md
+      - find_files for parquet_s3_fdw: tutorials/development-tools/find-files-parquet-fdw.md
+      - Mosquitto + Python (MQTT Best Practices): tutorials/development-tools/mosquitto-mqtt-python.md
+      - Python UDP Messaging: tutorials/development-tools/python-udp.md
+      - Python Modbus Device Communication: tutorials/development-tools/python-modbus-devices.md
+      - Mixing Tech with Go Glue: tutorials/development-tools/go-tech-mixer.md
+    - 🎨 Just for Fun:
+      - Overview: tutorials/just-for-fun/index.md
+      - Terminal to GIF: tutorials/just-for-fun/terminal-to-gif.md
+      - Redis Streams + Web MIDI: tutorials/just-for-fun/redis-midi-music.md
+      - PostGIS Rasters + WebGL Art: tutorials/just-for-fun/postgis-webgl-art.md
+      - IoT + IPFS + GraphQL + Blender: tutorials/just-for-fun/iot-ipfs-graphql-blender.md
+      - MQTT + TimescaleDB + WebSockets + Three.js: tutorials/just-for-fun/mqtt-timescaledb-websockets-threejs.md
+      - Fastify + Kafka + ClickHouse + WASM + WebGPU: tutorials/just-for-fun/fastify-kafka-clickhouse-wasm-webgpu.md
+      - Gonzo Prometheus Exporter: tutorials/just-for-fun/gonzo-prometheus-exporter.md
+      - Git Commit Weather Station: tutorials/just-for-fun/git-weather-node-redis-ipfs-webrtc.md
+      - Selenium Grid (Docker) + Python: tutorials/just-for-fun/selenium-grid-docker-python.md
+      - Martin + PostGIS Tiling: tutorials/just-for-fun/martin-postgis-tiling.md
+      - Managing People in Software Development: tutorials/just-for-fun/managing-people-software-dev.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:

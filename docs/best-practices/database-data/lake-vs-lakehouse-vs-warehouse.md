@@ -514,9 +514,6 @@ SELECT * FROM iceberg.default.sales FOR TIMESTAMP AS OF '2024-01-01 10:00:00';
 ### 4.C — Warehouse: ClickHouse
 
 ```yaml
-# docker-compose-warehouse.yml
-version: "3.9"
-
 services:
   clickhouse:
     image: clickhouse/clickhouse-server:24.8

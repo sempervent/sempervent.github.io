@@ -8,7 +8,7 @@ Welcome to my professional portfolio and technical documentation site. I special
 As a **Geospatial Systems Architect** at Oak Ridge National Laboratory, I work at the intersection of geospatial data, cloud infrastructure, and scalable systems. My expertise spans:
 
 - **Cloud Architecture**: AWS, GCP, Azure with focus on scalable data pipelines
-- **Geospatial Technologies**: ArcGIS, PostGIS, GeoPandas, and modern geospatial data formats
+- **Geospatial Technologies**: QGIS, PostGIS, GeoPandas, and modern geospatial data formats
 - **Data Engineering**: Airflow, Prefect, Kafka, and real-time data processing
 - **Full-Stack Development**: Python, JavaScript, React, and modern web technologies
 
