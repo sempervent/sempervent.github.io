@@ -58,6 +58,12 @@ nav:
     - 🦀 Rust Development:
       - Overview: best-practices/rust/index.md
       - Rust Development Environment: best-practices/rust/rust-dev-environment.md
+    - 🐹 Go Development:
+      - Overview: best-practices/go/index.md
+      - Go Development Environment: best-practices/go/go-dev-environment.md
+    - 📊 R Development:
+      - Overview: best-practices/r/index.md
+      - R Development Environment: best-practices/r/r-dev-environment.md
     - 🐳 Docker & Infrastructure:
       - Overview: best-practices/docker-infrastructure/index.md
       - Docker & Compose: best-practices/docker-infrastructure/docker-and-compose.md
@@ -77,6 +83,38 @@ nav:
       - Database Optimization: best-practices/database-data/database-optimization.md
       - PostgreSQL Connection Pooling: best-practices/database-data/postgres-pooling.md
       - Database Migrations & Schema Evolution: best-practices/database-data/database-migrations.md
+    - 🐘 PostgreSQL Development:
+      - Overview: best-practices/postgres/index.md
+      - PostgreSQL Development Environment: best-practices/postgres/postgres-dev-environment.md
+      - PostgreSQL Performance Tuning: best-practices/postgres/postgres-performance-tuning.md
+      - PostgreSQL Security Best Practices: best-practices/postgres/postgres-security-best-practices.md
+      - PostgreSQL Backup & Recovery: best-practices/postgres/postgres-backup-recovery.md
+      - PostgreSQL Monitoring & Observability: best-practices/postgres/postgres-monitoring-observability.md
+      - PostgreSQL Replication & High Availability: best-practices/postgres/postgres-replication-ha.md
+      - PostgreSQL Partitioning: best-practices/postgres/postgres-partitioning.md
+      - PostgreSQL Extensions: best-practices/postgres/postgres-extensions.md
+      - PostgreSQL JSON & JSONB: best-practices/postgres/postgres-json-jsonb.md
+      - PostgreSQL Full-Text Search: best-practices/postgres/postgres-fulltext-search.md
+      - PostgreSQL Database Design: best-practices/postgres/postgres-database-design.md
+      - PostgreSQL Indexing Strategies: best-practices/postgres/postgres-indexing-strategies.md
+      - PostgreSQL Data Types: best-practices/postgres/postgres-data-types.md
+      - PostgreSQL Constraints & Validation: best-practices/postgres/postgres-constraints-validation.md
+      - PostgreSQL Transactions & Concurrency: best-practices/postgres/postgres-transactions-concurrency.md
+      - PostGIS Best Practices: best-practices/postgres/postgis-best-practices.md
+      - PostgreSQL Foreign Data Wrappers: best-practices/postgres/fdw-postgres.md
+      - PostgreSQL Connection Pooling: best-practices/postgres/postgres-pooling.md
+      - PostgreSQL Time Series Data: best-practices/postgres/postgres-timeseries.md
+      - PostgreSQL Large Object Storage: best-practices/postgres/postgres-large-objects.md
+      - PostgreSQL Deployment Strategies: best-practices/postgres/postgres-deployment-strategies.md
+      - PostgreSQL Configuration Management: best-practices/postgres/postgres-configuration-management.md
+      - PostgreSQL Maintenance & Vacuum: best-practices/postgres/postgres-maintenance-vacuum.md
+      - PostgreSQL Scaling Strategies: best-practices/postgres/postgres-scaling-strategies.md
+      - PostgreSQL Troubleshooting: best-practices/postgres/postgres-troubleshooting.md
+      - PostgreSQL API Development: best-practices/postgres/postgres-api-development.md
+      - PostgreSQL Event-Driven Architecture: best-practices/postgres/postgres-event-driven.md
+      - PostgreSQL Data Pipeline Integration: best-practices/postgres/postgres-data-pipeline-integration.md
+      - PostgreSQL Cloud Integration: best-practices/postgres/postgres-cloud-integration.md
+      - PostgreSQL Containerization: best-practices/postgres/postgres-containerization.md
       - Foreign Data Wrappers in Postgres: best-practices/database-data/fdw-postgres.md
       - Data Engineering: best-practices/database-data/data-engineering.md
       - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
@@ -140,6 +178,7 @@ nav:
       - Slimming GPU Docker Images: tutorials/docker-infrastructure/slim-gpu-docker-images.md
       - Slimming TensorFlow GPU Images: tutorials/docker-infrastructure/slim-tf-gpu-images.md
       - TensorFlow GPU Slim Images - Repository Skeleton: tutorials/docker-infrastructure/slim-tf-gpu-images-skeleton.md
+      - Compose Profiles Polyglot Stack: tutorials/docker-infrastructure/compose-profiles-polyglot-stack.md
       - RKE2 on Raspberry Pi Farm: tutorials/docker-infrastructure/rke2-raspberry-pi.md
       - ZFS Tank with OS on NVMe: tutorials/docker-infrastructure/zfs-tank-nvme.md
       - Deploy SLURM with Ansible on Raspberry Pi Cluster: tutorials/docker-infrastructure/ansible-slurm-raspberrypi.md
@@ -152,6 +191,7 @@ nav:
       - Raster–Vector Workflows: tutorials/database-data-engineering/postgis-raster-vector-workflows.md
       - Alembic Migrations: tutorials/database-data-engineering/alembic-migrations.md
       - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/database-data-engineering/postgres-pooling.md
+      - Solr + Postgres JSONB Search: tutorials/database-data-engineering/solr-postgres-jsonb-search.md
       - parquet_s3_fdw with Local, MinIO, Vast, and AWS: tutorials/database-data-engineering/parquet-s3-fdw.md
       - GeoParquet with Polars: tutorials/database-data-engineering/geoparquet-with-polars.md
       - Real-Time Data Processing: tutorials/database-data-engineering/real-time-data-processing.md
@@ -159,6 +199,7 @@ nav:
       - Go-Glue OSM → PostGIS → Tiles Pipeline: tutorials/database-data-engineering/go-osm-tiling-pipeline.md
       - Apache Spark Mastery: tutorials/database-data-engineering/apache-spark-mastery.md
       - Apache Iceberg Mastery: tutorials/database-data-engineering/apache-iceberg-mastery.md
+      - Pulsar → Flink → Pinot (Realtime OLAP) + Superset: tutorials/database-data-engineering/pulsar-flink-pinot-superset.md
       - Graph vs Vector Databases: tutorials/database-data-engineering/graph-vs-vector-databases.md
       - Geospatial Knowledge Graph: tutorials/database-data-engineering/geospatial-knowledge-graph.md
       - DuckDB Parquet Data Quality: tutorials/database-data-engineering/duckdb-parquet-data-quality.md

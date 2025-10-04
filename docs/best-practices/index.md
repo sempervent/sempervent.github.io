@@ -16,6 +16,18 @@ Systems programming and high-performance Rust development patterns.
 
 - **[Rust Development Overview](rust/index.md)** - Systems programming and high-performance patterns
 
+## 🐹 Go Development
+
+High-performance systems programming and web services with Go.
+
+- **[Go Development Overview](go/index.md)** - Systems programming, web services, and performance optimization
+
+## 📊 R Development
+
+Statistical computing, data analysis, and reproducible research with R.
+
+- **[R Development Overview](r/index.md)** - Data science, statistical modeling, and reproducible research
+
 ## 🐳 Docker & Infrastructure
 
 Containerization, orchestration, and infrastructure automation patterns.
@@ -27,6 +39,7 @@ Containerization, orchestration, and infrastructure automation patterns.
 Database optimization, data architecture, and governance patterns.
 
 - **[Database & Data Management Overview](database-data/index.md)** - PostgreSQL, data architecture, and governance
+- **[PostgreSQL Development Overview](postgres/index.md)** - PostgreSQL optimization, performance, and enterprise patterns
 
 ## 🤖 Machine Learning & AI
 

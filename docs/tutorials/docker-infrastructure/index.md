@@ -7,6 +7,7 @@
 - **[Slimming GPU Docker Images](slim-gpu-docker-images.md)** - Optimize GPU-based containers for production
 - **[Slimming TensorFlow GPU Images](slim-tf-gpu-images.md)** - Cut down TensorFlow GPU images to fighting weight
 - **[TensorFlow GPU Slim Images - Repository Skeleton](slim-tf-gpu-images-skeleton.md)** - Complete production-ready example for building slim TensorFlow GPU containers
+- **[Compose Profiles Polyglot Stack](compose-profiles-polyglot-stack.md)** - Toggle complex subsystems (realtime, batch, gpu, observability) with surgical Compose profiles
 
 ## Kubernetes & Clustering
 

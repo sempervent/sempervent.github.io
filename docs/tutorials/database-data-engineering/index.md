@@ -9,6 +9,7 @@
 - **[Raster–Vector Workflows](postgis-raster-vector-workflows.md)** - Combine raster and vector data for advanced analysis
 - **[Alembic Migrations](alembic-migrations.md)** - Master database schema evolution with Alembic
 - **[PostgreSQL Pooling (PgBouncer + FastAPI)](postgres-pooling.md)** - Optimize database connections for high-concurrency applications
+- **[Solr + Postgres JSONB Search](solr-postgres-jsonb-search.md)** - Supercharge relational data with Solr's facets, suggesters, geo, and highlighting—using JSONB as source
 
 ## Data Processing & Analytics
 
@@ -16,6 +17,7 @@
 - **[GeoParquet with Polars](geoparquet-with-polars.md)** - High-performance spatial analytics with Polars
 - **[Real-Time Data Processing](real-time-data-processing.md)** - Implement Kafka and TimescaleDB for streaming data
 - **[Kafka + TimescaleDB IoT Streaming](kafka-timescaledb-iot.md)** - Stream simulated IoT telemetry into TimescaleDB
+- **[Pulsar → Flink → Pinot (Realtime OLAP) + Superset](pulsar-flink-pinot-superset.md)** - A clean, fast streaming stack with sub-second analytics
 
 ## Orchestration & Pipelines
 
