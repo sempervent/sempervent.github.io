@@ -12,8 +12,7 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 
 ## R Development
 - **[Generative Art in R](r-generative-art.md)** - Creating beautiful algorithmic art with mathematical patterns
-- **[Terminal to GIF](terminal-to-gif.md)** - Capturing command-line magic and converting to animated GIFs
-- **[Redis Streams + Web MIDI](redis-midi-music.md)** - Procedural MIDI jams with Redis Streams and Web MIDI API
+
 
 ## 🐍 Python Development
 
@@ -117,6 +116,18 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 ### Messaging & Communication
 - **[Mosquitto + Python (MQTT Best Practices)](mosquitto-mqtt-python.md)** - Master MQTT messaging for IoT and event-driven applications
 - **[Python UDP Messaging](python-udp.md)** - Master UDP networking for high-performance, real-time applications
+- **[Python Modbus Device Communication](python-modbus-devices.md)** - Industrial device communication with PLCs, sensors, and automation equipment
+
+## Just for Fun
+- **[Terminal to GIF](terminal-to-gif.md)** - Capturing command-line magic and converting to animated GIFs
+- **[Redis Streams + Web MIDI](redis-midi-music.md)** - Procedural MIDI jams with Redis Streams and Web MIDI API
+- **[PostGIS Rasters + WebGL Art](postgis-webgl-art.md)** - From elevation models to shader dreams with PostGIS and WebGL
+- **[IoT + IPFS + GraphQL + Blender](iot-ipfs-graphql-blender.md)** - IoT data in the metaverse with decentralized storage and 3D visualization
+- **[MQTT + TimescaleDB + WebSockets + Three.js](mqtt-timescaledb-websockets-threejs.md)** - From sensors to sculptures with real-time IoT data as 3D geometry
+- **[Fastify + Kafka + ClickHouse + WASM + WebGPU](fastify-kafka-clickhouse-wasm-webgpu.md)** - Real-time anomaly radar with streaming analytics and GPU visualization
+- **[Gonzo Prometheus Exporter](gonzo-prometheus-exporter.md)** - Building a surreal Prometheus metrics exporter in Docker (weird metrics, real monitoring)
+- **[Git Commit Weather Station](git-weather-node-redis-ipfs-webrtc.md)** - Node.js + RedisTimeSeries + IPFS + WebRTC (in Docker)
+- **[Selenium Grid (Docker) + Python](selenium-grid-docker-python.md)** - ChromeDriver headless testing with Docker Compose
 
 ## 📚 Tutorial Categories
 

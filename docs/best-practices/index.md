@@ -41,6 +41,7 @@ This collection provides comprehensive, opinionated guides for building producti
 ### System Administration
 - **[Nginx Production](nginx-production.md)** - Production-grade web server configuration
 - **[Git Production](git-production.md)** - Enterprise Git workflows and collaboration
+- **[Advanced Tmux Workflows](tmux-advanced.md)** - Engineering reproducible terminal multiplexing environments for data/devops work
 
 ## 🗄️ Database & Data Management
 
@@ -59,6 +60,9 @@ This collection provides comprehensive, opinionated guides for building producti
 - **[Data Lake Governance](data-lake-governance.md)** - Master data lake governance for trustworthy, auditable, compliant data at scale
 - **[Geospatial Data Engineering](geospatial-data-engineering.md)** - Spatial data management and processing
 
+## Geography
+- **[Martin + PostGIS Tiling](../tutorials/martin-postgis-tiling.md)** - Tables, views, SQL functions, and raster tiles with Martin
+
 ## 🤖 Machine Learning & AI
 
 ### ML Operations
@@ -71,6 +75,9 @@ This collection provides comprehensive, opinionated guides for building producti
 - **[Geospatial Benchmarking](geospatial-benchmarking.md)** - Master geospatial benchmarking under CPU/GPU stress
 
 ## 🏗️ Architecture & Design
+- **[Secrets Management](secrets-management.md)** - How to manage secrets safely across dev, test, and prod
+- **[Testing & CI/CD Pipelines](ci-cd-pipelines.md)** - Keeping code, data, and infrastructure healthy with automated checks
+- **[Documentation](documentation.md)** - Writing, organizing, and sustaining useful docs for data + devops projects
 
 ### System Architecture
 - **[Cloud Architecture](cloud-architecture.md)** - Scalable cloud infrastructure patterns with AWS
@@ -86,6 +93,9 @@ This collection provides comprehensive, opinionated guides for building producti
 ### Performance & Reliability
 - **[Performance Monitoring](performance-monitoring.md)** - Ensuring application and infrastructure health
 
+### Logging & Observability
+- **[Structured Logging & Observability](logging-observability.md)** - Making logs actionable, queryable, and production-ready
+
 ### Testing & Quality
 - **[Testing Best Practices](testing-best-practices.md)** - Comprehensive strategies for reliable software
 
@@ -95,6 +105,11 @@ This collection provides comprehensive, opinionated guides for building producti
 - **[Time Hygiene (UTC, TZ, Clocks)](time-hygiene.md)** - Temporal hygiene for systems and data
 - **[Idempotency & De-dup](idempotency-and-dedup.md)** - Designing operations that don't double-fire
 - **[Celery Tasks](celery-best-practices.md)** - Picking the right jobs, writing safe tasks, running it like you mean it
+- **[Grafana](grafana.md)** - Up-to-date guidance on dashboards, plugins, security, performance, and scaling
+- **[Secrets & Configuration Management](secrets-config.md)** - Secure patterns for handling secrets across local dev, Docker, and Kubernetes
+- **[LaTeX Workflows](latex.md)** - Best practices for writing, building, and publishing reproducible LaTeX documents
+- **[PostgreSQL Connection Pooling](postgres-pooling.md)** - Best practices for PgBouncer and application-level pooling
+
 
 ### Creative Content
 - **[YAML Recipe Format](yaml-recipe-format.md)** - Why your kitchen needs indentation (humorous but instructive)

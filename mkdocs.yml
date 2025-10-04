@@ -87,6 +87,15 @@ nav:
     - Time Hygiene (UTC, TZ, Clocks): best-practices/time-hygiene.md
     - Idempotency & De-dup: best-practices/idempotency-and-dedup.md
     - Celery Tasks: best-practices/celery-best-practices.md
+    - Grafana: best-practices/grafana.md
+    - Advanced Tmux Workflows: best-practices/tmux-advanced.md
+    - Structured Logging & Observability: best-practices/logging-observability.md
+    - Secrets & Configuration Management: best-practices/secrets-config.md
+    - LaTeX Workflows: best-practices/latex.md
+    - PostgreSQL Connection Pooling: best-practices/postgres-pooling.md
+    - Secrets Management: best-practices/secrets-management.md
+    - Testing & CI/CD Pipelines: best-practices/ci-cd-pipelines.md
+    - Documentation: best-practices/documentation.md
   - Tutorials:
     - Overview: tutorials/index.md
     - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
@@ -141,6 +150,16 @@ nav:
     - Generative Art in R: tutorials/r-generative-art.md
     - Terminal to GIF: tutorials/terminal-to-gif.md
     - Redis Streams + Web MIDI: tutorials/redis-midi-music.md
+    - PostGIS Rasters + WebGL Art: tutorials/postgis-webgl-art.md
+    - IoT + IPFS + GraphQL + Blender: tutorials/iot-ipfs-graphql-blender.md
+    - MQTT + TimescaleDB + WebSockets + Three.js: tutorials/mqtt-timescaledb-websockets-threejs.md
+    - Python Modbus Device Communication: tutorials/python-modbus-devices.md
+    - Fastify + Kafka + ClickHouse + WASM + WebGPU: tutorials/fastify-kafka-clickhouse-wasm-webgpu.md
+    - Gonzo Prometheus Exporter: tutorials/gonzo-prometheus-exporter.md
+    - Git Commit Weather Station: tutorials/git-weather-node-redis-ipfs-webrtc.md
+    - Selenium Grid (Docker) + Python: tutorials/selenium-grid-docker-python.md
+    - Martin + PostGIS Tiling: tutorials/martin-postgis-tiling.md
+    - Managing People in Software Development: tutorials/managing-people-software-dev.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
