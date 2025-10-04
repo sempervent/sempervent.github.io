@@ -17,6 +17,10 @@
 - **[Real-Time Data Processing](real-time-data-processing.md)** - Implement Kafka and TimescaleDB for streaming data
 - **[Kafka + TimescaleDB IoT Streaming](kafka-timescaledb-iot.md)** - Stream simulated IoT telemetry into TimescaleDB
 
+## Orchestration & Pipelines
+
+- **[Go-Glue OSM → PostGIS → Tiles Pipeline](go-osm-tiling-pipeline.md)** - A realistic Go CLI that orchestrates fetching OSM, loading PostGIS, generating tiles, and publishing to object storage
+
 ## Big Data Processing
 
 - **[Apache Spark Mastery](apache-spark-mastery.md)** - Master distributed data processing with Apache Spark

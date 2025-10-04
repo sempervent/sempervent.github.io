@@ -156,6 +156,7 @@ nav:
       - GeoParquet with Polars: tutorials/database-data-engineering/geoparquet-with-polars.md
       - Real-Time Data Processing: tutorials/database-data-engineering/real-time-data-processing.md
       - Kafka + TimescaleDB IoT Streaming: tutorials/database-data-engineering/kafka-timescaledb-iot.md
+      - Go-Glue OSM → PostGIS → Tiles Pipeline: tutorials/database-data-engineering/go-osm-tiling-pipeline.md
       - Apache Spark Mastery: tutorials/database-data-engineering/apache-spark-mastery.md
       - Apache Iceberg Mastery: tutorials/database-data-engineering/apache-iceberg-mastery.md
       - Graph vs Vector Databases: tutorials/database-data-engineering/graph-vs-vector-databases.md
