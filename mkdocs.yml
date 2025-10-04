@@ -75,6 +75,18 @@ nav:
     - MCP + FastAPI Full Stack: best-practices/mcp-fastapi-stack.md
     - Embeddings & Vector Databases: best-practices/embeddings-and-vector-databases.md
     - R Data Exploration: best-practices/r-data-exploration.md
+    - Python Concurrency: best-practices/python-threading-and-multiprocessing.md
+    - Python Async Best Practices: best-practices/python-async-best-practices.md
+    - Ansible Inventory Management: best-practices/ansible-inventory-management.md
+    - Ansible Playbook Design: best-practices/ansible-playbook-design.md
+    - Ansible Security Hardening: best-practices/ansible-security-hardening.md
+    - Ansible Performance Optimization: best-practices/ansible-performance-optimization.md
+    - Jinja Best Practices: best-practices/jinja-best-practices.md
+    - Git Workflows & Collaboration: best-practices/git-workflows-collaboration.md
+    - Pytest Best Practices: best-practices/pytest-best-practices.md
+    - Time Hygiene (UTC, TZ, Clocks): best-practices/time-hygiene.md
+    - Idempotency & De-dup: best-practices/idempotency-and-dedup.md
+    - Celery Tasks: best-practices/celery-best-practices.md
   - Tutorials:
     - Overview: tutorials/index.md
     - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
@@ -98,6 +110,7 @@ nav:
     - Slimming GPU Docker Images: tutorials/slim-gpu-docker-images.md
     - FIFO Prefect Flow with Redis: tutorials/prefect-fifo-redis.md
     - Slimming TensorFlow GPU Images: tutorials/slim-tf-gpu-images.md
+    - TensorFlow GPU Slim Images - Repository Skeleton: tutorials/slim-tf-gpu-images-skeleton.md
     - iPXE Multi-System Booting: tutorials/ipxe-multi-boot.md
     - MLflow API Experiments: tutorials/mlflow-api-experiments.md
     - Ruff Check Ignore in pyproject.toml: tutorials/ruff-check-ignore-pyproject.md
@@ -118,6 +131,16 @@ nav:
     - MCP ↔ MLflow Toolchain: tutorials/mcp-mlflow-toolchain.md
     - Semantic ML Training: tutorials/semantic-ml-training.md
     - Remote Dev with tmux & screen: tutorials/remote-dev-tmux-screen.md
+    - Deploy SLURM with Ansible on Raspberry Pi Cluster: tutorials/ansible-slurm-raspberrypi.md
+    - Harbor Container Registry Setup: tutorials/harbor-registry-setup.md
+    - Dask with Ansible (CPU + GPU): tutorials/ansible-dask-heterogeneous.md
+    - WebSocket Chat with FastAPI: tutorials/websocket-chat-fastapi.md
+    - Chaos Engineering with Kubernetes and Python: tutorials/chaos-engineering-k8s-python.md
+    - Event-Sourcing in Rust: tutorials/rust-event-sourcing.md
+    - Glitch Observatory (JS): tutorials/js-glitch-observatory.md
+    - Generative Art in R: tutorials/r-generative-art.md
+    - Terminal to GIF: tutorials/terminal-to-gif.md
+    - Redis Streams + Web MIDI: tutorials/redis-midi-music.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:

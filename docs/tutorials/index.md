@@ -4,11 +4,53 @@
 
 This collection provides comprehensive, hands-on tutorials for implementing key technologies and workflows. Each tutorial includes complete code examples, configuration files, and production-ready patterns.
 
-## 🚀 Quick Start Tutorials
+## 🚀 Quick Start
 
 ### Getting Started
 - **[Creating MkDocs GitHub Site](creating-mkdocs-github-site.md)** - Set up and deploy your own MkDocs site on GitHub Pages
 - **[Monitoring with Grafana & Prometheus](monitoring-with-grafana-prometheus.md)** - Build a robust observability stack
+
+## R Development
+- **[Generative Art in R](r-generative-art.md)** - Creating beautiful algorithmic art with mathematical patterns
+- **[Terminal to GIF](terminal-to-gif.md)** - Capturing command-line magic and converting to animated GIFs
+- **[Redis Streams + Web MIDI](redis-midi-music.md)** - Procedural MIDI jams with Redis Streams and Web MIDI API
+
+## 🐍 Python Development
+
+### Core Python
+- **[psycopg2 to psycopg 3 Migration](psycopg2-to-psycopg3-migration.md)** - Migrate to modern PostgreSQL driver with async support
+- **[Ruff Check Ignore in pyproject.toml](ruff-check-ignore-pyproject.md)** - Configure Python linting exceptions
+
+### Web Development
+- **[R Shiny Geospatial App](r-shiny-geoapp.md)** - Build and deploy interactive spatial web applications
+- **[Click CLI to FastAPI Conversion](click-to-fastapi-conversion.md)** - Convert Click CLIs into FastAPI endpoints
+- **[WebSocket Chat with FastAPI](websocket-chat-fastapi.md)** - Real-time chat application with WebSockets
+- **[Glitch Observatory (JS)](js-glitch-observatory.md)** - Visualizing entropy in JavaScript with chaotic art and sound
+- **[Chaos Engineering with Kubernetes and Python](chaos-engineering-k8s-python.md)** - Controlled failure injection for system resilience
+
+## 🦀 Rust Development
+
+### Systems Programming
+- **[Rust + CSR (Parse & Build from Parquet/DB)](rust-csr-parquet-db.md)** - Master sparse matrix operations in Rust
+- **[Event-Sourcing in Rust](rust-event-sourcing.md)** - High-performance event-sourcing engine with async streams
+
+## 🐳 Containerization & Infrastructure
+
+### Docker & Orchestration
+- **[Slimming GPU Docker Images](slim-gpu-docker-images.md)** - Optimize GPU-based containers for production
+- **[Slimming TensorFlow GPU Images](slim-tf-gpu-images.md)** - Cut down TensorFlow GPU images to fighting weight
+- **[TensorFlow GPU Slim Images - Repository Skeleton](slim-tf-gpu-images-skeleton.md)** - Complete production-ready example for building slim TensorFlow GPU containers
+- **[Conda to Docker Migration](conda-to-docker-migration.md)** - Migrate conda environments to Docker
+
+### Kubernetes & Clustering
+- **[RKE2 on Raspberry Pi Farm](rke2-raspberry-pi.md)** - Set up a Raspberry Pi cluster running RKE2
+- **[ZFS Tank with OS on NVMe](zfs-tank-nvme.md)** - Build enterprise-grade storage with ZFS
+
+### Infrastructure Automation
+- **[Deploy SLURM with Ansible on Raspberry Pi Cluster](ansible-slurm-raspberrypi.md)** - Build a HPC cluster with SLURM job scheduler
+- **[Harbor Container Registry Setup](harbor-registry-setup.md)** - Enterprise container registry with network storage
+- **[Dask with Ansible (CPU + GPU)](ansible-dask-heterogeneous.md)** - Heterogeneous distributed computing cluster
+
 
 ## 🗄️ Database & Data Engineering
 
@@ -25,39 +67,35 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 - **[Real-Time Data Processing](real-time-data-processing.md)** - Implement Kafka and TimescaleDB for streaming data
 - **[Kafka + TimescaleDB IoT Streaming](kafka-timescaledb-iot.md)** - Stream simulated IoT telemetry into TimescaleDB
 
-## 🐍 Python Development
+### Big Data Processing
+- **[Apache Spark Mastery](apache-spark-mastery.md)** - Master distributed data processing with Apache Spark
+- **[Apache Iceberg Mastery](apache-iceberg-mastery.md)** - Build, break, and bend ACID tables in the data lake
 
-### Core Python
-- **[psycopg2 to psycopg 3 Migration](psycopg2-to-psycopg3-migration.md)** - Migrate to modern PostgreSQL driver with async support
-- **[Ruff Check Ignore in pyproject.toml](ruff-check-ignore-pyproject.md)** - Configure Python linting exceptions
+### Database Technologies
+- **[Graph vs Vector Databases](graph-vs-vector-databases.md)** - When relationships meet similarity in modern data applications
+- **[Geospatial Knowledge Graph](geospatial-knowledge-graph.md)** - Build intelligent location-aware systems with PostGIS + Neo4j
+- **[DuckDB Parquet Data Quality](duckdb-parquet-data-quality.md)** - Inspect and validate Parquet files for data quality issues
 
-### Web Development
-- **[R Shiny Geospatial App](r-shiny-geoapp.md)** - Build and deploy interactive spatial web applications
-- **[Click CLI to FastAPI Conversion](click-to-fastapi-conversion.md)** - Convert Click CLIs into FastAPI endpoints
+## 🤖 Machine Learning & AI
 
-## 🦀 Rust Development
-
-### Systems Programming
-- **[Rust + CSR (Parse & Build from Parquet/DB)](rust-csr-parquet-db.md)** - Master sparse matrix operations in Rust
-
-## 🐳 Containerization & Infrastructure
-
-### Docker & Orchestration
-- **[Slimming GPU Docker Images](slim-gpu-docker-images.md)** - Optimize GPU-based containers for production
-- **[Slimming TensorFlow GPU Images](slim-tf-gpu-images.md)** - Cut down TensorFlow GPU images to fighting weight
-- **[Conda to Docker Migration](conda-to-docker-migration.md)** - Migrate conda environments to Docker
-
-### Kubernetes & Clustering
-- **[RKE2 on Raspberry Pi Farm](rke2-raspberry-pi.md)** - Set up a Raspberry Pi cluster running RKE2
-- **[ZFS Tank with OS on NVMe](zfs-tank-nvme.md)** - Build enterprise-grade storage with ZFS
+### ML Operations
+- **[MLflow API Experiments](mlflow-api-experiments.md)** - Master MLflow for experiment tracking and model management
+- **[ONNX Browser Inference](onnx-browser-inference.md)** - Deploy machine learning models directly in the browser
+- **[RAG with Ollama + Database](rag-ollama-db.md)** - Build intelligent data interfaces with retrieval-augmented generation
+- **[MCP ↔ MLflow Toolchain](mcp-mlflow-toolchain.md)** - Data-agnostic LLM experimentation with Model Context Protocol
+- **[Semantic ML Training](semantic-ml-training.md)** - Master semantic machine learning from embeddings to production
 
 ## 🔧 System Administration
 
 ### Network & Boot Management
 - **[iPXE Multi-System Booting](ipxe-multi-boot.md)** - Create network boot images for multiple systems
+- **[Remote Dev with tmux & screen](remote-dev-tmux-screen.md)** - Bulletproof remote development for when the wire goes dead
 
 ### Workflow Orchestration
 - **[FIFO Prefect Flow with Redis](prefect-fifo-redis.md)** - Implement FIFO greedy scheduler patterns in Prefect
+
+### Unix Tools
+- **[AWK Unix Text Processing](awk-unix-text-processing.md)** - Master AWK for parsing ls, ps aux, and system data
 
 ## 📊 Data Science & Visualization
 
@@ -67,11 +105,6 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 ### Visualization & Diagrams
 - **[Mermaid Diagrams in MkDocs](mermaid-diagrams.md)** - Create beautiful diagrams with Mermaid
 - **[TikZ Diagrams in LaTeX](latex-tikz-diagrams.md)** - Create professional diagrams with LaTeX and TikZ
-
-## 🤖 Machine Learning & AI
-
-### ML Operations
-- **[MLflow API Experiments](mlflow-api-experiments.md)** - Master MLflow for experiment tracking and model management
 
 ## 🛠️ Development Tools
 
@@ -84,25 +117,6 @@ This collection provides comprehensive, hands-on tutorials for implementing key 
 ### Messaging & Communication
 - **[Mosquitto + Python (MQTT Best Practices)](mosquitto-mqtt-python.md)** - Master MQTT messaging for IoT and event-driven applications
 - **[Python UDP Messaging](python-udp.md)** - Master UDP networking for high-performance, real-time applications
-
-### Big Data Processing
-- **[Apache Spark Mastery](apache-spark-mastery.md)** - Master distributed data processing with Apache Spark
-- **[Apache Iceberg Mastery](apache-iceberg-mastery.md)** - Build, break, and bend ACID tables in the data lake
-
-### Database Technologies
-- **[Graph vs Vector Databases](graph-vs-vector-databases.md)** - When relationships meet similarity in modern data applications
-- **[Geospatial Knowledge Graph](geospatial-knowledge-graph.md)** - Build intelligent location-aware systems with PostGIS + Neo4j
-- **[DuckDB Parquet Data Quality](duckdb-parquet-data-quality.md)** - Inspect and validate Parquet files for data quality issues
-
-### Machine Learning
-- **[ONNX Browser Inference](onnx-browser-inference.md)** - Deploy machine learning models directly in the browser
-- **[RAG with Ollama + Database](rag-ollama-db.md)** - Build intelligent data interfaces with retrieval-augmented generation
-- **[MCP ↔ MLflow Toolchain](mcp-mlflow-toolchain.md)** - Data-agnostic LLM experimentation with Model Context Protocol
-- **[Semantic ML Training](semantic-ml-training.md)** - Master semantic machine learning from embeddings to production
-
-### System Administration
-- **[AWK Unix Text Processing](awk-unix-text-processing.md)** - Master AWK for parsing ls, ps aux, and system data
-- **[Remote Dev with tmux & screen](remote-dev-tmux-screen.md)** - Bulletproof remote development for when the wire goes dead
 
 ## 📚 Tutorial Categories
 
