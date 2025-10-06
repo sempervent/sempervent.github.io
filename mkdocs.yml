@@ -45,6 +45,9 @@ nav:
   - Technical Documentation: documentation.md
   - Best Practices:
     - Overview: best-practices/index.md
+    - 🤖 Machine Learning & AI:
+      - Overview: best-practices/ml-ai/index.md
+      - Prompting LLMs: best-practices/ml-ai/prompting-llms.md
     - 🐍 Python Development:
       - Overview: best-practices/python/index.md
       - Python Package: best-practices/python/python-package.md

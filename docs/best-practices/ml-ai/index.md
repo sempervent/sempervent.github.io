@@ -4,6 +4,7 @@
 
 ## ML Operations
 
+- **[Prompting LLMs](prompting-llms.md)** - Best practices for effective LLM prompting with agentic instructions
 - **[ONNX Model Optimization](onnx-model-optimization.md)** - Production-ready machine learning deployment with ONNX
 - **[MCP + FastAPI Full Stack](mcp-fastapi-stack.md)** - Secure AI tool integration with Model Context Protocol
 - **[Embeddings & Vector Databases](embeddings-and-vector-databases.md)** - Production-grade semantic search and RAG systems
