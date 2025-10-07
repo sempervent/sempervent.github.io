@@ -23,6 +23,10 @@ I architect GeoParquet data warehouses, design decision support tools, and build
 - **This Is A Casino**: Stock trading platform with semantic/RL/DL
 - **Decentralized Content Reward System**: Web3 content monetization platform
 
+## Reports
+
+- **[MQTT Comparison](https://sempervent.github.io/mqtt-comparison/)** - Comprehensive analysis of MQTT broker performance and features
+
 ## Quick Navigation
 
 - [Professional Profile](about.md) - Detailed background and experience
