@@ -39,6 +39,7 @@ Containerization, orchestration, and infrastructure automation patterns.
 Database optimization, data architecture, and governance patterns.
 
 - **[Database & Data Management Overview](database-data/index.md)** - PostgreSQL, data architecture, and governance
+- **GeoParquet** — [Spatial Parquet done right](database-data/geoparquet.md): WKB geometry, GeoParquet metadata & CRS rules, object-storage serving (Garage/MinIO/AWS), and `parquet_s3_fdw` wiring with row-group filtering
 - **[PostgreSQL Development Overview](postgres/index.md)** - PostgreSQL optimization, performance, and enterprise patterns
 
 ## 🤖 Machine Learning & AI

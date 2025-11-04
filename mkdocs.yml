@@ -83,6 +83,7 @@ nav:
     - 🗄️ Database & Data Management:
       - Overview: best-practices/database-data/index.md
       - Parquet: best-practices/database-data/parquet.md
+      - GeoParquet: best-practices/database-data/geoparquet.md
       - Patroni PostgreSQL HA: best-practices/database-data/patroni-postgres-ha.md
       - Database Optimization: best-practices/database-data/database-optimization.md
       - PostgreSQL Connection Pooling: best-practices/database-data/postgres-pooling.md
