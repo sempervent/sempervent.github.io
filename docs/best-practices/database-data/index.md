@@ -12,6 +12,7 @@
 
 ## Data Architecture
 
+- **[Parquet Best Practices](parquet.md)** - Fast queries, cheap storage, clean schemas: partitioning, file sizing, predicate pushdown, S3 byte-range, and Postgres `parquet_s3_fdw` integration
 - **[Data Engineering](data-engineering.md)** - Designing robust ETL pipelines and real-time processing
 - **[ETL Pipeline Design](etl-pipeline-design.md)** - Robust, scalable ETL pipelines with Airflow
 - **[GeoParquet Data Warehouses](geoparquet-data-warehouses.md)** - Modern geospatial data warehouses with GeoParquet

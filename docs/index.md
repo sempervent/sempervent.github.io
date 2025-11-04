@@ -26,6 +26,7 @@ I architect GeoParquet data warehouses, design decision support tools, and build
 ## Reports
 
 - **[MQTT Comparison](https://sempervent.github.io/mqtt-comparison/)** - Comprehensive analysis of MQTT broker performance and features
+- **[BlackLake Prototype](https://sempervent.github.io/s3-rust-data-portal)** - S3 Rust Data Portal -- git for data
 
 ## Quick Navigation
 
@@ -33,6 +34,10 @@ I architect GeoParquet data warehouses, design decision support tools, and build
 - [Projects Portfolio](projects.md) - Technical projects and implementations
 - [Technical Documentation](documentation.md) - Methodologies and expertise
 - [Contact & Collaboration](getting-started.md) - Get in touch
+
+## Best Practices
+
+- **Parquet** — [Fast queries & cheap storage](best-practices/database-data/parquet.md): how to lay out partitions, size files and row groups, enable predicate pushdown & column pruning, serve efficiently over S3 byte-range, and wire up `parquet_s3_fdw` in Postgres for pushdown.
 
 ## Latest Updates
 
