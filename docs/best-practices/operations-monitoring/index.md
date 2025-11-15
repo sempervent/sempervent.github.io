@@ -9,6 +9,7 @@
 ## Logging & Observability
 
 - **[Structured Logging & Observability](logging-observability.md)** - Making logs actionable, queryable, and production-ready
+- **[Grafana, Prometheus, Loki, and Observability](grafana-prometheus-loki-observability.md)** - Comprehensive observability stack with Grafana, Prometheus, Loki, Node Exporter, structured logging, alerting, and dashboards
 - **[Grafana](grafana.md)** - Up-to-date guidance on dashboards, plugins, security, performance, and scaling
 
 ## Testing & Quality

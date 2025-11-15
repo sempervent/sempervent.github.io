@@ -903,4 +903,12 @@ PostgreSQL connection pooling is the foundation of scalable database application
 
 ---
 
+## See Also
+
+- **[PostgreSQL Connection Pooling Best Practices](../../best-practices/postgres/postgres-pooling.md)** - Comprehensive best practices and patterns guide
+- **[Database Optimization](../../best-practices/database-data/database-optimization.md)** - PostgreSQL and PostGIS performance tuning
+- **[FastAPI Geospatial](../../best-practices/python/fastapi-geospatial.md)** - High-performance spatial APIs with FastAPI
+
+---
+
 *This tutorial provides the complete machinery for mastering PostgreSQL connection pooling. The patterns scale from development to production, from simple applications to enterprise-grade deployments.*

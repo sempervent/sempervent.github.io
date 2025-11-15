@@ -862,4 +862,12 @@ PostgreSQL connection pooling requires understanding connection limits, pooling 
 
 ---
 
+## See Also
+
+- **[PostgreSQL Pooling Tutorial](../../tutorials/database-data-engineering/postgres-pooling.md)** - Step-by-step implementation guide with PgBouncer and FastAPI
+- **[Database Optimization](../database-data/database-optimization.md)** - PostgreSQL and PostGIS performance tuning
+- **[PostgreSQL Monitoring & Observability](postgres-monitoring-observability.md)** - Database monitoring and observability patterns
+
+---
+
 *This guide provides the complete machinery for PostgreSQL connection pooling. The patterns scale from simple applications to complex microservices, from basic pooling to advanced connection management.*

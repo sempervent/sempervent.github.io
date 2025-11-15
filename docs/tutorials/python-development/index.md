@@ -9,6 +9,9 @@
 
 ## Web Development
 
+- **[Class-Based NiceGUI Pages and Integrations](nicegui-class-based-pages.md)** - Build structured NiceGUI applications with class-based pages, dependency injection, and integrations with Prefect, PostgreSQL, and Redis
+- **[Advanced NiceGUI Architecture](advanced-nicegui-architecture.md)** - Production-grade NiceGUI with persistent backends, reusable components, real-time updates, loading states, and advanced async patterns
+- **[Distributed NiceGUI Architecture with Redis](distributed-nicegui-redis.md)** - Horizontally scalable NiceGUI with multiple instances, Redis pub/sub, streams, and real-time coordination across machines
 - **[R Shiny Geospatial App](r-shiny-geoapp.md)** - Build and deploy interactive spatial web applications
 - **[Click CLI to FastAPI Conversion](click-to-fastapi-conversion.md)** - Convert Click CLIs into FastAPI endpoints
 - **[WebSocket Chat with FastAPI](websocket-chat-fastapi.md)** - Real-time chat application with WebSockets

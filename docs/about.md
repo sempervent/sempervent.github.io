@@ -54,7 +54,7 @@ Oak Ridge National Laboratory
 ## Technical Skills
 
 ### Programming Languages
-Python, R, JavaScript, SQL, Bash, PHP, LaTeX
+Python, R, JavaScript, SQL, Bash, PHP, LaTeX, Go, Rust
 
 ### Cloud Platforms
 AWS (S3, Lambda, EC2, RDS, Fargate), GCP, Azure
@@ -72,16 +72,16 @@ ArcGIS, GeoPandas, GeoParquet, QGIS, GDAL, PostGIS, Martin, PyProj, Rasterio, Ma
 Docker, Kubernetes, Ansible, GitHub Actions, AWS CodePipeline
 
 ### Visualization & Analytics
-Shiny, Leaflet, Kibana, matplotlib, Plotly, Grafana
+Shiny, Leaflet, Kibana, matplotlib, Plotly, Grafana, Loki
 
 ### Frameworks & APIs
-FastAPI, Flask, Django, OpenAPI/Swagger, REST, Electron
+FastAPI, Flask, Django, OpenAPI/Swagger, REST, Electron, NiceGUI
 
 ### Machine Learning
-TensorFlow, scikit-learn, preprocessing, deployment
+TensorFlow, scikit-learn, preprocessing, deployment, MLFlow
 
 ### Version Control
-Git (GitHub, GitLab, Bitbucket)
+Git (GitHub, GitLab, Bitbucket), GitFlow
 
 ### Soft Skills
 Leadership, Agile methodologies, Cross-functional collaboration, Written & verbal communication, Problem-solving

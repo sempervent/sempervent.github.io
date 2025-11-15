@@ -17,6 +17,7 @@
 ## Infrastructure Automation
 
 - **[Deploy SLURM with Ansible on Raspberry Pi Cluster](ansible-slurm-raspberrypi.md)** - Build a HPC cluster with SLURM job scheduler
+- **[Building a 2×8 RKE2 Cluster with Rancher, PGO, and Prefect](ansible-rke2-rancher-pgo-prefect.md)** - Automated Kubernetes cluster provisioning with Ansible, RKE2, Rancher, Postgres operator, and Prefect
 - **[Harbor Container Registry Setup](harbor-registry-setup.md)** - Enterprise container registry with network storage
 - **[Dask with Ansible (CPU + GPU)](ansible-dask-heterogeneous.md)** - Heterogeneous distributed computing cluster
 

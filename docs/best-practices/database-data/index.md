@@ -5,9 +5,9 @@
 ## PostgreSQL & High Availability
 
 - **[Patroni PostgreSQL HA](patroni-postgres-ha.md)** - Master PostgreSQL high availability with Patroni
-- **[PostgreSQL Connection Pooling](postgres-pooling.md)** - Best practices for PgBouncer and application-level pooling
+- **[PostgreSQL Connection Pooling](../postgres/postgres-pooling.md)** - Best practices for PgBouncer and application-level pooling
 - **[Database Migrations & Schema Evolution](database-migrations.md)** - How to evolve schemas safely across Postgres, PostGIS, and federated FDWs
-- **[Foreign Data Wrappers in Postgres](fdw-postgres.md)** - Safely bridging Postgres with Parquet, DuckDB, and object storage
+- **[Foreign Data Wrappers in Postgres](../postgres/fdw-postgres.md)** - Safely bridging Postgres with Parquet, DuckDB, and object storage
 - **[Database Optimization](database-optimization.md)** - Tuning PostgreSQL and PostGIS for peak performance
 
 ## Data Architecture

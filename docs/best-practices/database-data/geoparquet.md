@@ -227,6 +227,13 @@ gdf = gpd.read_parquet("s3://datasets/roads/year=2025/month=11/")  # GeoParquet-
 
 ---
 
+## See Also
+
+- **[Parquet Best Practices](parquet.md)** - Fast queries, cheap storage, clean schemas: partitioning, file sizing, predicate pushdown
+- **[GeoParquet Data Warehouses](geoparquet-data-warehouses.md)** - Modern geospatial data warehouses with GeoParquet
+- **[parquet_s3_fdw Tutorial](../../tutorials/database-data-engineering/parquet-s3-fdw.md)** - Step-by-step guide for using parquet_s3_fdw with multiple backends
+- **[GeoParquet with Polars Tutorial](../../tutorials/database-data-engineering/geoparquet-with-polars.md)** - High-performance spatial analytics with Polars
+
 ## References
 
 - **pgspider/parquet_s3_fdw README** — server options, table options, row group filtering, MinIO/AWS usage. [GitHub](https://github.com/pgspider/parquet_s3_fdw)
