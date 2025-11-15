@@ -14,6 +14,11 @@
 
 - **[RDF/OWL Metadata Automation](rdf-owl-metadata-automation.md)** - Dynamic knowledge graphs with automated ontological associations
 
+## Documentation & Governance
+
+- **[Documentation Best Practices](documentation.md)** - Writing, organizing, and sustaining useful docs for data + devops projects
+- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Architecture Decision Records (ADRs) and decision governance framework
+
 ## Data Serialization
 
 - **[Protocol Buffers with Python](protobuf-python.md)** - Production-ready data serialization and microservices communication

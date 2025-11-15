@@ -143,6 +143,7 @@ nav:
       - Secrets Management: best-practices/architecture-design/secrets-management.md
       - Testing & CI/CD Pipelines: best-practices/architecture-design/ci-cd-pipelines.md
       - Documentation: best-practices/architecture-design/documentation.md
+      - ADR and Technical Decision Governance: best-practices/architecture-design/adr-decision-governance.md
       - Caching & Performance Layers: best-practices/architecture-design/caching-performance.md
       - RDF/OWL Metadata Automation: best-practices/architecture-design/rdf-owl-metadata-automation.md
       - Protocol Buffers with Python: best-practices/architecture-design/protobuf-python.md
