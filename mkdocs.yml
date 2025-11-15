@@ -89,6 +89,12 @@ nav:
       - Patroni PostgreSQL HA: best-practices/database-data/patroni-postgres-ha.md
       - Database Optimization: best-practices/database-data/database-optimization.md
       - Database Migrations & Schema Evolution: best-practices/database-data/database-migrations.md
+      - GeoParquet Data Warehouses: best-practices/database-data/geoparquet-data-warehouses.md
+      - AWS Serverless Geospatial: best-practices/database-data/aws-serverless-geospatial.md
+      - Lakes vs Lakehouses vs Warehouses: best-practices/database-data/lake-vs-lakehouse-vs-warehouse.md
+      - Data Lake Governance: best-practices/database-data/data-lake-governance.md
+      - Geospatial Data Engineering: best-practices/database-data/geospatial-data-engineering.md
+      - Geospatial Benchmarking: best-practices/database-data/geospatial-benchmarking.md
     - 🐘 PostgreSQL Development:
       - Overview: best-practices/postgres/index.md
       - PostgreSQL Development Environment: best-practices/postgres/postgres-dev-environment.md
@@ -126,12 +132,6 @@ nav:
     - 📊 Data Governance:
       - Overview: best-practices/data-governance/index.md
       - Metadata Standards, Schema Governance & Data Provenance: best-practices/data-governance/metadata-provenance-contracts.md
-      - GeoParquet Data Warehouses: best-practices/database-data/geoparquet-data-warehouses.md
-      - AWS Serverless Geospatial: best-practices/database-data/aws-serverless-geospatial.md
-      - Lakes vs Lakehouses vs Warehouses: best-practices/database-data/lake-vs-lakehouse-vs-warehouse.md
-      - Data Lake Governance: best-practices/database-data/data-lake-governance.md
-      - Geospatial Data Engineering: best-practices/database-data/geospatial-data-engineering.md
-      - Geospatial Benchmarking: best-practices/database-data/geospatial-benchmarking.md
     - 🤖 Machine Learning & AI:
       - Overview: best-practices/ml-ai/index.md
       - Prompting LLMs: best-practices/ml-ai/prompting-llms.md
