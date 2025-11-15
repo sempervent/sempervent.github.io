@@ -154,6 +154,9 @@ nav:
       - Grafana, Prometheus, Loki, and Observability: best-practices/operations-monitoring/grafana-prometheus-loki-observability.md
       - Testing Best Practices: best-practices/operations-monitoring/testing-best-practices.md
       - Secrets & Configuration Management: best-practices/operations-monitoring/secrets-config.md
+    - 🔒 Security:
+      - Overview: best-practices/security/index.md
+      - End-to-End Secrets Management & Key Rotation: best-practices/security/secrets-governance.md
       - Grafana: best-practices/operations-monitoring/grafana.md
     - 🎨 Creative & Fun:
       - Overview: best-practices/creative-fun/index.md
