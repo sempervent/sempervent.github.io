@@ -45,9 +45,6 @@ nav:
   - Technical Documentation: documentation.md
   - Best Practices:
     - Overview: best-practices/index.md
-    - 🤖 Machine Learning & AI:
-      - Overview: best-practices/ml-ai/index.md
-      - Prompting LLMs: best-practices/ml-ai/prompting-llms.md
     - 🐍 Python Development:
       - Overview: best-practices/python/index.md
       - Python Package: best-practices/python/python-package.md
@@ -71,22 +68,26 @@ nav:
       - Overview: best-practices/docker-infrastructure/index.md
       - Docker & Compose: best-practices/docker-infrastructure/docker-and-compose.md
       - Conda to Docker Migration: best-practices/docker-infrastructure/conda-to-docker-migration.md
+      - SBOMs, Trivy Scans, and Automated CVE Mitigation: best-practices/docker-infrastructure/docker-sbom-trivy-cve-mitigation.md
       - Nginx Production: best-practices/docker-infrastructure/nginx-production.md
+      - NGINX Best Practices: best-practices/docker-infrastructure/nginx-best-practices.md
       - Ansible Inventory Management: best-practices/docker-infrastructure/ansible-inventory-management.md
       - Ansible Playbook Design: best-practices/docker-infrastructure/ansible-playbook-design.md
       - Ansible Security Hardening: best-practices/docker-infrastructure/ansible-security-hardening.md
       - Ansible Performance Optimization: best-practices/docker-infrastructure/ansible-performance-optimization.md
       - Jinja Best Practices: best-practices/docker-infrastructure/jinja-best-practices.md
-      - Git Workflows & Collaboration: best-practices/docker-infrastructure/git-workflows-collaboration.md
-      - Git Production: best-practices/docker-infrastructure/git-production.md
       - Advanced Tmux Workflows: best-practices/docker-infrastructure/tmux-advanced.md
+    - 📝 Git & Version Control:
+      - Overview: best-practices/git/index.md
+      - Git Production: best-practices/git/git-production.md
+      - Git Workflows & Collaboration: best-practices/git/git-workflows-collaboration.md
+      - Modern GitFlow Best Practices: best-practices/git/gitflow-best-practices.md
     - 🗄️ Database & Data Management:
       - Overview: best-practices/database-data/index.md
       - Parquet: best-practices/database-data/parquet.md
       - GeoParquet: best-practices/database-data/geoparquet.md
       - Patroni PostgreSQL HA: best-practices/database-data/patroni-postgres-ha.md
       - Database Optimization: best-practices/database-data/database-optimization.md
-      - PostgreSQL Connection Pooling: best-practices/database-data/postgres-pooling.md
       - Database Migrations & Schema Evolution: best-practices/database-data/database-migrations.md
     - 🐘 PostgreSQL Development:
       - Overview: best-practices/postgres/index.md
@@ -120,7 +121,6 @@ nav:
       - PostgreSQL Data Pipeline Integration: best-practices/postgres/postgres-data-pipeline-integration.md
       - PostgreSQL Cloud Integration: best-practices/postgres/postgres-cloud-integration.md
       - PostgreSQL Containerization: best-practices/postgres/postgres-containerization.md
-      - Foreign Data Wrappers in Postgres: best-practices/database-data/fdw-postgres.md
       - Data Engineering: best-practices/database-data/data-engineering.md
       - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
       - GeoParquet Data Warehouses: best-practices/database-data/geoparquet-data-warehouses.md
@@ -131,6 +131,7 @@ nav:
       - Geospatial Benchmarking: best-practices/database-data/geospatial-benchmarking.md
     - 🤖 Machine Learning & AI:
       - Overview: best-practices/ml-ai/index.md
+      - Prompting LLMs: best-practices/ml-ai/prompting-llms.md
       - ONNX Model Optimization: best-practices/ml-ai/onnx-model-optimization.md
       - MCP + FastAPI Full Stack: best-practices/ml-ai/mcp-fastapi-stack.md
       - Embeddings & Vector Databases: best-practices/ml-ai/embeddings-and-vector-databases.md
@@ -149,6 +150,7 @@ nav:
       - Overview: best-practices/operations-monitoring/index.md
       - Performance Monitoring: best-practices/operations-monitoring/performance-monitoring.md
       - Structured Logging & Observability: best-practices/operations-monitoring/logging-observability.md
+      - Grafana, Prometheus, Loki, and Observability: best-practices/operations-monitoring/grafana-prometheus-loki-observability.md
       - Testing Best Practices: best-practices/operations-monitoring/testing-best-practices.md
       - Secrets & Configuration Management: best-practices/operations-monitoring/secrets-config.md
       - Grafana: best-practices/operations-monitoring/grafana.md
@@ -169,6 +171,9 @@ nav:
       - Overview: tutorials/python-development/index.md
       - psycopg2 to psycopg 3 Migration: tutorials/python-development/psycopg2-to-psycopg3-migration.md
       - Ruff Check Ignore in pyproject.toml: tutorials/python-development/ruff-check-ignore-pyproject.md
+      - Class-Based NiceGUI Pages and Integrations: tutorials/python-development/nicegui-class-based-pages.md
+      - Advanced NiceGUI Architecture: tutorials/python-development/advanced-nicegui-architecture.md
+      - Distributed NiceGUI Architecture with Redis: tutorials/python-development/distributed-nicegui-redis.md
       - R Shiny Geospatial App: tutorials/python-development/r-shiny-geoapp.md
       - Click CLI to FastAPI Conversion: tutorials/python-development/click-to-fastapi-conversion.md
       - WebSocket Chat with FastAPI: tutorials/python-development/websocket-chat-fastapi.md
@@ -185,6 +190,7 @@ nav:
       - TensorFlow GPU Slim Images - Repository Skeleton: tutorials/docker-infrastructure/slim-tf-gpu-images-skeleton.md
       - Compose Profiles Polyglot Stack: tutorials/docker-infrastructure/compose-profiles-polyglot-stack.md
       - RKE2 on Raspberry Pi Farm: tutorials/docker-infrastructure/rke2-raspberry-pi.md
+      - Building a 2×8 RKE2 Cluster with Rancher, PGO, and Prefect: tutorials/docker-infrastructure/ansible-rke2-rancher-pgo-prefect.md
       - ZFS Tank with OS on NVMe: tutorials/docker-infrastructure/zfs-tank-nvme.md
       - Deploy SLURM with Ansible on Raspberry Pi Cluster: tutorials/docker-infrastructure/ansible-slurm-raspberrypi.md
       - Harbor Container Registry Setup: tutorials/docker-infrastructure/harbor-registry-setup.md
@@ -198,7 +204,9 @@ nav:
       - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/database-data-engineering/postgres-pooling.md
       - Solr + Postgres JSONB Search: tutorials/database-data-engineering/solr-postgres-jsonb-search.md
       - parquet_s3_fdw with Local, MinIO, Vast, and AWS: tutorials/database-data-engineering/parquet-s3-fdw.md
+      - Building a Postgres Lakehouse Image with pg_lake and parquet_s3_fdw: tutorials/database-data-engineering/postgres-lakehouse-pglake-parquet-fdw.md
       - GeoParquet with Polars: tutorials/database-data-engineering/geoparquet-with-polars.md
+      - Generating Dark OpenMapTiles for the Entire US at Zoom Level 12: tutorials/database-data-engineering/openmaptiles-us-dark-z12.md
       - Real-Time Data Processing: tutorials/database-data-engineering/real-time-data-processing.md
       - Kafka + TimescaleDB IoT Streaming: tutorials/database-data-engineering/kafka-timescaledb-iot.md
       - Go-Glue OSM → PostGIS → Tiles Pipeline: tutorials/database-data-engineering/go-osm-tiling-pipeline.md

@@ -111,24 +111,24 @@ Oak Ridge National Laboratory
 ## Available Resources
 
 ### Best Practices
-- **[Python Package Development](best-practices/python-package.md)** - Modern Python packaging with `uv`
-- **[Docker & Compose](best-practices/docker-and-compose.md)** - Production containerization
-- **[Rust Development Environment](best-practices/rust-dev-environment.md)** - Senior-level Rust setup
-- **[Geospatial Data Engineering](best-practices/geospatial-data-engineering.md)** - Spatial data management
-- **[AWS Serverless Geospatial](best-practices/aws-serverless-geospatial.md)** - Serverless spatial processing
-- **[ETL Pipeline Design](best-practices/etl-pipeline-design.md)** - Robust data pipelines
-- **[FastAPI Geospatial](best-practices/fastapi-geospatial.md)** - High-performance spatial APIs
-- **[Web Performance Optimization](best-practices/web-performance-optimization.md)** - Core Web Vitals & SEO
+- **[Python Package Development](best-practices/python/python-package.md)** - Modern Python packaging with `uv`
+- **[Docker & Compose](best-practices/docker-infrastructure/docker-and-compose.md)** - Production containerization
+- **[Rust Development Environment](best-practices/rust/rust-dev-environment.md)** - Senior-level Rust setup
+- **[Geospatial Data Engineering](best-practices/database-data/geospatial-data-engineering.md)** - Spatial data management
+- **[AWS Serverless Geospatial](best-practices/database-data/aws-serverless-geospatial.md)** - Serverless spatial processing
+- **[ETL Pipeline Design](best-practices/database-data/etl-pipeline-design.md)** - Robust data pipelines
+- **[FastAPI Geospatial](best-practices/python/fastapi-geospatial.md)** - High-performance spatial APIs
+- **[Web Performance Optimization](best-practices/python/web-performance-optimization.md)** - Core Web Vitals & SEO
 
 ### Step-by-Step Tutorials
-- **[PostGIS Geometry Indexing](tutorials/postgis-geometry-indexing.md)** - Spatial database optimization
-- **[PostGIS Raster Indexing](tutorials/postgis-raster-indexing.md)** - Raster data management
-- **[Raster–Vector Workflows](tutorials/postgis-raster-vector-workflows.md)** - Hybrid spatial analysis
-- **[parquet_s3_fdw with Multiple Backends](tutorials/parquet-s3-fdw.md)** - Object store integration
-- **[GeoParquet with Polars](tutorials/geoparquet-with-polars.md)** - High-performance spatial analytics
-- **[Kafka + TimescaleDB IoT Streaming](tutorials/kafka-timescaledb-iot.md)** - Real-time data pipelines
-- **[R Shiny Geospatial Apps](tutorials/r-shiny-geoapp.md)** - Interactive spatial applications
-- **[Monitoring with Grafana & Prometheus](tutorials/monitoring-with-grafana-prometheus.md)** - Observability stack
+- **[PostGIS Geometry Indexing](tutorials/database-data-engineering/postgis-geometry-indexing.md)** - Spatial database optimization
+- **[PostGIS Raster Indexing](tutorials/database-data-engineering/postgis-raster-indexing.md)** - Raster data management
+- **[Raster–Vector Workflows](tutorials/database-data-engineering/postgis-raster-vector-workflows.md)** - Hybrid spatial analysis
+- **[parquet_s3_fdw with Multiple Backends](tutorials/database-data-engineering/parquet-s3-fdw.md)** - Object store integration
+- **[GeoParquet with Polars](tutorials/database-data-engineering/geoparquet-with-polars.md)** - High-performance spatial analytics
+- **[Kafka + TimescaleDB IoT Streaming](tutorials/database-data-engineering/kafka-timescaledb-iot.md)** - Real-time data pipelines
+- **[R Shiny Geospatial Apps](tutorials/python-development/r-shiny-geoapp.md)** - Interactive spatial applications
+- **[Monitoring with Grafana & Prometheus](tutorials/quick-start/monitoring-with-grafana-prometheus.md)** - Observability stack
 
 ### Core Documentation
 - [Professional Profile](about.md) - Detailed background and experience

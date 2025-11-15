@@ -236,3 +236,12 @@ When datasets grow feral:
 - **Validate stats & schema drift** with periodic scanners.
 - **Keep a `DATASET.md` adjacent to each dataset** describing partitions, encoding, and SLAs.
 
+---
+
+## See Also
+
+- **[GeoParquet Best Practices](geoparquet.md)** - Spatial Parquet with WKB geometry, GeoParquet metadata, and CRS rules
+- **[GeoParquet Data Warehouses](geoparquet-data-warehouses.md)** - Modern geospatial data warehouses with GeoParquet
+- **[parquet_s3_fdw Tutorial](../../tutorials/database-data-engineering/parquet-s3-fdw.md)** - Step-by-step guide for using parquet_s3_fdw with multiple backends
+- **[GeoParquet with Polars Tutorial](../../tutorials/database-data-engineering/geoparquet-with-polars.md)** - High-performance spatial analytics with Polars
+

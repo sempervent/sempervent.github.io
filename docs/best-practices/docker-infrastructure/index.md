@@ -6,6 +6,7 @@
 
 - **[Docker & Compose](docker-and-compose.md)** - Production-grade containerization and orchestration
 - **[Conda to Docker Migration](conda-to-docker-migration.md)** - Migrate conda environments to Docker
+- **[SBOMs, Trivy Scans, and Automated CVE Mitigation](docker-sbom-trivy-cve-mitigation.md)** - Generate SBOMs, scan images with Trivy, and automate CVE remediation workflows
 
 ## Infrastructure Automation
 
@@ -18,7 +19,8 @@
 ## System Administration
 
 - **[Nginx Production](nginx-production.md)** - Production-grade web server configuration
-- **[Git Workflows & Collaboration](git-workflows-collaboration.md)** - Enterprise-grade version control and team coordination
+- **[NGINX Best Practices: Patterns, Hardening, and Multi-API Replication](nginx-best-practices.md)** - Comprehensive NGINX guide with reverse proxy patterns, SSL termination, load balancing, multi-API gateways, and traffic mirroring
+- **[Git Workflows & Collaboration](../git/git-workflows-collaboration.md)** - Enterprise-grade version control and team coordination
 - **[Advanced Tmux Workflows](tmux-advanced.md)** - Engineering reproducible terminal multiplexing environments for data/devops work
 
 ---

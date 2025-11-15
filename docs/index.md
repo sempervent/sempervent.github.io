@@ -28,14 +28,28 @@ I architect GeoParquet data warehouses, design decision support tools, and build
 - **[MQTT Comparison](https://sempervent.github.io/mqtt-comparison/)** - Comprehensive analysis of MQTT broker performance and features
 - **[BlackLake Prototype](https://sempervent.github.io/s3-rust-data-portal)** - S3 Rust Data Portal -- git for data
 
-## Quick Navigation
+## Navigation Guide
 
-- [Professional Profile](about.md) - Detailed background and experience
-- [Projects Portfolio](projects.md) - Technical projects and implementations
-- [Technical Documentation](documentation.md) - Methodologies and expertise
-- [Contact & Collaboration](getting-started.md) - Get in touch
+### Getting Started
+- **[Contact & Collaboration](getting-started.md)** - Get in touch, collaboration opportunities
+- **[Professional Profile](about.md)** - Detailed background, experience, and technical skills
+- **[Projects Portfolio](projects.md)** - Technical projects and implementations
+- **[Technical Documentation](documentation.md)** - Overview of methodologies and expertise
 
-## Best Practices
+### Documentation Structure
+
+**Best Practices** - Conceptual guides, patterns, and reference material for production systems
+- [Best Practices Overview](best-practices/index.md) - Enterprise-grade patterns and methodologies
+- Language-specific: [Python](best-practices/python/index.md), [Rust](best-practices/rust/index.md), [Go](best-practices/go/index.md), [R](best-practices/r/index.md)
+- Domain-specific: [Database & Data](best-practices/database-data/index.md), [PostgreSQL](best-practices/postgres/index.md), [Docker & Infrastructure](best-practices/docker-infrastructure/index.md), [ML & AI](best-practices/ml-ai/index.md)
+
+**Tutorials** - Step-by-step, hands-on implementation guides with copy-paste examples
+- [Tutorials Overview](tutorials/index.md) - Practical guides for implementing key technologies
+- [Quick Start Guides](tutorials/quick-start/index.md) - Get started with essential technologies
+- [Database & Data Engineering](tutorials/database-data-engineering/index.md) - PostgreSQL, PostGIS, data pipelines
+- [Python Development](tutorials/python-development/index.md) - Python-specific implementations
+
+## Featured Content
 
 - **Parquet** — [Fast queries & cheap storage](best-practices/database-data/parquet.md): how to lay out partitions, size files and row groups, enable predicate pushdown & column pruning, serve efficiently over S3 byte-range, and wire up `parquet_s3_fdw` in Postgres for pushdown.
 

@@ -14,7 +14,12 @@
 ## Data Processing & Analytics
 
 - **[parquet_s3_fdw with Local, MinIO, Vast, and AWS](parquet-s3-fdw.md)** - Query Parquet directly from object storage
+- **[Building a Postgres Lakehouse Image with pg_lake and parquet_s3_fdw](postgres-lakehouse-pglake-parquet-fdw.md)** - Single Docker image with pg_lake (Iceberg + DuckDB) and parquet_s3_fdw for unified lakehouse operations
 - **[GeoParquet with Polars](geoparquet-with-polars.md)** - High-performance spatial analytics with Polars
+
+## Geospatial & Mapping
+
+- **[Generating Dark OpenMapTiles for the Entire US at Zoom Level 12](openmaptiles-us-dark-z12.md)** - Complete pipeline for generating dark-themed vector tiles covering the United States using OpenMapTiles, Docker, and tileserver-gl
 - **[Real-Time Data Processing](real-time-data-processing.md)** - Implement Kafka and TimescaleDB for streaming data
 - **[Kafka + TimescaleDB IoT Streaming](kafka-timescaledb-iot.md)** - Stream simulated IoT telemetry into TimescaleDB
 - **[Pulsar → Flink → Pinot (Realtime OLAP) + Superset](pulsar-flink-pinot-superset.md)** - A clean, fast streaming stack with sub-second analytics

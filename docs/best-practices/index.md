@@ -34,6 +34,12 @@ Containerization, orchestration, and infrastructure automation patterns.
 
 - **[Docker & Infrastructure Overview](docker-infrastructure/index.md)** - Containerization, orchestration, and automation
 
+## 📝 Git & Version Control
+
+Version control, repository management, and collaboration workflows.
+
+- **[Git & Version Control Overview](git/index.md)** - Repository structure, workflows, and collaboration patterns
+
 ## 🗄️ Database & Data Management
 
 Database optimization, data architecture, and governance patterns.
