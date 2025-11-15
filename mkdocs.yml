@@ -121,11 +121,11 @@ nav:
       - PostgreSQL Data Pipeline Integration: best-practices/postgres/postgres-data-pipeline-integration.md
       - PostgreSQL Cloud Integration: best-practices/postgres/postgres-cloud-integration.md
       - PostgreSQL Containerization: best-practices/postgres/postgres-containerization.md
+      - Data Engineering: best-practices/database-data/data-engineering.md
+      - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
     - 📊 Data Governance:
       - Overview: best-practices/data-governance/index.md
       - Metadata Standards, Schema Governance & Data Provenance: best-practices/data-governance/metadata-provenance-contracts.md
-      - Data Engineering: best-practices/database-data/data-engineering.md
-      - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
       - GeoParquet Data Warehouses: best-practices/database-data/geoparquet-data-warehouses.md
       - AWS Serverless Geospatial: best-practices/database-data/aws-serverless-geospatial.md
       - Lakes vs Lakehouses vs Warehouses: best-practices/database-data/lake-vs-lakehouse-vs-warehouse.md
