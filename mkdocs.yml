@@ -161,6 +161,9 @@ nav:
     - 🔒 Security:
       - Overview: best-practices/security/index.md
       - End-to-End Secrets Management & Key Rotation: best-practices/security/secrets-governance.md
+    - ⚡ Performance:
+      - Overview: best-practices/performance/index.md
+      - End-to-End Caching Strategy: best-practices/performance/end-to-end-caching-strategy.md
     - 🎨 Creative & Fun:
       - Overview: best-practices/creative-fun/index.md
       - Time Hygiene (UTC, TZ, Clocks): best-practices/creative-fun/time-hygiene.md
