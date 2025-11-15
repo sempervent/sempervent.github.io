@@ -203,6 +203,7 @@ nav:
       - Alembic Migrations: tutorials/database-data-engineering/alembic-migrations.md
       - PostgreSQL Pooling (PgBouncer + FastAPI): tutorials/database-data-engineering/postgres-pooling.md
       - Solr + Postgres JSONB Search: tutorials/database-data-engineering/solr-postgres-jsonb-search.md
+      - Auditing PostgreSQL with PgAudit and PgCron: tutorials/database-data-engineering/postgres-pgaudit-pgcron-auditing.md
       - parquet_s3_fdw with Local, MinIO, Vast, and AWS: tutorials/database-data-engineering/parquet-s3-fdw.md
       - Building a Postgres Lakehouse Image with pg_lake and parquet_s3_fdw: tutorials/database-data-engineering/postgres-lakehouse-pglake-parquet-fdw.md
       - GeoParquet with Polars: tutorials/database-data-engineering/geoparquet-with-polars.md

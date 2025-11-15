@@ -10,6 +10,7 @@
 - **[Alembic Migrations](alembic-migrations.md)** - Master database schema evolution with Alembic
 - **[PostgreSQL Pooling (PgBouncer + FastAPI)](postgres-pooling.md)** - Optimize database connections for high-concurrency applications
 - **[Solr + Postgres JSONB Search](solr-postgres-jsonb-search.md)** - Supercharge relational data with Solr's facets, suggesters, geo, and highlighting—using JSONB as source
+- **[Auditing PostgreSQL with PgAudit and PgCron](postgres-pgaudit-pgcron-auditing.md)** - Complete audit trail setup with log rotation, activity views, and automated maintenance
 
 ## Data Processing & Analytics
 
