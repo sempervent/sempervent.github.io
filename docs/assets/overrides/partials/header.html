@@ -33,13 +33,18 @@
       <form class="md-header__option" data-md-component="palette">
         {% for option in config.theme.palette %}
           {% set scheme = option.scheme | d("default", true) %}
-          {% if not option.toggle %}
-            {% set option = option | dict("toggle", {}) %}
+          {% set toggle_name = option.toggle.name | d("Switch palette", true) if option.toggle else "Switch palette" %}
+          {% if option.toggle and option.toggle.icon %}
+            {% set toggle_icon = option.toggle.icon %}
+            {% if not toggle_icon.startswith("material/") and not toggle_icon.startswith("fontawesome/") %}
+              {% set toggle_icon = "material/" ~ toggle_icon %}
+            {% endif %}
+          {% else %}
+            {% set toggle_icon = "material/palette" %}
           {% endif %}
-          {% set option = option | dict("toggle", option.toggle | dict("name", option.toggle.name | d("Switch palette", true))) %}
-          <input class="md-option" data-md-color-media="{{ option.media }}" data-md-color-scheme="{{ scheme }}" data-md-color-primary="{{ option.primary }}" data-md-color-accent="{{ option.accent }}" {% if option.toggle.name %}aria-label="{{ option.toggle.name }}"{% endif %} type="radio" name="__palette" id="__palette_{{ loop.index }}">
-          <label class="md-header__button md-icon" title="{{ option.toggle.name | d("Switch palette", true) }}" for="__palette_{{ loop.index0 or loop.length }}" aria-hidden="true">
-            {% include ".icons/material/" ~ (option.toggle.icon or "palette") ~ ".svg" %}
+          <input class="md-option" data-md-color-media="{{ option.media }}" data-md-color-scheme="{{ scheme }}" data-md-color-primary="{{ option.primary }}" data-md-color-accent="{{ option.accent }}" aria-label="{{ toggle_name }}" type="radio" name="__palette" id="__palette_{{ loop.index }}">
+          <label class="md-header__button md-icon" title="{{ toggle_name }}" for="__palette_{{ loop.index0 or loop.length }}" aria-hidden="true">
+            {% include ".icons/" ~ toggle_icon ~ ".svg" %}
           </label>
         {% endfor %}
       </form>

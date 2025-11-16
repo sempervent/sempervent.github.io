@@ -2,6 +2,10 @@
 
 **Objective**: Master senior-level machine learning and AI patterns for production systems. When you need to build robust, scalable ML systems, when you want to follow proven methodologies, when you need enterprise-grade patterns—these best practices become your weapon of choice.
 
+## ML Systems Architecture
+
+- **[ML Systems Architecture: Feature Stores, Model Serving, Experiment Governance, and Cross-System Reproducibility](ml-systems-architecture-governance.md)** - Complete ML lifecycle architecture from ingestion to deployment with MLflow, ONNX, feature stores, and reproducibility standards
+
 ## ML Operations
 
 - **[Prompting LLMs](prompting-llms.md)** - Best practices for effective LLM prompting with agentic instructions

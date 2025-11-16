@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="256"
+  height="256"
+  viewBox="0 0 256 256"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc">
+  <title id="title">Joshua N. Grant - Geospatial Systems Architect Logo</title>
+  <desc id="desc">
+    Circular logo with geospatial grid and the initials JNG in the center.
+  </desc>
+
+  <!-- Background -->
+  <rect width="256" height="256" rx="32" ry="32" fill="#020617" />
+
+  <!-- Outer circle -->
+  <circle cx="128" cy="128" r="96" fill="#020617" stroke="#38bdf8" stroke-width="3" />
+
+  <!-- Lat/Lon grid: vertical lines -->
+  <ellipse cx="128" cy="128" rx="70" ry="96" fill="none" stroke="#0f172a" stroke-width="2" />
+  <ellipse cx="128" cy="128" rx="40" ry="96" fill="none" stroke="#0f172a" stroke-width="2" />
+
+  <!-- Lat/Lon grid: horizontal lines -->
+  <ellipse cx="128" cy="128" rx="96" ry="70" fill="none" stroke="#0f172a" stroke-width="2" />
+  <ellipse cx="128" cy="128" rx="96" ry="40" fill="none" stroke="#0f172a" stroke-width="2" />
+
+  <!-- Diagonal great-circle-ish arcs -->
+  <path
+    d="M52 152
+       C80 112, 176 112, 204 152"
+    fill="none"
+    stroke="#0b1120"
+    stroke-width="2"
+    stroke-linecap="round"
+    opacity="0.75" />
+  <path
+    d="M52 104
+       C88 148, 168 148, 204 104"
+    fill="none"
+    stroke="#0b1120"
+    stroke-width="2"
+    stroke-linecap="round"
+    opacity="0.75" />
+
+  <!-- Inner glow ring -->
+  <circle cx="128" cy="128" r="60" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.8" />
+
+  <!-- Central node (anchor point / origin) -->
+  <circle cx="128" cy="128" r="6" fill="#38bdf8" />
+
+  <!-- Initials: JNG -->
+  <text
+    x="128"
+    y="140"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="40"
+    letter-spacing="6"
+    fill="#e5f2ff">
+    JNG
+  </text>
+
+  <!-- Subtle lower arc highlight -->
+  <path
+    d="M64 176
+       A64 64 0 0 0 192 176"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-width="2"
+    opacity="0.6" />
+
+</svg>

@@ -1,0 +1,320 @@
+/* Custom Styles for Personal Portfolio Site
+   Focus: Readability, elegance, and personal branding */
+
+/* ============================================
+   Typography & Readability
+   ============================================ */
+
+/* Main content area - comfortable reading width */
+.md-content__inner {
+  max-width: 75ch; /* Optimal line length for readability */
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Increased line height for better readability */
+.md-content {
+  line-height: 1.75;
+}
+
+.md-content p {
+  line-height: 1.8;
+  margin-bottom: 1.25em;
+}
+
+/* Improved heading spacing and hierarchy */
+.md-content h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.md-content h2 {
+  font-size: 2em;
+  line-height: 1.3;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid var(--md-default-fg-color--lighter);
+  padding-bottom: 0.3em;
+}
+
+.md-content h3 {
+  font-size: 1.5em;
+  line-height: 1.4;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.md-content h4 {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* Better spacing for lists */
+.md-content ul,
+.md-content ol {
+  margin-bottom: 1.25em;
+  padding-left: 1.75em;
+}
+
+.md-content li {
+  margin-bottom: 0.5em;
+  line-height: 1.7;
+}
+
+/* ============================================
+   Code Blocks & Inline Code
+   ============================================ */
+
+/* Code blocks - improved readability */
+.md-content pre {
+  border-radius: 6px;
+  padding: 1.25em;
+  line-height: 1.6;
+  margin: 1.5em 0;
+  overflow-x: auto;
+}
+
+.md-content code {
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+}
+
+/* ============================================
+   Blockquotes & Admonitions
+   ============================================ */
+
+/* Enhanced blockquotes */
+.md-content blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1.5em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+  background: var(--md-default-bg-color--light);
+  padding: 1em 1.5em;
+  border-radius: 4px;
+}
+
+/* Admonitions - softer, more elegant */
+.md-typeset .admonition {
+  border-radius: 6px;
+  padding: 1em 1.25em;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset .admonition-title {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+/* ============================================
+   Tables
+   ============================================ */
+
+.md-content table {
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 1.5em 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.md-content table th {
+  background: var(--md-default-bg-color--light);
+  font-weight: 600;
+  padding: 0.75em 1em;
+}
+
+.md-content table td {
+  padding: 0.75em 1em;
+}
+
+/* ============================================
+   Hero Section (Landing Page)
+   ============================================ */
+
+.hero-section {
+  text-align: center;
+  padding: 4em 2em 3em;
+  margin: -1rem -1rem 3rem;
+  background: linear-gradient(135deg, 
+    var(--md-primary-fg-color) 0%, 
+    var(--md-accent-fg-color) 100%);
+  color: var(--md-primary-bg-color);
+  border-radius: 0 0 12px 12px;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin: 0 0 0.5em;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.hero-section p {
+  font-size: 1.25em;
+  margin: 0 auto 2em;
+  max-width: 600px;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.hero-actions a {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background: var(--md-primary-bg-color);
+  color: var(--md-primary-fg-color);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-actions a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================================
+   Card Grid Layout
+   ============================================ */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.5em;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+  color: var(--md-primary-fg-color);
+}
+
+.card p {
+  margin-bottom: 0.75em;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.95em;
+}
+
+.card a {
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================
+   Navigation & Sidebar
+   ============================================ */
+
+/* Improved sidebar spacing */
+.md-sidebar {
+  padding: 1em 0;
+}
+
+/* Active nav item highlighting */
+.md-nav__item--active > .md-nav__link {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+/* ============================================
+   Responsive Adjustments
+   ============================================ */
+
+@media screen and (max-width: 76.25em) {
+  .md-content__inner {
+    max-width: 100%;
+  }
+  
+  .hero-section h1 {
+    font-size: 2em;
+  }
+  
+  .hero-section p {
+    font-size: 1.1em;
+  }
+  
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================
+   Subtle Animations
+   ============================================ */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+
+@media print {
+  .hero-section {
+    background: none;
+    color: inherit;
+    padding: 1em 0;
+  }
+  
+  .card {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+}
+

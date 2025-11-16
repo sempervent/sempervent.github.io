@@ -22,6 +22,8 @@
 
 ## Data Governance & Quality
 
+- **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](data-lineage-contracts.md)** - Comprehensive data lineage tracking, inter-service metadata contracts, and provenance enforcement across lakehouse → Postgres → microservices → UI
+- **[Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment](semantic-layer-engineering.md)** - Enterprise semantic layers bridging business concepts to physical storage with RDF/OWL integration and entity resolution
 - **[Data Lake Governance](data-lake-governance.md)** - Master data lake governance for trustworthy, auditable, compliant data at scale
 - **[Geospatial Data Engineering](geospatial-data-engineering.md)** - Spatial data management and processing
 - **[Geospatial Benchmarking](geospatial-benchmarking.md)** - Master geospatial benchmarking under CPU/GPU stress

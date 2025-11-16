@@ -4,6 +4,7 @@
 
 ## Core Development
 
+- **[Developer Experience (DX) as Infrastructure: Golden Paths, Tooling Ecosystems & Workflow Automation](dx-architecture-and-golden-paths.md)** - DX as infrastructure with consistent scaffolding, internal CLIs, GitFlow pipelines, debugging tools, code generation, and AI-assisted workflows (integrates with all other practices)
 - **[Python Development Environment](python-dev-environment.md)** - Modern Python development setup with `uv`, `pyenv`, and essential tooling
 - **[Python Package Development](python-package-development.md)** - Building and shipping Python packages with modern tooling
 - **[Python Package](python-package.md)** - Modern Python packaging with `uv` and `pyproject.toml`

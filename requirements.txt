@@ -8,6 +8,7 @@ pymdown-extensions>=9.2
 # Essential Plugins
 mkdocs-git-revision-date-localized-plugin>=1.2.0
 mkdocs-minify-plugin>=0.7.0
+mkdocs-section-index>=0.3.5
 
 # Mermaid Support
 mkdocs-mermaid2-plugin>=1.1.0
