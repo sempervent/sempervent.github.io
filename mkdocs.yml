@@ -2,41 +2,63 @@ site_name: Joshua N. Grant - Geospatial Systems Architect
 site_description: Professional portfolio and technical documentation for Joshua N. Grant, Geospatial Systems Architect at Oak Ridge National Laboratory
 site_author: Joshua N. Grant
 site_url: https://sempervent.github.io
+repo_url: https://github.com/sempervent/sempervent.github.io
+repo_name: sempervent/sempervent.github.io
+edit_uri: blob/main/docs/
 
 theme:
   name: material
+  # Distinctive teal/cyan palette - professional yet personal
+  # Maintains strong contrast for accessibility
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: blue
+      primary: teal  # Deep teal for professional, distinctive look
+      accent: cyan   # Cyan accent for interactive elements
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: blue
+      primary: teal  # Consistent teal in dark mode
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  # Logo and favicon
+  logo: assets/logo.svg
+  # favicon: assets/favicon.png  # Uncomment when favicon is created
+  # Enhanced navigation and content features for better UX
   features:
+    # Navigation improvements
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.tracking
+    - navigation.instant      # Instant page loads for better UX
+    - navigation.indexes      # Show index pages in navigation
+    # Table of contents
     - toc.integrate
     - toc.follow
+    # Search enhancements
     - search.suggest
     - search.highlight
-    - content.code.copy
-    - content.action.edit
-    - content.action.view
+    # Content actions
+    - content.code.copy       # Copy code blocks
+    - content.action.edit     # Edit page link
+    - content.action.view     # View source link
+    - content.tabs.link       # Linkable tabs
+    # Metadata
     - meta
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
+  # Custom CSS for typography and personalization
+  custom_dir: docs/assets/overrides
+  # Additional CSS for readability improvements
+  extra_css:
+    - assets/styles/custom.css
 
 nav:
   - Home: index.md
@@ -45,8 +67,14 @@ nav:
   - Technical Documentation: documentation.md
   - Best Practices:
     - Overview: best-practices/index.md
+    - 📌 Start Here:
+      - ADR and Technical Decision Governance: best-practices/architecture-design/adr-decision-governance.md
+      - Configuration Management: best-practices/operations-monitoring/configuration-management.md
+      - System Resilience & Concurrency: best-practices/operations-monitoring/system-resilience-and-concurrency.md
+      - IAM & RBAC Governance: best-practices/security/iam-rbac-abac-governance.md
     - 🐍 Python Development:
       - Overview: best-practices/python/index.md
+      - "Developer Experience (DX) as Infrastructure: Golden Paths, Tooling Ecosystems & Workflow Automation": best-practices/python/dx-architecture-and-golden-paths.md
       - Python Package: best-practices/python/python-package.md
       - Typing in Python: best-practices/python/typing-in-python.md
       - Python Concurrency: best-practices/python/python-threading-and-multiprocessing.md
@@ -84,6 +112,8 @@ nav:
       - Modern GitFlow Best Practices: best-practices/git/gitflow-best-practices.md
     - 🗄️ Database & Data Management:
       - Overview: best-practices/database-data/index.md
+      - "Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement": best-practices/database-data/data-lineage-contracts.md
+      - Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment: best-practices/database-data/semantic-layer-engineering.md
       - Parquet: best-practices/database-data/parquet.md
       - GeoParquet: best-practices/database-data/geoparquet.md
       - Patroni PostgreSQL HA: best-practices/database-data/patroni-postgres-ha.md
@@ -132,8 +162,13 @@ nav:
     - 📊 Data Governance:
       - Overview: best-practices/data-governance/index.md
       - Metadata Standards, Schema Governance & Data Provenance: best-practices/data-governance/metadata-provenance-contracts.md
+      - Data Validation and Contract Governance: best-practices/data-governance/data-validation-and-contract-governance.md
+      - Data Freshness, SLA/SLO Governance, and Pipeline Reliability Contracts: best-practices/data-governance/data-freshness-sla-governance.md
+      - Data Retention, Archival Strategy, Lifecycle Governance & Cold Storage Patterns: best-practices/data-governance/data-retention-archival-lifecycle-governance.md
+      - Data Quality SLAs, Validation Layers, and Observability for Tabular, Geospatial, and ML Data: best-practices/data-governance/data-quality-sla-validation-observability.md
     - 🤖 Machine Learning & AI:
       - Overview: best-practices/ml-ai/index.md
+      - "ML Systems Architecture: Feature Stores, Model Serving, Experiment Governance, and Cross-System Reproducibility": best-practices/ml-ai/ml-systems-architecture-governance.md
       - Prompting LLMs: best-practices/ml-ai/prompting-llms.md
       - ONNX Model Optimization: best-practices/ml-ai/onnx-model-optimization.md
       - MCP + FastAPI Full Stack: best-practices/ml-ai/mcp-fastapi-stack.md
@@ -142,17 +177,46 @@ nav:
       - R Data Exploration: best-practices/ml-ai/r-data-exploration.md
     - 🏗️ Architecture & Design:
       - Overview: best-practices/architecture-design/index.md
+      - System-Wide Naming, Taxonomy, and Structural Vocabulary Governance: best-practices/architecture-design/system-taxonomy-governance.md
+      - Cost-Aware Architecture & Resource-Efficiency Governance: best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md
+      - Holistic Capacity Planning, Scaling Economics, and Workload Modeling: best-practices/architecture-design/capacity-planning-and-workload-modeling.md
+      - Multi-Region, Multi-Cluster Disaster Recovery, Failover Topologies, and Data Sovereignty: best-practices/architecture-design/multi-region-dr-strategy.md
+      - Cross-Environment Configuration Strategy and Multi-Cluster State Management: best-practices/architecture-design/environment-config-governance.md
+      - Cognitive Load Management and Developer Experience: best-practices/architecture-design/cognitive-load-developer-experience.md
+      - Architectural Fitness Functions and Governance: best-practices/architecture-design/architecture-fitness-functions-governance.md
+      - Temporal Governance and Time Synchronization: best-practices/architecture-design/temporal-governance-and-time-synchronization.md
+      - Repository Standardization and Governance: best-practices/architecture-design/repository-standardization-and-governance.md
+      - Event-Driven Architecture: best-practices/architecture-design/event-driven-architecture.md
+      - "Streaming Architecture Patterns: SAGA, CQRS, and Outbox": best-practices/architecture-design/streaming-architecture-patterns.md
+      - API Governance, Backward Compatibility Rules, and Cross-Language Interface Stability: best-practices/architecture-design/api-governance-interface-stability.md
+      - API Gateway Architecture: best-practices/architecture-design/api-gateway-architecture.md
+      - Multi-Cloud Federation & Portability Architecture: best-practices/architecture-design/multi-cloud-federation-portability.md
       - Cloud Architecture: best-practices/architecture-design/cloud-architecture.md
       - Secrets Management: best-practices/architecture-design/secrets-management.md
       - Testing & CI/CD Pipelines: best-practices/architecture-design/ci-cd-pipelines.md
       - Documentation: best-practices/architecture-design/documentation.md
       - ADR and Technical Decision Governance: best-practices/architecture-design/adr-decision-governance.md
       - Caching & Performance Layers: best-practices/architecture-design/caching-performance.md
+      - Cache-Topology Architecture: best-practices/architecture-design/cache-topology-architecture.md
+      - Data Mesh Architecture: best-practices/architecture-design/data-mesh-architecture.md
+      - Service Decomposition Strategy: best-practices/architecture-design/service-decomposition-strategy.md
+      - Polyglot Interoperability Design: best-practices/architecture-design/polyglot-interoperability-design.md
+      - Reference Architecture Diagrams: best-practices/architecture-design/reference-architecture-diagrams.md
       - RDF/OWL Metadata Automation: best-practices/architecture-design/rdf-owl-metadata-automation.md
       - Protocol Buffers with Python: best-practices/architecture-design/protobuf-python.md
     - 🔧 Operations & Monitoring:
       - Overview: best-practices/operations-monitoring/index.md
+      - "Observability as Architecture: Unified Telemetry Models Across Clusters, Services, and Languages": best-practices/operations-monitoring/unified-observability-architecture.md
+      - Chaos Engineering, Fault Injection, and Reliability Validation: best-practices/operations-monitoring/chaos-engineering-governance.md
+      - Operational Risk Modeling, Blast Radius Reduction & Failure Domain Architecture: best-practices/operations-monitoring/blast-radius-risk-modeling.md
+      - Cross-Environment Configuration Drift Prevention, Promotion Workflows & Release Channels: best-practices/operations-monitoring/environment-promotion-drift-governance.md
+      - Observability-Driven Development (ODD), Telemetry-First Coding Practices, and Preemptive Debugging Architecture: best-practices/operations-monitoring/observability-driven-development.md
+      - Operational Resilience and Incident Response: best-practices/operations-monitoring/operational-resilience-and-incident-response.md
       - Performance Monitoring: best-practices/operations-monitoring/performance-monitoring.md
+      - System Resilience, Rate Limiting, Concurrency Control & Backpressure: best-practices/operations-monitoring/system-resilience-and-concurrency.md
+      - Configuration Management, Secrets Lifecycle, and Multi-Environment Drift Control: best-practices/operations-monitoring/configuration-management.md
+      - Cross-Environment Configuration Drift Detection & Prevention: best-practices/operations-monitoring/configuration-drift-detection-prevention.md
+      - Release Management, Change Governance, and Progressive Delivery: best-practices/operations-monitoring/release-management-and-progressive-delivery.md
       - Structured Logging & Observability: best-practices/operations-monitoring/logging-observability.md
       - Grafana, Prometheus, Loki, and Observability: best-practices/operations-monitoring/grafana-prometheus-loki-observability.md
       - Testing Best Practices: best-practices/operations-monitoring/testing-best-practices.md
@@ -161,6 +225,11 @@ nav:
     - 🔒 Security:
       - Overview: best-practices/security/index.md
       - End-to-End Secrets Management & Key Rotation: best-practices/security/secrets-governance.md
+      - Identity & Access Management, RBAC/ABAC, and Least-Privilege Governance: best-practices/security/iam-rbac-abac-governance.md
+      - "Secure-by-Design Lifecycle Architecture Across Polyglot Systems": best-practices/security/secure-by-design-polyglot.md
+      - Secure Computes, Sandboxing, and Multi-Tenant Isolation for Polyglot Systems: best-practices/security/secure-sandboxing-and-multi-tenant-isolation.md
+      - Cross-Domain Identity Federation, AuthZ/AuthN Architecture & Identity Propagation Models: best-practices/security/identity-federation-authz-authn-architecture.md
+      - Secret Supply Chains, Encryption Lifecycle Management & Cryptographic Rotation Strategy: best-practices/security/encryption-lifecycle-and-crypto-rotation.md
     - ⚡ Performance:
       - Overview: best-practices/performance/index.md
       - End-to-End Caching Strategy: best-practices/performance/end-to-end-caching-strategy.md
@@ -332,6 +401,9 @@ plugins:
       minify_html: true
       minify_js: true
       minify_css: true
+  # Section index plugin for better index page handling
+  - section-index:
+      readthedocs: true
 
 extra:
   social:
