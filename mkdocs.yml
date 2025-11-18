@@ -114,6 +114,7 @@ nav:
       - Overview: best-practices/database-data/index.md
       - "Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement": best-practices/database-data/data-lineage-contracts.md
       - Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment: best-practices/database-data/semantic-layer-engineering.md
+      - "AI-Ready, ML-Enabled Geospatial Knowledge Graph": best-practices/database-data/ai-ml-geospatial-knowledge-graph.md
       - Parquet: best-practices/database-data/parquet.md
       - GeoParquet: best-practices/database-data/geoparquet.md
       - Patroni PostgreSQL HA: best-practices/database-data/patroni-postgres-ha.md
