@@ -1,3 +1,9 @@
+---
+tags:
+  - performance
+  - geospatial
+---
+
 # Parquet Best Practices: Fast Queries, Cheap Storage, Clean Schemas
 
 ## 1. TL;DR Checklist

@@ -1,3 +1,10 @@
+---
+tags:
+  - docker
+  - postgresql
+  - observability
+---
+
 # Streaming IoT Telemetry with Kafka + TimescaleDB (via Docker Compose)
 
 **Objective**: Simulate thousands of device ticks (JSON/Avro), publish to Kafka, sink into Timescale hypertables using Kafka Connect JDBC Sink. Cover schemas, partitioning, retention, and performance.

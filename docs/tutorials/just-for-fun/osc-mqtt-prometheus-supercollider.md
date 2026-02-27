@@ -1,3 +1,10 @@
+---
+tags:
+  - audio
+  - midi
+  - observability
+---
+
 # The Singing Pager: Sonifying Telemetry
 
 **Objective**: Turn system metrics and MQTT events into sound using SuperCollider via OSC. Pipe Prometheus alerts → a tiny Python bridge → OSC messages → SuperCollider synths; also export a /metrics endpoint so your symphony is observable.
@@ -559,3 +566,8 @@ docker compose --profile audio up -d
 ---
 
 *This tutorial provides the complete machinery for sonifying system telemetry. Each component is production-ready, copy-paste runnable, and designed to turn your infrastructure into an audible symphony of system health.*
+
+!!! tip "See also"
+    - [Pi-Based Sample Library Server](pi-sample-server.md) — take the WebAudio engine further with a full sample library on a Pi
+    - [Redis Streams + Web MIDI](redis-midi-music.md) — MIDI-driven procedural music via Redis Streams; adjacent creative territory
+    - [Grafana, Prometheus, Loki Observability](../../best-practices/operations-monitoring/grafana-prometheus-loki-observability.md) — the visual complement to audible telemetry

@@ -1,3 +1,10 @@
+---
+tags:
+  - raspberry-pi
+  - kubernetes
+  - docker
+---
+
 # RKE2 on a Raspberry Pi Farm
 
 **Objective**: Build a production-ready Kubernetes cluster using RKE2 on Raspberry Pi hardware. Transform your Pi collection into a mini data center with enterprise-grade orchestration.
@@ -685,3 +692,8 @@ RKE2 on Raspberry Pi creates a powerful, affordable Kubernetes learning environm
 ---
 
 *This tutorial provides the complete machinery for building a production-ready RKE2 cluster on Raspberry Pi hardware. The cluster scales from learning to production, from megabytes to terabytes.*
+
+!!! tip "See also"
+    - [Pi-Based Sample Library Server](../just-for-fun/pi-sample-server.md) — another production-quality Pi project; deploy the API on your RKE2 cluster
+    - [Docker & Compose Best Practices](../../best-practices/docker-infrastructure/docker-and-compose.md) — container fundamentals before going full Kubernetes
+    - [IAM & RBAC Governance](../../best-practices/security/iam-rbac-abac-governance.md) — lock down your cluster with proper RBAC from day one

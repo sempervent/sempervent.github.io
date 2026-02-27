@@ -1,3 +1,9 @@
+---
+tags:
+  - security
+  - kubernetes
+---
+
 # Identity & Access Management, RBAC/ABAC, and Least-Privilege Governance for Distributed Systems
 
 **Objective**: Master production-grade identity and access management across heterogeneous distributed systems. When you need to implement least-privilege access, RBAC/ABAC patterns, SSO integration, and comprehensive authorization governance—this guide provides complete patterns and implementations.
@@ -2635,4 +2641,9 @@ class AuditLogExporter:
 ---
 
 *This guide provides a complete framework for IAM and authorization governance. Start with inventory and assessment, then implement least-privilege roles, integrate SSO, and add auditing. The goal is defense in depth with multiple layers of access control.*
+
+!!! tip "See also"
+    - [RKE2 on Raspberry Pi](../../tutorials/docker-infrastructure/rke2-raspberry-pi.md) — apply these RBAC patterns to a real Kubernetes cluster
+    - [End-to-End Secrets Management](../security/secrets-governance.md) — RBAC and secrets governance go hand-in-hand
+    - [Cross-Domain Identity Federation](identity-federation-authz-authn-architecture.md) — extend RBAC across service boundaries and external identity providers
 

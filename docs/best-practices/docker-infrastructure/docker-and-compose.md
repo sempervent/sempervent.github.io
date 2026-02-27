@@ -1,3 +1,9 @@
+---
+tags:
+  - docker
+  - performance
+---
+
 # Docker & Compose Best Practices
 
 This document establishes the definitive approach to Docker and Compose workflows that refuse to break. Every command is copy-paste runnable, every configuration is auditable, and every practice eliminates "works on my machine" entropy. We enforce speed, determinism, and repeatability through Bake for orchestration, profiles for intent, and security by default.
@@ -369,3 +375,8 @@ docker buildx bake app --set *.output=type=registry
 ```
 
 **Why:** This sequence establishes a working Docker environment with multi-arch support, caching, and attestations in under 5 minutes. Each command builds on the previous, ensuring a deterministic setup that matches production CI environments.
+
+!!! tip "See also"
+    - [RKE2 on Raspberry Pi](../../tutorials/docker-infrastructure/rke2-raspberry-pi.md) — graduate from Compose to full Kubernetes on ARM hardware
+    - [Compose Profiles Polyglot Stack](../../tutorials/docker-infrastructure/compose-profiles-polyglot-stack.md) — advanced Compose profile techniques for complex multi-service stacks
+    - [SBOMs, Trivy Scans, and CVE Mitigation](docker-sbom-trivy-cve-mitigation.md) — secure your images before they reach production

@@ -1,3 +1,9 @@
+---
+tags:
+  - machine-learning
+  - performance
+---
+
 # ONNX Browser Inference: Deploy Machine Learning Models Directly in the Browser
 
 **Objective**: Master ONNX model inference in web browsers for client-side machine learning applications. When you need to run ML models directly in the browser, when you're building privacy-preserving applications, when you want to reduce server costs and latency—browser-based ONNX inference becomes your weapon of choice.
@@ -1026,3 +1032,8 @@ Browser-based ONNX inference enables client-side machine learning without server
 ---
 
 *This guide provides the complete machinery for mastering browser ONNX inference. The patterns scale from simple demos to production web applications, from basic inference to advanced optimization.*
+
+!!! tip "See also"
+    - [ML Systems Architecture Governance](../../best-practices/ml-ai/ml-systems-architecture-governance.md) — production model serving patterns; where ONNX fits in a full ML platform
+    - [ONNX Model Optimization](../../best-practices/ml-ai/onnx-model-optimization.md) — optimize your models before shipping to the browser
+    - [RAG with Ollama + Database](rag-ollama-db.md) — complement client-side inference with server-side LLM retrieval

@@ -1,3 +1,10 @@
+---
+tags:
+  - geospatial
+  - postgresql
+  - performance
+---
+
 # PostGIS Geometry Indexing — Best Practices
 
 This tutorial establishes the definitive approach to PostGIS geometry indexing that makes spatial queries fast, predictable, and boring. We enforce correct SRIDs, SARGable predicates, proper index classes (GiST/SP-GiST), ruthless query hygiene, and maintenance that doesn't lie.
@@ -351,3 +358,8 @@ WHERE ST_DWithin(
 - **Verify:** with EXPLAIN (ANALYZE, BUFFERS). If it isn't measured, it didn't happen
 
 **Why:** This checklist ensures optimal PostGIS performance. Each item addresses a critical aspect of spatial query optimization.
+
+!!! tip "See also"
+    - [PostGIS Best Practices](../../best-practices/postgres/postgis-best-practices.md) — the conceptual companion to this tutorial; spatial patterns and anti-patterns
+    - [PostgreSQL Indexing Strategies](../../best-practices/postgres/postgres-indexing-strategies.md) — general indexing theory that underpins GiST/SP-GiST choices
+    - [GeoParquet Best Practices](../../best-practices/database-data/geoparquet.md) — when PostGIS isn't the right tool for the job

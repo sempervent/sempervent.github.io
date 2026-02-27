@@ -1,3 +1,10 @@
+---
+tags:
+  - observability
+  - kubernetes
+  - performance
+---
+
 # Release Management, Change Governance, and Progressive Delivery: Best Practices for Distributed Systems
 
 **Objective**: Master production-grade release management and progressive delivery for distributed systems. When you need to safely deploy changes across applications, databases, data pipelines, and ML systems—this guide provides complete patterns and implementations.

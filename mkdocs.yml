@@ -40,9 +40,12 @@ theme:
     # Table of contents
     - toc.integrate
     - toc.follow
+    # Navigation breadcrumbs
+    - navigation.path
     # Search enhancements
     - search.suggest
     - search.highlight
+    - search.share
     # Content actions
     - content.code.copy       # Copy code blocks
     - content.action.edit     # Edit page link
@@ -62,9 +65,16 @@ theme:
 
 nav:
   - Home: index.md
+  - What's New: whats-new.md
+  - Tags: tags.md
   - Professional Profile: about.md
   - Projects: projects.md
   - Technical Documentation: documentation.md
+  - Architecture Decisions:
+    - Overview: adr/index.md
+    - "ADR-0002: MkDocs + Material": adr/0002-why-mkdocs-material.md
+    - "ADR-0003: Best Practices vs Tutorials": adr/0003-why-best-practices-vs-tutorials.md
+    - "ADR-0004: Why Just for Fun Exists": adr/0004-why-just-for-fun-exists.md
   - Best Practices:
     - Overview: best-practices/index.md
     - 📌 Start Here:
@@ -128,38 +138,42 @@ nav:
       - Geospatial Benchmarking: best-practices/database-data/geospatial-benchmarking.md
     - 🐘 PostgreSQL Development:
       - Overview: best-practices/postgres/index.md
-      - PostgreSQL Development Environment: best-practices/postgres/postgres-dev-environment.md
-      - PostgreSQL Performance Tuning: best-practices/postgres/postgres-performance-tuning.md
-      - PostgreSQL Security Best Practices: best-practices/postgres/postgres-security-best-practices.md
-      - PostgreSQL Backup & Recovery: best-practices/postgres/postgres-backup-recovery.md
-      - PostgreSQL Monitoring & Observability: best-practices/postgres/postgres-monitoring-observability.md
-      - PostgreSQL Replication & High Availability: best-practices/postgres/postgres-replication-ha.md
-      - PostgreSQL Partitioning: best-practices/postgres/postgres-partitioning.md
-      - PostgreSQL Extensions: best-practices/postgres/postgres-extensions.md
-      - PostgreSQL JSON & JSONB: best-practices/postgres/postgres-json-jsonb.md
-      - PostgreSQL Full-Text Search: best-practices/postgres/postgres-fulltext-search.md
-      - PostgreSQL Database Design: best-practices/postgres/postgres-database-design.md
-      - PostgreSQL Indexing Strategies: best-practices/postgres/postgres-indexing-strategies.md
-      - PostgreSQL Data Types: best-practices/postgres/postgres-data-types.md
-      - PostgreSQL Constraints & Validation: best-practices/postgres/postgres-constraints-validation.md
-      - PostgreSQL Transactions & Concurrency: best-practices/postgres/postgres-transactions-concurrency.md
-      - PostGIS Best Practices: best-practices/postgres/postgis-best-practices.md
-      - PostgreSQL Foreign Data Wrappers: best-practices/postgres/fdw-postgres.md
-      - PostgreSQL Connection Pooling: best-practices/postgres/postgres-pooling.md
-      - PostgreSQL Time Series Data: best-practices/postgres/postgres-timeseries.md
-      - PostgreSQL Large Object Storage: best-practices/postgres/postgres-large-objects.md
-      - PostgreSQL Deployment Strategies: best-practices/postgres/postgres-deployment-strategies.md
-      - PostgreSQL Configuration Management: best-practices/postgres/postgres-configuration-management.md
-      - PostgreSQL Maintenance & Vacuum: best-practices/postgres/postgres-maintenance-vacuum.md
-      - PostgreSQL Scaling Strategies: best-practices/postgres/postgres-scaling-strategies.md
-      - PostgreSQL Troubleshooting: best-practices/postgres/postgres-troubleshooting.md
-      - PostgreSQL API Development: best-practices/postgres/postgres-api-development.md
-      - PostgreSQL Event-Driven Architecture: best-practices/postgres/postgres-event-driven.md
-      - PostgreSQL Data Pipeline Integration: best-practices/postgres/postgres-data-pipeline-integration.md
-      - PostgreSQL Cloud Integration: best-practices/postgres/postgres-cloud-integration.md
-      - PostgreSQL Containerization: best-practices/postgres/postgres-containerization.md
-      - Data Engineering: best-practices/database-data/data-engineering.md
-      - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
+      - Core & Design:
+        - Development Environment: best-practices/postgres/postgres-dev-environment.md
+        - Database Design: best-practices/postgres/postgres-database-design.md
+        - Data Types: best-practices/postgres/postgres-data-types.md
+        - Constraints & Validation: best-practices/postgres/postgres-constraints-validation.md
+        - Transactions & Concurrency: best-practices/postgres/postgres-transactions-concurrency.md
+        - Indexing Strategies: best-practices/postgres/postgres-indexing-strategies.md
+        - Security Best Practices: best-practices/postgres/postgres-security-best-practices.md
+      - Performance & Operations:
+        - Performance Tuning: best-practices/postgres/postgres-performance-tuning.md
+        - Monitoring & Observability: best-practices/postgres/postgres-monitoring-observability.md
+        - Backup & Recovery: best-practices/postgres/postgres-backup-recovery.md
+        - Replication & High Availability: best-practices/postgres/postgres-replication-ha.md
+        - Maintenance & Vacuum: best-practices/postgres/postgres-maintenance-vacuum.md
+        - Scaling Strategies: best-practices/postgres/postgres-scaling-strategies.md
+        - Connection Pooling: best-practices/postgres/postgres-pooling.md
+        - Troubleshooting: best-practices/postgres/postgres-troubleshooting.md
+        - Configuration Management: best-practices/postgres/postgres-configuration-management.md
+      - Advanced Features:
+        - Extensions: best-practices/postgres/postgres-extensions.md
+        - JSON & JSONB: best-practices/postgres/postgres-json-jsonb.md
+        - Full-Text Search: best-practices/postgres/postgres-fulltext-search.md
+        - Partitioning: best-practices/postgres/postgres-partitioning.md
+        - Time Series Data: best-practices/postgres/postgres-timeseries.md
+        - Large Object Storage: best-practices/postgres/postgres-large-objects.md
+        - Foreign Data Wrappers: best-practices/postgres/fdw-postgres.md
+        - PostGIS Best Practices: best-practices/postgres/postgis-best-practices.md
+      - Integration & Deployment:
+        - API Development: best-practices/postgres/postgres-api-development.md
+        - Event-Driven Architecture: best-practices/postgres/postgres-event-driven.md
+        - Data Pipeline Integration: best-practices/postgres/postgres-data-pipeline-integration.md
+        - Cloud Integration: best-practices/postgres/postgres-cloud-integration.md
+        - Containerization: best-practices/postgres/postgres-containerization.md
+        - Deployment Strategies: best-practices/postgres/postgres-deployment-strategies.md
+        - Data Engineering: best-practices/database-data/data-engineering.md
+        - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
     - 📊 Data Governance:
       - Overview: best-practices/data-governance/index.md
       - Metadata Standards, Schema Governance & Data Provenance: best-practices/data-governance/metadata-provenance-contracts.md
@@ -268,6 +282,8 @@ nav:
       - Event-Sourcing in Rust: tutorials/rust-development/rust-event-sourcing.md
     - 🐳 Docker & Infrastructure:
       - Overview: tutorials/docker-infrastructure/index.md
+      - Multi-Stage Docker (Conda → scratch): tutorials/docker-infrastructure/multistage-conda-to-scratch.md
+      - Slim Geospatial + GPU Containers (GDAL): tutorials/docker-infrastructure/slim-geospatial-gpu-conda.md
       - Slimming GPU Docker Images: tutorials/docker-infrastructure/slim-gpu-docker-images.md
       - Slimming TensorFlow GPU Images: tutorials/docker-infrastructure/slim-tf-gpu-images.md
       - TensorFlow GPU Slim Images - Repository Skeleton: tutorials/docker-infrastructure/slim-tf-gpu-images-skeleton.md
@@ -347,6 +363,8 @@ nav:
       - Managing People in Software Development: tutorials/just-for-fun/managing-people-software-dev.md
       - OSC + MQTT + Prometheus + SuperCollider: tutorials/just-for-fun/osc-mqtt-prometheus-supercollider.md
       - Fractal Art Explorer (JavaScript): tutorials/just-for-fun/fractal-art-explorer-js.md
+      - Pi-Based Sample Library Server: tutorials/just-for-fun/pi-sample-server.md
+      - Recursive Cathedral Generator (Kotlin): tutorials/just-for-fun/kotlin-recursive-cathedral.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
@@ -395,6 +413,8 @@ markdown_extensions:
 plugins:
   - search:
       lang: en
+      separator: '[\s\-\_\.]+'
+  - tags
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago

@@ -17,6 +17,11 @@
 - **[Managing People in Software Development](managing-people-software-dev.md)** - From engineer to leader: essential practices for technical managers
 - **[OSC + MQTT + Prometheus + SuperCollider](osc-mqtt-prometheus-supercollider.md)** - Let your metrics sing
 - **[Fractal Art Explorer (JavaScript)](fractal-art-explorer-js.md)** - Real-time Mandelbrot/Julia explorer with palettes, orbit traps, and GPU acceleration
+- **[Pi-Based Sample Library Server](pi-sample-server.md)** - Raspberry Pi sample server with SQLite indexing, Nginx, FastAPI, WebAudio, and USB MIDI live audition
+
+## Generative Art (Kotlin)
+
+- **[Recursive Cathedral Generator](kotlin-recursive-cathedral.md)** - Grow Gothic cathedral silhouettes from recursive L-system rules using Kotlin + Processing. Deterministic seeds, bilateral symmetry, exportable PNG frames.
 
 ---
 

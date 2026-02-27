@@ -75,6 +75,22 @@ Technical implementations, experiments, and creative explorations at the edge of
 
 </div>
 
+<div class="card">
+
+### 🎨 Just for Fun
+
+Creative, experimental, and occasionally absurd implementations — from generative art to MIDI-driven servers.
+
+**[Explore Just for Fun →](tutorials/just-for-fun/index.md)**
+
+**Recent:**
+- [Pi Sample Library Server](tutorials/just-for-fun/pi-sample-server.md)
+- [Recursive Cathedral Generator](tutorials/just-for-fun/kotlin-recursive-cathedral.md)
+- [Fractal Art Explorer](tutorials/just-for-fun/fractal-art-explorer-js.md)
+- [OSC + MQTT + SuperCollider](tutorials/just-for-fun/osc-mqtt-prometheus-supercollider.md)
+
+</div>
+
 </div>
 
 ---
@@ -110,10 +126,10 @@ If you're new to this site, these foundational guides will give you the most val
 
 Currently focused on:
 
-- **Advanced geospatial data warehouse architectures** using GeoParquet and PostGIS
-- **Real-time IoT tracking systems** with Kafka, TimescaleDB, and geospatial processing
-- **Production-grade configuration management** for multi-environment distributed systems
-- **ML model deployment pipelines** with ONNX, MLflow, and progressive delivery
+- **[Advanced geospatial data warehouse architectures](best-practices/database-data/geoparquet-data-warehouses.md)** using GeoParquet and PostGIS
+- **[Real-time IoT tracking systems](tutorials/database-data-engineering/kafka-timescaledb-iot.md)** with Kafka, TimescaleDB, and geospatial processing
+- **[Production-grade configuration management](best-practices/operations-monitoring/configuration-management.md)** for multi-environment distributed systems
+- **[ML model deployment pipelines](tutorials/ml-ai/mcp-mlflow-toolchain.md)** with ONNX, MLflow, and progressive delivery
 
 ---
 
@@ -129,11 +145,17 @@ The content is organized to be **immediately useful**: copy-paste examples, prod
 
 ## Latest Updates
 
-- **2025**: Comprehensive guides on release management, configuration governance, and IAM/RBAC patterns
-- **2024**: Deep dives into system resilience, caching strategies, and secrets management
-- **2023**: Expanded geospatial and data engineering tutorials
+**Feb 2026:**
+- [Recursive Cathedral Generator (Kotlin + Processing)](tutorials/just-for-fun/kotlin-recursive-cathedral.md) — L-system generative architecture
+- [Pi-Based Sample Library Server](tutorials/just-for-fun/pi-sample-server.md) — WebAudio + SQLite + USB MIDI on a Raspberry Pi
 
-*For the most up-to-date content, check the [Best Practices](best-practices/index.md) and [Tutorials](tutorials/index.md) sections.*
+**2025:**
+- [Vibe → Agentic LLMs](best-practices/ml-ai/vibe-to-agentic.md) — Production agentic LLM architecture
+- [IAM & RBAC Governance](best-practices/security/iam-rbac-abac-governance.md) — Identity and access across heterogeneous stacks
+- [Release Management & Progressive Delivery](best-practices/operations-monitoring/release-management-and-progressive-delivery.md) — Safe deployments at scale
+- [ONNX Browser Inference](tutorials/ml-ai/onnx-browser-inference.md) — Run ML models client-side
+
+**[See all recent additions →](whats-new.md)**
 
 ---
 

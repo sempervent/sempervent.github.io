@@ -4,6 +4,8 @@
 
 ## Containerization & Orchestration
 
+- **[Multi-Stage Docker: Conda Build → scratch](multistage-conda-to-scratch.md)** - Start from Conda, ship a zero-OS scratch image. Covers shared lib collection, CA certs, non-root users, and the dynamic loader trap.
+- **[Slim Geospatial + GPU Containers (GDAL + CuPy)](slim-geospatial-gpu-conda.md)** - Build a GDAL + PROJ + GPU Python stack with Conda and slim it from 12 GB to under 4 GB using micromamba, multi-stage builds, and a ruthless bloat checklist.
 - **[Slimming GPU Docker Images](slim-gpu-docker-images.md)** - Optimize GPU-based containers for production
 - **[Slimming TensorFlow GPU Images](slim-tf-gpu-images.md)** - Cut down TensorFlow GPU images to fighting weight
 - **[TensorFlow GPU Slim Images - Repository Skeleton](slim-tf-gpu-images-skeleton.md)** - Complete production-ready example for building slim TensorFlow GPU containers
