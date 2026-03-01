@@ -13,6 +13,7 @@ See [ADR and Technical Decision Governance](../best-practices/architecture-desig
 | [ADR-0003](0003-why-best-practices-vs-tutorials.md) | Separate Best Practices from Tutorials | Accepted | 2024-02-01 |
 | [ADR-0004](0004-why-just-for-fun-exists.md) | Include a Just for Fun Section | Accepted | 2024-03-10 |
 | [ADR-0005](0005-esp32-section-architecture.md) | Establish ESP32 & Embedded Systems as a First-Class Section | Accepted | 2026-02-26 |
+| [ADR-0006](0006-embedded-expansion-lora-power.md) | Expand Embedded Section — LoRa, Power Electronics, Variant Notes | Accepted | 2026-02-26 |
 
 ## Templates
 

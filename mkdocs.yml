@@ -77,6 +77,7 @@ nav:
     - "ADR-0003: Best Practices vs Tutorials": adr/0003-why-best-practices-vs-tutorials.md
     - "ADR-0004: Why Just for Fun Exists": adr/0004-why-just-for-fun-exists.md
     - "ADR-0005: ESP32 Section Architecture": adr/0005-esp32-section-architecture.md
+    - "ADR-0006: Embedded Expansion (LoRa + Power)": adr/0006-embedded-expansion-lora-power.md
   - Best Practices:
     - Overview: best-practices/index.md
     - 📌 Start Here:
@@ -269,6 +270,12 @@ nav:
       - Sensor Integration: best-practices/esp32/sensor-integration-best-practices.md
       - E-Ink Display Integration: best-practices/esp32/e-ink-display-best-practices.md
       - MQTT Security: best-practices/esp32/mqtt-security-best-practices.md
+      - LoRa Best Practices (SX127x): best-practices/esp32/lora-best-practices-sx127x.md
+      - Safety Checklist (Printable): best-practices/esp32/esp32-safety-checklist-printable.md
+      - ESP32-S3 and C3 Notes: best-practices/esp32/esp32-s3-and-c3-architecture-notes.md
+    - 🔋 Power Electronics & Embedded Hardware:
+      - Overview: best-practices/embedded/index.md
+      - Power Electronics for ESP32: best-practices/embedded/power-electronics-for-esp32.md
     - 🏠 Home Automation & MQTT:
       - Overview: best-practices/home-automation/index.md
       - Home Assistant Security: best-practices/home-automation/home-assistant-security-best-practices.md

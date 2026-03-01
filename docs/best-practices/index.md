@@ -134,6 +134,16 @@ Safe, power-efficient, and maintainable firmware patterns for ESP32-based projec
 - **[Sensor Integration](esp32/sensor-integration-best-practices.md)** - I2C/SPI wiring, ADC caveats, filtering, calibration
 - **[E-Ink Display Integration](esp32/e-ink-display-best-practices.md)** - Partial vs full refresh, ghosting, hibernate, frame buffers
 - **[MQTT Security](esp32/mqtt-security-best-practices.md)** - Broker hardening, ACLs, TLS, topic design, credential storage for IoT
+- **[LoRa Best Practices (SX127x)](esp32/lora-best-practices-sx127x.md)** - Spreading factor, duty cycle compliance, antenna layout, power strategy, AES encryption for raw LoRa
+- **[Safety Checklist (Printable)](esp32/esp32-safety-checklist-printable.md)** - Pre-build checklist covering electrical, power, firmware, RF, and physical safety — print to PDF
+- **[ESP32-S3 and C3 Notes](esp32/esp32-s3-and-c3-architecture-notes.md)** - USB native, RISC-V, BLE 5.0, variant selection guide, DS/HMAC security peripherals
+
+## 🔋 Power Electronics & Embedded Hardware
+
+Cross-platform hardware engineering patterns — applies to ESP32, RP2040, and any microcontroller project.
+
+- **[Power Electronics Overview](embedded/index.md)** - Section overview
+- **[Power Electronics for ESP32](embedded/power-electronics-for-esp32.md)** - Logic-level MOSFETs, high/low-side switching, LiPo charging circuits, solar input, buck vs LDO, brownout protection
 
 ## 🏠 Home Automation & MQTT
 

@@ -17,6 +17,9 @@ tags:
 - **[Sensor Integration](sensor-integration-best-practices.md)** — I2C vs SPI vs analog, pull-ups, filtering, calibration, debouncing
 - **[E-Ink Display Integration](e-ink-display-best-practices.md)** — Partial vs full refresh, ghosting, SPI wiring, frame buffer design, over-refresh protection
 - **[MQTT Security](mqtt-security-best-practices.md)** — Broker hardening, ACLs, TLS, per-device credentials, topic design, NVS credential storage
+- **[LoRa Best Practices (SX127x)](lora-best-practices-sx127x.md)** — Spreading factor, duty cycle, antenna layout, firmware state machine, AES encryption for raw LoRa
+- **[Safety Checklist (Printable)](esp32-safety-checklist-printable.md)** — Checklist for electrical, power, firmware, RF, and physical safety; print to PDF
+- **[ESP32-S3 and C3 Notes](esp32-s3-and-c3-architecture-notes.md)** — USB native, RISC-V, BLE 5.0, variant selection, DS/HMAC hardware security peripherals
 
 ## Applied Tutorial
 
