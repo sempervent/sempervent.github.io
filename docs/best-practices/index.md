@@ -133,6 +133,14 @@ Safe, power-efficient, and maintainable firmware patterns for ESP32-based projec
 - **[Embedded Security & OTA](esp32/embedded-security-and-ota.md)** - NVS secrets, secure boot, OTA updates, WiFi hygiene
 - **[Sensor Integration](esp32/sensor-integration-best-practices.md)** - I2C/SPI wiring, ADC caveats, filtering, calibration
 - **[E-Ink Display Integration](esp32/e-ink-display-best-practices.md)** - Partial vs full refresh, ghosting, hibernate, frame buffers
+- **[MQTT Security](esp32/mqtt-security-best-practices.md)** - Broker hardening, ACLs, TLS, topic design, credential storage for IoT
+
+## 🏠 Home Automation & MQTT
+
+Secure home automation architecture patterns.
+
+- **[Home Automation Overview](home-automation/index.md)** - Security-focused guides for home automation systems
+- **[Home Assistant Security Best Practices](home-automation/home-assistant-security-best-practices.md)** - Access control, TLS, reverse proxy, IoT VLAN, zero-trust mindset
 
 ## 🎨 Creative & Fun
 

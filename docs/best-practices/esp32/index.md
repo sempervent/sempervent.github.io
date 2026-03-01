@@ -16,7 +16,9 @@ tags:
 - **[Embedded Security & OTA](embedded-security-and-ota.md)** — NVS secrets, secure boot, flash encryption, OTA signing, WiFi credential hygiene
 - **[Sensor Integration](sensor-integration-best-practices.md)** — I2C vs SPI vs analog, pull-ups, filtering, calibration, debouncing
 - **[E-Ink Display Integration](e-ink-display-best-practices.md)** — Partial vs full refresh, ghosting, SPI wiring, frame buffer design, over-refresh protection
+- **[MQTT Security](mqtt-security-best-practices.md)** — Broker hardening, ACLs, TLS, per-device credentials, topic design, NVS credential storage
 
 ## Applied Tutorial
 
 - **[ESP32 E-Ink Environmental Monitor](../../tutorials/embedded/esp32-eink-sensor-monitor.md)** — Capstone project: BME280 + BH1750 → e-ink display → deep sleep loop on battery power
+- **[ESP32 + MQTT + Home Assistant Integration](../../tutorials/embedded/esp32-mqtt-home-assistant-integration.md)** — Secure sensor node with TLS MQTT, ACL, LWT, and HA auto-discovery

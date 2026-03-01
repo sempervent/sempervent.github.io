@@ -76,6 +76,7 @@ nav:
     - "ADR-0002: MkDocs + Material": adr/0002-why-mkdocs-material.md
     - "ADR-0003: Best Practices vs Tutorials": adr/0003-why-best-practices-vs-tutorials.md
     - "ADR-0004: Why Just for Fun Exists": adr/0004-why-just-for-fun-exists.md
+    - "ADR-0005: ESP32 Section Architecture": adr/0005-esp32-section-architecture.md
   - Best Practices:
     - Overview: best-practices/index.md
     - 📌 Start Here:
@@ -267,6 +268,10 @@ nav:
       - Embedded Security & OTA: best-practices/esp32/embedded-security-and-ota.md
       - Sensor Integration: best-practices/esp32/sensor-integration-best-practices.md
       - E-Ink Display Integration: best-practices/esp32/e-ink-display-best-practices.md
+      - MQTT Security: best-practices/esp32/mqtt-security-best-practices.md
+    - 🏠 Home Automation & MQTT:
+      - Overview: best-practices/home-automation/index.md
+      - Home Assistant Security: best-practices/home-automation/home-assistant-security-best-practices.md
   - Tutorials:
     - Overview: tutorials/index.md
     - 🚀 Quick Start:
@@ -381,6 +386,8 @@ nav:
     - 🔌 Embedded Systems:
       - Overview: tutorials/embedded/index.md
       - ESP32 E-Ink Environmental Monitor: tutorials/embedded/esp32-eink-sensor-monitor.md
+      - ESP32 RF Room Light Controller: tutorials/embedded/esp32-rf-room-light-controller.md
+      - ESP32 + MQTT + Home Assistant: tutorials/embedded/esp32-mqtt-home-assistant-integration.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
