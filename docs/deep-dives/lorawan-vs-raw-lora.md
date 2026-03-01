@@ -9,6 +9,8 @@ tags:
 
 *This is a Deep Dive — an analytical exploration of a design tension, not a deployment guide. For firmware configuration and wiring, see [LoRa Best Practices (SX127x)](../best-practices/esp32/lora-best-practices-sx127x.md).*
 
+**Themes:** Embedded · Radio · Economics
+
 ---
 
 ## Opening Thesis

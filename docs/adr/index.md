@@ -15,6 +15,14 @@ See [ADR and Technical Decision Governance](../best-practices/architecture-desig
 | [ADR-0005](0005-esp32-section-architecture.md) | Establish ESP32 & Embedded Systems as a First-Class Section | Accepted | 2026-02-26 |
 | [ADR-0006](0006-embedded-expansion-lora-power.md) | Expand Embedded Section — LoRa, Power Electronics, Variant Notes | Accepted | 2026-02-26 |
 | [ADR-0007](0007-deep-dives-section.md) | Introduce "Deep Dives" Section for Analytical Long-Form Content | Accepted | 2026-02-26 |
+| [ADR-0008](0008-expand-deep-dives-section.md) | Expand Deep Dives as a First-Class Analytical Section | Accepted | 2026-02-26 |
+| [ADR-0009](0009-deep-dives-expansion.md) | Expand Deep Dives into Core Analytical Layer | Accepted | 2026-02-26 |
+| [ADR-0010](0010-deep-dives-governance.md) | Governance Model for Deep Dives | Accepted | 2026-02-26 |
+| [ADR-0011](0011-deep-dives-expansion-phase-2.md) | Deep Dives Expansion Phase II | Accepted | 2026-02-26 |
+| [ADR-0012](0012-deep-dives-scale-governance.md) | Governance Model for Large-Scale Deep Dive Section | Accepted | 2026-02-26 |
+| [ADR-0013](0013-deep-dives-curation-model.md) | Deep Dive Curation and Thematic Clustering Model | Accepted | 2026-02-26 |
+| [ADR-0014](0014-elevate-site-to-systems-doctrine.md) | Elevate Site from Documentation Collection to Cohesive Systems Doctrine | Accepted | 2026-02-26 |
+| [ADR-0015](0015-diagrams-mermaid.md) | Standardize Site Diagrams on Mermaid | Accepted | 2026-02-27 |
 
 ## Templates
 

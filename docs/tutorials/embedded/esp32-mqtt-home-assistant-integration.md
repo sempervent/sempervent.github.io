@@ -495,3 +495,4 @@ mosquitto_pub --cafile ca.crt -h 192.168.1.10 -p 8883 \
     - [Embedded Security & OTA](../../best-practices/esp32/embedded-security-and-ota.md) — NVS credential storage, OTA firmware updates
     - [ESP32 Hardware & Electrical Safety](../../best-practices/esp32/esp32-hardware-and-electrical-safety.md) — GPIO limits, 3.3 V logic, relay safety
     - [ESP32 E-Ink Environmental Monitor](esp32-eink-sensor-monitor.md) — companion project: same BME280 sensor, different output (e-ink + deep sleep instead of MQTT)
+    - [Deep Dive: MQTT vs HTTP in IoT Systems](../../deep-dives/mqtt-vs-http-iot.md) — protocol-level analysis of MQTT vs HTTP trade-offs for IoT deployments

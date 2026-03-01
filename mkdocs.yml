@@ -70,6 +70,15 @@ nav:
   - Professional Profile: about.md
   - Projects: projects.md
   - Technical Documentation: documentation.md
+  - Doctrine:
+    - Start Here — Architectural Compass: start-here-architectural-paths.md
+    - Reading Tracks: reading-tracks.md
+    - Decision Frameworks: decision-frameworks.md
+    - Anti-Patterns: anti-patterns.md
+    - Philosophy: philosophy.md
+    - Systems Glossary: systems-glossary.md
+    - Diagrams:
+      - Diagram Style Guide: diagrams/style-guide.md
   - Architecture Decisions:
     - Overview: adr/index.md
     - "ADR-0001: Site Architecture": adr/0001-site-architecture.md
@@ -79,6 +88,14 @@ nav:
     - "ADR-0005: ESP32 Section Architecture": adr/0005-esp32-section-architecture.md
     - "ADR-0006: Embedded Expansion (LoRa + Power)": adr/0006-embedded-expansion-lora-power.md
     - "ADR-0007: Deep Dives Section": adr/0007-deep-dives-section.md
+    - "ADR-0008: Expand Deep Dives Section": adr/0008-expand-deep-dives-section.md
+    - "ADR-0009: Deep Dives Expansion": adr/0009-deep-dives-expansion.md
+    - "ADR-0010: Deep Dives Governance": adr/0010-deep-dives-governance.md
+    - "ADR-0011: Deep Dives Expansion Phase II": adr/0011-deep-dives-expansion-phase-2.md
+    - "ADR-0012: Deep Dives Scale Governance": adr/0012-deep-dives-scale-governance.md
+    - "ADR-0013: Deep Dives Curation Model": adr/0013-deep-dives-curation-model.md
+    - "ADR-0014: Elevate Site to Systems Doctrine": adr/0014-elevate-site-to-systems-doctrine.md
+    - "ADR-0015: Standardize Diagrams on Mermaid": adr/0015-diagrams-mermaid.md
   - Best Practices:
     - Overview: best-practices/index.md
     - 📌 Start Here:
@@ -282,8 +299,41 @@ nav:
       - Home Assistant Security: best-practices/home-automation/home-assistant-security-best-practices.md
   - Deep Dives:
     - Overview: deep-dives/index.md
+    - 📦 Data Formats & Storage:
+      - Parquet vs CSV vs ORC vs Avro: deep-dives/parquet-vs-csv-orc-avro.md
+      - Geospatial File Format Choices: deep-dives/geospatial-file-format-choices.md
+      - Polars vs Pandas for Geospatial Data: deep-dives/polars-vs-pandas-geospatial.md
+      - The Physics of Storage Systems: deep-dives/the-physics-of-storage-systems.md
+      - The Operational Geometry of Spatial Systems: deep-dives/the-operational-geometry-of-spatial-systems.md
+    - 🧩 Systems Design & Architecture:
+      - Why Most Microservices Should Be Monoliths: deep-dives/why-most-microservices-should-be-monoliths.md
+      - Appropriate Use of Microservices: deep-dives/appropriate-use-of-microservices.md
+      - Distributed Systems and the Myth of Infinite Scale: deep-dives/distributed-systems-myth-of-infinite-scale.md
+      - Why Most Kubernetes Clusters Shouldn't Exist: deep-dives/why-most-kubernetes-clusters-shouldnt-exist.md
+    - 🔭 Operations & Reliability:
+      - Observability vs Monitoring: deep-dives/observability-vs-monitoring.md
+      - The Economics of Observability: deep-dives/the-economics-of-observability.md
+    - 🐳 Infrastructure & Automation:
+      - Container Base Image Philosophy: deep-dives/container-base-image-philosophy.md
+      - IaC vs GitOps: deep-dives/iac-vs-gitops.md
+      - The Human Cost of Automation: deep-dives/the-human-cost-of-automation.md
+      - The Economics of GPU Infrastructure: deep-dives/the-economics-of-gpu-infrastructure.md
+      - The Myth of Serverless Simplicity: deep-dives/the-myth-of-serverless-simplicity.md
+    - 🏗️ Data Systems & Architecture:
+      - Lakehouse vs Warehouse vs Database: deep-dives/lakehouse-vs-warehouse-vs-database.md
+      - DuckDB vs PostgreSQL vs Spark: deep-dives/duckdb-vs-postgres-vs-spark.md
+      - Why Most Data Pipelines Fail: deep-dives/why-most-data-pipelines-fail.md
+      - Why Most Data Lakes Become Data Swamps: deep-dives/why-data-lakes-become-swamps.md
+      - Prefect vs Airflow: deep-dives/prefect-vs-airflow.md
+      - Metadata as Infrastructure: deep-dives/metadata-as-infrastructure.md
+      - The Hidden Cost of Real-Time Systems: deep-dives/the-hidden-cost-of-real-time-systems.md
+      - The End of the Data Warehouse?: deep-dives/the-end-of-the-data-warehouse.md
+      - The Hidden Cost of Metadata Debt: deep-dives/the-hidden-cost-of-metadata-debt.md
+      - Why Most ML Systems Fail in Production: deep-dives/why-ml-systems-fail-in-production.md
     - 📡 Embedded & Radio:
       - LoRaWAN vs Raw LoRa: deep-dives/lorawan-vs-raw-lora.md
+      - MQTT vs HTTP in IoT Systems: deep-dives/mqtt-vs-http-iot.md
+      - ESP32 vs Raspberry Pi: deep-dives/esp32-vs-raspberry-pi.md
   - Tutorials:
     - Overview: tutorials/index.md
     - 🚀 Quick Start:

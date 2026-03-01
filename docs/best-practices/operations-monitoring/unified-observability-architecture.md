@@ -483,6 +483,7 @@ order_requests = Counter('order_api_requests_total')
 - **[Data Lineage Contracts](../database-data/data-lineage-contracts.md)** - Observability tracks lineage
 - **[Secure-by-Design Polyglot](../security/secure-by-design-polyglot.md)** - Security telemetry integration
 - **[DX Architecture and Golden Paths](../python/dx-architecture-and-golden-paths.md)** - Developer tools use observability
+- **[Deep Dive: Observability vs Monitoring](../../deep-dives/observability-vs-monitoring.md)** - Analytical comparison of monitoring and observability philosophies, three pillars limits, and tooling trade-offs
 
 ---
 

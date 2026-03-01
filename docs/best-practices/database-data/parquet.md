@@ -250,4 +250,5 @@ When datasets grow feral:
 - **[GeoParquet Data Warehouses](geoparquet-data-warehouses.md)** - Modern geospatial data warehouses with GeoParquet
 - **[parquet_s3_fdw Tutorial](../../tutorials/database-data-engineering/parquet-s3-fdw.md)** - Step-by-step guide for using parquet_s3_fdw with multiple backends
 - **[GeoParquet with Polars Tutorial](../../tutorials/database-data-engineering/geoparquet-with-polars.md)** - High-performance spatial analytics with Polars
+- **[Deep Dive: Parquet vs CSV vs ORC vs Avro](../../deep-dives/parquet-vs-csv-orc-avro.md)** - Analytical comparison of storage formats, compression, schema evolution, and cloud-native implications
 

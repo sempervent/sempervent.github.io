@@ -29,6 +29,11 @@
 - **[Geospatial Data Engineering](geospatial-data-engineering.md)** - Spatial data management and processing
 - **[Geospatial Benchmarking](geospatial-benchmarking.md)** - Master geospatial benchmarking under CPU/GPU stress
 
+## Analytical Context
+
+- **[Deep Dive: Why Most Data Pipelines Fail](../../deep-dives/why-most-data-pipelines-fail.md)** — Organizational and architectural failure modes: schema drift, ownership ambiguity, implicit contracts, and the CI/CD gap that operational tooling cannot fix
+- **[Deep Dive: Prefect vs Airflow](../../deep-dives/prefect-vs-airflow.md)** — Orchestration philosophy, execution model architecture, failure semantics, and decision framework for workflow tool selection
+
 ---
 
 *These best practices provide the complete machinery for building production-ready data systems. Each guide includes architectural patterns, configuration examples, and real-world implementation strategies for enterprise deployment.*

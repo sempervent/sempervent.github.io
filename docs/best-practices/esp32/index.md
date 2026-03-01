@@ -25,3 +25,7 @@ tags:
 
 - **[ESP32 E-Ink Environmental Monitor](../../tutorials/embedded/esp32-eink-sensor-monitor.md)** — Capstone project: BME280 + BH1750 → e-ink display → deep sleep loop on battery power
 - **[ESP32 + MQTT + Home Assistant Integration](../../tutorials/embedded/esp32-mqtt-home-assistant-integration.md)** — Secure sensor node with TLS MQTT, ACL, LWT, and HA auto-discovery
+
+## Analytical Context
+
+- **[Deep Dive: ESP32 vs Raspberry Pi](../../deep-dives/esp32-vs-raspberry-pi.md)** — Microcontroller determinism vs Linux convenience: a comparative analysis of power, timing, security surface, and ecosystem trade-offs

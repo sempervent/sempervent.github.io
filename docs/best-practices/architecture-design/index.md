@@ -48,6 +48,11 @@
 
 - **[Protocol Buffers with Python](protobuf-python.md)** - Production-ready data serialization and microservices communication
 
+## Analytical Context
+
+- **[Deep Dive: Why Most Microservices Should Be Monoliths](../../deep-dives/why-most-microservices-should-be-monoliths.md)** — Coordination cost analysis, network boundary overhead, Conway's Law, and the organizational pre-conditions that microservices require
+- **[Deep Dive: Appropriate Use of Microservices](../../deep-dives/appropriate-use-of-microservices.md)** — Domain-driven design, bounded contexts, data ownership requirements, failure isolation patterns, and a readiness checklist
+
 ---
 
 *These best practices provide the complete machinery for building production-ready architectures. Each guide includes architectural patterns, configuration examples, and real-world implementation strategies for enterprise deployment.*
