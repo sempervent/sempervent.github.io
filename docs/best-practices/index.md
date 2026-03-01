@@ -122,6 +122,18 @@ Performance monitoring, logging, testing, and security patterns.
 
 - **[Operations & Monitoring Overview](operations-monitoring/index.md)** - Performance, logging, testing, and security
 
+## 🔌 Embedded Systems & ESP32
+
+Safe, power-efficient, and maintainable firmware patterns for ESP32-based projects.
+
+- **[Embedded Systems Overview](esp32/index.md)** - Programming architecture, power management, safety, security, sensors, and e-ink displays
+- **[Programming Architecture](esp32/esp32-programming-architecture.md)** - Event loops, FreeRTOS tasks, state machines, ISR safety, memory discipline
+- **[Power Management & Deep Sleep](esp32/power-management-and-deep-sleep.md)** - Sleep modes, RTC memory, battery safety, sub-100 µA design
+- **[Hardware & Electrical Safety](esp32/esp32-hardware-and-electrical-safety.md)** - 3.3 V logic, GPIO limits, level shifting, LiPo safety
+- **[Embedded Security & OTA](esp32/embedded-security-and-ota.md)** - NVS secrets, secure boot, OTA updates, WiFi hygiene
+- **[Sensor Integration](esp32/sensor-integration-best-practices.md)** - I2C/SPI wiring, ADC caveats, filtering, calibration
+- **[E-Ink Display Integration](esp32/e-ink-display-best-practices.md)** - Partial vs full refresh, ghosting, hibernate, frame buffers
+
 ## 🎨 Creative & Fun
 
 Creative solutions, opinions, and fun content patterns.

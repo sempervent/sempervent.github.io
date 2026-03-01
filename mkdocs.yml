@@ -259,6 +259,14 @@ nav:
       - Celery Tasks: best-practices/creative-fun/celery-best-practices.md
       - LaTeX Workflows: best-practices/creative-fun/latex.md
       - YAML Recipe Format: best-practices/creative-fun/yaml-recipe-format.md
+    - 🔌 Embedded Systems & ESP32:
+      - Overview: best-practices/esp32/index.md
+      - Programming Architecture: best-practices/esp32/esp32-programming-architecture.md
+      - Power Management & Deep Sleep: best-practices/esp32/power-management-and-deep-sleep.md
+      - Hardware & Electrical Safety: best-practices/esp32/esp32-hardware-and-electrical-safety.md
+      - Embedded Security & OTA: best-practices/esp32/embedded-security-and-ota.md
+      - Sensor Integration: best-practices/esp32/sensor-integration-best-practices.md
+      - E-Ink Display Integration: best-practices/esp32/e-ink-display-best-practices.md
   - Tutorials:
     - Overview: tutorials/index.md
     - 🚀 Quick Start:
@@ -370,6 +378,9 @@ nav:
       - MIDI-Driven Particle Nebula (Kotlin): tutorials/just-for-fun/kotlin-midi-particle-nebula.md
       - Cellular Automata Garden (Kotlin): tutorials/just-for-fun/kotlin-cellular-automata-garden.md
       - Pi Infinite Art Frame (Kotlin): tutorials/just-for-fun/pi-infinite-art-frame-kotlin.md
+    - 🔌 Embedded Systems:
+      - Overview: tutorials/embedded/index.md
+      - ESP32 E-Ink Environmental Monitor: tutorials/embedded/esp32-eink-sensor-monitor.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:
