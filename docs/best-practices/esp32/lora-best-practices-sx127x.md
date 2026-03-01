@@ -246,6 +246,7 @@ Use CBC mode with a random IV for payloads longer than one block. ECB is shown a
 ## 8. See Also
 
 !!! tip "See also"
+    - [LoRaWAN vs Raw LoRa (Deep Dive)](../../deep-dives/lorawan-vs-raw-lora.md) — analytical comparison of protocol stacks, security models, regulatory implications, and infrastructure trade-offs
     - [Power Management & Deep Sleep](power-management-and-deep-sleep.md) — deep sleep between LoRa transmissions; battery life strategy
     - [ESP32 Hardware & Electrical Safety](esp32-hardware-and-electrical-safety.md) — power supply decoupling, GPIO current limits
     - [Power Electronics for ESP32](../../best-practices/embedded/power-electronics-for-esp32.md) — MOSFET power gating of LoRa module, LiPo circuits for remote nodes
