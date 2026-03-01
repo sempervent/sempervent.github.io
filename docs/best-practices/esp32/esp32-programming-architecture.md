@@ -202,5 +202,6 @@ Run for 24 hours and verify min free heap doesn't drift downward. If it does, yo
 
 !!! tip "See also"
     - [Power Management & Deep Sleep](power-management-and-deep-sleep.md) — complement architecture with a proper sleep strategy
-    - [ESP32 E-Ink Environmental Monitor](../../tutorials/embedded/esp32-eink-sensor-monitor.md) — see these patterns applied end-to-end
+    - [ESP32 E-Ink Environmental Monitor](../../tutorials/embedded/esp32-eink-sensor-monitor.md) — see these patterns applied end-to-end in a battery sensor node
+    - [ESP32 RF Room Light Controller](../../tutorials/embedded/esp32-rf-room-light-controller.md) — state machine, ISR-driven encoder, and non-blocking loop in an interactive controller
     - [Embedded Security & OTA](embedded-security-and-ota.md) — secrets management and OTA update discipline

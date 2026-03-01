@@ -181,5 +181,6 @@ Halt and enter hibernation when battery < 3.2 V to prevent over-discharge.
 
 !!! tip "See also"
     - [ESP32 Hardware & Electrical Safety](esp32-hardware-and-electrical-safety.md) — power circuits and GPIO safety
-    - [ESP32 E-Ink Environmental Monitor](../../tutorials/embedded/esp32-eink-sensor-monitor.md) — deep sleep applied in a full project
+    - [ESP32 E-Ink Environmental Monitor](../../tutorials/embedded/esp32-eink-sensor-monitor.md) — deep sleep applied in a battery sensor node
+    - [ESP32 RF Room Light Controller](../../tutorials/embedded/esp32-rf-room-light-controller.md) — always-on USB controller: why deep sleep is skipped and what to use instead
     - [ESP32 Programming Architecture](esp32-programming-architecture.md) — how to structure the wake/sleep state machine
