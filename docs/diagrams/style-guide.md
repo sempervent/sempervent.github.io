@@ -224,3 +224,9 @@ flowchart LR
 4. Label edges when the relationship is not obvious from the node names alone.
 5. Test that the diagram renders in the MkDocs dev server (`mkdocs serve`) before committing.
 6. If the diagram is too complex, split it before submitting.
+
+---
+
+!!! tip "See also"
+    - [SVG Workflow Generation Best Practices](../best-practices/diagrams/svg-workflow-generation.md) — the full Mermaid-first, artifact-driven workflow for producing committed SVG diagrams
+    - [Mermaid → SVG Workflow Pipeline (Tutorial)](../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md) — step-by-step guide to running the render pipeline

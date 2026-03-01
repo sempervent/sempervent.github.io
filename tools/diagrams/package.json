@@ -1,0 +1,16 @@
+{
+  "name": "sempervent-diagram-tools",
+  "version": "1.0.0",
+  "description": "Mermaid → SVG rendering pipeline for sempervent.github.io",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "render:workflow": "node render_mermaid_svg.mjs --input ../../docs/assets/diagrams/workflows/data-platform-workflow.mmd",
+    "render:all": "node render_mermaid_svg.mjs --input ../../docs/assets/diagrams"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^11.0.0"
+  }
+}

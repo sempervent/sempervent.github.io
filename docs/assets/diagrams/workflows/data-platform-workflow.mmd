@@ -1,0 +1,82 @@
+%%{init: {"flowchart": {"curve": "linear"}} }%%
+flowchart LR
+
+  subgraph Sources["Sources"]
+    direction TB
+    Sensors["IoT Sensors\n(ESP32 / MQTT)"]
+    Files["File Drops\n(CSV / Parquet / COG)"]
+    APIs["External APIs\n(REST / Webhooks)"]
+  end
+
+  subgraph Ingestion["Ingestion"]
+    direction TB
+    Streaming["Streaming Ingest\n(MQTT Broker → Kafka)"]
+    Batch["Batch Ingest\n(Fivetran / custom ETL)"]
+  end
+
+  subgraph Storage["Storage"]
+    direction TB
+    ObjStore["Object Store\n(S3 — Parquet / COG)"]
+    Postgres["PostgreSQL + PostGIS\n(operational + spatial)"]
+    DeltaLake["Delta / Iceberg\n(lakehouse tables)"]
+  end
+
+  subgraph Orchestration["Orchestration"]
+    direction TB
+    Prefect["Prefect\n(scheduled flows)"]
+    CI["CI Pipeline\n(schema checks · tests)"]
+  end
+
+  subgraph Governance["Governance"]
+    direction TB
+    Catalog["Data Catalog\n(lineage · ownership)"]
+    Contracts["Schema Contracts\n(dbt tests · Soda)"]
+    Audit["Audit Log\n(GDPR / compliance)"]
+  end
+
+  subgraph Serving["Serving"]
+    direction TB
+    API["REST / GraphQL API\n(FastAPI)"]
+    Dashboards["Dashboards\n(Grafana / Streamlit)"]
+    GeoAPI["Geospatial API\n(OGC / Tile Server)"]
+  end
+
+  subgraph Observability["Observability"]
+    direction TB
+    Logs["Logs\n(structured JSON)"]
+    Metrics["Metrics\n(Prometheus)"]
+    Traces["Traces\n(OpenTelemetry)"]
+  end
+
+  %% Source → Ingestion
+  Sensors -->|"publish"| Streaming
+  APIs -->|"webhook / poll"| Streaming
+  Files -->|"drop / upload"| Batch
+
+  %% Ingestion → Storage
+  Streaming --> ObjStore
+  Streaming --> Postgres
+  Batch --> ObjStore
+  Batch --> DeltaLake
+
+  %% Storage → Orchestration
+  ObjStore --> Prefect
+  DeltaLake --> Prefect
+  Prefect --> CI
+
+  %% Storage → Serving
+  ObjStore --> GeoAPI
+  Postgres --> GeoAPI
+  DeltaLake --> API
+  DeltaLake --> Dashboards
+
+  %% Governance cross-cuts
+  Catalog -.governs.-> ObjStore
+  Catalog -.governs.-> DeltaLake
+  Contracts -.validates.-> Prefect
+  Audit -.records.-> Postgres
+
+  %% Observability cross-cuts
+  Prefect -.emits.-> Logs
+  API -.emits.-> Traces
+  Streaming -.emits.-> Metrics

@@ -272,6 +272,8 @@ nav:
     - 🧪 Testing:
       - Overview: best-practices/testing/index.md
       - End-to-End Testing Strategy: best-practices/testing/end-to-end-testing-strategy.md
+    - 🖼️ Diagrams:
+      - SVG Workflow Generation: best-practices/diagrams/svg-workflow-generation.md
     - 🎨 Creative & Fun:
       - Overview: best-practices/creative-fun/index.md
       - Time Hygiene (UTC, TZ, Clocks): best-practices/creative-fun/time-hygiene.md
@@ -409,6 +411,8 @@ nav:
       - Remote Dev with tmux & screen: tutorials/system-administration/remote-dev-tmux-screen.md
       - FIFO Prefect Flow with Redis: tutorials/system-administration/prefect-fifo-redis.md
       - AWK Unix Text Processing: tutorials/system-administration/awk-unix-text-processing.md
+    - 🖼️ Diagrams:
+      - Mermaid → SVG Workflow Pipeline: tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md
     - 📊 Data Science & Visualization:
       - Overview: tutorials/data-science-visualization/index.md
       - Jupyter Notebook Best Practices (Geospatial Edition): tutorials/data-science-visualization/jupyter-notebook-best-practices-geo.md
