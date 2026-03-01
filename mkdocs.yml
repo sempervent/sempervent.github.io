@@ -78,6 +78,7 @@ nav:
     - "ADR-0004: Why Just for Fun Exists": adr/0004-why-just-for-fun-exists.md
     - "ADR-0005: ESP32 Section Architecture": adr/0005-esp32-section-architecture.md
     - "ADR-0006: Embedded Expansion (LoRa + Power)": adr/0006-embedded-expansion-lora-power.md
+    - "ADR-0007: Deep Dives Section": adr/0007-deep-dives-section.md
   - Best Practices:
     - Overview: best-practices/index.md
     - 📌 Start Here:
@@ -279,6 +280,10 @@ nav:
     - 🏠 Home Automation & MQTT:
       - Overview: best-practices/home-automation/index.md
       - Home Assistant Security: best-practices/home-automation/home-assistant-security-best-practices.md
+  - Deep Dives:
+    - Overview: deep-dives/index.md
+    - 📡 Embedded & Radio:
+      - LoRaWAN vs Raw LoRa: deep-dives/lorawan-vs-raw-lora.md
   - Tutorials:
     - Overview: tutorials/index.md
     - 🚀 Quick Start:
