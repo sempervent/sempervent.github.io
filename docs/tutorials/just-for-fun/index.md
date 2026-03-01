@@ -19,9 +19,16 @@
 - **[Fractal Art Explorer (JavaScript)](fractal-art-explorer-js.md)** - Real-time Mandelbrot/Julia explorer with palettes, orbit traps, and GPU acceleration
 - **[Pi-Based Sample Library Server](pi-sample-server.md)** - Raspberry Pi sample server with SQLite indexing, Nginx, FastAPI, WebAudio, and USB MIDI live audition
 
+## Backend Engineering (Go)
+
+- **[Go Auth Backend: Postgres + JWT + bcrypt → scratch + Compose](go-auth-scratch-compose.md)** - Minimal Go auth service (register/login/me) with bcrypt password hashing, JWT sessions, Postgres, packaged into a `FROM scratch` Docker image (~12 MB) orchestrated with Compose. Includes a tiny static healthcheck binary. `Go · Docker · Postgres · JWT`
+
 ## Generative Art (Kotlin)
 
-- **[Recursive Cathedral Generator](kotlin-recursive-cathedral.md)** - Grow Gothic cathedral silhouettes from recursive L-system rules using Kotlin + Processing. Deterministic seeds, bilateral symmetry, exportable PNG frames.
+- **[Recursive Cathedral Generator](kotlin-recursive-cathedral.md)** - Grow Gothic cathedral silhouettes from recursive L-system rules using Kotlin + Processing. Deterministic seeds, bilateral symmetry, exportable PNG frames. `Kotlin · Processing · L-systems`
+- **[MIDI-Driven Particle Nebula](kotlin-midi-particle-nebula.md)** - Live MIDI input drives a real-time OpenGL particle simulation. Notes become bursts; velocity becomes brightness; sustain pedal becomes gravity. `Kotlin · LWJGL · MIDI`
+- **[Cellular Automata Organism Garden](kotlin-cellular-automata-garden.md)** - Conway's Game of Life extended with energy accumulation, mutation probability, and heritable lineage coloring. Organisms evolve before your eyes. `Kotlin · Processing · Cellular Automata`
+- **[Pi-Powered Infinite Art Frame](pi-infinite-art-frame-kotlin.md)** - A headless Kotlin/JVM process on a Raspberry Pi renders generative art continuously, shifts palettes by time of day, and exposes an HTTP API for remote control. `Kotlin · Raspberry Pi · Ktor`
 
 ---
 

@@ -365,7 +365,11 @@ nav:
       - OSC + MQTT + Prometheus + SuperCollider: tutorials/just-for-fun/osc-mqtt-prometheus-supercollider.md
       - Fractal Art Explorer (JavaScript): tutorials/just-for-fun/fractal-art-explorer-js.md
       - Pi-Based Sample Library Server: tutorials/just-for-fun/pi-sample-server.md
+      - Go Auth Backend (scratch + Compose): tutorials/just-for-fun/go-auth-scratch-compose.md
       - Recursive Cathedral Generator (Kotlin): tutorials/just-for-fun/kotlin-recursive-cathedral.md
+      - MIDI-Driven Particle Nebula (Kotlin): tutorials/just-for-fun/kotlin-midi-particle-nebula.md
+      - Cellular Automata Garden (Kotlin): tutorials/just-for-fun/kotlin-cellular-automata-garden.md
+      - Pi Infinite Art Frame (Kotlin): tutorials/just-for-fun/pi-infinite-art-frame-kotlin.md
   - Contact & Collaboration: getting-started.md
 
 markdown_extensions:

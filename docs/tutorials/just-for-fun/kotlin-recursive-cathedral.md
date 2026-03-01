@@ -603,6 +603,8 @@ In the meantime, if you want MIDI on the Pi right now: [Pi-Based Sample Library 
 *Seed 42. Depth 5. Jitter 0.08. Your cathedral awaits.*
 
 !!! tip "See also"
+    - [MIDI-Driven Particle Nebula](kotlin-midi-particle-nebula.md) — the next Kotlin art project: OpenGL particles driven by live MIDI input
+    - [Cellular Automata Organism Garden](kotlin-cellular-automata-garden.md) — probabilistic life simulation in Kotlin + Processing; different algorithm, same toolkit
+    - [Pi-Powered Infinite Art Frame](pi-infinite-art-frame-kotlin.md) — display cathedral frames on a wall-mounted Pi screen
     - [Fractal Art Explorer (JavaScript)](fractal-art-explorer-js.md) — WebGL Mandelbrot/Julia; same generative-art energy, browser-native
     - [Generative Art in R](../../tutorials/data-science-visualization/r-generative-art.md) — statistical generative art; complementary approach
-    - [Pi-Based Sample Library Server](pi-sample-server.md) — another self-contained creative hardware project
