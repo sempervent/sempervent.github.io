@@ -349,6 +349,13 @@ nav:
       - The End of the Data Warehouse?: deep-dives/the-end-of-the-data-warehouse.md
       - The Hidden Cost of Metadata Debt: deep-dives/the-hidden-cost-of-metadata-debt.md
       - Why Most ML Systems Fail in Production: deep-dives/why-ml-systems-fail-in-production.md
+      - Why Spark Clusters Fail in Production: deep-dives/why-spark-clusters-fail.md
+      - The Economics of Distributed Data Processing: deep-dives/economics-of-distributed-data-processing.md
+      - Spark vs DuckDB vs Polars at Scale: deep-dives/spark-vs-duckdb-vs-polars.md
+      - The Myth of Infinite Data Scale: deep-dives/myth-of-infinite-data-scale.md
+      - Why Most Data Lakes Become Data Swamps: deep-dives/data-lakes-become-data-swamps.md
+      - The Metadata Crisis in Modern Data Platforms: deep-dives/metadata-crisis-in-modern-data-platforms.md
+      - Why Most Data Pipelines Are Operationally Fragile: deep-dives/why-data-pipelines-are-operationally-fragile.md
     - 📡 Embedded & Radio:
       - LoRaWAN vs Raw LoRa: deep-dives/lorawan-vs-raw-lora.md
       - MQTT vs HTTP in IoT Systems: deep-dives/mqtt-vs-http-iot.md
