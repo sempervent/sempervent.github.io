@@ -112,6 +112,13 @@ nav:
       - Geospatial System Architecture: best-practices/geospatial/geospatial-system-design.md
     - Operations:
       - Failure-Oriented System Design: best-practices/operations/failure-oriented-design.md
+    - Data Processing:
+      - Spark:
+        - When to Use Spark: best-practices/data-processing/spark/when-to-use-spark.md
+        - Scaling Spark Clusters: best-practices/data-processing/spark/scaling-spark.md
+        - Spark on Kubernetes: best-practices/data-processing/spark/spark-on-kubernetes.md
+        - Spark Performance Tuning: best-practices/data-processing/spark/spark-performance-tuning.md
+        - Spark in Modern Architectures: best-practices/data-processing/spark/spark-modern-architecture.md
     - 🐍 Python Development:
       - Overview: best-practices/python/index.md
       - "Developer Experience (DX) as Infrastructure: Golden Paths, Tooling Ecosystems & Workflow Automation": best-practices/python/dx-architecture-and-golden-paths.md
@@ -282,6 +289,7 @@ nav:
       - Overview: best-practices/testing/index.md
       - End-to-End Testing Strategy: best-practices/testing/end-to-end-testing-strategy.md
     - 🖼️ Diagrams:
+      - Systems Diagramming Best Practices: best-practices/diagrams/systems-diagramming-best-practices.md
       - SVG Workflow Generation: best-practices/diagrams/svg-workflow-generation.md
     - 🎨 Creative & Fun:
       - Overview: best-practices/creative-fun/index.md
@@ -421,6 +429,7 @@ nav:
       - FIFO Prefect Flow with Redis: tutorials/system-administration/prefect-fifo-redis.md
       - AWK Unix Text Processing: tutorials/system-administration/awk-unix-text-processing.md
     - 🖼️ Diagrams:
+      - Layered Systems Diagrams: Mermaid → SVG: tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md
       - Mermaid → SVG Workflow Pipeline: tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md
     - 📊 Data Science & Visualization:
       - Overview: tutorials/data-science-visualization/index.md
