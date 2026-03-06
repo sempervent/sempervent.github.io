@@ -1,0 +1,34 @@
+%%{init: {"flowchart": {"curve": "linear"}} }%%
+flowchart LR
+  subgraph Edge["Edge"]
+    ESP32["ESP32\n(MQTT client)"]
+  end
+
+  subgraph Broker["MQTT Broker"]
+    MQTT["Broker"]
+  end
+
+  subgraph Ingest["Ingestion"]
+    Pipeline["Pipeline"]
+  end
+
+  subgraph Storage["Storage"]
+    Parquet["Parquet\n(Object Store)"]
+    Postgres["Postgres"]
+  end
+
+  subgraph Serving["Serving"]
+    Grafana["Grafana"]
+  end
+
+  subgraph Observability["Observability"]
+    Prom["Prometheus"]
+  end
+
+  ESP32 -->|publish| MQTT
+  MQTT --> Pipeline
+  Pipeline --> Parquet
+  Pipeline --> Postgres
+  Parquet --> Grafana
+  Postgres --> Grafana
+  Pipeline -.-> Prom

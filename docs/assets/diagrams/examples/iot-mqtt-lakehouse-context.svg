@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  iot-mqtt-lakehouse-context.svg
+  Source: docs/assets/diagrams/examples/iot-mqtt-lakehouse-context.mmd
+  Regenerate: cd tools/diagrams && npm run render:all
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280" role="img" aria-label="IoT MQTT Lakehouse context: Edge, Broker, Ingestion, Storage, Serving, Observability">
+  <title>IoT MQTT Lakehouse Context (L1)</title>
+  <desc>Context diagram: ESP32 edge device, MQTT broker, ingestion pipeline, Parquet and Postgres storage, Grafana serving, Prometheus observability.</desc>
+  <defs>
+    <style>
+      text { font-family: system-ui, sans-serif; font-size: 11px; fill: #1a1a1a; }
+      .group-label { font-weight: 700; font-size: 12px; fill: #00695c; }
+      rect.group { fill: #e0f7f4; stroke: #00897b; stroke-width: 1.5; rx: 6; }
+      rect.node { fill: #fff; stroke: #00897b; stroke-width: 1; rx: 4; }
+      path.edge { stroke: #546e7a; stroke-width: 1.2; fill: none; }
+      path.dashed { stroke: #90a4ae; stroke-dasharray: 4 3; fill: none; }
+      marker#arr path { fill: #546e7a; }
+    </style>
+    <marker id="arr" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto"><path d="M0,0 L0,5 L6,2.5 z"/></marker>
+  </defs>
+  <rect width="900" height="280" fill="#fafafa"/>
+  <!-- Edge -->
+  <rect class="group" x="10" y="60" width="100" height="160"/>
+  <text class="group-label" x="60" y="78" text-anchor="middle">Edge</text>
+  <rect class="node" x="25" y="95" width="70" height="40"/>
+  <text x="60" y="115" text-anchor="middle">ESP32</text>
+  <text x="60" y="128" text-anchor="middle">(MQTT client)</text>
+  <!-- Broker -->
+  <rect class="group" x="130" y="60" width="100" height="160"/>
+  <text class="group-label" x="180" y="78" text-anchor="middle">MQTT Broker</text>
+  <rect class="node" x="145" y="115" width="70" height="40"/>
+  <text x="180" y="135" text-anchor="middle">Broker</text>
+  <!-- Ingest -->
+  <rect class="group" x="250" y="60" width="100" height="160"/>
+  <text class="group-label" x="300" y="78" text-anchor="middle">Ingestion</text>
+  <rect class="node" x="265" y="115" width="70" height="40"/>
+  <text x="300" y="135" text-anchor="middle">Pipeline</text>
+  <!-- Storage -->
+  <rect class="group" x="370" y="60" width="140" height="160"/>
+  <text class="group-label" x="440" y="78" text-anchor="middle">Storage</text>
+  <rect class="node" x="385" y="95" width="90" height="36"/>
+  <text x="430" y="115" text-anchor="middle">Parquet</text>
+  <rect class="node" x="385" y="138" width="90" height="36"/>
+  <text x="430" y="158" text-anchor="middle">Postgres</text>
+  <!-- Serving -->
+  <rect class="group" x="530" y="60" width="100" height="160"/>
+  <text class="group-label" x="580" y="78" text-anchor="middle">Serving</text>
+  <rect class="node" x="545" y="115" width="70" height="40"/>
+  <text x="580" y="135" text-anchor="middle">Grafana</text>
+  <!-- Observability -->
+  <rect class="group" x="650" y="60" width="120" height="160"/>
+  <text class="group-label" x="710" y="78" text-anchor="middle">Observability</text>
+  <rect class="node" x="665" y="115" width="90" height="40"/>
+  <text x="710" y="135" text-anchor="middle">Prometheus</text>
+  <!-- Edges -->
+  <path class="edge" d="M110 115 L130 135" marker-end="url(#arr)"/>
+  <path class="edge" d="M230 135 L250 135" marker-end="url(#arr)"/>
+  <path class="edge" d="M350 135 L370 135" marker-end="url(#arr)"/>
+  <path class="edge" d="M510 135 L530 135" marker-end="url(#arr)"/>
+  <path class="dashed" d="M350 135 L380 200 L650 200" marker-end="url(#arr)"/>
+</svg>

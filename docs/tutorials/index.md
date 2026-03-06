@@ -58,6 +58,13 @@ Development tools tutorials for JSON processing, file management, and messaging 
 
 - **[Development Tools Overview](development-tools/index.md)** - JSON processing, file management, and messaging
 
+## 🖼️ Diagrams
+
+Layered systems diagrams: Mermaid source to SVG artifact and workflow pipeline.
+
+- **[Layered Systems Diagrams: Mermaid → SVG](diagrams/layered-systems-diagrams-mermaid-to-svg.md)** — End-to-end example (Context + Workflow) with IoT → MQTT → Lakehouse
+- **[Mermaid → SVG Workflow Pipeline](diagrams/mermaid-to-svg-workflow-pipeline.md)** — Full pipeline and render tooling
+
 ## 🎨 Just for Fun
 
 Creative and experimental tutorials for creative solutions and experimental implementations.

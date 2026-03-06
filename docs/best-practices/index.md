@@ -152,6 +152,13 @@ Secure home automation architecture patterns.
 - **[Home Automation Overview](home-automation/index.md)** - Security-focused guides for home automation systems
 - **[Home Assistant Security Best Practices](home-automation/home-assistant-security-best-practices.md)** - Access control, TLS, reverse proxy, IoT VLAN, zero-trust mindset
 
+## 🖼️ Diagrams
+
+Systems diagramming doctrine, layering, boundaries, and Mermaid → SVG workflow.
+
+- **[Systems Diagramming Best Practices](diagrams/systems-diagramming-best-practices.md)** — Conceptual vs logical vs physical, layering (L0–L3), boundary clarity, entropy control, pattern library
+- **[Generating Complex Workflow Diagrams as SVG](diagrams/svg-workflow-generation.md)** — Mermaid-first, artifact-driven workflow and repository conventions
+
 ## 🎨 Creative & Fun
 
 Creative solutions, opinions, and fun content patterns.

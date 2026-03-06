@@ -1,0 +1,9 @@
+%%{init: {"flowchart": {"curve": "linear"}} }%%
+flowchart LR
+  A[Device publishes] --> B[MQTT Broker]
+  B --> C[Pipeline consumes]
+  C --> D{Valid?}
+  D -->|Yes| E[Write Parquet + Postgres]
+  D -->|No| F[Dead letter / alert]
+  E --> G[Dashboard queries]
+  F -.-> H[Observability]

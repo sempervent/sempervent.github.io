@@ -10,7 +10,7 @@
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 1280 720" width="1280" height="720" role="img"
-     aria-label="Data platform workflow: Sources ’ Ingestion ’ Storage ’ Orchestration ’ Serving, with Governance and Observability cross-cutting all layers">
+     aria-label="Data platform workflow: Sources ï¿½ Ingestion ï¿½ Storage ï¿½ Orchestration ï¿½ Serving, with Governance and Observability cross-cutting all layers">
   <title>Data Platform Workflow</title>
   <desc>End-to-end data platform architecture showing IoT sensors, file drops, and APIs feeding into streaming and batch ingestion, stored in object store, PostgreSQL/PostGIS, and Delta/Iceberg tables, orchestrated by Prefect, served via REST API, dashboards, and geospatial API, governed by a data catalog and schema contracts, and observed via logs, metrics, and traces.</desc>
 
@@ -70,7 +70,7 @@
   <!-- Streaming -->
   <rect class="node" x="235" y="55" width="135" height="50" rx="6" ry="6" fill="#fff" stroke="#00897b" stroke-width="1.2"/>
   <text class="label-bold" x="302" y="74" text-anchor="middle">Streaming Ingest</text>
-  <text class="sublabel" x="302" y="89" text-anchor="middle">(MQTT ’ Kafka)</text>
+  <text class="sublabel" x="302" y="89" text-anchor="middle">(MQTT ï¿½ Kafka)</text>
 
   <!-- Batch -->
   <rect class="node" x="235" y="155" width="135" height="50" rx="6" ry="6" fill="#fff" stroke="#00897b" stroke-width="1.2"/>
@@ -91,7 +91,7 @@
   <!-- Postgres -->
   <rect class="node" x="445" y="145" width="140" height="50" rx="6" ry="6" fill="#fff" stroke="#00897b" stroke-width="1.2"/>
   <text class="label-bold" x="515" y="162" text-anchor="middle">PostgreSQL + PostGIS</text>
-  <text class="sublabel" x="515" y="177" text-anchor="middle">(operational · spatial)</text>
+  <text class="sublabel" x="515" y="177" text-anchor="middle">(operational ï¿½ spatial)</text>
 
   <!-- Delta -->
   <rect class="node" x="445" y="235" width="140" height="50" rx="6" ry="6" fill="#fff" stroke="#00897b" stroke-width="1.2"/>
@@ -112,7 +112,7 @@
   <!-- CI -->
   <rect class="node" x="660" y="120" width="135" height="45" rx="6" ry="6" fill="#fff" stroke="#00897b" stroke-width="1.2"/>
   <text class="label-bold" x="727" y="138" text-anchor="middle">CI Pipeline</text>
-  <text class="sublabel" x="727" y="153" text-anchor="middle">(schema checks · tests)</text>
+  <text class="sublabel" x="727" y="153" text-anchor="middle">(schema checks ï¿½ tests)</text>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
        COLUMN 5: Serving (x=855)
@@ -144,12 +144,12 @@
   <!-- Catalog -->
   <rect class="gov" x="35" y="400" width="160" height="50" rx="6" ry="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.2"/>
   <text class="label-bold" x="115" y="419" text-anchor="middle">Data Catalog</text>
-  <text class="sublabel" x="115" y="434" text-anchor="middle">(lineage · ownership)</text>
+  <text class="sublabel" x="115" y="434" text-anchor="middle">(lineage ï¿½ ownership)</text>
 
   <!-- Contracts -->
   <rect class="gov" x="215" y="400" width="160" height="50" rx="6" ry="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.2"/>
   <text class="label-bold" x="295" y="419" text-anchor="middle">Schema Contracts</text>
-  <text class="sublabel" x="295" y="434" text-anchor="middle">(dbt tests · Soda)</text>
+  <text class="sublabel" x="295" y="434" text-anchor="middle">(dbt tests ï¿½ Soda)</text>
 
   <!-- Audit -->
   <rect class="gov" x="395" y="400" width="165" height="50" rx="6" ry="6" fill="#fff8e1" stroke="#f9a825" stroke-width="1.2"/>
@@ -178,69 +178,69 @@
   <text class="sublabel" x="980" y="434" text-anchor="middle">(OpenTelemetry)</text>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
-       EDGES: Sources ’ Ingestion
+       EDGES: Sources ï¿½ Ingestion
   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP -->
-  <!-- Sensors ’ Streaming -->
+  <!-- Sensors ï¿½ Streaming -->
   <path class="edge" d="M165,80 L235,80" marker-end="url(#arrow)"/>
-  <!-- APIs ’ Streaming -->
+  <!-- APIs ï¿½ Streaming -->
   <path class="edge" d="M165,210 L210,210 L210,90 L235,90" marker-end="url(#arrow)"/>
-  <!-- Files ’ Batch -->
+  <!-- Files ï¿½ Batch -->
   <path class="edge" d="M165,145 L210,145 L210,180 L235,180" marker-end="url(#arrow)"/>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
-       EDGES: Ingestion ’ Storage
+       EDGES: Ingestion ï¿½ Storage
   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP -->
-  <!-- Streaming ’ Object Store -->
+  <!-- Streaming ï¿½ Object Store -->
   <path class="edge" d="M370,75 L445,75" marker-end="url(#arrow)"/>
-  <!-- Streaming ’ Postgres -->
+  <!-- Streaming ï¿½ Postgres -->
   <path class="edge" d="M370,90 L410,90 L410,170 L445,170" marker-end="url(#arrow)"/>
-  <!-- Batch ’ Object Store -->
+  <!-- Batch ï¿½ Object Store -->
   <path class="edge" d="M370,170 L410,170 L410,85 L445,85" marker-end="url(#arrow)"/>
-  <!-- Batch ’ Delta -->
+  <!-- Batch ï¿½ Delta -->
   <path class="edge" d="M370,180 L445,260" marker-end="url(#arrow)"/>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
-       EDGES: Storage ’ Orchestration
+       EDGES: Storage ï¿½ Orchestration
   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP -->
-  <!-- Object Store ’ Prefect -->
+  <!-- Object Store ï¿½ Prefect -->
   <path class="edge" d="M585,75 L660,75" marker-end="url(#arrow)"/>
-  <!-- Delta ’ Prefect -->
+  <!-- Delta ï¿½ Prefect -->
   <path class="edge" d="M585,260 L620,260 L620,90 L660,90" marker-end="url(#arrow)"/>
-  <!-- Prefect ’ CI -->
+  <!-- Prefect ï¿½ CI -->
   <path class="edge" d="M727,105 L727,120" marker-end="url(#arrow)"/>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
-       EDGES: Storage / Orchestration ’ Serving
+       EDGES: Storage / Orchestration ï¿½ Serving
   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP -->
-  <!-- Delta ’ REST API -->
+  <!-- Delta ï¿½ REST API -->
   <path class="edge" d="M585,250 L820,250 L820,80 L870,80" marker-end="url(#arrow)"/>
-  <!-- Delta ’ Dashboards -->
+  <!-- Delta ï¿½ Dashboards -->
   <path class="edge" d="M585,265 L830,265 L830,170 L870,170" marker-end="url(#arrow)"/>
-  <!-- Object Store ’ Geo API -->
+  <!-- Object Store ï¿½ Geo API -->
   <path class="edge" d="M585,80 L840,80 L840,260 L870,260" marker-end="url(#arrow)"/>
-  <!-- Postgres ’ Geo API -->
+  <!-- Postgres ï¿½ Geo API -->
   <path class="edge" d="M585,170 L840,170 L840,265 L870,265" marker-end="url(#arrow)"/>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
        DASHED EDGES: Governance cross-cuts
   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP -->
-  <!-- Catalog ’ Object Store -->
+  <!-- Catalog ï¿½ Object Store -->
   <path class="dashed" d="M115,400 L115,340 L515,340 L515,310" marker-end="url(#dashed-arrow)"/>
-  <!-- Catalog ’ Delta -->
+  <!-- Catalog ï¿½ Delta -->
   <path class="dashed" d="M200,425 L515,360 L515,285" marker-end="url(#dashed-arrow)"/>
-  <!-- Contracts ’ Prefect -->
+  <!-- Contracts ï¿½ Prefect -->
   <path class="dashed" d="M295,400 L295,345 L727,345 L727,200" marker-end="url(#dashed-arrow)"/>
-  <!-- Audit ’ Postgres -->
+  <!-- Audit ï¿½ Postgres -->
   <path class="dashed" d="M477,400 L477,355 L515,355 L515,195" marker-end="url(#dashed-arrow)"/>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
        DASHED EDGES: Observability cross-cuts
   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP -->
-  <!-- Prefect ’ Logs -->
+  <!-- Prefect ï¿½ Logs -->
   <path class="dashed" d="M695,200 L695,400" marker-end="url(#dashed-arrow)"/>
-  <!-- Streaming ’ Metrics -->
+  <!-- Streaming ï¿½ Metrics -->
   <path class="dashed" d="M302,105 L302,350 L835,350 L835,400" marker-end="url(#dashed-arrow)"/>
-  <!-- REST API ’ Traces -->
+  <!-- REST API ï¿½ Traces -->
   <path class="dashed" d="M942,105 L942,360 L980,360 L980,400" marker-end="url(#dashed-arrow)"/>
 
   <!-- PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
