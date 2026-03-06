@@ -103,6 +103,15 @@ nav:
       - Configuration Management: best-practices/operations-monitoring/configuration-management.md
       - System Resilience & Concurrency: best-practices/operations-monitoring/system-resilience-and-concurrency.md
       - IAM & RBAC Governance: best-practices/security/iam-rbac-abac-governance.md
+    - Data:
+      - Reproducible Data Pipelines: best-practices/data/reproducible-data-pipelines.md
+      - Metadata as Control Plane: best-practices/data/metadata-control-plane.md
+    - Architecture:
+      - Cost-Aware System Architecture: best-practices/architecture/cost-aware-systems.md
+    - Geospatial:
+      - Geospatial System Architecture: best-practices/geospatial/geospatial-system-design.md
+    - Operations:
+      - Failure-Oriented System Design: best-practices/operations/failure-oriented-design.md
     - 🐍 Python Development:
       - Overview: best-practices/python/index.md
       - "Developer Experience (DX) as Infrastructure: Golden Paths, Tooling Ecosystems & Workflow Automation": best-practices/python/dx-architecture-and-golden-paths.md
