@@ -1,10 +1,10 @@
-<div class="hero-section">
+<div class="hero-section" markdown="1">
 
 # Geospatial Systems, Data, and Strange Machinery
 
 *Building production-scale systems at the intersection of geospatial data, cloud infrastructure, and distributed computing*
 
-<div class="hero-actions">
+<div class="hero-actions" markdown="1">
   [Best Practices →](best-practices/index.md){ .md-button .md-button--primary }
   [Tutorials →](tutorials/index.md){ .md-button .md-button--primary }
   [Projects →](projects.md){ .md-button .md-button--primary }
@@ -25,9 +25,9 @@ This is my technical studio—a curated collection of best practices, tutorials,
 
 ## Quick Navigation
 
-<div class="card-grid">
+<div class="card-grid" markdown="1">
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 🎯 Best Practices
 
@@ -43,7 +43,7 @@ Production-grade patterns, architectures, and methodologies for building reliabl
 
 </div>
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 📚 Tutorials
 
@@ -59,7 +59,7 @@ Step-by-step guides with copy-paste examples for implementing key technologies a
 
 </div>
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 🏗️ Projects
 
@@ -75,7 +75,7 @@ Technical implementations, experiments, and creative explorations at the edge of
 
 </div>
 
-<div class="card">
+<div class="card" markdown="1">
 
 ### 🎨 Just for Fun
 

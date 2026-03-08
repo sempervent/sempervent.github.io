@@ -408,7 +408,7 @@ graph TD
 
 ### Responsive Design
 
-<div style="overflow-x: auto;">
+<div style="overflow-x: auto;" markdown="1">
 ```mermaid
 graph LR
     A[Very Long Node Name] --> B[Another Long Node]
@@ -465,7 +465,7 @@ markdown_extensions:
 
 **Solution**: Wrap in a scrollable container:
 
-<div style="overflow-x: auto;">
+<div style="overflow-x: auto;" markdown="1">
 ```mermaid
 graph LR
     A --> B --> C --> D --> E --> F --> G --> H --> I --> J
