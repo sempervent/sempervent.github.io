@@ -436,7 +436,7 @@ nav:
       - FIFO Prefect Flow with Redis: tutorials/system-administration/prefect-fifo-redis.md
       - AWK Unix Text Processing: tutorials/system-administration/awk-unix-text-processing.md
     - 🖼️ Diagrams:
-      - Layered Systems Diagrams: Mermaid → SVG: tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md
+      - "Layered Systems Diagrams: Mermaid → SVG": tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md
       - Mermaid → SVG Workflow Pipeline: tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md
     - 📊 Data Science & Visualization:
       - Overview: tutorials/data-science-visualization/index.md
