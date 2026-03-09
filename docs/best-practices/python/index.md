@@ -10,6 +10,7 @@
 - **[Python Package](python-package.md)** - Modern Python packaging with `uv` and `pyproject.toml`
 - **[Python Testing Best Practices](python-testing-best-practices.md)** - Comprehensive testing strategies for Python applications
 - **[Pytest Best Practices](pytest-best-practices.md)** - Coverage, plugins, speed, and CI integration
+- **[TUI Applications](tui-applications.md)** - Terminal UI architecture, frameworks, and production patterns
 - **[Python Code Quality](python-code-quality.md)** - Linting, formatting, and code quality tools
 - **[Python Performance Tuning](python-performance-tuning.md)** - Profiling, benchmarking, and optimization techniques
 

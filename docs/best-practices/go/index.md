@@ -5,6 +5,7 @@
 ## Core Go Development
 
 - **[Go Development Environment](go-dev-environment.md)** - Setting up a high-performance Go development workflow
+- **[TUI Applications](tui-applications.md)** - Terminal UI architecture with Bubble Tea and tview
 - **[Go Concurrency Patterns](go-concurrency-patterns.md)** - Master goroutines, channels, and synchronization primitives
 - **[Go Error Handling](go-error-handling.md)** - Robust error handling patterns and custom error types
 - **[Go Testing Best Practices](go-testing-best-practices.md)** - Comprehensive testing strategies for Go applications

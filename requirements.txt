@@ -1,6 +1,6 @@
-# Core MkDocs and Material Theme
-mkdocs>=1.5.0
-mkdocs-material>=9.4.0
+# Core MkDocs and Material Theme (pin to avoid MkDocs 2.0 and deprecated materialx)
+mkdocs>=1.5.0,<2.0
+mkdocs-material>=9.4.0,<10.0
 
 # Enhanced Markdown Extensions (all included in pymdown-extensions)
 pymdown-extensions>=9.2

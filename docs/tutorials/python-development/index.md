@@ -16,6 +16,7 @@
 - **[Click CLI to FastAPI Conversion](click-to-fastapi-conversion.md)** - Convert Click CLIs into FastAPI endpoints
 - **[WebSocket Chat with FastAPI](websocket-chat-fastapi.md)** - Real-time chat application with WebSockets
 - **[Chaos Engineering with Kubernetes and Python](chaos-engineering-k8s-python.md)** - Controlled failure injection for system resilience
+- **[Building a Python TUI](building-a-python-tui.md)** - Task Runner TUI with Textual, JSON persistence, and key bindings
 
 ---
 

@@ -5,6 +5,7 @@
 ## Core Development
 
 - **[Rust Development Environment](rust-dev-environment.md)** - Setting up a high-performance Rust development workflow
+- **[TUI Applications](tui-applications.md)** - Terminal UI architecture with ratatui and crossterm
 - **[Rust Package Development](rust-package-development.md)** - Building and shipping Rust crates with modern tooling
 - **[Rust Testing Best Practices](rust-testing-best-practices.md)** - Comprehensive testing strategies for Rust applications
 - **[Rust Code Quality](rust-code-quality.md)** - Linting, formatting, and code quality tools

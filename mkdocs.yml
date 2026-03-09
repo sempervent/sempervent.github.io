@@ -130,12 +130,15 @@ nav:
       - API Development: best-practices/python/api-development.md
       - FastAPI Geospatial: best-practices/python/fastapi-geospatial.md
       - Web Performance Optimization: best-practices/python/web-performance-optimization.md
+      - TUI Applications: best-practices/python/tui-applications.md
     - 🦀 Rust Development:
       - Overview: best-practices/rust/index.md
       - Rust Development Environment: best-practices/rust/rust-dev-environment.md
+      - TUI Applications: best-practices/rust/tui-applications.md
     - 🐹 Go Development:
       - Overview: best-practices/go/index.md
       - Go Development Environment: best-practices/go/go-dev-environment.md
+      - TUI Applications: best-practices/go/tui-applications.md
     - 📊 R Development:
       - Overview: best-practices/r/index.md
       - R Development Environment: best-practices/r/r-dev-environment.md
@@ -328,7 +331,14 @@ nav:
       - Why Most Microservices Should Be Monoliths: deep-dives/why-most-microservices-should-be-monoliths.md
       - Appropriate Use of Microservices: deep-dives/appropriate-use-of-microservices.md
       - Distributed Systems and the Myth of Infinite Scale: deep-dives/distributed-systems-myth-of-infinite-scale.md
+      - Distributed Systems Architecture: deep-dives/distributed-systems-architecture.md
+      - Event-Driven Architecture: deep-dives/event-driven-architecture.md
+      - Raft Consensus Explained: deep-dives/raft-consensus-explained.md
       - Why Most Kubernetes Clusters Shouldn't Exist: deep-dives/why-most-kubernetes-clusters-shouldnt-exist.md
+      - When to Use a TUI, CLI, or WebApp: deep-dives/when-to-use-tui-cli-or-webapp.md
+      - Blockchain vs Hashchain: deep-dives/blockchain-vs-hashchain.md
+      - Merkle Trees Explained: deep-dives/merkle-trees-explained.md
+      - Proof of Work Explained: deep-dives/proof-of-work-explained.md
     - 🔭 Operations & Reliability:
       - Observability vs Monitoring: deep-dives/observability-vs-monitoring.md
       - The Economics of Observability: deep-dives/the-economics-of-observability.md
@@ -337,6 +347,8 @@ nav:
       - IaC vs GitOps: deep-dives/iac-vs-gitops.md
       - The Human Cost of Automation: deep-dives/the-human-cost-of-automation.md
       - The Economics of GPU Infrastructure: deep-dives/the-economics-of-gpu-infrastructure.md
+      - Building a Bitcoin Mining Rig: deep-dives/building-a-bitcoin-mining-rig.md
+      - Converting Bitcoin Mining to LLM Clusters: deep-dives/converting-bitcoin-mining-to-llm.md
       - The Myth of Serverless Simplicity: deep-dives/the-myth-of-serverless-simplicity.md
     - 🏗️ Data Systems & Architecture:
       - Lakehouse vs Warehouse vs Database: deep-dives/lakehouse-vs-warehouse-vs-database.md
@@ -378,10 +390,15 @@ nav:
       - WebSocket Chat with FastAPI: tutorials/python-development/websocket-chat-fastapi.md
       - Glitch Observatory (JS): tutorials/python-development/js-glitch-observatory.md
       - Chaos Engineering with Kubernetes and Python: tutorials/python-development/chaos-engineering-k8s-python.md
+      - Building a Python TUI: tutorials/python-development/building-a-python-tui.md
     - 🦀 Rust Development:
       - Overview: tutorials/rust-development/index.md
       - Rust + CSR (Parse & Build from Parquet/DB): tutorials/rust-development/rust-csr-parquet-db.md
       - Event-Sourcing in Rust: tutorials/rust-development/rust-event-sourcing.md
+      - Building a Rust TUI: tutorials/rust-development/building-a-rust-tui.md
+    - 🐹 Go Development:
+      - Overview: tutorials/go-development/index.md
+      - Building a Go TUI: tutorials/go-development/building-a-go-tui.md
     - 🐳 Docker & Infrastructure:
       - Overview: tutorials/docker-infrastructure/index.md
       - Multi-Stage Docker (Conda → scratch): tutorials/docker-infrastructure/multistage-conda-to-scratch.md
@@ -496,8 +513,8 @@ markdown_extensions:
       alternate_style: true
       combine_header_slug: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.critic
@@ -537,8 +554,7 @@ plugins:
       minify_js: true
       minify_css: true
   # Section index plugin for better index page handling
-  - section-index:
-      readthedocs: true
+  - section-index
 
 extra:
   social:

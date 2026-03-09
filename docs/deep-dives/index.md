@@ -39,7 +39,14 @@ The intellectual principles behind this section are articulated in the [Philosop
 - **[Why Most Microservices Should Be Monoliths](why-most-microservices-should-be-monoliths.md)** — Coordination cost, network boundary overhead, versioning complexity, Conway's Law, and the organizational pre-conditions that microservices require but most teams lack
 - **[Appropriate Use of Microservices](appropriate-use-of-microservices.md)** — Domain-driven design, bounded contexts, data ownership requirements, failure isolation patterns, anti-patterns (premature splitting, nano-services), and a readiness checklist
 - **[Distributed Systems and the Myth of Infinite Scale](distributed-systems-myth-of-infinite-scale.md)** — CAP theorem trade-offs, N² coordination overhead, data gravity, cloud egress cost, partial failure modes, and a decision framework for when distribution is genuinely required
+- **[Distributed Systems Architecture](distributed-systems-architecture.md)** — Components, communication models, replication, CAP, consistency, consensus, scaling, observability, and failure handling in distributed systems
+- **[Event-Driven Architecture: Designing Systems That React to Change](event-driven-architecture.md)** — Event-driven system design, message brokers (Kafka, RabbitMQ, NATS), event logs, stream processing, event sourcing, CQRS, scaling, failure handling, and observability
+- **[Raft Consensus Explained](raft-consensus-explained.md)** — How Raft achieves replicated log consensus; leader election, log replication, safety, and use in etcd, Consul, and TiKV
 - **[Why Most Kubernetes Clusters Shouldn't Exist](why-most-kubernetes-clusters-shouldnt-exist.md)** — What Kubernetes actually solves vs what it costs, etcd fragility, networking overlay complexity, organizational maturity requirements, the portability illusion, and a decision matrix by team size and workload volatility
+- **[When to Use a TUI, CLI, or WebApp](when-to-use-tui-cli-or-webapp.md)** — Workflow shape, operator context, and deployment constraints; when CLI, TUI, or WebApp is the right interface; decision matrix, hybrid patterns, anti-patterns, and scenario-based guidance for internal tools and products
+- **[Blockchain vs Hashchain](blockchain-vs-hashchain.md)** — Hash chains as integrity structures vs blockchains as distributed consensus systems; cryptographic foundations, Merkle trees, consensus mechanisms, and when to use which
+- **[Merkle Trees Explained](merkle-trees-explained.md)** — Hash trees for scalable integrity; structure, Merkle proofs, efficiency, and use in blockchains, Git, IPFS, and transparency logs
+- **[Proof of Work Explained](proof-of-work-explained.md)** — How hash puzzles secure Bitcoin; mining, difficulty adjustment, security model, and PoW as a distributed consensus mechanism
 
 ### Operations & Reliability
 
@@ -52,6 +59,8 @@ The intellectual principles behind this section are articulated in the [Philosop
 - **[Infrastructure as Code vs GitOps](iac-vs-gitops.md)** — Terraform's state model, Kubernetes reconciliation, drift detection, human governance vs automation, when GitOps fails, and hybrid models in practice
 - **[The Human Cost of Automation](the-human-cost-of-automation.md)** — Skill atrophy, complexity transfer, self-healing illusions, automation maturity model, and a decision framework for when automation creates organizational fragility
 - **[The Economics of GPU Infrastructure](the-economics-of-gpu-infrastructure.md)** — GPU scarcity and supply dynamics, utilization inefficiency patterns, CUDA and driver operational complexity, PCIe vs NVLink interconnect economics, training vs inference cost structures, and a buy-vs-rent decision framework
+- **[Building a Bitcoin Mining Rig](building-a-bitcoin-mining-rig.md)** — ASIC-based Bitcoin mining as industrial infrastructure; hardware evolution, power and cooling design, pool connectivity, scaling from single rig to farm, and economic and energy realities
+- **[Converting Bitcoin Mining to LLM Clusters](converting-bitcoin-mining-to-llm.md)** — Why Bitcoin ASICs cannot run LLMs; repurposing mining facilities (power, cooling, space) for AI compute; electrical and network upgrades; GPU clusters and inference stack
 - **[The Myth of Serverless Simplicity](the-myth-of-serverless-simplicity.md)** — What "serverless" actually means architecturally, cold start distributions, IAM explosion, observability fragmentation, per-invocation vs reserved capacity economics, vendor lock-in, and a decision framework for when serverless trades server management for hidden coordination complexity
 
 ### Embedded & Radio

@@ -8,7 +8,7 @@ tags:
 
 # Distributed Systems and the Myth of Infinite Scale: Coordination, Latency, and the Cost of Consistency
 
-*See also: [Why Most Microservices Should Be Monoliths](why-most-microservices-should-be-monoliths.md) — the organizational cost of premature distribution, which compounds the technical costs analyzed here.*
+*See also: [Distributed Systems Architecture](distributed-systems-architecture.md) — an architectural introduction to components, communication, and replication; [Why Most Microservices Should Be Monoliths](why-most-microservices-should-be-monoliths.md) — the organizational cost of premature distribution.*
 
 **Themes:** Architecture · Economics · Infrastructure
 
