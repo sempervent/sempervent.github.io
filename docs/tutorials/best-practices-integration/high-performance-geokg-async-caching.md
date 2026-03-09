@@ -3,9 +3,9 @@
 **Objective**: Build an ultra-high-performance geospatial knowledge graph system using Python async patterns for concurrency and multi-tier caching for sub-millisecond spatial and graph queries. This tutorial demonstrates how to achieve sub-100ms query performance through async I/O, connection pooling, and intelligent caching strategies.
 
 This tutorial combines:
-- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
-- **[Python Async Best Practices](../best-practices/python/python-async-best-practices.md)** - High-performance async patterns
-- **[End-to-End Caching Strategy & Performance Layering](../best-practices/performance/end-to-end-caching-strategy.md)** - Multi-tier caching architecture
+- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
+- **[Python Async Best Practices](../../best-practices/python/python-async-best-practices.md)** - High-performance async patterns
+- **[End-to-End Caching Strategy & Performance Layering](../../best-practices/performance/end-to-end-caching-strategy.md)** - Multi-tier caching architecture
 
 ## Abstract
 
@@ -37,6 +37,7 @@ GeoKG systems require high throughput and low latency for real-time applications
 6. [Operations, Observability, and Governance](#6-operations-observability-and-governance)
 7. [Patterns, Anti-Patterns, and Summary](#7-patterns-anti-patterns-and-summary)
 
+<span id="1-introduction--motivation"></span>
 ## Why This Tutorial Matters
 
 GeoKG systems face unique performance challenges: graph traversals are computationally expensive, spatial queries require geometric operations, and ML inference adds latency. Real-time applications demand sub-100ms response times, but traditional synchronous architectures cannot achieve this at scale.
@@ -391,6 +392,7 @@ async def save_entity_write_behind(entity: dict):
 
 ---
 
+<span id="3-systems-architecture--integration-patterns"></span>
 ## 3. Systems Architecture & Integration Patterns
 
 ### 3.1 High-Level Distributed System Architecture

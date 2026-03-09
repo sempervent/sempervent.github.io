@@ -1345,7 +1345,7 @@ main (trunk)
 
 - **[Git Production Best Practices](git-production.md)** - Enterprise Git workflows and repository management
 - **[Git Workflows & Collaboration](git-workflows-collaboration.md)** - Team collaboration patterns and workflows
-- **[CI/CD Pipelines](../../architecture-design/ci-cd-pipelines.md)** - Continuous integration and deployment patterns
+- **[CI/CD Pipelines](../architecture-design/ci-cd-pipelines.md)** - Continuous integration and deployment patterns
 
 ---
 

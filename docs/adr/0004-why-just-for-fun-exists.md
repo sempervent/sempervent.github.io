@@ -91,4 +91,4 @@ The "Just for Fun" section is a differentiator, not a distraction. Every page in
 
 - [Just for Fun Overview](../tutorials/just-for-fun/index.md)
 - [ADR-0003: Best Practices vs Tutorials](0003-why-best-practices-vs-tutorials.md)
-- [Site Improvement Plan](../site-improvement-plan.md)
+- [Technical Documentation](../documentation.md) — site structure and navigation

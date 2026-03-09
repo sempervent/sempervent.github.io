@@ -3,11 +3,11 @@
 **Objective**: Build a production-ready secure polyglot system that integrates identity federation, encryption lifecycle management, secrets management, secure-by-design patterns, and multi-tenant isolation. This tutorial demonstrates how to secure systems across multiple languages and environments.
 
 This tutorial combines:
-- **[Cross-Domain Identity Federation, AuthZ/AuthN Architecture](../best-practices/security/identity-federation-authz-authn-architecture.md)** - Unified identity across systems
-- **[Secret Supply Chains, Encryption Lifecycle Management](../best-practices/security/encryption-lifecycle-and-crypto-rotation.md)** - Encryption and key rotation
-- **[End-to-End Secrets Management](../best-practices/security/secrets-governance.md)** - Secrets lifecycle
-- **[Secure-by-Design Lifecycle Architecture](../best-practices/security/secure-by-design-polyglot.md)** - Security as lifecycle concern
-- **[Secure Computes, Sandboxing, and Multi-Tenant Isolation](../best-practices/security/secure-sandboxing-and-multi-tenant-isolation.md)** - Isolation patterns
+- **[Cross-Domain Identity Federation, AuthZ/AuthN Architecture](../../best-practices/security/identity-federation-authz-authn-architecture.md)** - Unified identity across systems
+- **[Secret Supply Chains, Encryption Lifecycle Management](../../best-practices/security/encryption-lifecycle-and-crypto-rotation.md)** - Encryption and key rotation
+- **[End-to-End Secrets Management](../../best-practices/security/secrets-governance.md)** - Secrets lifecycle
+- **[Secure-by-Design Lifecycle Architecture](../../best-practices/security/secure-by-design-polyglot.md)** - Security as lifecycle concern
+- **[Secure Computes, Sandboxing, and Multi-Tenant Isolation](../../best-practices/security/secure-sandboxing-and-multi-tenant-isolation.md)** - Isolation patterns
 
 ## 1) Prerequisites
 

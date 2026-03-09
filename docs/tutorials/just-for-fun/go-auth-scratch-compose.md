@@ -354,7 +354,7 @@ curl -s -X POST "$BASE/auth/register" \
 ## 12. See Also
 
 !!! tip "See also"
-    - [Multi-Stage Docker: Conda Build → scratch](multistage-conda-to-scratch.md) — the same scratch pattern applied to a Python/Conda stack; explains dynamic linker and CA cert mechanics in depth
+    - [Multi-Stage Docker: Conda Build → scratch](../docker-infrastructure/multistage-conda-to-scratch.md) — the same scratch pattern applied to a Python/Conda stack; explains dynamic linker and CA cert mechanics in depth
     - [Docker & Compose Best Practices](../../best-practices/docker-infrastructure/docker-and-compose.md) — Bake, profiles, security defaults, SBOM scanning
     - [End-to-End Secrets Management](../../best-practices/security/secrets-governance.md) — how to handle `JWT_SECRET` and `POSTGRES_PASSWORD` in production (Vault, SOPS, etc.)
     - [IAM & RBAC Governance](../../best-practices/security/iam-rbac-abac-governance.md) — extend this backend with role-based access control

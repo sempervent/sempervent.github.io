@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready polyglot streaming platform that integrates streaming architecture patterns (SAGA, CQRS, Outbox), polyglot interoperability design, multi-cloud federation and portability, and API governance with backward compatibility. This tutorial demonstrates how to build scalable, portable, event-driven systems that work seamlessly across multiple cloud providers and programming languages.
 
 This tutorial combines:
-- **[Streaming Architecture Patterns: SAGA, CQRS, and Outbox](../best-practices/architecture-design/streaming-architecture-patterns.md)** - Distributed transactions and read/write separation
-- **[Polyglot Interoperability Design](../best-practices/architecture-design/polyglot-interoperability-design.md)** - Cross-language integration patterns
-- **[Multi-Cloud Federation & Portability Architecture](../best-practices/architecture-design/multi-cloud-federation-portability.md)** - Vendor-independent cloud architecture
-- **[API Governance, Backward Compatibility Rules, and Cross-Language Interface Stability](../best-practices/architecture-design/api-governance-interface-stability.md)** - API versioning and stability
+- **[Streaming Architecture Patterns: SAGA, CQRS, and Outbox](../../best-practices/architecture-design/streaming-architecture-patterns.md)** - Distributed transactions and read/write separation
+- **[Polyglot Interoperability Design](../../best-practices/architecture-design/polyglot-interoperability-design.md)** - Cross-language integration patterns
+- **[Multi-Cloud Federation & Portability Architecture](../../best-practices/architecture-design/multi-cloud-federation-portability.md)** - Vendor-independent cloud architecture
+- **[API Governance, Backward Compatibility Rules, and Cross-Language Interface Stability](../../best-practices/architecture-design/api-governance-interface-stability.md)** - API versioning and stability
 
 ## 1) Prerequisites
 

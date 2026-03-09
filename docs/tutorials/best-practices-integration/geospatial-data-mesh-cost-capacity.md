@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready geospatial data mesh that integrates data mesh architecture, cost-aware architecture, capacity planning and workload modeling, and data retention strategies. This tutorial demonstrates how to build scalable, cost-efficient geospatial data systems.
 
 This tutorial combines:
-- **[Data Mesh Architecture](../best-practices/architecture-design/data-mesh-architecture.md)** - Domain-oriented data architecture
-- **[Cost-Aware Architecture & Resource-Efficiency Governance](../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost optimization
-- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Workload modeling
-- **[Data Retention, Archival Strategy, Lifecycle Governance](../best-practices/data-governance/data-retention-archival-lifecycle-governance.md)** - Data lifecycle
+- **[Data Mesh Architecture](../../best-practices/architecture-design/data-mesh-architecture.md)** - Domain-oriented data architecture
+- **[Cost-Aware Architecture & Resource-Efficiency Governance](../../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost optimization
+- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Workload modeling
+- **[Data Retention, Archival Strategy, Lifecycle Governance](../../best-practices/data-governance/data-retention-archival-lifecycle-governance.md)** - Data lifecycle
 
 ## 1) Prerequisites
 

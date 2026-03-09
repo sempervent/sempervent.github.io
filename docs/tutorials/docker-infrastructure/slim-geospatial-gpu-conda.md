@@ -388,6 +388,7 @@ Conda's package cache stays in `$MAMBA_ROOT_PREFIX/pkgs/`. If you don't clean it
 
 ---
 
+<span id="6-environmentyml--cpu-and-gpu-variants"></span>
 ## 6. environment.yml — CPU and GPU Variants
 
 ### environment.cpu.yml

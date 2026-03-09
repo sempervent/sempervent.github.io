@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready API-first polyglot platform that integrates API governance with backward compatibility, protocol buffers for efficient serialization, polyglot interoperability design, and service decomposition strategies. This tutorial demonstrates how to build scalable, type-safe APIs that work seamlessly across Python, Go, Rust, and other languages.
 
 This tutorial combines:
-- **[API Governance, Backward Compatibility Rules, and Cross-Language Interface Stability](../best-practices/architecture-design/api-governance-interface-stability.md)** - API versioning and stability
-- **[Protocol Buffers with Python](../best-practices/architecture-design/protobuf-python.md)** - Efficient data serialization
-- **[Polyglot Interoperability Design](../best-practices/architecture-design/polyglot-interoperability-design.md)** - Cross-language integration
-- **[Service Decomposition Strategy](../best-practices/architecture-design/service-decomposition-strategy.md)** - Microservices architecture
+- **[API Governance, Backward Compatibility Rules, and Cross-Language Interface Stability](../../best-practices/architecture-design/api-governance-interface-stability.md)** - API versioning and stability
+- **[Protocol Buffers with Python](../../best-practices/architecture-design/protobuf-python.md)** - Efficient data serialization
+- **[Polyglot Interoperability Design](../../best-practices/architecture-design/polyglot-interoperability-design.md)** - Cross-language integration
+- **[Service Decomposition Strategy](../../best-practices/architecture-design/service-decomposition-strategy.md)** - Microservices architecture
 
 ## 1) Prerequisites
 

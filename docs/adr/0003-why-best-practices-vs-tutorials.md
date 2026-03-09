@@ -84,4 +84,4 @@ The two-section model matches the dominant reader intents on this site. Engineer
 ## Related Documents
 
 - [ADR-0002: Why MkDocs + Material](0002-why-mkdocs-material.md)
-- [Site Improvement Plan](../site-improvement-plan.md)
+- [Technical Documentation](../documentation.md) — site structure and navigation

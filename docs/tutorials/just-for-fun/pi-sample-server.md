@@ -27,6 +27,7 @@ tags:
 
 ---
 
+<span id="1-project-overview--philosophy"></span>
 ## 1. Project Overview & Philosophy
 
 ### What Is This?
@@ -598,7 +599,7 @@ conn.execute("PRAGMA synchronous=NORMAL")
 
 ---
 
-## 5. Frontend: WebAudio + Web MIDI
+## 5. Frontend: WebAudio + Web MIDI {#5-frontend-webaudio--web-midi}
 
 ### HTML Layout
 
@@ -1147,6 +1148,7 @@ print(f'Estimated BPM: {tempo:.1f}')
 
 ---
 
+<span id="8-deployment--github-pages-integration"></span>
 ## 8. Deployment & GitHub Pages Integration
 
 ### What Lives on the Pi
@@ -1238,6 +1240,7 @@ To link from another page:
 
 ---
 
+<span id="9-enhancements--roadmap"></span>
 ## 9. Enhancements & Roadmap
 
 ### Real-Time Waveform Visualization

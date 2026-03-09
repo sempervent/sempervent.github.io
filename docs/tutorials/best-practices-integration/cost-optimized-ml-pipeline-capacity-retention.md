@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready ML pipeline that integrates cost-aware architecture, capacity planning and workload modeling, data retention and archival strategies, and ML systems architecture. This tutorial demonstrates how to build cost-efficient ML systems that scale intelligently and manage data lifecycle effectively.
 
 This tutorial combines:
-- **[Cost-Aware Architecture & Resource-Efficiency Governance](../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost measurement and optimization
-- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Workload modeling and scaling
-- **[Data Retention, Archival Strategy, Lifecycle Governance](../best-practices/data-governance/data-retention-archival-lifecycle-governance.md)** - Data lifecycle management
-- **[ML Systems Architecture: Feature Stores, Model Serving, Experiment Governance](../best-practices/ml-ai/ml-systems-architecture-governance.md)** - Complete ML lifecycle
+- **[Cost-Aware Architecture & Resource-Efficiency Governance](../../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost measurement and optimization
+- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Workload modeling and scaling
+- **[Data Retention, Archival Strategy, Lifecycle Governance](../../best-practices/data-governance/data-retention-archival-lifecycle-governance.md)** - Data lifecycle management
+- **[ML Systems Architecture: Feature Stores, Model Serving, Experiment Governance](../../best-practices/ml-ai/ml-systems-architecture-governance.md)** - Complete ML lifecycle
 
 ## 1) Prerequisites
 

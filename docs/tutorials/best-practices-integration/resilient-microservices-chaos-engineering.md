@@ -3,11 +3,11 @@
 **Objective**: Build a production-ready resilient microservices system that integrates chaos engineering, operational resilience patterns, observability-driven development, service decomposition, and system resilience patterns. This tutorial demonstrates how to build systems that survive failures gracefully.
 
 This tutorial combines:
-- **[Chaos Engineering, Fault Injection, and Reliability Validation](../best-practices/operations-monitoring/chaos-engineering-governance.md)** - Safe fault injection and reliability testing
-- **[Operational Resilience and Incident Response](../best-practices/operations-monitoring/operational-resilience-and-incident-response.md)** - Resilience patterns and incident response
-- **[System Resilience, Rate Limiting, Concurrency Control & Backpressure](../best-practices/operations-monitoring/system-resilience-and-concurrency.md)** - Resilience patterns
-- **[Observability-Driven Development](../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first resilience
-- **[Service Decomposition Strategy](../best-practices/architecture-design/service-decomposition-strategy.md)** - Domain boundaries for resilience
+- **[Chaos Engineering, Fault Injection, and Reliability Validation](../../best-practices/operations-monitoring/chaos-engineering-governance.md)** - Safe fault injection and reliability testing
+- **[Operational Resilience and Incident Response](../../best-practices/operations-monitoring/operational-resilience-and-incident-response.md)** - Resilience patterns and incident response
+- **[System Resilience, Rate Limiting, Concurrency Control & Backpressure](../../best-practices/operations-monitoring/system-resilience-and-concurrency.md)** - Resilience patterns
+- **[Observability-Driven Development](../../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first resilience
+- **[Service Decomposition Strategy](../../best-practices/architecture-design/service-decomposition-strategy.md)** - Domain boundaries for resilience
 
 ## 1) Prerequisites
 

@@ -30,7 +30,7 @@ This document integrates with:
 - **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](data-lineage-contracts.md)** - Lineage tracking
 - **[RDF/OWL Metadata Automation](../architecture-design/rdf-owl-metadata-automation.md)** - Automated ontological associations
 - **[Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment](semantic-layer-engineering.md)** - Semantic layer patterns
-- **[PostgreSQL Lakehouse: PGLake, Parquet FDW, and Hybrid Storage](postgres-lakehouse-pglake-parquet-fdw.md)** - Hybrid storage patterns
+- **[Building a Postgres Lakehouse Image with pg_lake and parquet_s3_fdw](../../tutorials/database-data-engineering/postgres-lakehouse-pglake-parquet-fdw.md)** - Hybrid storage patterns
 
 ## Table of Contents
 
@@ -73,6 +73,7 @@ This guide provides the patterns, architectures, and practices needed to build s
 
 ---
 
+<span id="1-introduction--motivation"></span>
 ## 1. Introduction & Motivation
 
 ### 1.1 What is a Geospatial Knowledge Graph (GeoKG)?
@@ -125,6 +126,7 @@ A Geospatial Knowledge Graph (GeoKG) is a knowledge graph where nodes represent 
 
 ---
 
+<span id="2-conceptual--domain-modeling"></span>
 ## 2. Conceptual & Domain Modeling
 
 ### 2.1 Domain Model Design
@@ -368,6 +370,7 @@ erDiagram
 
 ---
 
+<span id="3-semantic-layer--ontologies"></span>
 ## 3. Semantic Layer & Ontologies
 
 ### 3.1 RDF/OWL Ontologies for GeoKG
@@ -558,6 +561,7 @@ def parquet_to_rdf(df, entity_type, id_column='id', geometry_column=None):
 
 ---
 
+<span id="4-physical-storage--indexing-architecture"></span>
 ## 4. Physical Storage & Indexing Architecture
 
 ### 4.1 Storage Options
@@ -900,6 +904,7 @@ def resolve_entities(entity1, entity2, spatial_threshold=100, text_threshold=0.8
 
 ---
 
+<span id="6-aiml-enablement-embeddings-features-and-graph-ml"></span>
 ## 6. AI/ML Enablement: Embeddings, Features, and Graph ML
 
 ### 6.1 Embedding Strategies
@@ -1155,6 +1160,7 @@ def hybrid_search(query_text, spatial_filter=None, graph_filter=None):
 
 ---
 
+<span id="7-geokg--rag--llm-integration-patterns"></span>
 ## 7. GeoKG + RAG + LLM Integration Patterns
 
 ### 7.1 RAG Patterns
@@ -1317,6 +1323,7 @@ sequenceDiagram
 
 ---
 
+<span id="8-governance-metadata-and-versioning"></span>
 ## 8. Governance, Metadata, and Versioning
 
 ### 8.1 Metadata Management
@@ -2023,7 +2030,7 @@ coverage = entities_with_embeddings / total_entities
 - **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](data-lineage-contracts.md)** - Lineage tracking across systems
 - **[RDF/OWL Metadata Automation](../architecture-design/rdf-owl-metadata-automation.md)** - Automated ontological associations and reasoning
 - **[Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment](semantic-layer-engineering.md)** - Semantic layer design patterns
-- **[PostgreSQL Lakehouse: PGLake, Parquet FDW, and Hybrid Storage](postgres-lakehouse-pglake-parquet-fdw.md)** - Hybrid storage architectures
+- **[Building a Postgres Lakehouse Image with pg_lake and parquet_s3_fdw](../../tutorials/database-data-engineering/postgres-lakehouse-pglake-parquet-fdw.md)** - Hybrid storage architectures
 
 ---
 

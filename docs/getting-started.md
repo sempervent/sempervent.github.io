@@ -104,8 +104,8 @@ Oak Ridge National Laboratory
 
 1. **Review Portfolio**: Check out my [Projects](projects.md) for technical examples
 2. **Technical Background**: Read my [Professional Profile](about.md) for detailed experience
-3. **Best Practices**: Explore the [Best Practices](../best-practices/) section for proven methodologies
-4. **Hands-on Tutorials**: Follow the [Tutorials](../tutorials/) for step-by-step implementations
+3. **Best Practices**: Explore the [Best Practices](best-practices/index.md) section for proven methodologies
+4. **Hands-on Tutorials**: Follow the [Tutorials](tutorials/index.md) for step-by-step implementations
 5. **Reach Out**: Use any of the contact methods above to start a conversation
 
 ## Available Resources

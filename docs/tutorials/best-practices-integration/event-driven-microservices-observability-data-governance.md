@@ -3,11 +3,11 @@
 **Objective**: Build a production-ready event-driven microservices system that integrates event-driven architecture patterns, observability-driven development, data validation and contract governance, API gateway architecture, and service decomposition strategies. This tutorial demonstrates how these best practices work together in a real-world application.
 
 This tutorial combines:
-- **[Event-Driven Architecture](../best-practices/architecture-design/event-driven-architecture.md)** - Event patterns, messaging, and decoupling
-- **[Observability-Driven Development](../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first coding and preemptive debugging
-- **[Data Validation and Contract Governance](../best-practices/data-governance/data-validation-and-contract-governance.md)** - Schema validation and data contracts
-- **[API Gateway Architecture](../best-practices/architecture-design/api-gateway-architecture.md)** - Unified API entry point and routing
-- **[Service Decomposition Strategy](../best-practices/architecture-design/service-decomposition-strategy.md)** - Domain boundaries and service design
+- **[Event-Driven Architecture](../../best-practices/architecture-design/event-driven-architecture.md)** - Event patterns, messaging, and decoupling
+- **[Observability-Driven Development](../../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first coding and preemptive debugging
+- **[Data Validation and Contract Governance](../../best-practices/data-governance/data-validation-and-contract-governance.md)** - Schema validation and data contracts
+- **[API Gateway Architecture](../../best-practices/architecture-design/api-gateway-architecture.md)** - Unified API entry point and routing
+- **[Service Decomposition Strategy](../../best-practices/architecture-design/service-decomposition-strategy.md)** - Domain boundaries and service design
 
 ## 1) Prerequisites
 

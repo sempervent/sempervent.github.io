@@ -832,7 +832,7 @@ class LifecycleOrchestrator:
 ---
 
 
-## Systems Architecture & Integration Patterns
+## Systems Architecture & Integration Patterns {#systems-architecture--integration-patterns}
 
 ### High-Level Distributed System Architecture
 

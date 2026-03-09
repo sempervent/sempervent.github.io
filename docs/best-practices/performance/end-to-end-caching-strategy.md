@@ -2553,7 +2553,7 @@ def update_data_transactional(key: str, data: dict):
 - **[Caching & Performance Layers](../architecture-design/caching-performance.md)** - High-level caching patterns
 - **[NGINX Best Practices](../docker-infrastructure/nginx-best-practices.md)** - NGINX configuration
 - **[PostgreSQL Performance Tuning](../postgres/postgres-performance-tuning.md)** - Database optimization
-- **[Redis Best Practices](../../tutorials/database-data-engineering/redis-best-practices.md)** - Redis patterns
+- **[Prefect FIFO with Redis](../../tutorials/system-administration/prefect-fifo-redis.md)** - Redis-backed scheduling; **[Performance Best Practices](index.md)** - Caching index
 
 ---
 

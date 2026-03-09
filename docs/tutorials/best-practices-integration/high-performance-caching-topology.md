@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready high-performance caching system that integrates cache-topology architecture, end-to-end caching strategy, cost-aware architecture, and capacity planning. This tutorial demonstrates how to build multi-tier caching systems that optimize performance while controlling costs and capacity.
 
 This tutorial combines:
-- **[Cache-Topology Architecture](../best-practices/architecture-design/cache-topology-architecture.md)** - Multi-tier cache topology patterns
-- **[End-to-End Caching Strategy & Performance Layering](../best-practices/performance/end-to-end-caching-strategy.md)** - Complete caching framework
-- **[Cost-Aware Architecture & Resource-Efficiency Governance](../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost optimization
-- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Capacity planning
+- **[Cache-Topology Architecture](../../best-practices/architecture-design/cache-topology-architecture.md)** - Multi-tier cache topology patterns
+- **[End-to-End Caching Strategy & Performance Layering](../../best-practices/performance/end-to-end-caching-strategy.md)** - Complete caching framework
+- **[Cost-Aware Architecture & Resource-Efficiency Governance](../../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost optimization
+- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Capacity planning
 
 ## 1) Prerequisites
 

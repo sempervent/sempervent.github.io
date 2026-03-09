@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready multi-environment deployment pipeline that integrates environment configuration governance, secrets management, CI/CD pipelines, and configuration drift prevention. This tutorial demonstrates how to safely promote configurations from dev → staging → production while maintaining security and consistency.
 
 This tutorial combines:
-- **[Cross-Environment Configuration Strategy](../best-practices/architecture-design/environment-config-governance.md)** - Configuration governance and drift prevention
-- **[End-to-End Secrets Management](../best-practices/security/secrets-governance.md)** - Secrets lifecycle and rotation
-- **[CI/CD Pipelines](../best-practices/architecture-design/ci-cd-pipelines.md)** - Automated deployment workflows
-- **[Cross-Environment Configuration Drift Prevention](../best-practices/operations-monitoring/environment-promotion-drift-governance.md)** - Drift detection and enforcement
+- **[Cross-Environment Configuration Strategy](../../best-practices/architecture-design/environment-config-governance.md)** - Configuration governance and drift prevention
+- **[End-to-End Secrets Management](../../best-practices/security/secrets-governance.md)** - Secrets lifecycle and rotation
+- **[CI/CD Pipelines](../../best-practices/architecture-design/ci-cd-pipelines.md)** - Automated deployment workflows
+- **[Cross-Environment Configuration Drift Prevention](../../best-practices/operations-monitoring/environment-promotion-drift-governance.md)** - Drift detection and enforcement
 
 ## 1) Prerequisites
 

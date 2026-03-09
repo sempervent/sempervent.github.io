@@ -118,15 +118,15 @@ python -m myawesomeproject.cli --config config.yaml
 
 ## Configuration
 
-See [Configuration Guide](docs/configuration.md) for detailed setup.
+See [Configuration Management](../operations-monitoring/configuration-management.md) for configuration governance.
 
 ## Contributing
 
-See [Contributing Guide](CONTRIBUTING.md) for development setup.
+See the repository's contributing guide for development setup.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License - see the repository root for license details.
 ```
 
 **Why README Matters**: README files serve as the entry point and first impression of your project. Understanding these patterns prevents user confusion and enables reliable software adoption.

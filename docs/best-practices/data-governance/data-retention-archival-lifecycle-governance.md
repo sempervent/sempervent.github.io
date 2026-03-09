@@ -28,7 +28,7 @@ This document integrates with:
 - **[Metadata Standards, Schema Governance & Data Provenance Contracts](metadata-provenance-contracts.md)** - Metadata for retention policies
 - **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](data-lineage-contracts.md)** - Lineage for retention tracking
 - **[PostgreSQL Backup & Recovery](../postgres/postgres-backup-recovery.md)** - Database retention patterns
-- **[Apache Iceberg Mastery](../database-data/apache-iceberg-mastery.md)** - Table format retention
+- **[Apache Iceberg Mastery](../../tutorials/database-data-engineering/apache-iceberg-mastery.md)** - Table format retention
 - **[Data Freshness, SLA/SLO Governance, and Pipeline Reliability Contracts](data-freshness-sla-governance.md)** - Freshness vs retention balance
 
 ## The Philosophy of Data Retention
@@ -644,7 +644,7 @@ raster_storage:
 - **[Metadata Standards, Schema Governance & Data Provenance Contracts](metadata-provenance-contracts.md)** - Metadata for retention
 - **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](data-lineage-contracts.md)** - Lineage tracking
 - **[PostgreSQL Backup & Recovery](../postgres/postgres-backup-recovery.md)** - Database retention
-- **[Apache Iceberg Mastery](../database-data/apache-iceberg-mastery.md)** - Table format retention
+- **[Apache Iceberg Mastery](../../tutorials/database-data-engineering/apache-iceberg-mastery.md)** - Table format retention
 - **[Data Freshness, SLA/SLO Governance, and Pipeline Reliability Contracts](data-freshness-sla-governance.md)** - Freshness balance
 
 ---

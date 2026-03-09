@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready multi-region disaster recovery system that integrates multi-region DR strategy, temporal governance and time synchronization, blast radius risk modeling, and release management. This tutorial demonstrates how to build resilient, time-consistent systems with controlled failure domains.
 
 This tutorial combines:
-- **[Multi-Region, Multi-Cluster Disaster Recovery, Failover Topologies](../best-practices/architecture-design/multi-region-dr-strategy.md)** - Cross-region DR strategies
-- **[Temporal Governance and Time Synchronization](../best-practices/architecture-design/temporal-governance-and-time-synchronization.md)** - Time consistency across regions
-- **[Operational Risk Modeling, Blast Radius Reduction](../best-practices/operations-monitoring/blast-radius-risk-modeling.md)** - Failure domain architecture
-- **[Release Management, Change Governance, and Progressive Delivery](../best-practices/operations-monitoring/release-management-and-progressive-delivery.md)** - Safe cross-region deployments
+- **[Multi-Region, Multi-Cluster Disaster Recovery, Failover Topologies](../../best-practices/architecture-design/multi-region-dr-strategy.md)** - Cross-region DR strategies
+- **[Temporal Governance and Time Synchronization](../../best-practices/architecture-design/temporal-governance-and-time-synchronization.md)** - Time consistency across regions
+- **[Operational Risk Modeling, Blast Radius Reduction](../../best-practices/operations-monitoring/blast-radius-risk-modeling.md)** - Failure domain architecture
+- **[Release Management, Change Governance, and Progressive Delivery](../../best-practices/operations-monitoring/release-management-and-progressive-delivery.md)** - Safe cross-region deployments
 
 ## 1) Prerequisites
 

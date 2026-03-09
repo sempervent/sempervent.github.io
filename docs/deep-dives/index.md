@@ -52,6 +52,7 @@ The intellectual principles behind this section are articulated in the [Philosop
 
 - **[Observability vs Monitoring](observability-vs-monitoring.md)** — Why monitoring answers "is it up?" while observability answers "why did it break?", the three pillars and their limits, cardinality economics, data pipeline observability, and tooling trade-offs
 - **[The Economics of Observability](the-economics-of-observability.md)** — Cost stacks (ingestion, storage, query, alert fatigue, human interpretation), cardinality chaos, sampling trade-offs, organizational incentive misalignment, and decision framework by scale and regulatory context
+- **[Designing Resilient Distributed Systems: Retries, Circuit Breakers, and Backpressure](resilient-distributed-systems.md)** — Failure as the default; retries, circuit breakers, timeouts, bulkheads, backpressure, load shedding; observability and chaos engineering for production resilience
 
 ### Infrastructure & Automation
 

@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready semantic knowledge graph platform that integrates semantic layer engineering, RDF/OWL metadata automation, cross-system data lineage contracts, and metadata provenance tracking. This tutorial demonstrates how to build intelligent, self-documenting data systems with automated relationship discovery and complete lineage tracking.
 
 This tutorial combines:
-- **[Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment](../best-practices/database-data/semantic-layer-engineering.md)** - Enterprise semantic layers
-- **[RDF/OWL Metadata Automation](../best-practices/architecture-design/rdf-owl-metadata-automation.md)** - Dynamic knowledge graphs
-- **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](../best-practices/database-data/data-lineage-contracts.md)** - Complete lineage tracking
-- **[Metadata Standards, Schema Governance & Data Provenance Contracts](../best-practices/data-governance/metadata-provenance-contracts.md)** - Metadata and provenance
+- **[Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment](../../best-practices/database-data/semantic-layer-engineering.md)** - Enterprise semantic layers
+- **[RDF/OWL Metadata Automation](../../best-practices/architecture-design/rdf-owl-metadata-automation.md)** - Dynamic knowledge graphs
+- **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](../../best-practices/database-data/data-lineage-contracts.md)** - Complete lineage tracking
+- **[Metadata Standards, Schema Governance & Data Provenance Contracts](../../best-practices/data-governance/metadata-provenance-contracts.md)** - Metadata and provenance
 
 ## 1) Prerequisites
 

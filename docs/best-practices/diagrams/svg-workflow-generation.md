@@ -311,11 +311,11 @@ flowchart LR
 
 **Rendered SVG artifact** (`docs/assets/diagrams/workflows/data-platform-workflow.svg`):
 
-![Data Platform Workflow — Sources through Serving with Governance and Observability cross-cuts](../assets/diagrams/workflows/data-platform-workflow.svg)
+![Data Platform Workflow — Sources through Serving with Governance and Observability cross-cuts](../../assets/diagrams/workflows/data-platform-workflow.svg)
 
 ---
 
 !!! tip "See also"
-    - [Mermaid → SVG Workflow Pipeline (Tutorial)](../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md) — step-by-step guide to setting up and running the render pipeline
-    - [Diagram Style Guide](../diagrams/style-guide.md) — Mermaid snippet library and formatting conventions
-    - [ADR 0015: Standardize Diagrams on Mermaid](../adr/0015-diagrams-mermaid.md) — the architectural decision record that established this standard
+    - [Mermaid → SVG Workflow Pipeline (Tutorial)](../../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md) — step-by-step guide to setting up and running the render pipeline
+    - [Diagram Style Guide](../../diagrams/style-guide.md) — Mermaid snippet library and formatting conventions
+    - [ADR 0015: Standardize Diagrams on Mermaid](../../adr/0015-diagrams-mermaid.md) — the architectural decision record that established this standard

@@ -7,7 +7,7 @@ tags:
 
 # MQTT vs HTTP in IoT Systems: Latency, Power, and Network Realities
 
-*This deep dive examines the protocol-level trade-offs between MQTT and HTTP in IoT deployments. For an implementation example using MQTT on an ESP32, see the [ESP32 tutorials](../tutorials/esp32/index.md).*
+*This deep dive examines the protocol-level trade-offs between MQTT and HTTP in IoT deployments. For an implementation example using MQTT on an ESP32, see the [ESP32 tutorials](../tutorials/embedded/index.md).*
 
 **Themes:** Embedded · IoT · Architecture
 
@@ -187,4 +187,4 @@ The MQTT persistent connection model means a compromised device maintains an aut
 
 !!! tip "See also"
     - [ESP32 Section Architecture](../adr/0005-esp32-section-architecture.md) — the ADR explaining how this site's ESP32 content is structured
-    - [ESP32 Tutorials](../tutorials/esp32/index.md) — implementation examples using MQTT with an ESP32
+    - [ESP32 Tutorials](../tutorials/embedded/index.md) — implementation examples using MQTT with an ESP32

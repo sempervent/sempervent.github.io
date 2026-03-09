@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready progressive delivery system that integrates release management and progressive delivery, architecture fitness functions, blast radius risk modeling, and observability-driven development. This tutorial demonstrates how to safely deploy changes with quality gates and risk containment.
 
 This tutorial combines:
-- **[Release Management, Change Governance, and Progressive Delivery](../best-practices/operations-monitoring/release-management-and-progressive-delivery.md)** - Safe release practices
-- **[Architectural Fitness Functions and Governance](../best-practices/architecture-design/architecture-fitness-functions-governance.md)** - Architecture quality measurement
-- **[Operational Risk Modeling, Blast Radius Reduction](../best-practices/operations-monitoring/blast-radius-risk-modeling.md)** - Risk containment
-- **[Observability-Driven Development](../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first releases
+- **[Release Management, Change Governance, and Progressive Delivery](../../best-practices/operations-monitoring/release-management-and-progressive-delivery.md)** - Safe release practices
+- **[Architectural Fitness Functions and Governance](../../best-practices/architecture-design/architecture-fitness-functions-governance.md)** - Architecture quality measurement
+- **[Operational Risk Modeling, Blast Radius Reduction](../../best-practices/operations-monitoring/blast-radius-risk-modeling.md)** - Risk containment
+- **[Observability-Driven Development](../../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first releases
 
 ## 1) Prerequisites
 

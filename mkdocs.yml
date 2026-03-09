@@ -342,6 +342,7 @@ nav:
     - 🔭 Operations & Reliability:
       - Observability vs Monitoring: deep-dives/observability-vs-monitoring.md
       - The Economics of Observability: deep-dives/the-economics-of-observability.md
+      - Designing Resilient Distributed Systems: deep-dives/resilient-distributed-systems.md
     - 🐳 Infrastructure & Automation:
       - Container Base Image Philosophy: deep-dives/container-base-image-philosophy.md
       - IaC vs GitOps: deep-dives/iac-vs-gitops.md
@@ -548,13 +549,14 @@ plugins:
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
+      enable_git_follow: false
       type: timeago
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
-  # Section index plugin for better index page handling
-  - section-index
+  # Section index: Material theme provides navigation.indexes (see features above).
+  # To use the section-index plugin instead, install deps in venv and run: uv run mkdocs build
 
 extra:
   social:

@@ -3,10 +3,10 @@
 **Objective**: Build a production-ready developer experience platform that integrates system taxonomy governance, repository standardization, cognitive load management, and architecture fitness functions. This tutorial demonstrates how to create consistent, maintainable development ecosystems that reduce cognitive load.
 
 This tutorial combines:
-- **[System-Wide Naming, Taxonomy, and Structural Vocabulary Governance](../best-practices/architecture-design/system-taxonomy-governance.md)** - Enterprise-wide naming conventions
-- **[Repository Standardization and Governance](../best-practices/architecture-design/repository-standardization-and-governance.md)** - Standardized repository architecture
-- **[Cognitive Load Management and Developer Experience](../best-practices/architecture-design/cognitive-load-developer-experience.md)** - DX architecture patterns
-- **[Architectural Fitness Functions and Governance](../best-practices/architecture-design/architecture-fitness-functions-governance.md)** - Architecture quality measurement
+- **[System-Wide Naming, Taxonomy, and Structural Vocabulary Governance](../../best-practices/architecture-design/system-taxonomy-governance.md)** - Enterprise-wide naming conventions
+- **[Repository Standardization and Governance](../../best-practices/architecture-design/repository-standardization-and-governance.md)** - Standardized repository architecture
+- **[Cognitive Load Management and Developer Experience](../../best-practices/architecture-design/cognitive-load-developer-experience.md)** - DX architecture patterns
+- **[Architectural Fitness Functions and Governance](../../best-practices/architecture-design/architecture-fitness-functions-governance.md)** - Architecture quality measurement
 
 ## 1) Prerequisites
 

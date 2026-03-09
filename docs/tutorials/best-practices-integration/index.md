@@ -292,13 +292,13 @@ These tutorials demonstrate common integration patterns:
 
 These tutorials integrate best practices from:
 
-- **[Architecture & Design](../best-practices/architecture-design/index.md)**
-- **[Data Governance](../best-practices/data-governance/index.md)**
-- **[Operations & Monitoring](../best-practices/operations-monitoring/index.md)**
-- **[Security](../best-practices/security/index.md)**
-- **[Python Development](../best-practices/python/index.md)**
-- **[Go Development](../best-practices/go/index.md)**
-- **[Rust Development](../best-practices/rust/index.md)**
+- **[Architecture & Design](../../best-practices/architecture-design/index.md)**
+- **[Data Governance](../../best-practices/data-governance/index.md)**
+- **[Operations & Monitoring](../../best-practices/operations-monitoring/index.md)**
+- **[Security](../../best-practices/security/index.md)**
+- **[Python Development](../../best-practices/python/index.md)**
+- **[Go Development](../../best-practices/go/index.md)**
+- **[Rust Development](../../best-practices/rust/index.md)**
 
 ## Next Steps
 

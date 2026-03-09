@@ -3,9 +3,9 @@
 **Objective**: Build a production-ready multi-region geospatial knowledge graph system with temporal governance for time-consistent queries and automated disaster recovery across regions. This tutorial demonstrates how to deploy a globally distributed GeoKG that maintains temporal consistency, handles regional failures, and provides time-travel query capabilities.
 
 This tutorial combines:
-- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
-- **[Multi-Region, Multi-Cluster Disaster Recovery](../best-practices/architecture-design/multi-region-dr-strategy.md)** - DR strategies and failover patterns
-- **[Temporal Governance and Time Synchronization](../best-practices/architecture-design/temporal-governance-and-time-synchronization.md)** - Time consistency and temporal validity
+- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
+- **[Multi-Region, Multi-Cluster Disaster Recovery](../../best-practices/architecture-design/multi-region-dr-strategy.md)** - DR strategies and failover patterns
+- **[Temporal Governance and Time Synchronization](../../best-practices/architecture-design/temporal-governance-and-time-synchronization.md)** - Time consistency and temporal validity
 
 ## Abstract
 
@@ -115,6 +115,7 @@ graph TB
 
 ---
 
+<span id="1-introduction--motivation"></span>
 ## 1. Introduction & Motivation
 
 ### 1.1 The Multi-Region GeoKG Paradigm
@@ -520,6 +521,7 @@ class H3CellSharding:
 
 ---
 
+<span id="3-systems-architecture--integration-patterns"></span>
 ## 3. Systems Architecture & Integration Patterns
 
 ### 3.1 High-Level Multi-Region Architecture
@@ -2247,9 +2249,9 @@ This tutorial demonstrated how to build a production-ready multi-region geospati
 5. Test failover regularly
 
 For related best practices, see:
-- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)**
-- **[Multi-Region, Multi-Cluster Disaster Recovery](../best-practices/architecture-design/multi-region-dr-strategy.md)**
-- **[Temporal Governance and Time Synchronization](../best-practices/architecture-design/temporal-governance-and-time-synchronization.md)**
+- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)**
+- **[Multi-Region, Multi-Cluster Disaster Recovery](../../best-practices/architecture-design/multi-region-dr-strategy.md)**
+- **[Temporal Governance and Time Synchronization](../../best-practices/architecture-design/temporal-governance-and-time-synchronization.md)**
 
 ---
 

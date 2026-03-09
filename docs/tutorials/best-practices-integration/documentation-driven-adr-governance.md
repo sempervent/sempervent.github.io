@@ -3,10 +3,10 @@
 **Objective**: Build a comprehensive documentation-driven development platform that integrates documentation best practices, ADR (Architecture Decision Records) governance, reference architecture diagrams, and cognitive load management. This tutorial demonstrates how to build self-documenting systems that minimize cognitive load and maximize developer productivity.
 
 This tutorial combines:
-- **[Documentation Best Practices](../best-practices/architecture-design/documentation.md)** - Writing and organizing useful documentation
-- **[ADR and Technical Decision Governance](../best-practices/architecture-design/adr-decision-governance.md)** - Architecture Decision Records
-- **[Reference Architecture Diagrams](../best-practices/architecture-design/reference-architecture-diagrams.md)** - System documentation
-- **[Cognitive Load Management and Developer Experience](../best-practices/architecture-design/cognitive-load-developer-experience.md)** - Developer experience optimization
+- **[Documentation Best Practices](../../best-practices/architecture-design/documentation.md)** - Writing and organizing useful documentation
+- **[ADR and Technical Decision Governance](../../best-practices/architecture-design/adr-decision-governance.md)** - Architecture Decision Records
+- **[Reference Architecture Diagrams](../../best-practices/architecture-design/reference-architecture-diagrams.md)** - System documentation
+- **[Cognitive Load Management and Developer Experience](../../best-practices/architecture-design/cognitive-load-developer-experience.md)** - Developer experience optimization
 
 ## 1) Prerequisites
 

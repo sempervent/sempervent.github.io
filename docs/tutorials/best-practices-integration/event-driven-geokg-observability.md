@@ -3,9 +3,9 @@
 **Objective**: Build a production-ready event-driven geospatial knowledge graph system that processes real-time geospatial events with complete observability across graph operations, spatial queries, and ML inference pipelines. This tutorial demonstrates how to integrate event-driven architecture patterns with unified observability to create a scalable, debuggable, and maintainable GeoKG system.
 
 This tutorial combines:
-- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
-- **[Event-Driven Architecture](../best-practices/architecture-design/event-driven-architecture.md)** - Event-driven patterns and messaging
-- **[Unified Observability Architecture](../best-practices/operations-monitoring/unified-observability-architecture.md)** - Complete observability across all systems
+- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
+- **[Event-Driven Architecture](../../best-practices/architecture-design/event-driven-architecture.md)** - Event-driven patterns and messaging
+- **[Unified Observability Architecture](../../best-practices/operations-monitoring/unified-observability-architecture.md)** - Complete observability across all systems
 
 ## Abstract
 
@@ -137,6 +137,7 @@ graph TB
 
 ---
 
+<span id="1-introduction--motivation"></span>
 ## 1. Introduction & Motivation
 
 ### 1.1 The Event-Driven GeoKG Paradigm
@@ -850,6 +851,7 @@ class VectorClock:
 
 ---
 
+<span id="3-systems-architecture--integration-patterns"></span>
 ## 3. Systems Architecture & Integration Patterns
 
 ### 3.1 High-Level Architecture
@@ -3364,9 +3366,9 @@ This tutorial demonstrated how to build a production-ready event-driven geospati
 4. Iterate based on real-world usage
 
 For related best practices, see:
-- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)**
-- **[Event-Driven Architecture](../best-practices/architecture-design/event-driven-architecture.md)**
-- **[Unified Observability Architecture](../best-practices/operations-monitoring/unified-observability-architecture.md)**
+- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)**
+- **[Event-Driven Architecture](../../best-practices/architecture-design/event-driven-architecture.md)**
+- **[Unified Observability Architecture](../../best-practices/operations-monitoring/unified-observability-architecture.md)**
 
 ---
 

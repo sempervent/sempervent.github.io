@@ -3,11 +3,11 @@
 **Objective**: Build a production-ready data pipeline that integrates data quality governance, data validation and contract governance, metadata provenance tracking, data freshness SLAs, and observability. This tutorial demonstrates how to ensure data quality throughout the entire pipeline lifecycle.
 
 This tutorial combines:
-- **[Data Quality SLAs, Validation Layers, and Observability](../best-practices/data-governance/data-quality-sla-validation-observability.md)** - Multi-layer validation and quality SLAs
-- **[Data Validation and Contract Governance](../best-practices/data-governance/data-validation-and-contract-governance.md)** - Schema validation and data contracts
-- **[Metadata Standards, Schema Governance & Data Provenance](../best-practices/data-governance/metadata-provenance-contracts.md)** - Metadata and lineage tracking
-- **[Data Freshness, SLA/SLO Governance](../best-practices/data-governance/data-freshness-sla-governance.md)** - Freshness monitoring and SLAs
-- **[Observability-Driven Development](../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first data pipelines
+- **[Data Quality SLAs, Validation Layers, and Observability](../../best-practices/data-governance/data-quality-sla-validation-observability.md)** - Multi-layer validation and quality SLAs
+- **[Data Validation and Contract Governance](../../best-practices/data-governance/data-validation-and-contract-governance.md)** - Schema validation and data contracts
+- **[Metadata Standards, Schema Governance & Data Provenance](../../best-practices/data-governance/metadata-provenance-contracts.md)** - Metadata and lineage tracking
+- **[Data Freshness, SLA/SLO Governance](../../best-practices/data-governance/data-freshness-sla-governance.md)** - Freshness monitoring and SLAs
+- **[Observability-Driven Development](../../best-practices/operations-monitoring/observability-driven-development.md)** - Telemetry-first data pipelines
 
 ## 1) Prerequisites
 

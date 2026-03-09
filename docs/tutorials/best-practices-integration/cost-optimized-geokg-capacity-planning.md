@@ -3,9 +3,9 @@
 **Objective**: Build a production-ready geospatial knowledge graph system optimized for cost with predictive capacity planning and workload modeling. This tutorial demonstrates how to minimize GeoKG operational costs while maintaining performance through intelligent resource allocation, capacity prediction, and workload optimization.
 
 This tutorial combines:
-- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
-- **[Cost-Aware Architecture & Resource-Efficiency Governance](../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost optimization strategies
-- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Predictive capacity planning
+- **[AI-Ready, ML-Enabled Geospatial Knowledge Graph](../../best-practices/database-data/ai-ml-geospatial-knowledge-graph.md)** - Geospatial knowledge graph foundations
+- **[Cost-Aware Architecture & Resource-Efficiency Governance](../../best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Cost optimization strategies
+- **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](../../best-practices/architecture-design/capacity-planning-and-workload-modeling.md)** - Predictive capacity planning
 
 ## Abstract
 
@@ -37,6 +37,7 @@ GeoKG systems can be expensive to operate at scale. Storage costs grow with grap
 6. [Operations, Observability, and Governance](#6-operations-observability-and-governance)
 7. [Patterns, Anti-Patterns, and Summary](#7-patterns-anti-patterns-and-summary)
 
+<span id="1-introduction--motivation"></span>
 ## Why This Tutorial Matters
 
 GeoKG systems can consume significant resources: graph databases require substantial memory and storage, spatial queries are computationally expensive, and ML inference requires GPU resources. Without cost optimization, operational costs can grow unbounded.
@@ -531,6 +532,7 @@ Cost-optimized GeoKG systems are built on architectural primitives that enable c
 
 ---
 
+<span id="3-systems-architecture--integration-patterns"></span>
 ## 3. Systems Architecture & Integration Patterns
 
 ### 3.1 High-Level Distributed System Architecture
