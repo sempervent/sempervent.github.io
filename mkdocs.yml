@@ -11,16 +11,14 @@ theme:
   # Distinctive teal/cyan palette - professional yet personal
   # Maintains strong contrast for accessibility
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal  # Deep teal for professional, distinctive look
-      accent: cyan   # Cyan accent for interactive elements
+    - scheme: default
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal  # Consistent teal in dark mode
+    - scheme: slate
+      primary: teal
       accent: cyan
       toggle:
         icon: material/brightness-4
@@ -100,7 +98,7 @@ nav:
       - "ADR-0015: Standardize Diagrams on Mermaid": adr/0015-diagrams-mermaid.md
     - Best Practices:
       - Overview: best-practices/index.md
-      - 📌 Start Here:
+      - Start Here:
         - ADR and Technical Decision Governance: best-practices/architecture-design/adr-decision-governance.md
         - Configuration Management: best-practices/operations-monitoring/configuration-management.md
         - System Resilience & Concurrency: best-practices/operations-monitoring/system-resilience-and-concurrency.md
@@ -121,11 +119,11 @@ nav:
           - Spark on Kubernetes: best-practices/data-processing/spark/spark-on-kubernetes.md
           - Spark Performance Tuning: best-practices/data-processing/spark/spark-performance-tuning.md
           - Spark in Modern Architectures: best-practices/data-processing/spark/spark-modern-architecture.md
-      - 🐍 Python Development:
+      - Python Development:
         - Overview: best-practices/python/index.md
         - "Developer Experience (DX) as Infrastructure: Golden Paths, Tooling Ecosystems & Workflow Automation": best-practices/python/dx-architecture-and-golden-paths.md
         - Python Package: best-practices/python/python-package.md
-        - Typing in Python: best-practices/python/typing-in-python.md
+        - Python type hints: best-practices/python/python-type-hints.md
         - Python Concurrency: best-practices/python/python-threading-and-multiprocessing.md
         - Python Async Best Practices: best-practices/python/python-async-best-practices.md
         - Pytest Best Practices: best-practices/python/pytest-best-practices.md
@@ -133,18 +131,18 @@ nav:
         - FastAPI Geospatial: best-practices/python/fastapi-geospatial.md
         - Web Performance Optimization: best-practices/python/web-performance-optimization.md
         - TUI Applications: best-practices/python/tui-applications.md
-      - 🦀 Rust Development:
+      - Rust Development:
         - Overview: best-practices/rust/index.md
         - Rust Development Environment: best-practices/rust/rust-dev-environment.md
         - TUI Applications: best-practices/rust/tui-applications.md
-      - 🐹 Go Development:
+      - Go Development:
         - Overview: best-practices/go/index.md
         - Go Development Environment: best-practices/go/go-dev-environment.md
         - TUI Applications: best-practices/go/tui-applications.md
-      - 📊 R Development:
+      - R Development:
         - Overview: best-practices/r/index.md
         - R Development Environment: best-practices/r/r-dev-environment.md
-      - 🐳 Docker & Infrastructure:
+      - Docker & Infrastructure:
         - Overview: best-practices/docker-infrastructure/index.md
         - Docker & Compose: best-practices/docker-infrastructure/docker-and-compose.md
         - Conda to Docker Migration: best-practices/docker-infrastructure/conda-to-docker-migration.md
@@ -157,12 +155,12 @@ nav:
         - Ansible Performance Optimization: best-practices/docker-infrastructure/ansible-performance-optimization.md
         - Jinja Best Practices: best-practices/docker-infrastructure/jinja-best-practices.md
         - Advanced Tmux Workflows: best-practices/docker-infrastructure/tmux-advanced.md
-      - 📝 Git & Version Control:
+      - Git & Version Control:
         - Overview: best-practices/git/index.md
         - Git Production: best-practices/git/git-production.md
         - Git Workflows & Collaboration: best-practices/git/git-workflows-collaboration.md
         - Modern GitFlow Best Practices: best-practices/git/gitflow-best-practices.md
-      - 🗄️ Database & Data Management:
+      - Database & Data Management:
         - Overview: best-practices/database-data/index.md
         - "Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement": best-practices/database-data/data-lineage-contracts.md
         - Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment: best-practices/database-data/semantic-layer-engineering.md
@@ -178,7 +176,7 @@ nav:
         - Data Lake Governance: best-practices/database-data/data-lake-governance.md
         - Geospatial Data Engineering: best-practices/database-data/geospatial-data-engineering.md
         - Geospatial Benchmarking: best-practices/database-data/geospatial-benchmarking.md
-      - 🐘 PostgreSQL Development:
+      - PostgreSQL Development:
         - Overview: best-practices/postgres/index.md
         - Core & Design:
           - Development Environment: best-practices/postgres/postgres-dev-environment.md
@@ -216,14 +214,14 @@ nav:
           - Deployment Strategies: best-practices/postgres/postgres-deployment-strategies.md
           - Data Engineering: best-practices/database-data/data-engineering.md
           - ETL Pipeline Design: best-practices/database-data/etl-pipeline-design.md
-      - 📊 Data Governance:
+      - Data Governance:
         - Overview: best-practices/data-governance/index.md
         - Metadata Standards, Schema Governance & Data Provenance: best-practices/data-governance/metadata-provenance-contracts.md
         - Data Validation and Contract Governance: best-practices/data-governance/data-validation-and-contract-governance.md
         - Data Freshness, SLA/SLO Governance, and Pipeline Reliability Contracts: best-practices/data-governance/data-freshness-sla-governance.md
         - Data Retention, Archival Strategy, Lifecycle Governance & Cold Storage Patterns: best-practices/data-governance/data-retention-archival-lifecycle-governance.md
         - Data Quality SLAs, Validation Layers, and Observability for Tabular, Geospatial, and ML Data: best-practices/data-governance/data-quality-sla-validation-observability.md
-      - 🤖 Machine Learning & AI:
+      - Machine Learning & AI:
         - Overview: best-practices/ml-ai/index.md
         - "ML Systems Architecture: Feature Stores, Model Serving, Experiment Governance, and Cross-System Reproducibility": best-practices/ml-ai/ml-systems-architecture-governance.md
         - Prompting LLMs: best-practices/ml-ai/prompting-llms.md
@@ -232,7 +230,7 @@ nav:
         - Embeddings & Vector Databases: best-practices/ml-ai/embeddings-and-vector-databases.md
         - Vibe → Agentic LLMs: best-practices/ml-ai/vibe-to-agentic.md
         - R Data Exploration: best-practices/ml-ai/r-data-exploration.md
-      - 🏗️ Architecture & Design:
+      - Architecture & Design:
         - Overview: best-practices/architecture-design/index.md
         - System-Wide Naming, Taxonomy, and Structural Vocabulary Governance: best-practices/architecture-design/system-taxonomy-governance.md
         - Cost-Aware Architecture & Resource-Efficiency Governance: best-practices/architecture-design/cost-aware-architecture-and-efficiency-governance.md
@@ -261,7 +259,7 @@ nav:
         - Reference Architecture Diagrams: best-practices/architecture-design/reference-architecture-diagrams.md
         - RDF/OWL Metadata Automation: best-practices/architecture-design/rdf-owl-metadata-automation.md
         - Protocol Buffers with Python: best-practices/architecture-design/protobuf-python.md
-      - 🔧 Operations & Monitoring:
+      - Operations & Monitoring:
         - Overview: best-practices/operations-monitoring/index.md
         - "Observability as Architecture: Unified Telemetry Models Across Clusters, Services, and Languages": best-practices/operations-monitoring/unified-observability-architecture.md
         - Chaos Engineering, Fault Injection, and Reliability Validation: best-practices/operations-monitoring/chaos-engineering-governance.md
@@ -279,7 +277,7 @@ nav:
         - Testing Best Practices: best-practices/operations-monitoring/testing-best-practices.md
         - Secrets & Configuration Management: best-practices/operations-monitoring/secrets-config.md
         - Grafana: best-practices/operations-monitoring/grafana.md
-      - 🔒 Security:
+      - Security:
         - Overview: best-practices/security/index.md
         - End-to-End Secrets Management & Key Rotation: best-practices/security/secrets-governance.md
         - Identity & Access Management, RBAC/ABAC, and Least-Privilege Governance: best-practices/security/iam-rbac-abac-governance.md
@@ -287,23 +285,23 @@ nav:
         - Secure Computes, Sandboxing, and Multi-Tenant Isolation for Polyglot Systems: best-practices/security/secure-sandboxing-and-multi-tenant-isolation.md
         - Cross-Domain Identity Federation, AuthZ/AuthN Architecture & Identity Propagation Models: best-practices/security/identity-federation-authz-authn-architecture.md
         - Secret Supply Chains, Encryption Lifecycle Management & Cryptographic Rotation Strategy: best-practices/security/encryption-lifecycle-and-crypto-rotation.md
-      - ⚡ Performance:
+      - Performance:
         - Overview: best-practices/performance/index.md
         - End-to-End Caching Strategy: best-practices/performance/end-to-end-caching-strategy.md
-      - 🧪 Testing:
+      - Testing:
         - Overview: best-practices/testing/index.md
         - End-to-End Testing Strategy: best-practices/testing/end-to-end-testing-strategy.md
-      - 🖼️ Diagrams:
+      - Diagrams:
         - Systems Diagramming Best Practices: best-practices/diagrams/systems-diagramming-best-practices.md
         - SVG Workflow Generation: best-practices/diagrams/svg-workflow-generation.md
-      - 🎨 Creative & Fun:
+      - Creative & Fun:
         - Overview: best-practices/creative-fun/index.md
         - Time Hygiene (UTC, TZ, Clocks): best-practices/creative-fun/time-hygiene.md
         - Idempotency & De-dup: best-practices/creative-fun/idempotency-and-dedup.md
         - Celery Tasks: best-practices/creative-fun/celery-best-practices.md
         - LaTeX Workflows: best-practices/creative-fun/latex.md
         - YAML Recipe Format: best-practices/creative-fun/yaml-recipe-format.md
-      - 🔌 Embedded Systems & ESP32:
+      - Embedded Systems & ESP32:
         - Overview: best-practices/esp32/index.md
         - Programming Architecture: best-practices/esp32/esp32-programming-architecture.md
         - Power Management & Deep Sleep: best-practices/esp32/power-management-and-deep-sleep.md
@@ -315,21 +313,21 @@ nav:
         - LoRa Best Practices (SX127x): best-practices/esp32/lora-best-practices-sx127x.md
         - Safety Checklist (Printable): best-practices/esp32/esp32-safety-checklist-printable.md
         - ESP32-S3 and C3 Notes: best-practices/esp32/esp32-s3-and-c3-architecture-notes.md
-      - 🔋 Power Electronics & Embedded Hardware:
+      - Power Electronics & Embedded Hardware:
         - Overview: best-practices/embedded/index.md
         - Power Electronics for ESP32: best-practices/embedded/power-electronics-for-esp32.md
-      - 🏠 Home Automation & MQTT:
+      - Home Automation & MQTT:
         - Overview: best-practices/home-automation/index.md
         - Home Assistant Security: best-practices/home-automation/home-assistant-security-best-practices.md
     - Deep Dives:
       - Overview: deep-dives/index.md
-      - 📦 Data Formats & Storage:
+      - Data Formats & Storage:
         - Parquet vs CSV vs ORC vs Avro: deep-dives/parquet-vs-csv-orc-avro.md
         - Geospatial File Format Choices: deep-dives/geospatial-file-format-choices.md
         - Polars vs Pandas for Geospatial Data: deep-dives/polars-vs-pandas-geospatial.md
         - The Physics of Storage Systems: deep-dives/the-physics-of-storage-systems.md
         - The Operational Geometry of Spatial Systems: deep-dives/the-operational-geometry-of-spatial-systems.md
-      - 🧩 Systems Design & Architecture:
+      - Systems Design & Architecture:
         - Why Most Microservices Should Be Monoliths: deep-dives/why-most-microservices-should-be-monoliths.md
         - Appropriate Use of Microservices: deep-dives/appropriate-use-of-microservices.md
         - Distributed Systems and the Myth of Infinite Scale: deep-dives/distributed-systems-myth-of-infinite-scale.md
@@ -341,11 +339,11 @@ nav:
         - Blockchain vs Hashchain: deep-dives/blockchain-vs-hashchain.md
         - Merkle Trees Explained: deep-dives/merkle-trees-explained.md
         - Proof of Work Explained: deep-dives/proof-of-work-explained.md
-      - 🔭 Operations & Reliability:
+      - Operations & Reliability:
         - Observability vs Monitoring: deep-dives/observability-vs-monitoring.md
         - The Economics of Observability: deep-dives/the-economics-of-observability.md
         - Designing Resilient Distributed Systems: deep-dives/resilient-distributed-systems.md
-      - 🐳 Infrastructure & Automation:
+      - Infrastructure & Automation:
         - Container Base Image Philosophy: deep-dives/container-base-image-philosophy.md
         - IaC vs GitOps: deep-dives/iac-vs-gitops.md
         - The Human Cost of Automation: deep-dives/the-human-cost-of-automation.md
@@ -353,7 +351,7 @@ nav:
         - Building a Bitcoin Mining Rig: deep-dives/building-a-bitcoin-mining-rig.md
         - Converting Bitcoin Mining to LLM Clusters: deep-dives/converting-bitcoin-mining-to-llm.md
         - The Myth of Serverless Simplicity: deep-dives/the-myth-of-serverless-simplicity.md
-      - 🏗️ Data Systems & Architecture:
+      - Data Systems & Architecture:
         - Lakehouse vs Warehouse vs Database: deep-dives/lakehouse-vs-warehouse-vs-database.md
         - DuckDB vs PostgreSQL vs Spark: deep-dives/duckdb-vs-postgres-vs-spark.md
         - Why Most Data Pipelines Fail: deep-dives/why-most-data-pipelines-fail.md
@@ -371,17 +369,17 @@ nav:
         - Why Most Data Lakes Become Data Swamps: deep-dives/data-lakes-become-data-swamps.md
         - The Metadata Crisis in Modern Data Platforms: deep-dives/metadata-crisis-in-modern-data-platforms.md
         - Why Most Data Pipelines Are Operationally Fragile: deep-dives/why-data-pipelines-are-operationally-fragile.md
-      - 📡 Embedded & Radio:
+      - Embedded & Radio:
         - LoRaWAN vs Raw LoRa: deep-dives/lorawan-vs-raw-lora.md
         - MQTT vs HTTP in IoT Systems: deep-dives/mqtt-vs-http-iot.md
         - ESP32 vs Raspberry Pi: deep-dives/esp32-vs-raspberry-pi.md
     - Tutorials:
       - Overview: tutorials/index.md
-      - 🚀 Quick Start:
+      - Quick Start:
         - Overview: tutorials/quick-start/index.md
         - Creating MkDocs GitHub Site: tutorials/quick-start/creating-mkdocs-github-site.md
         - Monitoring with Grafana & Prometheus: tutorials/quick-start/monitoring-with-grafana-prometheus.md
-      - 🐍 Python Development:
+      - Python Development:
         - Overview: tutorials/python-development/index.md
         - psycopg2 to psycopg 3 Migration: tutorials/python-development/psycopg2-to-psycopg3-migration.md
         - Ruff Check Ignore in pyproject.toml: tutorials/python-development/ruff-check-ignore-pyproject.md
@@ -393,15 +391,15 @@ nav:
         - WebSocket Chat with FastAPI: tutorials/python-development/websocket-chat-fastapi.md
         - Chaos Engineering with Kubernetes and Python: tutorials/python-development/chaos-engineering-k8s-python.md
         - Building a Python TUI: tutorials/python-development/building-a-python-tui.md
-      - 🦀 Rust Development:
+      - Rust Development:
         - Overview: tutorials/rust-development/index.md
         - Rust + CSR (Parse & Build from Parquet/DB): tutorials/rust-development/rust-csr-parquet-db.md
         - Event-Sourcing in Rust: tutorials/rust-development/rust-event-sourcing.md
         - Building a Rust TUI: tutorials/rust-development/building-a-rust-tui.md
-      - 🐹 Go Development:
+      - Go Development:
         - Overview: tutorials/go-development/index.md
         - Building a Go TUI: tutorials/go-development/building-a-go-tui.md
-      - 🐳 Docker & Infrastructure:
+      - Docker & Infrastructure:
         - Overview: tutorials/docker-infrastructure/index.md
         - Multi-Stage Docker (Conda → scratch): tutorials/docker-infrastructure/multistage-conda-to-scratch.md
         - Slim Geospatial + GPU Containers (GDAL): tutorials/docker-infrastructure/slim-geospatial-gpu-conda.md
@@ -415,7 +413,7 @@ nav:
         - Deploy SLURM with Ansible on Raspberry Pi Cluster: tutorials/docker-infrastructure/ansible-slurm-raspberrypi.md
         - Harbor Container Registry Setup: tutorials/docker-infrastructure/harbor-registry-setup.md
         - Dask with Ansible (CPU + GPU): tutorials/docker-infrastructure/ansible-dask-heterogeneous.md
-      - 🗄️ Database & Data Engineering:
+      - Database & Data Engineering:
         - Overview: tutorials/database-data-engineering/index.md
         - PostGIS Geometry Indexing: tutorials/database-data-engineering/postgis-geometry-indexing.md
         - PostGIS Raster Indexing: tutorials/database-data-engineering/postgis-raster-indexing.md
@@ -440,7 +438,7 @@ nav:
         - Graph vs Vector Databases: tutorials/database-data-engineering/graph-vs-vector-databases.md
         - Geospatial Knowledge Graph: tutorials/database-data-engineering/geospatial-knowledge-graph.md
         - DuckDB Parquet Data Quality: tutorials/database-data-engineering/duckdb-parquet-data-quality.md
-      - 🤖 Machine Learning & AI:
+      - Machine Learning & AI:
         - Overview: tutorials/ml-ai/index.md
         - MLflow API Experiments: tutorials/ml-ai/mlflow-api-experiments.md
         - Local LLM Deployments (Ollama, llama.cpp, vLLM, TGI): tutorials/ml-ai/local-llm-deployments.md
@@ -448,22 +446,22 @@ nav:
         - RAG with Ollama + Database: tutorials/ml-ai/rag-ollama-db.md
         - MCP ↔ MLflow Toolchain: tutorials/ml-ai/mcp-mlflow-toolchain.md
         - Semantic ML Training: tutorials/ml-ai/semantic-ml-training.md
-      - 🔧 System Administration:
+      - System Administration:
         - Overview: tutorials/system-administration/index.md
         - iPXE Multi-System Booting: tutorials/system-administration/ipxe-multi-boot.md
         - Remote Dev with tmux & screen: tutorials/system-administration/remote-dev-tmux-screen.md
         - FIFO Prefect Flow with Redis: tutorials/system-administration/prefect-fifo-redis.md
         - AWK Unix Text Processing: tutorials/system-administration/awk-unix-text-processing.md
-      - 🖼️ Diagrams:
+      - Diagrams:
         - "Layered Systems Diagrams: Mermaid → SVG": tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md
         - Mermaid → SVG Workflow Pipeline: tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md
-      - 📊 Data Science & Visualization:
+      - Data Science & Visualization:
         - Overview: tutorials/data-science-visualization/index.md
         - Jupyter Notebook Best Practices (Geospatial Edition): tutorials/data-science-visualization/jupyter-notebook-best-practices-geo.md
         - Mermaid Diagrams in MkDocs: tutorials/data-science-visualization/mermaid-diagrams.md
         - TikZ Diagrams in LaTeX: tutorials/data-science-visualization/latex-tikz-diagrams.md
         - Generative Art in R: tutorials/data-science-visualization/r-generative-art.md
-      - 🛠️ Development Tools:
+      - Development Tools:
         - Overview: tutorials/development-tools/index.md
         - jq JSON Parsing Mastery: tutorials/development-tools/jq-json-parsing-mastery.md
         - find_files for parquet_s3_fdw: tutorials/development-tools/find-files-parquet-fdw.md
@@ -472,7 +470,7 @@ nav:
         - Python Modbus Device Communication: tutorials/development-tools/python-modbus-devices.md
         - Mixing Tech with Go Glue: tutorials/development-tools/go-tech-mixer.md
         - Tauri + rqlite + Syncthing: tutorials/development-tools/tauri-rqlite-syncthing.md
-      - 🎨 Just for Fun:
+      - Just for Fun:
         - Overview: tutorials/just-for-fun/index.md
         - Glitch Observatory (JS): tutorials/just-for-fun/js-glitch-observatory.md
         - Terminal to GIF: tutorials/just-for-fun/terminal-to-gif.md
@@ -494,7 +492,7 @@ nav:
         - MIDI-Driven Particle Nebula (Kotlin): tutorials/just-for-fun/kotlin-midi-particle-nebula.md
         - Cellular Automata Garden (Kotlin): tutorials/just-for-fun/kotlin-cellular-automata-garden.md
         - Pi Infinite Art Frame (Kotlin): tutorials/just-for-fun/pi-infinite-art-frame-kotlin.md
-      - 🔌 Embedded Systems:
+      - Embedded Systems:
         - Overview: tutorials/embedded/index.md
         - ESP32 E-Ink Environmental Monitor: tutorials/embedded/esp32-eink-sensor-monitor.md
         - ESP32 RF Room Light Controller: tutorials/embedded/esp32-rf-room-light-controller.md
@@ -560,12 +558,38 @@ plugins:
         projects.md: projects/index.md
         lab/index.md: tutorials/just-for-fun/index.md
         tutorials/python-development/js-glitch-observatory.md: tutorials/just-for-fun/js-glitch-observatory.md
+        best-practices/python/typing-in-python.md: best-practices/python/python-type-hints.md
+        best-practices/python/python-async-programming.md: best-practices/python/python-async-best-practices.md
+        best-practices/python/python-concurrency-patterns.md: best-practices/python/python-threading-and-multiprocessing.md
+        best-practices/python/python-package-development.md: best-practices/python/python-package.md
+        tutorials/best-practices-integration/api-first-polyglot-protobuf.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/cost-optimized-geokg-capacity-planning.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/cost-optimized-ml-pipeline-capacity-retention.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/data-pipeline-quality-governance-observability.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/developer-experience-taxonomy-repository.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/documentation-driven-adr-governance.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/event-driven-geokg-observability.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/event-driven-microservices-observability-data-governance.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/geospatial-data-mesh-cost-capacity.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/high-performance-caching-topology.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/high-performance-geokg-async-caching.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/multi-environment-deployment-secrets-config-governance.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/multi-region-dr-temporal-blast-radius.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/multi-region-geokg-temporal-dr.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/polyglot-streaming-saga-cqrs-multicloud.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/progressive-delivery-release-fitness.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/quality-governed-geokg-retention-lifecycle.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/resilient-microservices-chaos-engineering.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/secure-polyglot-identity-encryption.md: tutorials/best-practices-integration/index.md
+        tutorials/best-practices-integration/semantic-knowledge-graph-rdf-lineage.md: tutorials/best-practices-integration/index.md
   - exclude:
       glob:
         - "_generated/**"
+        - "archive/**"
   - git-revision-date-localized:
       enable_creation_date: true
       enable_git_follow: false
+      fallback_to_build_date: true
       type: timeago
   - minify:
       minify_html: true
