@@ -30,20 +30,31 @@ def link_button(label: str, url: str | None, *, primary: bool = False) -> str:
     return f"[{label}]({url}){{ .md-button }}"
 
 
-def project_card(project: dict) -> str:
-    lines = [
-        '<div class="project-card" markdown="1">',
-        f"### {project['name']}",
-        "",
-        project["summary"],
-        "",
-    ]
+def project_card(project: dict, *, show_image: bool = False) -> str:
+    lines = ['<div class="project-card" markdown="1">']
+    if show_image and project.get("image"):
+        alt = project.get("image_alt") or project["name"]
+        img = project["image"].lstrip("/")
+        lines.extend(
+            [
+                f"![{alt}]({img}){{ .project-card__image }}",
+                "",
+            ]
+        )
+    lines.extend(
+        [
+            f"### {project['name']}",
+            "",
+            project["summary"],
+            "",
+        ]
+    )
     meta = []
     if project.get("language"):
-        meta.append(f"**Stack:** {project['language']}")
-    meta.append(f"**Status:** {project['status']}")
+        meta.append(project["language"])
+    meta.append(project["status"])
     if meta:
-        lines.append(" · ".join(meta))
+        lines.append(f"*{' · '.join(meta)}*")
         lines.append("")
 
     actions = []
@@ -63,12 +74,12 @@ def project_card(project: dict) -> str:
     return "\n".join(lines)
 
 
-def cards_grid(projects: list[dict]) -> str:
+def cards_grid(projects: list[dict], *, show_image: bool = False) -> str:
     if not projects:
         return "_No projects in this section._\n"
     parts = ['<div class="project-card-grid" markdown="1">', ""]
     for p in projects:
-        parts.append(project_card(p))
+        parts.append(project_card(p, show_image=show_image))
         parts.append("")
     parts.append("</div>")
     return "\n".join(parts)
@@ -77,7 +88,7 @@ def cards_grid(projects: list[dict]) -> str:
 def write_current_work(projects: list[dict]) -> None:
     current = [p for p in projects if p.get("current")]
     current.sort(key=lambda p: (not p.get("featured"), p["name"].lower()))
-    body = HEADER + cards_grid(current)
+    body = HEADER + cards_grid(current, show_image=True)
     (GENERATED / "home-current-work.md").write_text(body, encoding="utf-8")
 
 
@@ -100,77 +111,54 @@ def write_projects_index(projects: list[dict]) -> None:
 
     intro = """# Projects
 
-Portfolio of independent software, documentation sites, and experiments. Entries are
-generated from [`data/projects.yaml`](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)
-so descriptions stay in one reviewable place.
+Software I ship or maintain on my own time, plus a few wikis and games that never
+quite graduated. Summaries come from [`data/projects.yaml`](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)
+so this page stays aligned with one editable file.
 
-**Status legend:** *active* — ongoing focus; *maintained* — usable with occasional updates;
-*experimental* — lab/prototype; *historical* — kept for reference.
+*active* — I'm still pushing code; *maintained* — works, updates are sporadic;
+*experimental* — prototype; *historical* — archived curiosity.
 
-See also **[Project documentation sites](documentation-sites.md)** for verified GitHub Pages deployments.
+**[Project documentation sites](documentation-sites.md)** lists GitHub Pages deployments that actually respond.
 """
     parts = [HEADER, intro, ""]
     parts.append(
         section(
             "Featured",
-            "Flagship or especially representative work.",
+            "Work I'd point a collaborator at first.",
             sorted(featured, key=lambda p: p["name"].lower()),
         )
     )
     parts.append(
         section(
             "Active development",
-            "Additional projects with recent independent development.",
+            "Other repos with recent commits.",
             sorted(active, key=lambda p: p["name"].lower()),
         )
     )
     parts.append(
         section(
             "Maintained tools & platforms",
-            "Libraries, portals, and utilities that remain useful.",
+            "Tools that still compile and still solve a real annoyance.",
             sorted(maintained, key=lambda p: p["name"].lower()),
         )
     )
     parts.append(
         section(
             "Experiments & documentation",
-            "Wikis, comparisons, games-in-progress, and strange machinery.",
+            "Wikis, games, MQTT oddities, and other half-finished ideas.",
             sorted(experimental, key=lambda p: p["name"].lower()),
         )
     )
     parts.append(
         section(
             "Historical archive",
-            "Older web apps and prototypes — preserved, not promoted as current work.",
+            "Older apps kept for reference — not current work.",
             sorted(historical, key=lambda p: p["name"].lower()),
         )
     )
 
     PROJECTS_DIR.mkdir(parents=True, exist_ok=True)
     (PROJECTS_DIR / "index.md").write_text("\n".join(parts), encoding="utf-8")
-
-
-def write_lab(projects: list[dict]) -> None:
-    lab = [
-        p
-        for p in projects
-        if p.get("category") in {"creative", "games"}
-        or p.get("status") == "experimental"
-        and p.get("category") != "documentation"
-    ]
-    lab = sorted({p["slug"]: p for p in lab}.values(), key=lambda p: p["name"].lower())
-
-    intro = """# Lab & Experiments
-
-Unusual projects, games, generative systems, and homelab oddities. Material here is
-**experimental** unless explicitly marked maintained — not production guidance.
-
-For step-by-step creative tutorials, see **[Just for Fun](../tutorials/just-for-fun/index.md)**.
-"""
-    body = HEADER + intro + "\n" + cards_grid(lab)
-    lab_dir = ROOT / "docs" / "lab"
-    lab_dir.mkdir(parents=True, exist_ok=True)
-    (lab_dir / "index.md").write_text(body, encoding="utf-8")
 
 
 def write_documentation_sites(projects: list[dict]) -> None:
@@ -200,9 +188,9 @@ def write_documentation_sites(projects: list[dict]) -> None:
         HEADER,
         "# Project documentation sites",
         "",
-        "Verified live documentation deployments (HTTP 200 as of the portfolio recon in",
-        "`docs/maintainers/portfolio-recon-2026-09-30.md`). Repositories with GitHub Pages",
-        "enabled but returning 404 are omitted until the deploy is fixed.",
+        "MkDocs and other docs sites under `sempervent.github.io/*` that returned HTTP 200",
+        "during the September 2026 recon (`docs/maintainers/portfolio-recon-2026-09-30.md`).",
+        "Broken deploys stay off this list until they serve again.",
         "",
         "| Project | Purpose | Site |",
         "| --- | --- | --- |",
@@ -238,7 +226,6 @@ def main() -> int:
     GENERATED.mkdir(parents=True, exist_ok=True)
     write_current_work(projects)
     write_projects_index(projects)
-    write_lab(projects)
     write_documentation_sites(projects)
     print("Generated portfolio pages from data/projects.yaml")
     return 0

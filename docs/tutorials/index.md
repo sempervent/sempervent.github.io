@@ -1,8 +1,8 @@
 # Tutorials
 
-**Objective**: Master complex technical implementations through step-by-step guides. When you need to implement specific technologies, when you want to follow proven patterns, when you need copy-paste runnable examples—these tutorials become your weapon of choice.
+Step-by-step builds: prerequisites, commands, config files, and something you can reproduce on your own machine.
 
-This collection provides comprehensive, hands-on tutorials for implementing key technologies and workflows. Each tutorial includes complete code examples, configuration files, and production-ready patterns.
+If you already know *what* you want to run and mainly need *how*, start here. For principles and trade-offs, see [Best Practices](../best-practices/index.md).
 
 ## 🚀 Quick Start
 
@@ -89,4 +89,4 @@ Comprehensive tutorials that combine multiple best practices into complete, prod
 
 ---
 
-*These tutorials provide the complete machinery for implementing key technologies and workflows. Each guide includes production-ready examples, configuration files, and best practices for enterprise deployment.*
+*When a tutorial assumes background you do not have, back up to the linked best-practice page or the section overview.*

@@ -1,6 +1,5 @@
 # Canonical project registry for sempervent.github.io
 # Edit this file; run `python scripts/generate_portfolio.py` before `mkdocs build`.
-# Validated by `python scripts/validate_projects.py`.
 
 schema_version: 1
 
@@ -8,22 +7,25 @@ projects:
   - slug: parqonaut
     name: PARQONAUT
     summary: >-
-      Rust toolkit (`prqnt`) for scanning, streaming, transforming, diagnosing,
-      and repairing Parquet datasets across local paths and S3-compatible storage.
+      I merged several Parquet utilities into one Rust workspace. `prqnt` scans
+      local trees or S3 prefixes, runs repair workflows, and exposes an HTTP API for
+      async jobs.
     status: active
     category: engineering
     repo: https://github.com/sempervent/PARQONAUT
     docs: https://sempervent.github.io/PARQONAUT/
+    image: assets/projects/parqonaut-mascot.png
+    image_alt: PARQONAUT mascot illustration
     featured: true
     current: true
     language: Rust
-    tags: [parquet, rust, data-engineering]
 
   - slug: dots
     name: dots
     summary: >-
-      Personal workstation operating layer — shared shell tooling and bootstrap
-      flows across macOS and Linux (bash and zsh).
+      My dotfiles repo, but really a bootstrap layer: one interactive `./dots`
+      flow for macOS and Linux, with shared logic in `shell/` and profile-specific
+      pieces alongside bash and zsh.
     status: active
     category: infrastructure
     repo: https://github.com/sempervent/dots
@@ -31,51 +33,49 @@ projects:
     featured: true
     current: true
     language: Shell
-    tags: [dotfiles, dev-environment]
 
   - slug: numbrane
     name: NUMBRANE
     summary: >-
-      Polyglot generative audiovisual system driven by mathematics and procedural
-      rules — explicitly not LLM-based generative AI.
+      Generative audiovisual pieces from math and simulation — no LLM inference in
+      the runtime. NUMBRANE Studio is a canvas-first front end for stills,
+      animation, and live reaction.
     status: active
     category: creative
     repo: https://github.com/sempervent/numbrane
     featured: true
     current: true
     language: Python
-    tags: [generative-art, audio, studio]
 
   - slug: paraclete
     name: Paraclete
     summary: >-
-      Data exploration tool; upstream lineage merged into the PARQONAUT workspace
-      (see PARQONAUT provenance docs).
+      Small Parquet exploration tool; its code paths feed PARQONAUT (see PARQONAUT
+      provenance docs).
     status: maintained
     category: engineering
     repo: https://github.com/sempervent/paraclete
     featured: false
-    current: true
+    current: false
     language: Rust
-    tags: [parquet, exploration]
 
   - slug: cosmic-architect
     name: Cosmic Architect
     summary: >-
-      Web-based planet-building game (successor to earlier pygame experiments);
-      competitive ecosystem design.
+      Browser game about building viable planets — a web successor to earlier pygame
+      prototypes in the same vein.
     status: experimental
     category: games
     repo: https://github.com/sempervent/cosmic-architect
     featured: false
-    current: true
+    current: false
     language: Python
-    tags: [games, web]
 
   - slug: music-rig
     name: music-rig
     summary: >-
-      Documentation and configuration for a home audio recording studio setup.
+      Notes and wiring diagrams for my home recording setup — interfaces, monitoring,
+      and the boring parts that keep sessions predictable.
     status: maintained
     category: creative
     repo: https://github.com/sempervent/music-rig
@@ -83,13 +83,12 @@ projects:
     featured: false
     current: false
     language: Markdown
-    tags: [audio, homelab]
 
   - slug: blacklake-python
     name: Blacklake (Python)
     summary: >-
-      Git-like dataset versioning on S3-compatible stores with JSON-LD semantic
-      metadata, SHACL validation, and Solr-backed search.
+      Git-like commits for datasets on S3-compatible storage, with JSON-LD metadata,
+      SHACL checks, and Solr search over semantic fields.
     status: maintained
     category: engineering
     repo: https://github.com/sempervent/blacklake
@@ -97,13 +96,13 @@ projects:
     featured: true
     current: false
     language: Python
-    tags: [s3, metadata, versioning]
 
   - slug: s3-rust-data-portal
     name: Blacklake (Rust data portal)
     summary: >-
-      Rust/Axum Git-style artifact service for ML models and datasets on S3 with
-      PostgreSQL metadata search and CLI tooling (`s3-rust-data-portal` repo).
+      Separate Rust codebase (repo `s3-rust-data-portal`): Axum API and CLI for
+      versioned ML artifacts on S3, with Postgres JSONB search — related name, not
+      the same tree as the Python project.
     status: maintained
     category: engineering
     repo: https://github.com/sempervent/s3-rust-data-portal
@@ -111,13 +110,12 @@ projects:
     featured: false
     current: false
     language: Rust
-    tags: [s3, rust, ml-artifacts]
 
   - slug: wildfire-smoke-risk
     name: Wildfire Smoke Risk Correlator
     summary: >-
-      Geospatial analysis project correlating wildfire smoke exposure with health
-      risk indicators (public research prototype).
+      Public geospatial prototype linking smoke exposure layers to health-risk
+      indicators — research code, not an operational service.
     status: experimental
     category: engineering
     repo: https://github.com/sempervent/wildfire-smoke-risk-correlator
@@ -125,13 +123,12 @@ projects:
     featured: false
     current: false
     language: Python
-    tags: [geospatial, health, wildfire]
 
   - slug: postgres-query-autopsy
     name: Postgres Query Autopsy Tool
     summary: >-
-      .NET tool for inspecting and explaining PostgreSQL query plans and workload
-      behavior.
+      .NET CLI that pulls apart PostgreSQL plans and workload traces so you can see
+      where time goes without guessing from `EXPLAIN` alone.
     status: experimental
     category: engineering
     repo: https://github.com/sempervent/postgres-query-autopsy-tool
@@ -139,13 +136,12 @@ projects:
     featured: false
     current: false
     language: C#
-    tags: [postgres, diagnostics]
 
   - slug: gi
     name: gi
     summary: >-
-      CLI utility to combine and manage `.gitignore` patterns across polyglot
-      repositories.
+      Combines `.gitignore` fragments across stacks — useful when every repo spawns
+      another half-copy of the same ignore rules.
     status: maintained
     category: engineering
     repo: https://github.com/sempervent/gi
@@ -153,13 +149,12 @@ projects:
     featured: false
     current: false
     language: Go
-    tags: [git, tooling]
 
   - slug: agent-llm-wiki-matrix
     name: Agent LLM Wiki Matrix
     summary: >-
-      Comparison framework for agentic coding systems and repo-centered signals
-      for measuring assistant workflows.
+      MkDocs site comparing agentic coding tools and tracking repo-local signals —
+      part literature review, part lab notebook.
     status: experimental
     category: documentation
     repo: https://github.com/sempervent/agent-llm-wiki-matrix
@@ -167,12 +162,12 @@ projects:
     featured: false
     current: false
     language: Markdown
-    tags: [llm, agents, documentation]
 
   - slug: smart-farm-wiki
     name: Smart Farm Wiki
     summary: >-
-      MkDocs knowledge base for smart-farm / homelab automation experiments.
+      Homelab / smart-farm automation notes collected as a wiki — MQTT, sensors, and
+      whatever broke last week.
     status: experimental
     category: documentation
     repo: https://github.com/sempervent/smart-farm-wiki
@@ -180,12 +175,11 @@ projects:
     featured: false
     current: false
     language: Markdown
-    tags: [wiki, iot]
 
   - slug: llm-wiki-template
     name: LLM Wiki Template
     summary: >-
-      Reusable MkDocs template for LLM-oriented team wikis and agent playbooks.
+      Starter MkDocs layout for team wikis aimed at humans and coding agents alike.
     status: maintained
     category: documentation
     repo: https://github.com/sempervent/llm-wiki-template
@@ -193,12 +187,12 @@ projects:
     featured: false
     current: false
     language: Markdown
-    tags: [template, mkdocs]
 
   - slug: generative-midi-workbench
     name: Generative MIDI Workbench
     summary: >-
-      Experiments in algorithmic MIDI composition and performance tooling.
+      Scratch space for algorithmic MIDI — chord engines, performance hooks, and
+      half-finished ideas that might become songs.
     status: experimental
     category: creative
     repo: https://github.com/sempervent/generative-midi-workbench
@@ -206,52 +200,47 @@ projects:
     featured: false
     current: false
     language: Python
-    tags: [midi, music]
 
   - slug: mqtt-comparison
     name: MQTT Comparison
     summary: >-
-      Experimental comparison of MQTT brokers and client patterns (Pages site
-      configured in GitHub but not currently serving — see maintainer recon).
+      Broker comparison notes from a weekend MQTT bake-off. Org Pages URL exists but
+      was returning 404 when last checked.
     status: experimental
     category: engineering
     repo: https://github.com/sempervent/mqtt-comparison
     featured: false
     current: false
     language: Python
-    tags: [mqtt, iot]
 
   - slug: cockpit
     name: cockpit
     summary: >-
-      tmux-backed Go TUI homelab cockpit that orchestrates terminal tools as
-      persistent workspaces.
+      Go TUI that keeps tmux sessions, SSH targets, and local tools in one homelab
+      dashboard.
     status: experimental
     category: infrastructure
     repo: https://github.com/sempervent/cockpit
     featured: false
     current: false
     language: Go
-    tags: [tui, homelab]
 
   - slug: parqknife
     name: parqknife
     summary: >-
-      Parquet “swiss army knife” CLI; functionality consolidated into PARQONAUT
-      (`prqnt`).
+      Older Parquet CLI; most of it lives inside PARQONAUT now.
     status: historical
     category: engineering
     repo: https://github.com/sempervent/parqknife
     featured: false
     current: false
     language: Rust
-    tags: [parquet, cli]
 
   - slug: opensampl
     name: OpenSAMPL
     summary: >-
-      ORNL open-source clock probe aggregation and timing analysis platform
-      (external organization repository).
+      ORNL clock-probe aggregation and timing analysis (external repo — I contribute
+      in that context, not as personal product marketing).
     status: maintained
     category: engineering
     repo: https://github.com/ORNL/OpenSAMPL
@@ -259,93 +248,85 @@ projects:
     featured: false
     current: false
     language: Python
-    tags: [timing, ornl-external]
 
   - slug: whereivebeen
     name: Where I've Been
     summary: >-
-      County-level travel map and statistics web app (earlier-generation personal
-      project).
+      County-level map of places I've visited — an older Flask/Vue side project.
     status: historical
     category: engineering
     repo: https://github.com/sempervent/whereivebeen
     featured: false
     current: false
     language: Python
-    tags: [web, maps]
 
   - slug: thisisacasino
     name: This Is A Casino
     summary: >-
-      Experimental semantic / ML-driven stock exploration and visualization
-      stack (circa 2023).
+      Circa-2023 experiment in semantic features and ML over market data — kept for
+      nostalgia, not trading advice.
     status: historical
     category: engineering
     repo: https://github.com/sempervent/thisisacasino
     featured: false
     current: false
     language: Python
-    tags: [finance, ml]
 
   - slug: dcrs
     name: Decentralized Content Reward System (DCRS)
     summary: >-
-      Web3 content-rewards experiment combining Flask services and blockchain
-      ideas (historical prototype).
+      Early Web3-shaped content rewards prototype — Flask services plus blockchain
+      sketches that never became a product.
     status: historical
     category: engineering
     repo: https://github.com/sempervent/dcrs
     featured: false
     current: false
     language: Python
-    tags: [web3, prototype]
 
   - slug: genesis-game
     name: Genesis
     summary: >-
-      pygame experiment: audio-input-driven procedural universe toy.
+      pygame toy where microphone input drives a procedurally grown “universe.”
     status: historical
     category: games
     repo: https://github.com/sempervent/genesis
     featured: false
     current: false
     language: Python
-    tags: [games, audio]
 
   - slug: colony
     name: colony
     summary: >-
-      Rust colony simulation prototype (GitHub Pages enabled but not currently
-      serving content at the org URL).
+      Rust colony simulation sketch — repo still around; org GitHub Pages URL was
+      404 when last checked.
     status: historical
     category: games
     repo: https://github.com/sempervent/colony
     featured: false
     current: false
     language: Rust
-    tags: [simulation, rust]
 
   - slug: embers-of-the-earth
     name: Embers of the Earth
     summary: >-
-      Pixel-art farming game concept in a post-apocalyptic steampunk setting
-      (Pages deploy not verified live on org site).
+      Pixel-farming game concept in a steampunk setting — design notes more than
+      shipped gameplay.
     status: experimental
     category: games
     repo: https://github.com/sempervent/embers-of-the-earth
     featured: false
     current: false
     language: Unknown
-    tags: [games, pixel-art]
 
   - slug: cosmic-garden
     name: Cosmic Garden
     summary: >-
-      Cultivation / garden simulation experiment related to the Cosmic game line.
+      Garden/cultivation experiment in the same “cosmic” game line as Cosmic
+      Architect.
     status: experimental
     category: games
     repo: https://github.com/sempervent/cosmic-garden
     featured: false
     current: false
     language: Unknown
-    tags: [games]

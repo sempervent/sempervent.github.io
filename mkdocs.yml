@@ -70,7 +70,7 @@ nav:
     - Documentation sites: projects/documentation-sites.md
   - Writing:
     - Technical overview: documentation.md
-    - What's New: whats-new.md
+    - Recent additions: whats-new.md
     - Tags: tags.md
     - Doctrine:
       - Start Here — Architectural Compass: start-here-architectural-paths.md
@@ -391,7 +391,6 @@ nav:
         - R Shiny Geospatial App: tutorials/python-development/r-shiny-geoapp.md
         - Click CLI to FastAPI Conversion: tutorials/python-development/click-to-fastapi-conversion.md
         - WebSocket Chat with FastAPI: tutorials/python-development/websocket-chat-fastapi.md
-        - Glitch Observatory (JS): tutorials/python-development/js-glitch-observatory.md
         - Chaos Engineering with Kubernetes and Python: tutorials/python-development/chaos-engineering-k8s-python.md
         - Building a Python TUI: tutorials/python-development/building-a-python-tui.md
       - 🦀 Rust Development:
@@ -475,6 +474,7 @@ nav:
         - Tauri + rqlite + Syncthing: tutorials/development-tools/tauri-rqlite-syncthing.md
       - 🎨 Just for Fun:
         - Overview: tutorials/just-for-fun/index.md
+        - Glitch Observatory (JS): tutorials/just-for-fun/js-glitch-observatory.md
         - Terminal to GIF: tutorials/just-for-fun/terminal-to-gif.md
         - Redis Streams + Web MIDI: tutorials/just-for-fun/redis-midi-music.md
         - PostGIS Rasters + WebGL Art: tutorials/just-for-fun/postgis-webgl-art.md
@@ -500,9 +500,6 @@ nav:
         - ESP32 RF Room Light Controller: tutorials/embedded/esp32-rf-room-light-controller.md
         - ESP32 + MQTT + Home Assistant: tutorials/embedded/esp32-mqtt-home-assistant-integration.md
 
-  - Lab:
-    - Overview: lab/index.md
-    - Just for Fun: tutorials/just-for-fun/index.md
   - About:
     - Professional Profile: about.md
     - Contact & Collaboration: getting-started.md
@@ -561,6 +558,8 @@ plugins:
   - redirects:
       redirect_maps:
         projects.md: projects/index.md
+        lab/index.md: tutorials/just-for-fun/index.md
+        tutorials/python-development/js-glitch-observatory.md: tutorials/just-for-fun/js-glitch-observatory.md
   - exclude:
       glob:
         - "_generated/**"

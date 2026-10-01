@@ -2,12 +2,12 @@
 
 # Geospatial Systems, Data, and Strange Machinery
 
-**Joshua N. Grant** — geospatial systems architect, data infrastructure engineer, and builder of developer tooling and experimental software.
+I'm **Joshua N. Grant**. Day job: geospatial systems architecture and data infrastructure at scale. Nights and weekends: Rust data tools, dotfiles rabbitholes, generative art, and the occasional game that should not exist.
 
 <div class="hero-actions" markdown="1">
   [Current work ↓](#current-work){ .md-button .md-button--primary }
   [Projects →](projects/index.md){ .md-button .md-button--primary }
-  [Technical writing →](documentation.md){ .md-button .md-button--primary }
+  [Writing →](documentation.md){ .md-button .md-button--primary }
   [About →](about.md){ .md-button }
   [GitHub →](https://github.com/sempervent){ .md-button }
 </div>
@@ -18,48 +18,48 @@
 
 ## Current work {#current-work}
 
-Independent projects with recent public activity (from the [canonical registry](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)):
+These are the repos I'm actually touching in public right now (pulled from [`data/projects.yaml`](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)):
 
 --8<-- "_generated/home-current-work.md"
 
-[Full project index →](projects/index.md) · [Live project docs sites →](projects/documentation-sites.md)
+[All projects →](projects/index.md) · [Project docs sites →](projects/documentation-sites.md)
 
 ---
 
-## Technical writing
+## Writing
 
-Long-form **best practices**, **deep dives**, **ADRs**, and **tutorials** live here — production-derived patterns where noted, reference implementations elsewhere, and experiments clearly in the Lab.
+Most of this site is long-form notes: **best practices** (patterns and trade-offs), **tutorials** (step-by-step builds), **deep dives**, and **ADRs**. Some of it comes from production work; some is a reference sketch; the playful stuff lives under **Just for Fun**.
 
 <div class="card-grid" markdown="1">
 
 <div class="card" markdown="1">
 
-### Start with intent
+### Where to start
 
-**[Architectural compass →](start-here-architectural-paths.md)** — pick a problem domain and reading path.
+**[Architectural compass →](start-here-architectural-paths.md)** if you know the problem domain but not which essay to open first.
 
 </div>
 
 <div class="card" markdown="1">
 
-### Representative guides
+### A few pages I keep handy
 
 - [Geospatial system architecture](best-practices/geospatial/geospatial-system-design.md)
-- [PostGIS best practices](best-practices/postgres/postgis-best-practices.md)
-- [Parquet](best-practices/database-data/parquet.md) · [GeoParquet](best-practices/database-data/geoparquet.md)
+- [PostGIS](best-practices/postgres/postgis-best-practices.md)
+- [Parquet](best-practices/database-data/parquet.md) and [GeoParquet](best-practices/database-data/geoparquet.md)
 - [System resilience & concurrency](best-practices/operations-monitoring/system-resilience-and-concurrency.md)
-- [ADR & decision governance](best-practices/architecture-design/adr-decision-governance.md)
-- [Release management & progressive delivery](best-practices/operations-monitoring/release-management-and-progressive-delivery.md)
+- [ADR governance](best-practices/architecture-design/adr-decision-governance.md)
+- [Release management](best-practices/operations-monitoring/release-management-and-progressive-delivery.md)
 
 </div>
 
 <div class="card" markdown="1">
 
-### Browse the corpus
+### Browse
 
-**[Best practices →](best-practices/index.md)** · **[Deep dives →](deep-dives/index.md)** · **[Tutorials →](tutorials/index.md)**
+**[Best practices →](best-practices/index.md)** · **[Deep dives →](deep-dives/index.md)** · **[Tutorials →](tutorials/index.md)** · **[Just for Fun →](tutorials/just-for-fun/index.md)**
 
-Curated additions: **[What's New](whats-new.md)** (updated when substantial docs land — not a live feed).
+**[Recent additions →](whats-new.md)** — curated when I publish something substantial, not a commit feed.
 
 </div>
 
@@ -67,22 +67,19 @@ Curated additions: **[What's New](whats-new.md)** (updated when substantial docs
 
 ---
 
-## Lab & experiments
+## Strange machinery
 
-Games, generative art, MIDI, Raspberry Pi builds, and other **non-production** explorations.
+Creative tutorials and weird hardware/software combinations — MIDI rigs, Pi sample servers, Kafka sonification, Kotlin particle nebulae. Technically serious, intentionally impractical.
 
-**[Lab overview →](lab/index.md)** · **[Just for Fun tutorials →](tutorials/just-for-fun/index.md)**
+**[Just for Fun →](tutorials/just-for-fun/index.md)** · **[Creative projects on GitHub →](projects/index.md)** (filter: experiments & games in the portfolio)
 
 ---
 
 ## About this site
 
-Personal portfolio and technical notebook. Content mixes ORNL-informed engineering practice, independent open source, tutorials, and creative experiments — not everything is production-derived.
+Personal portfolio and notebook. ORNL work informs some of the engineering writing; the repos and opinions here are mine unless stated otherwise.
 
-- Production-oriented guides are labeled as patterns from real systems where that applies.
-- Lab and Just for Fun material is experimental by design.
-
-**[Professional profile →](about.md)** · **[Contact →](getting-started.md)**
+**[Profile →](about.md)** · **[Contact →](getting-started.md)**
 
 ---
 

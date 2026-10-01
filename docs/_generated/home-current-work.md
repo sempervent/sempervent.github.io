@@ -4,9 +4,9 @@
 <div class="project-card" markdown="1">
 ### dots
 
-Personal workstation operating layer — shared shell tooling and bootstrap flows across macOS and Linux (bash and zsh).
+My dotfiles repo, but really a bootstrap layer: one interactive `./dots` flow for macOS and Linux, with shared logic in `shell/` and profile-specific pieces alongside bash and zsh.
 
-**Stack:** Shell · **Status:** active
+*Shell · active*
 
 [Docs](https://sempervent.github.io/dots/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/dots){ .md-button }
 
@@ -15,44 +15,24 @@ Personal workstation operating layer — shared shell tooling and bootstrap flow
 <div class="project-card" markdown="1">
 ### NUMBRANE
 
-Polyglot generative audiovisual system driven by mathematics and procedural rules — explicitly not LLM-based generative AI.
+Generative audiovisual pieces from math and simulation — no LLM inference in the runtime. NUMBRANE Studio is a canvas-first front end for stills, animation, and live reaction.
 
-**Stack:** Python · **Status:** active
+*Python · active*
 
 [Repo](https://github.com/sempervent/numbrane){ .md-button }
 
 </div>
 
 <div class="project-card" markdown="1">
+![PARQONAUT mascot illustration](assets/projects/parqonaut-mascot.png){ .project-card__image }
+
 ### PARQONAUT
 
-Rust toolkit (`prqnt`) for scanning, streaming, transforming, diagnosing, and repairing Parquet datasets across local paths and S3-compatible storage.
+I merged several Parquet utilities into one Rust workspace. `prqnt` scans local trees or S3 prefixes, runs repair workflows, and exposes an HTTP API for async jobs.
 
-**Stack:** Rust · **Status:** active
+*Rust · active*
 
 [Docs](https://sempervent.github.io/PARQONAUT/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/PARQONAUT){ .md-button }
-
-</div>
-
-<div class="project-card" markdown="1">
-### Cosmic Architect
-
-Web-based planet-building game (successor to earlier pygame experiments); competitive ecosystem design.
-
-**Stack:** Python · **Status:** experimental
-
-[Repo](https://github.com/sempervent/cosmic-architect){ .md-button }
-
-</div>
-
-<div class="project-card" markdown="1">
-### Paraclete
-
-Data exploration tool; upstream lineage merged into the PARQONAUT workspace (see PARQONAUT provenance docs).
-
-**Stack:** Rust · **Status:** maintained
-
-[Repo](https://github.com/sempervent/paraclete){ .md-button }
 
 </div>
 

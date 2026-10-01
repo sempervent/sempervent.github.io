@@ -1,15 +1,14 @@
 # Professional Profile
 
 !!! note "Personal site"
-    This site is Joshua N. Grant's personal portfolio and technical writing. Employer
-    biography below is factual; open-source projects and opinions here are independent
-    work unless explicitly attributed to Oak Ridge National Laboratory.
+    Independent portfolio and open-source work. ORNL appears in my employment history below;
+    that does not imply ORNL endorsement of this site or its projects.
 
 ## About Me
 
-I'm a **Geospatial Systems Architect** at Oak Ridge National Laboratory, where I transform research and experiments into production-scalable solutions. My work sits at the intersection of geospatial data, cloud infrastructure, and distributed systems—building the pipelines, architectures, and tools that make complex data problems tractable.
+I'm a **Geospatial Systems Architect** at Oak Ridge National Laboratory. Most of my day is geospatial data at scale — warehouses, rasters, streaming tracks, and the glue (Prefect, Kafka, PostGIS, object storage) that keeps it honest.
 
-I specialize in taking theoretical concepts and making them work reliably at scale, whether that's designing GeoParquet data warehouses, architecting real-time IoT tracking systems, or building resilient distributed systems that handle failure gracefully.
+Outside work I keep public repos for Parquet tooling, dotfiles, generative art, and other side quests collected on the [Projects](projects/index.md) page.
 
 ---
 

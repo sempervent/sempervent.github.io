@@ -271,6 +271,21 @@
   font-size: 0.85em;
 }
 
+.project-card__image {
+  display: block;
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  margin: 0 auto 0.75em;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 76.25em) {
+  .project-card__image {
+    max-width: 120px;
+  }
+}
+
 /* ============================================
    Navigation & Sidebar
    ============================================ */

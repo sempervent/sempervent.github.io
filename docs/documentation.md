@@ -2,9 +2,14 @@
 
 ## Overview
 
-This documentation covers technical methodologies, best practices, and implementation approaches used in geospatial systems architecture, data engineering, and cloud infrastructure development.
+Long-form writing on geospatial systems, data infrastructure, and the surrounding tooling — mostly from problems I've hit in production, with tutorials for when you need to reproduce a setup.
 
-The content has been organized into focused, actionable guides that you can find in the navigation menu:
+Under **Writing** in the nav:
+
+- **[Best Practices](best-practices/index.md)** — patterns, trade-offs, governance
+- **[Tutorials](tutorials/index.md)** — step-by-step implementations
+- **[Just for Fun](tutorials/just-for-fun/index.md)** — creative and odd builds (still reproducible)
+- **Deep dives**, **ADRs**, and **Doctrine** — essays and decision records
 
 ## Best Practices
 
@@ -63,16 +68,11 @@ The content has been organized into focused, actionable guides that you can find
 
 ## Getting Started
 
-1. **Choose your focus area** from the Best Practices or Tutorials sections
-2. **Follow the step-by-step guides** with copy-paste runnable code
-3. **Adapt the examples** to your specific use case
-4. **Reference the anti-patterns** to avoid common mistakes
+1. Skim **[Start Here — Architectural Compass](start-here-architectural-paths.md)** if you are browsing by problem domain.
+2. Open **Best Practices** when you need the *why*; open **Tutorials** when you need the *how*.
+3. Check **[Anti-Patterns](anti-patterns.md)** when you suspect you are about to repeat a familiar mistake.
 
-Each guide is designed to be:
-- **Actionable**: Copy-paste runnable code and configurations
-- **Comprehensive**: Covers the full development lifecycle
-- **Production-ready**: Includes monitoring, security, and optimization
-- **Well-documented**: Clear explanations and rationale for each step
+Not every page describes a system I run today — check the tone and the section (especially Just for Fun) before treating something as operational guidance.
 
 ## Additional Resources
 

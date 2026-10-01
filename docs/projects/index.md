@@ -2,28 +2,28 @@
 
 # Projects
 
-Portfolio of independent software, documentation sites, and experiments. Entries are
-generated from [`data/projects.yaml`](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)
-so descriptions stay in one reviewable place.
+Software I ship or maintain on my own time, plus a few wikis and games that never
+quite graduated. Summaries come from [`data/projects.yaml`](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)
+so this page stays aligned with one editable file.
 
-**Status legend:** *active* — ongoing focus; *maintained* — usable with occasional updates;
-*experimental* — lab/prototype; *historical* — kept for reference.
+*active* — I'm still pushing code; *maintained* — works, updates are sporadic;
+*experimental* — prototype; *historical* — archived curiosity.
 
-See also **[Project documentation sites](documentation-sites.md)** for verified GitHub Pages deployments.
+**[Project documentation sites](documentation-sites.md)** lists GitHub Pages deployments that actually respond.
 
 
 ## Featured
 
-Flagship or especially representative work.
+Work I'd point a collaborator at first.
 
 <div class="project-card-grid" markdown="1">
 
 <div class="project-card" markdown="1">
 ### Blacklake (Python)
 
-Git-like dataset versioning on S3-compatible stores with JSON-LD semantic metadata, SHACL validation, and Solr-backed search.
+Git-like commits for datasets on S3-compatible storage, with JSON-LD metadata, SHACL checks, and Solr search over semantic fields.
 
-**Stack:** Python · **Status:** maintained
+*Python · maintained*
 
 [Docs](https://sempervent.github.io/blacklake/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/blacklake){ .md-button }
 
@@ -32,9 +32,9 @@ Git-like dataset versioning on S3-compatible stores with JSON-LD semantic metada
 <div class="project-card" markdown="1">
 ### dots
 
-Personal workstation operating layer — shared shell tooling and bootstrap flows across macOS and Linux (bash and zsh).
+My dotfiles repo, but really a bootstrap layer: one interactive `./dots` flow for macOS and Linux, with shared logic in `shell/` and profile-specific pieces alongside bash and zsh.
 
-**Stack:** Shell · **Status:** active
+*Shell · active*
 
 [Docs](https://sempervent.github.io/dots/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/dots){ .md-button }
 
@@ -43,9 +43,9 @@ Personal workstation operating layer — shared shell tooling and bootstrap flow
 <div class="project-card" markdown="1">
 ### NUMBRANE
 
-Polyglot generative audiovisual system driven by mathematics and procedural rules — explicitly not LLM-based generative AI.
+Generative audiovisual pieces from math and simulation — no LLM inference in the runtime. NUMBRANE Studio is a canvas-first front end for stills, animation, and live reaction.
 
-**Stack:** Python · **Status:** active
+*Python · active*
 
 [Repo](https://github.com/sempervent/numbrane){ .md-button }
 
@@ -54,9 +54,9 @@ Polyglot generative audiovisual system driven by mathematics and procedural rule
 <div class="project-card" markdown="1">
 ### PARQONAUT
 
-Rust toolkit (`prqnt`) for scanning, streaming, transforming, diagnosing, and repairing Parquet datasets across local paths and S3-compatible storage.
+I merged several Parquet utilities into one Rust workspace. `prqnt` scans local trees or S3 prefixes, runs repair workflows, and exposes an HTTP API for async jobs.
 
-**Stack:** Rust · **Status:** active
+*Rust · active*
 
 [Docs](https://sempervent.github.io/PARQONAUT/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/PARQONAUT){ .md-button }
 
@@ -66,22 +66,22 @@ Rust toolkit (`prqnt`) for scanning, streaming, transforming, diagnosing, and re
 
 ## Active development
 
-Additional projects with recent independent development.
+Other repos with recent commits.
 
 _None listed._
 
 ## Maintained tools & platforms
 
-Libraries, portals, and utilities that remain useful.
+Tools that still compile and still solve a real annoyance.
 
 <div class="project-card-grid" markdown="1">
 
 <div class="project-card" markdown="1">
 ### Blacklake (Python)
 
-Git-like dataset versioning on S3-compatible stores with JSON-LD semantic metadata, SHACL validation, and Solr-backed search.
+Git-like commits for datasets on S3-compatible storage, with JSON-LD metadata, SHACL checks, and Solr search over semantic fields.
 
-**Stack:** Python · **Status:** maintained
+*Python · maintained*
 
 [Docs](https://sempervent.github.io/blacklake/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/blacklake){ .md-button }
 
@@ -90,9 +90,9 @@ Git-like dataset versioning on S3-compatible stores with JSON-LD semantic metada
 <div class="project-card" markdown="1">
 ### Blacklake (Rust data portal)
 
-Rust/Axum Git-style artifact service for ML models and datasets on S3 with PostgreSQL metadata search and CLI tooling (`s3-rust-data-portal` repo).
+Separate Rust codebase (repo `s3-rust-data-portal`): Axum API and CLI for versioned ML artifacts on S3, with Postgres JSONB search — related name, not the same tree as the Python project.
 
-**Stack:** Rust · **Status:** maintained
+*Rust · maintained*
 
 [Docs](https://sempervent.github.io/s3-rust-data-portal/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/s3-rust-data-portal){ .md-button }
 
@@ -101,9 +101,9 @@ Rust/Axum Git-style artifact service for ML models and datasets on S3 with Postg
 <div class="project-card" markdown="1">
 ### gi
 
-CLI utility to combine and manage `.gitignore` patterns across polyglot repositories.
+Combines `.gitignore` fragments across stacks — useful when every repo spawns another half-copy of the same ignore rules.
 
-**Stack:** Go · **Status:** maintained
+*Go · maintained*
 
 [Docs](https://sempervent.github.io/gi/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/gi){ .md-button }
 
@@ -112,9 +112,9 @@ CLI utility to combine and manage `.gitignore` patterns across polyglot reposito
 <div class="project-card" markdown="1">
 ### LLM Wiki Template
 
-Reusable MkDocs template for LLM-oriented team wikis and agent playbooks.
+Starter MkDocs layout for team wikis aimed at humans and coding agents alike.
 
-**Stack:** Markdown · **Status:** maintained
+*Markdown · maintained*
 
 [Docs](https://sempervent.github.io/llm-wiki-template/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/llm-wiki-template){ .md-button }
 
@@ -123,9 +123,9 @@ Reusable MkDocs template for LLM-oriented team wikis and agent playbooks.
 <div class="project-card" markdown="1">
 ### music-rig
 
-Documentation and configuration for a home audio recording studio setup.
+Notes and wiring diagrams for my home recording setup — interfaces, monitoring, and the boring parts that keep sessions predictable.
 
-**Stack:** Markdown · **Status:** maintained
+*Markdown · maintained*
 
 [Docs](https://sempervent.github.io/music-rig/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/music-rig){ .md-button }
 
@@ -134,9 +134,9 @@ Documentation and configuration for a home audio recording studio setup.
 <div class="project-card" markdown="1">
 ### OpenSAMPL
 
-ORNL open-source clock probe aggregation and timing analysis platform (external organization repository).
+ORNL clock-probe aggregation and timing analysis (external repo — I contribute in that context, not as personal product marketing).
 
-**Stack:** Python · **Status:** maintained
+*Python · maintained*
 
 [Docs](https://ornl.github.io/OpenSAMPL/){ .md-button .md-button--primary } [Repo](https://github.com/ORNL/OpenSAMPL){ .md-button }
 
@@ -145,9 +145,9 @@ ORNL open-source clock probe aggregation and timing analysis platform (external 
 <div class="project-card" markdown="1">
 ### Paraclete
 
-Data exploration tool; upstream lineage merged into the PARQONAUT workspace (see PARQONAUT provenance docs).
+Small Parquet exploration tool; its code paths feed PARQONAUT (see PARQONAUT provenance docs).
 
-**Stack:** Rust · **Status:** maintained
+*Rust · maintained*
 
 [Repo](https://github.com/sempervent/paraclete){ .md-button }
 
@@ -157,16 +157,16 @@ Data exploration tool; upstream lineage merged into the PARQONAUT workspace (see
 
 ## Experiments & documentation
 
-Wikis, comparisons, games-in-progress, and strange machinery.
+Wikis, games, MQTT oddities, and other half-finished ideas.
 
 <div class="project-card-grid" markdown="1">
 
 <div class="project-card" markdown="1">
 ### Agent LLM Wiki Matrix
 
-Comparison framework for agentic coding systems and repo-centered signals for measuring assistant workflows.
+MkDocs site comparing agentic coding tools and tracking repo-local signals — part literature review, part lab notebook.
 
-**Stack:** Markdown · **Status:** experimental
+*Markdown · experimental*
 
 [Docs](https://sempervent.github.io/agent-llm-wiki-matrix/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/agent-llm-wiki-matrix){ .md-button }
 
@@ -175,9 +175,9 @@ Comparison framework for agentic coding systems and repo-centered signals for me
 <div class="project-card" markdown="1">
 ### cockpit
 
-tmux-backed Go TUI homelab cockpit that orchestrates terminal tools as persistent workspaces.
+Go TUI that keeps tmux sessions, SSH targets, and local tools in one homelab dashboard.
 
-**Stack:** Go · **Status:** experimental
+*Go · experimental*
 
 [Repo](https://github.com/sempervent/cockpit){ .md-button }
 
@@ -186,9 +186,9 @@ tmux-backed Go TUI homelab cockpit that orchestrates terminal tools as persisten
 <div class="project-card" markdown="1">
 ### Cosmic Architect
 
-Web-based planet-building game (successor to earlier pygame experiments); competitive ecosystem design.
+Browser game about building viable planets — a web successor to earlier pygame prototypes in the same vein.
 
-**Stack:** Python · **Status:** experimental
+*Python · experimental*
 
 [Repo](https://github.com/sempervent/cosmic-architect){ .md-button }
 
@@ -197,9 +197,9 @@ Web-based planet-building game (successor to earlier pygame experiments); compet
 <div class="project-card" markdown="1">
 ### Cosmic Garden
 
-Cultivation / garden simulation experiment related to the Cosmic game line.
+Garden/cultivation experiment in the same “cosmic” game line as Cosmic Architect.
 
-**Stack:** Unknown · **Status:** experimental
+*Unknown · experimental*
 
 [Repo](https://github.com/sempervent/cosmic-garden){ .md-button }
 
@@ -208,9 +208,9 @@ Cultivation / garden simulation experiment related to the Cosmic game line.
 <div class="project-card" markdown="1">
 ### Embers of the Earth
 
-Pixel-art farming game concept in a post-apocalyptic steampunk setting (Pages deploy not verified live on org site).
+Pixel-farming game concept in a steampunk setting — design notes more than shipped gameplay.
 
-**Stack:** Unknown · **Status:** experimental
+*Unknown · experimental*
 
 [Repo](https://github.com/sempervent/embers-of-the-earth){ .md-button }
 
@@ -219,9 +219,9 @@ Pixel-art farming game concept in a post-apocalyptic steampunk setting (Pages de
 <div class="project-card" markdown="1">
 ### Generative MIDI Workbench
 
-Experiments in algorithmic MIDI composition and performance tooling.
+Scratch space for algorithmic MIDI — chord engines, performance hooks, and half-finished ideas that might become songs.
 
-**Stack:** Python · **Status:** experimental
+*Python · experimental*
 
 [Docs](https://sempervent.github.io/generative-midi-workbench/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/generative-midi-workbench){ .md-button }
 
@@ -230,9 +230,9 @@ Experiments in algorithmic MIDI composition and performance tooling.
 <div class="project-card" markdown="1">
 ### MQTT Comparison
 
-Experimental comparison of MQTT brokers and client patterns (Pages site configured in GitHub but not currently serving — see maintainer recon).
+Broker comparison notes from a weekend MQTT bake-off. Org Pages URL exists but was returning 404 when last checked.
 
-**Stack:** Python · **Status:** experimental
+*Python · experimental*
 
 [Repo](https://github.com/sempervent/mqtt-comparison){ .md-button }
 
@@ -241,9 +241,9 @@ Experimental comparison of MQTT brokers and client patterns (Pages site configur
 <div class="project-card" markdown="1">
 ### Postgres Query Autopsy Tool
 
-.NET tool for inspecting and explaining PostgreSQL query plans and workload behavior.
+.NET CLI that pulls apart PostgreSQL plans and workload traces so you can see where time goes without guessing from `EXPLAIN` alone.
 
-**Stack:** C# · **Status:** experimental
+*C# · experimental*
 
 [Docs](https://sempervent.github.io/postgres-query-autopsy-tool/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/postgres-query-autopsy-tool){ .md-button }
 
@@ -252,9 +252,9 @@ Experimental comparison of MQTT brokers and client patterns (Pages site configur
 <div class="project-card" markdown="1">
 ### Smart Farm Wiki
 
-MkDocs knowledge base for smart-farm / homelab automation experiments.
+Homelab / smart-farm automation notes collected as a wiki — MQTT, sensors, and whatever broke last week.
 
-**Stack:** Markdown · **Status:** experimental
+*Markdown · experimental*
 
 [Docs](https://sempervent.github.io/smart-farm-wiki/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/smart-farm-wiki){ .md-button }
 
@@ -263,9 +263,9 @@ MkDocs knowledge base for smart-farm / homelab automation experiments.
 <div class="project-card" markdown="1">
 ### Wildfire Smoke Risk Correlator
 
-Geospatial analysis project correlating wildfire smoke exposure with health risk indicators (public research prototype).
+Public geospatial prototype linking smoke exposure layers to health-risk indicators — research code, not an operational service.
 
-**Stack:** Python · **Status:** experimental
+*Python · experimental*
 
 [Docs](https://sempervent.github.io/wildfire-smoke-risk-correlator/){ .md-button .md-button--primary } [Repo](https://github.com/sempervent/wildfire-smoke-risk-correlator){ .md-button }
 
@@ -275,16 +275,16 @@ Geospatial analysis project correlating wildfire smoke exposure with health risk
 
 ## Historical archive
 
-Older web apps and prototypes — preserved, not promoted as current work.
+Older apps kept for reference — not current work.
 
 <div class="project-card-grid" markdown="1">
 
 <div class="project-card" markdown="1">
 ### colony
 
-Rust colony simulation prototype (GitHub Pages enabled but not currently serving content at the org URL).
+Rust colony simulation sketch — repo still around; org GitHub Pages URL was 404 when last checked.
 
-**Stack:** Rust · **Status:** historical
+*Rust · historical*
 
 [Repo](https://github.com/sempervent/colony){ .md-button }
 
@@ -293,9 +293,9 @@ Rust colony simulation prototype (GitHub Pages enabled but not currently serving
 <div class="project-card" markdown="1">
 ### Decentralized Content Reward System (DCRS)
 
-Web3 content-rewards experiment combining Flask services and blockchain ideas (historical prototype).
+Early Web3-shaped content rewards prototype — Flask services plus blockchain sketches that never became a product.
 
-**Stack:** Python · **Status:** historical
+*Python · historical*
 
 [Repo](https://github.com/sempervent/dcrs){ .md-button }
 
@@ -304,9 +304,9 @@ Web3 content-rewards experiment combining Flask services and blockchain ideas (h
 <div class="project-card" markdown="1">
 ### Genesis
 
-pygame experiment: audio-input-driven procedural universe toy.
+pygame toy where microphone input drives a procedurally grown “universe.”
 
-**Stack:** Python · **Status:** historical
+*Python · historical*
 
 [Repo](https://github.com/sempervent/genesis){ .md-button }
 
@@ -315,9 +315,9 @@ pygame experiment: audio-input-driven procedural universe toy.
 <div class="project-card" markdown="1">
 ### parqknife
 
-Parquet “swiss army knife” CLI; functionality consolidated into PARQONAUT (`prqnt`).
+Older Parquet CLI; most of it lives inside PARQONAUT now.
 
-**Stack:** Rust · **Status:** historical
+*Rust · historical*
 
 [Repo](https://github.com/sempervent/parqknife){ .md-button }
 
@@ -326,9 +326,9 @@ Parquet “swiss army knife” CLI; functionality consolidated into PARQONAUT (`
 <div class="project-card" markdown="1">
 ### This Is A Casino
 
-Experimental semantic / ML-driven stock exploration and visualization stack (circa 2023).
+Circa-2023 experiment in semantic features and ML over market data — kept for nostalgia, not trading advice.
 
-**Stack:** Python · **Status:** historical
+*Python · historical*
 
 [Repo](https://github.com/sempervent/thisisacasino){ .md-button }
 
@@ -337,9 +337,9 @@ Experimental semantic / ML-driven stock exploration and visualization stack (cir
 <div class="project-card" markdown="1">
 ### Where I've Been
 
-County-level travel map and statistics web app (earlier-generation personal project).
+County-level map of places I've visited — an older Flask/Vue side project.
 
-**Stack:** Python · **Status:** historical
+*Python · historical*
 
 [Repo](https://github.com/sempervent/whereivebeen){ .md-button }
 
