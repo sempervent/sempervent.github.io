@@ -69,7 +69,6 @@ nav:
   - Writing:
     - Technical overview: documentation.md
     - Recent additions: whats-new.md
-    - Tags: tags.md
     - Doctrine:
       - Start Here — Architectural Compass: start-here-architectural-paths.md
       - Reading Tracks: reading-tracks.md
@@ -552,10 +551,9 @@ plugins:
   - search:
       lang: en
       separator: '[\s\-\_\.]+'
-  - tags
   - redirects:
       redirect_maps:
-        projects.md: projects/index.md
+        tags.md: documentation.md
         lab/index.md: tutorials/just-for-fun/index.md
         tutorials/python-development/js-glitch-observatory.md: tutorials/just-for-fun/js-glitch-observatory.md
         best-practices/python/typing-in-python.md: best-practices/python/python-type-hints.md

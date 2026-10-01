@@ -39,7 +39,6 @@ def main() -> None:
   - Writing:
     - Technical overview: documentation.md
     - What's New: whats-new.md
-    - Tags: tags.md
 """
     footer = """  - Lab:
     - Overview: lab/index.md
