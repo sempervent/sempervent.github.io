@@ -1,6 +1,5 @@
 # Failure-Oriented System Design
 
-**Objective**: Design systems assuming failure is inevitable—so that when components fail, the system degrades predictably and recovers without cascading damage.
 
 ## Failure as the default state
 

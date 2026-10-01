@@ -1,6 +1,5 @@
 # Hermit Sync: Local-first Apps with rqlite + Syncthing
 
-**Objective**: Build a cross-platform desktop app (Tauri) that uses rqlite (Raft-replicated SQLite over HTTP) for local durability while Syncthing P2P syncs encrypted snapshots between machines. Result: tiny, resilient, air-gap-friendly CRUD with zero central server.
 
 ## Architecture
 
@@ -653,4 +652,3 @@ npm run tauri dev
 
 ---
 
-*This tutorial provides the complete machinery for offline-first desktop apps with peer-to-peer sync. Each component is production-ready, copy-paste runnable, and designed for air-gap-friendly deployment without central infrastructure.*

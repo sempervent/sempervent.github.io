@@ -7,7 +7,7 @@ tags:
 
 # PostGIS Geometry Indexing — Best Practices
 
-This tutorial establishes the definitive approach to PostGIS geometry indexing that makes spatial queries fast, predictable, and boring. We enforce correct SRIDs, SARGable predicates, proper index classes (GiST/SP-GiST), ruthless query hygiene, and maintenance that doesn't lie.
+This tutorial is how I set up PostGIS geometry indexes so spatial queries stay fast and predictable. We enforce correct SRIDs, SARGable predicates, proper index classes (GiST/SP-GiST), ruthless query hygiene, and maintenance that doesn't lie.
 
 **TL;DR:** GiST on geometry + clean predicates wins most of the time. Don't wrap the indexed column in functions. Use KNN for nearest neighbors. Partition only when you must. Verify with EXPLAIN (ANALYZE, BUFFERS) or you're telling yourself bedtime stories.
 

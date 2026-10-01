@@ -1,6 +1,5 @@
 # Spark in Modern Data Architectures
 
-**Objective**: Place Spark in context among lakehouse, object storage, and modern analytics tools so you can choose and integrate it correctly.
 
 ## Historical role of Spark
 

@@ -1,6 +1,5 @@
 # Observability as Architecture: Unified Telemetry Models Across Clusters, Services, and Languages
 
-**Objective**: Establish a unified telemetry model across all systems, services, and languages. When you need structured logging, when you want distributed tracing, when you need real-time dashboards—this guide provides the complete framework.
 
 ## Introduction
 

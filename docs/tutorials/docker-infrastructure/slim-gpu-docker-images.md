@@ -1,6 +1,5 @@
 # Slimming Down GPU-Based Docker Images
 
-**Objective**: Transform bloated GPU containers from quarter-ton dev packages to fighting weight production images. Cut cold start times, reduce storage costs, and maintain CUDA compatibility.
 
 When your container is dragging a quarter-ton of dev packages and orphaned toolchains, you're paying for cold starts with your soul. This guide shows how to cut GPU images down to fighting weight without breaking CUDA.
 
@@ -483,4 +482,3 @@ GPU containers are expensive to build and run. Every MB saved is money saved and
 
 ---
 
-*This tutorial provides the complete machinery for building slim GPU containers. The patterns scale from megabytes to terabytes, from development to production.*

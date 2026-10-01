@@ -1,6 +1,5 @@
 # Slimming Down GPU-Enabled TensorFlow Images
 
-**Objective**: Transform bloated TensorFlow GPU containers from gigabytes to megabytes. Cut cold start times, reduce storage costs, and maintain CUDA compatibility while keeping your models running fast.
 
 Big images bleed time and money. Cut your TensorFlow GPU containers to size without breaking CUDA. This guide shows you how to build lean, mean inference machines that start fast and run efficiently.
 
@@ -511,4 +510,3 @@ TensorFlow GPU containers are bloated by default. The key is understanding what 
 
 ---
 
-*This tutorial provides the complete machinery for building slim TensorFlow GPU containers. The patterns scale from development to production, from megabytes to terabytes.*

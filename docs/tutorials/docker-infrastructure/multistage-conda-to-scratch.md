@@ -7,7 +7,6 @@ tags:
 
 # Multi-Stage Docker: Conda Build → Slim Runtime → scratch
 
-**Objective**: Keep Conda's dependency-resolution ergonomics for building, then ship a final image that starts from `scratch` — zero OS layer, zero shell, zero package manager. You copy in exactly what your app needs to run and nothing else.
 
 scratch is where convenience goes to die. You must supply every file your process will ever open: the Python interpreter, the Conda environment tree, every shared library it links against, TLS certificates if you hit HTTPS, and a minimal `/etc/passwd` if your app checks user identity. Miss one and you get a cryptic runtime crash. Get it right and your image is 80–95% smaller than the Conda base and has almost no CVE surface.
 

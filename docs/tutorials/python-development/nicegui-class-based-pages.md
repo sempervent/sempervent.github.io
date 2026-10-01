@@ -1,6 +1,5 @@
 # Class-Based NiceGUI Pages and Integrations: A Practical Guide
 
-**Objective**: Master building structured NiceGUI applications with class-based pages, dependency injection, and clean architecture. When you need to build real applications—not prototypes—with auth, dashboards, API integrations, and maintainable code, this tutorial becomes your weapon of choice.
 
 Most NiceGUI examples are single-file fever dreams: everything in `main.py`, global state drifting around like cosmic dust. That's fine for a quick prototype, but the moment you want a real app—auth, dashboards, API integrations—you need structure.
 
@@ -1124,5 +1123,4 @@ class Config:
 
 ---
 
-*This tutorial provides the complete machinery for building structured NiceGUI applications. The patterns scale from prototypes to production, from simple pages to complex dashboards with multiple backend integrations.*
 

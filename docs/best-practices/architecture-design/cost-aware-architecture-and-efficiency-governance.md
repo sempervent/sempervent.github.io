@@ -1,6 +1,5 @@
 # Cost-Aware Architecture & Resource-Efficiency Governance: Best Practices
 
-**Objective**: Establish comprehensive cost governance frameworks that measure, optimize, and control resource costs across Kubernetes clusters, data systems, ML pipelines, and geospatial workloads. When you need to optimize costs, when you want to rightsize resources, when you need capacity planning—this guide provides the complete framework.
 
 ## Introduction
 

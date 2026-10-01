@@ -1,6 +1,5 @@
 # Developer Experience (DX) as Infrastructure: Golden Paths, Tooling Ecosystems & Workflow Automation
 
-**Objective**: Establish developer experience as infrastructure concern, providing golden paths, consistent tooling, and automated workflows that reduce cognitive load and operational entropy. When you need consistent scaffolding, when you want automated workflows, when you need AI-assisted development—this guide provides the complete framework.
 
 ## Introduction
 

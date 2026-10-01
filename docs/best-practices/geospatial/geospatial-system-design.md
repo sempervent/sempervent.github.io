@@ -1,6 +1,5 @@
 # Geospatial System Architecture
 
-**Objective**: Establish foundational patterns for designing geospatial data systems: primitives, indexing, pipelines, storage, and performance.
 
 ## Core geospatial primitives
 
@@ -84,4 +83,4 @@ For benchmarking and comparison see [Geospatial Benchmarking](../database-data/g
 - [Reproducible Data Pipelines](../data/reproducible-data-pipelines.md) — determinism in spatial pipelines
 - [Geospatial File Format Choices](../../deep-dives/geospatial-file-format-choices.md) — format tradeoffs
 - [The Operational Geometry of Spatial Systems](../../deep-dives/the-operational-geometry-of-spatial-systems.md) — indexing and geometry
-- [Geospatial Data Mesh, Cost & Capacity](../../tutorials/best-practices-integration/geospatial-data-mesh-cost-capacity.md) — data mesh and cost in geospatial
+- [Cost-aware system architecture](../architecture/cost-aware-systems.md) — cost trade-offs in system design

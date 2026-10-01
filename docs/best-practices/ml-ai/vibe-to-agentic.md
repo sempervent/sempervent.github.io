@@ -1,6 +1,5 @@
 # Vibe Coding → Heavy Prompts → Agentic Execution (2025 Edition)
 
-**Objective**: Master the art of transforming creative "vibe coding" into structured, executable agentic workflows. Start with mood and intent; end with automated delivery. You are distilling chaos into contracts, and contracts into machines.
 
 ## The Pipeline (Mental Model)
 
@@ -286,4 +285,3 @@ Return original structure with redactions. If none found, return unchanged.
 
 ---
 
-*This guide provides the complete machinery for transforming creative vibes into structured, executable agentic workflows. Each pattern includes concrete prompts, schemas, and real-world implementation strategies for enterprise deployment.*

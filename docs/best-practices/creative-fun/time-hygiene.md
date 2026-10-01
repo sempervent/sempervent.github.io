@@ -1,6 +1,5 @@
 # Time Hygiene: UTC Everywhere, Monotonic Durations, and DST-Proof Scheduling
 
-**Objective**: Master temporal hygiene for production systems that handle time correctly. When you need reliable scheduling, when you want to prevent DST disasters, when you're building data pipelines that span timezones—time hygiene becomes your weapon of choice.
 
 Time is the most misunderstood aspect of system design. Proper time handling prevents DST disasters, enables reliable scheduling, and maintains data integrity across timezones. This guide shows you how to wield time with the precision of a paranoid SRE, covering everything from UTC storage to monotonic clocks and DST-proof scheduling.
 
@@ -806,4 +805,3 @@ Time handling requires understanding both temporal mechanics and system design p
 
 ---
 
-*This guide provides the complete machinery for time hygiene. The patterns scale from simple timestamp storage to complex distributed systems, from basic scheduling to advanced temporal data processing.*

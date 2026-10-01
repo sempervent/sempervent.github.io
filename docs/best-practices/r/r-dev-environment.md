@@ -1,6 +1,5 @@
 # R Development Environment Best Practices
 
-**Objective**: Master senior-level R development environment setup and operation across macOS, Linux, and Windows. Copy-paste runnable, auditable, and production-ready.
 
 ## Core Principles
 
@@ -555,4 +554,3 @@ goodpractice::gp()          # Check quality
 
 ---
 
-*This guide provides the complete machinery for setting up a production-ready R development environment. Each pattern includes configuration examples, tooling setup, and real-world implementation strategies for enterprise deployment.*

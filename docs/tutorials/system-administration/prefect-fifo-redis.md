@@ -1,6 +1,5 @@
 # Greedy FIFO Prefect Flow with Redis-backed Parameters
 
-**Objective**: Implement a FIFO greedy scheduler pattern in Prefect where a parent flow continuously pulls parameter sets from Redis, and child flows run concurrently in a greedy, FIFO manner. Transform your orchestration from sequential to parallel while maintaining order.
 
 Why FIFO? Ensures jobs are processed in order of arrival, keeps GPUs/CPUs hot by dispatching immediately to idle workers. This pattern scales from single machines to distributed clusters while maintaining job order and maximizing resource utilization.
 
@@ -1024,4 +1023,3 @@ FIFO greedy scheduling with Prefect and Redis creates a robust, scalable orchest
 
 ---
 
-*This tutorial provides the complete machinery for building production-ready FIFO greedy orchestration systems. The patterns scale from single machines to distributed clusters.*

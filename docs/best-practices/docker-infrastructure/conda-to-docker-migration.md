@@ -1,6 +1,5 @@
 # Migrating Conda to Slim Docker Images
 
-**Objective**: Transform bloated conda environments into production-ready, slim Docker images. Eliminate conda bloat while maintaining package compatibility and build reproducibility.
 
 When your conda environment is dragging gigabytes of unnecessary packages, you're paying for storage and transfer costs with your soul. This guide shows how to migrate from conda to Docker while keeping images lean and production-ready.
 
@@ -693,4 +692,3 @@ Migrating from conda to slim Docker images requires understanding your dependenc
 
 ---
 
-*This tutorial provides the complete machinery for migrating conda environments to slim Docker images. The patterns scale from development to production, from megabytes to terabytes.*

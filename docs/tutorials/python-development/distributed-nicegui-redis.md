@@ -1,6 +1,5 @@
 # Distributed NiceGUI Architecture with Redis: Horizontal Scaling and Real-Time Updates
 
-**Objective**: Master building horizontally scalable NiceGUI applications using Redis as the central nervous system. When you need to run multiple NiceGUI instances across machines, coordinate real-time updates, and scale workers independently—this tutorial becomes your weapon of choice.
 
 ## Introduction
 
@@ -1619,5 +1618,4 @@ async def _subscribe_with_retry(self):
 
 ---
 
-*This tutorial provides the complete machinery for building horizontally scalable NiceGUI applications. The patterns scale from single instances to distributed clusters, from prototypes to enterprise systems with real-time coordination across multiple machines.*
 

@@ -88,7 +88,7 @@ nav:
     - Docker & Compose: best-practices/docker-and-compose.md
   - Tutorials:
     - Creating MkDocs GitHub Site: tutorials/creating-mkdocs-github-site.md
-  - Contact & Collaboration: getting-started.md
+  - Contact: getting-started.md
 ```
 
 **Why:** Hierarchical navigation enables organized content structure. Nested sections group related content while maintaining clear information architecture.

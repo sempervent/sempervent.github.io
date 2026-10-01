@@ -7,7 +7,6 @@ tags:
 
 # ESP32 + MQTT + Home Assistant Integration (Secure by Design)
 
-**Objective**: Connect an ESP32 sensor node to Home Assistant via a TLS-secured Mosquitto MQTT broker. The ESP32 publishes BME280 temperature/humidity readings and responds to LED toggle commands. HA auto-discovers the device. Everything is authenticated and encrypted.
 
 ---
 

@@ -7,7 +7,7 @@ tags:
   - tooling
 ---
 
-# Mermaid → SVG Workflow Pipeline (From Diagram Source to Published Artifact)
+# Rendering Mermaid diagrams to SVG
 
 ---
 
@@ -19,7 +19,7 @@ This tutorial walks you through the full pipeline for producing a committed, ren
 2. A Node.js render script that produces a `.svg` artifact next to each source
 3. A committed `.svg` that renders in GitHub Pages and MkDocs Material without a build step
 
-This is the workflow used throughout this site. Once set up, adding a new diagram takes three steps: write the `.mmd`, run the render script, commit both files.
+Once set up, adding a new diagram is usually: write the `.mmd`, run the render script, commit both source and SVG.
 
 ---
 
@@ -75,7 +75,7 @@ node --version
 
 ### 2. Write or Edit the `.mmd` Source
 
-Create or edit a file under `docs/assets/diagrams/`. Use the `%%{init}%%` directive to set rendering options, and follow the style guide for orientation, subgraph boundaries, and node text length.
+Create or edit a file under your diagrams directory. Use the `%%{init}%%` directive for rendering options; prefer `flowchart LR` for pipelines and short node labels (see [SVG workflow best practices](../../best-practices/diagrams/svg-workflow-generation.md)).
 
 Example structure for a new workflow diagram:
 
@@ -285,6 +285,6 @@ flowchart LR
 ---
 
 !!! tip "See also"
-    - [SVG Workflow Generation Best Practices](../../best-practices/diagrams/svg-workflow-generation.md) — principles, conventions, and the full style guide for Mermaid-first diagram authoring
-    - [Diagram Style Guide](../../diagrams/style-guide.md) — reusable Mermaid snippet library and formatting rules
-    - [ADR 0015: Standardize Diagrams on Mermaid](../../adr/0015-diagrams-mermaid.md) — the architectural decision behind this pipeline
+    - [SVG Workflow Generation Best Practices](../../best-practices/diagrams/svg-workflow-generation.md) — principles and layout conventions for Mermaid-first diagrams
+    - [Systems Diagramming Best Practices](../../best-practices/diagrams/systems-diagramming-best-practices.md) — layering, boundaries, and pattern snippets
+    - [Layered Systems Diagrams: Mermaid → SVG](layered-systems-diagrams-mermaid-to-svg.md) — worked example with context and workflow diagrams

@@ -1,6 +1,5 @@
 # DuckDB Parquet Data Quality Inspection: Finding Bad Data Files
 
-**Objective**: Master DuckDB for comprehensive Parquet file inspection and data quality analysis. When you need to identify corrupted files, when you want to detect data anomalies, when you're building data quality pipelines—DuckDB becomes your weapon of choice.
 
 DuckDB provides the foundation for efficient Parquet file inspection and data quality analysis. Without proper understanding of file validation, data profiling, and anomaly detection, you're building unreliable data pipelines that miss the power of automated data quality assessment. This guide shows you how to wield DuckDB with the precision of a senior data engineer.
 
@@ -1068,4 +1067,3 @@ DuckDB provides the foundation for efficient Parquet file inspection and data qu
 
 ---
 
-*This guide provides the complete machinery for mastering DuckDB Parquet data quality inspection. The patterns scale from simple file validation to complex data quality pipelines, from basic integrity checks to advanced anomaly detection.*

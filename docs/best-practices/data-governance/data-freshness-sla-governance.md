@@ -1,6 +1,5 @@
 # Data Freshness, SLA/SLO Governance, and Pipeline Reliability Contracts: Best Practices
 
-**Objective**: Establish comprehensive data freshness governance with SLA/SLO frameworks for ETL pipelines, real-time streaming, geospatial processing, and data serving layers. When you need to ensure data freshness, when you want to define reliability contracts, when you need pipeline SLOs—this guide provides the complete framework.
 
 ## Introduction
 

@@ -1,6 +1,5 @@
 # Postgres FDW Best Practices
 
-**Objective**: FDWs make Postgres the query engine for your data lake — but misuse them, and you'll summon performance demons. Here's how to tame them.
 
 FDWs make Postgres the query engine for your data lake — but misuse them, and you'll summon performance demons. Here's how to tame them.
 
@@ -992,4 +991,3 @@ FDWs require understanding external data sources, performance implications, and 
 
 ---
 
-*This guide provides the complete machinery for Postgres FDWs. The patterns scale from simple parquet files to complex cloud data lakes, from basic queries to advanced geospatial federated analytics.*

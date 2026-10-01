@@ -1,6 +1,5 @@
 # Documentation Best Practices (2025 Edition)
 
-**Objective**: Docs aren't optional—they're survival kits. Without them, your brilliant pipelines collapse into archaeology.
 
 Docs aren't optional—they're survival kits. Without them, your brilliant pipelines collapse into archaeology.
 
@@ -1183,4 +1182,3 @@ Documentation requires understanding information architecture, automation patter
 
 ---
 
-*This guide provides the complete machinery for documentation. The patterns scale from simple README files to complex multi-site documentation systems, from basic automation to advanced CI/CD integration.*

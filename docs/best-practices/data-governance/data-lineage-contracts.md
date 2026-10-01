@@ -1,6 +1,5 @@
 # Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement
 
-**Objective**: Establish data lineage and contract enforcement across pipelines, services, and storage so that provenance is traceable, schema and semantics are agreed, and violations are detectable. When you need to trace data from source to consumption, enforce contracts between producers and consumers, or prove compliance—this guide provides the patterns and integration points.
 
 ## Introduction
 

@@ -1,6 +1,5 @@
 # Patroni PostgreSQL HA: The Art of High Availability
 
-**Objective**: Master Patroni to build bulletproof PostgreSQL clusters that survive hardware failures, network partitions, and catastrophic disasters. When your database becomes the single point of failure, when downtime costs thousands per minute, when data loss is not an option—Patroni becomes your weapon of choice.
 
 PostgreSQL high availability is the bridge between single-node databases and enterprise-grade resilience. Without proper HA setup, you're flying blind into production with databases that could fail in ways that destroy your business. This guide shows you how to wield Patroni with the precision of a seasoned database engineer.
 
@@ -910,4 +909,3 @@ Patroni PostgreSQL HA is the foundation of reliable database deployments. When c
 
 ---
 
-*This tutorial provides the complete machinery for mastering Patroni PostgreSQL HA. The patterns scale from development to production, from simple clusters to enterprise-grade deployments.*

@@ -1,6 +1,5 @@
 # Secure-by-Design Lifecycle Architecture Across Polyglot Systems: Best Practices
 
-**Objective**: Establish security as a lifecycle concern, not a patch, across Python, Go, Rust, and all infrastructure. When you need secure defaults, when you want zero-trust communication, when you need code-to-cloud traceability—this guide provides the complete framework.
 
 ## Introduction
 

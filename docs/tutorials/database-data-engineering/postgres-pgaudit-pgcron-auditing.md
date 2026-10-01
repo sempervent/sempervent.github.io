@@ -1,6 +1,5 @@
 # Auditing PostgreSQL with PgAudit and PgCron: Log Rotation, Top Users/Tables, and Activity Log Views
 
-**Objective**: Master production-grade PostgreSQL auditing with PgAudit and PgCron. When you need comprehensive audit trails, automated log rotation, and analytical views of database activity—this tutorial provides a complete, reproducible setup.
 
 ## Introduction
 

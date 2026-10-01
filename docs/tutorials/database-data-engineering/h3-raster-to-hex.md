@@ -1,6 +1,5 @@
 # H3 Raster to Hex: Converting Geospatial Rasters to Hexagonal Grids
 
-**Objective**: Master the conversion of raster data (satellite imagery, elevation models, climate data) to H3 hexagonal grids for efficient spatial analysis, aggregation, and visualization. Transform pixels into hexagons for better spatial reasoning and analysis.
 
 ## Architecture
 
@@ -847,4 +846,3 @@ docker compose --profile viz up -d
 
 ---
 
-*This tutorial provides the complete machinery for converting raster data to H3 hexagonal grids. Each component is production-ready, copy-paste runnable, and designed to handle large-scale geospatial data processing with efficient spatial indexing and aggregation.*

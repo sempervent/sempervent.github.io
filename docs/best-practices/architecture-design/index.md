@@ -1,6 +1,5 @@
 # Architecture & Design Best Practices
 
-**Objective**: Master senior-level architecture and design patterns for production systems. When you need to build robust, scalable architectures, when you want to follow proven methodologies, when you need enterprise-grade patterns—these best practices become your weapon of choice.
 
 ## System Architecture
 
@@ -42,8 +41,6 @@
 ## Documentation & Governance
 
 - **[Documentation Best Practices](documentation.md)** - Writing, organizing, and sustaining useful docs for data + devops projects
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Architecture Decision Records (ADRs) and decision governance framework
-
 ## Data Serialization
 
 - **[Protocol Buffers with Python](protobuf-python.md)** - Production-ready data serialization and microservices communication
@@ -55,4 +52,3 @@
 
 ---
 
-*These best practices provide the complete machinery for building production-ready architectures. Each guide includes architectural patterns, configuration examples, and real-world implementation strategies for enterprise deployment.*

@@ -1,6 +1,5 @@
 # Local LLM Deployments: Methods, Quantization, and OpenAI-Compatible Serving
 
-**Objective**: A ruthless field guide to running modern LLMs on your own hardware. CPU to GPU, tiny to obnoxious, with real benchmarks and a path to RAG.
 
 ## Mental Model: What You're Actually Choosing
 
@@ -545,4 +544,3 @@ docker compose --profile bench up --build
 
 ---
 
-*This tutorial provides the complete machinery for running LLMs locally. Each component is production-ready, copy-paste runnable, and designed for real-world deployment with proper trade-offs and failure handling.*

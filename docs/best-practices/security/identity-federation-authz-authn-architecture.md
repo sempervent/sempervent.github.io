@@ -1,6 +1,5 @@
 # Cross-Domain Identity Federation, AuthZ/AuthN Architecture & Identity Propagation Models: Best Practices
 
-**Objective**: Establish comprehensive identity federation architecture that unifies authentication and authorization across Rancher, RKE2 clusters, FastAPI/NiceGUI services, Postgres/FDWs, MLflow, object stores, and multi-environment deployments. When you need unified identity, when you want identity propagation, when you need least-privilege governance—this guide provides the complete framework.
 
 ## Introduction
 

@@ -1,6 +1,5 @@
 # Compose Profiles at Scale: Toggling a Polyglot Data/Geo/ML City
 
-**Objective**: One compose.yml. Many realities. Flip `--profile gpu` and torch tensors; `--profile tiles` and mint vector tiles. Profiles as power, not garnish.
 
 ## Architecture & Profiles Map
 

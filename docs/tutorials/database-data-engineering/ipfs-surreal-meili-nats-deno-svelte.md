@@ -1,6 +1,5 @@
 # Content-Addressed Knowledge: IPFS + SurrealDB + Meilisearch Driven by NATS + Deno
 
-**Objective**: Build a content-addressed knowledge system where documents arrive via HTTP (UI) → pushed onto NATS JetStream. A Deno worker consumes events, canonicalizes JSON, computes a CID (IPFS), pins bytes to Kubo (IPFS node), writes structured facts to SurrealDB, and indexes text to Meilisearch. The SvelteKit UI can search (Meili) → fetch canonical record (SurrealDB) → verify byte integrity via IPFS CID.
 
 ## Architecture
 
@@ -826,4 +825,3 @@ docker compose --profile ops up -d
 
 ---
 
-*This tutorial provides the complete machinery for content-addressed knowledge systems. Each component is production-ready, copy-paste runnable, and designed for verifiable, searchable, and immutable document storage with event-driven processing.*

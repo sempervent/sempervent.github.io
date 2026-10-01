@@ -1,6 +1,5 @@
 # Taming Database Evolution with Alembic
 
-**Objective**: Master Alembic migrations to manage database schema changes with surgical precision. When your database schema evolves faster than your application, when your team needs reproducible database changes, when production deployments require zero-downtime schema updates—Alembic becomes your weapon of choice.
 
 Database migrations are the bridge between your evolving application and its persistent storage. Without them, you're flying blind into production with schema changes that could break everything. This guide shows you how to wield Alembic with the precision of a seasoned backend engineer.
 
@@ -1150,4 +1149,3 @@ Alembic migrations are the foundation of reliable database schema management. Wh
 
 ---
 
-*This tutorial provides the complete machinery for managing database evolution with Alembic. The patterns scale from development to production, from simple schema changes to complex data migrations.*

@@ -7,7 +7,6 @@ tags:
 
 # Release Management, Change Governance, and Progressive Delivery: Best Practices for Distributed Systems
 
-**Objective**: Master production-grade release management and progressive delivery for distributed systems. When you need to safely deploy changes across applications, databases, data pipelines, and ML systems—this guide provides complete patterns and implementations.
 
 ## Introduction
 
@@ -101,7 +100,7 @@ graph TB
 - Ticket creation with labels
 
 **2. Design & ADR**:
-- Architecture Decision Record (see [ADR Guide](../architecture-design/adr-decision-governance.md))
+- Architecture Decision Record (see [Documentation](../architecture-design/documentation.md))
 - Design review
 - Risk classification
 
@@ -1875,7 +1874,6 @@ kubectl apply -f manifests/k8s/ -n prod
 
 ## See Also
 
-- **[ADR and Technical Decision Governance](../architecture-design/adr-decision-governance.md)** - Decision recording
 - **[Configuration Management](configuration-management.md)** - Config governance
 - **[System Resilience](../operations-monitoring/system-resilience-and-concurrency.md)** - Resilience patterns
 - **[Testing Best Practices](../operations-monitoring/testing-best-practices.md)** - Testing strategies

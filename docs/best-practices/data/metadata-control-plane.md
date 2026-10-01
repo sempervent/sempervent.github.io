@@ -1,6 +1,5 @@
 # Metadata as a Control Plane
 
-**Objective**: Explain how metadata governs data systems and how to treat it as infrastructure rather than documentation.
 
 ## Metadata vs data
 

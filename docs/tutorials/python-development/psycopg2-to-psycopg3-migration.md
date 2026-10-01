@@ -1,6 +1,5 @@
 # Migrating from psycopg2 to psycopg ≥ 3: A Brutally Practical Guide
 
-**Objective**: Migrate your psycopg2 codebase to psycopg 3 with surgical precision. When your codebase is glued together with psycopg2, when you need async, safer adapters, better COPY, and cleaner ergonomics—psycopg 3 is the modern rewrite. This guide walks you through the migration with minimal downtime and no mystery meat.
 
 You've got a codebase glued together with psycopg2. It works—until you need async, safer adapters, better COPY, and cleaner ergonomics. psycopg 3 is the modern rewrite. This tutorial walks you—surgically—through the migration with minimal downtime and no mystery meat.
 
@@ -793,4 +792,3 @@ psycopg 3 is the modern rewrite of psycopg2 with better performance, native asyn
 
 ---
 
-*This tutorial provides the complete machinery for migrating from psycopg2 to psycopg 3. The patterns scale from simple scripts to production web applications.*

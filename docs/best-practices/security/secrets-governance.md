@@ -1,6 +1,5 @@
 # End-to-End Secrets Management & Key Rotation Governance: Best Practices for Infrastructure, Applications, and CI/CD
 
-**Objective**: Master production-grade secrets management across hybrid multi-cloud and air-gapped environments. When you need to secure credentials, rotate keys safely, inject secrets into workloads, and maintain compliance—this guide provides complete patterns and automation.
 
 ## Introduction
 

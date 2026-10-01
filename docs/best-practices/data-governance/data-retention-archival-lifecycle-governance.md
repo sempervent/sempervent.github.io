@@ -1,6 +1,5 @@
 # Data Retention, Archival Strategy, Lifecycle Governance & Cold Storage Patterns: Best Practices
 
-**Objective**: Establish comprehensive data retention and archival strategies that govern data lifecycle from hot to frozen storage, ensuring compliance, cost optimization, and operational efficiency. When you need retention policies, when you want archival strategies, when you need lifecycle governance—this guide provides the complete framework.
 
 ## Introduction
 

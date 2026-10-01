@@ -1,6 +1,5 @@
 # Retrieval-Augmented Generation on Databases with Ollama
 
-**Objective**: Build a RAG pipeline that bridges your structured database with Ollama's LLM, enabling natural language queries over your data. When you need to query databases in natural language, when you want to augment LLMs with live data, when you're building intelligent data interfaces—RAG on databases becomes your weapon of choice.
 
 RAG on databases is the foundation of intelligent data interaction. Without proper understanding of retrieval patterns, embedding strategies, and prompt engineering, you're building static interfaces that miss the power of conversational data access. This guide shows you how to wield RAG with the precision of a senior applied ML engineer.
 
@@ -1325,4 +1324,3 @@ RAG on databases provides the foundation for intelligent data interaction. When 
 
 ---
 
-*This guide provides the complete machinery for mastering RAG on databases with Ollama. The patterns scale from simple queries to complex reasoning, from basic retrieval to advanced generation.*

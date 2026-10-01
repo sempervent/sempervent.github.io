@@ -6,7 +6,6 @@ tags:
 
 # 🔌 Embedded Systems & ESP32
 
-**Objective**: Build firmware that is safe, power-efficient, and maintainable. These guides cover the real decisions you make when designing embedded systems around the ESP32 — not just "how to blink an LED" but how to architect, power, secure, and ship firmware responsibly.
 
 ## Guides in this section
 

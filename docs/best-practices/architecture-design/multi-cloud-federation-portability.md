@@ -1,6 +1,5 @@
 # Multi-Cloud Federation & Portability Architecture: Best Practices
 
-**Objective**: Establish comprehensive multi-cloud federation and portability patterns that enable workload portability, vendor independence, and unified operations across AWS, GCP, Azure, and on-premises infrastructure. When you need cloud portability, when you want vendor independence, when you need unified multi-cloud operations—this guide provides the complete framework.
 
 ## Introduction
 

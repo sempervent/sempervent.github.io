@@ -1,6 +1,5 @@
 # Secrets Management Best Practices (2025 Edition)
 
-**Objective**: Secrets are dangerous. They leak, they rot, they get copied into Slack and Git commits. Here's how to lock them down without breaking your developer flow.
 
 Secrets are dangerous. They leak, they rot, they get copied into Slack and Git commits. Here's how to lock them down without breaking your developer flow.
 
@@ -799,4 +798,3 @@ Secrets management requires understanding security risks, access patterns, and l
 
 ---
 
-*This guide provides the complete machinery for secrets management. The patterns scale from simple environment variables to complex enterprise secret stores, from basic security to advanced threat protection.*

@@ -1,6 +1,5 @@
 # Reading & Writing UDP Messages with Python
 
-**Objective**: Master UDP (User Datagram Protocol) messaging with Python for high-performance, low-latency applications. When you need fast, connectionless communication, when you're building real-time systems, when you need to handle thousands of concurrent connections—UDP becomes your weapon of choice.
 
 UDP is the foundation of fast, connectionless networking. Without proper UDP understanding, you're building on shaky ground with unreliable message delivery, buffer overflows, and performance bottlenecks. This guide shows you how to wield Python's socket and asyncio libraries with the precision of a network engineer.
 
@@ -1090,4 +1089,3 @@ UDP messaging with Python provides fast, connectionless communication for real-t
 
 ---
 
-*This tutorial provides the complete machinery for mastering UDP messaging with Python. The patterns scale from development to production, from simple clients to enterprise-grade real-time systems.*

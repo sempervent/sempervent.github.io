@@ -1,6 +1,5 @@
 # GeoParquet Data Warehouses
 
-**Objective**: Build modern geospatial data warehouses using GeoParquet format for optimal performance and interoperability.
 
 GeoParquet represents the future of geospatial data storage—columnar, compressed, and cross-platform compatible. This guide covers building production-ready geospatial data warehouses that scale.
 

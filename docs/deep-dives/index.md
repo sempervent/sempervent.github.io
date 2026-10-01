@@ -9,7 +9,7 @@ Some questions cannot be answered with a checklist or a firmware snippet. They d
 
 Deep Dives are analytical and comparative — the goal is understanding, not implementation. Each one examines a real tension in systems design, takes a position, and explains the reasoning. They are written for engineers who have already read the tutorials and want to think harder about what they're building.
 
-The intellectual principles behind this section are articulated in the [Philosophy of the Site](../philosophy.md). For structured entry points by problem domain, see the [Architectural Compass](../start-here-architectural-paths.md). For curated reading sequences, see [Reading Tracks](../reading-tracks.md). Decision frameworks extracted from all essays are indexed at [Decision Frameworks](../decision-frameworks.md).
+The principles behind these essays are in [Systems engineering principles](../philosophy.md). For structured entry points by problem domain, see the [Architectural Compass](../start-here-architectural-paths.md). For curated reading sequences, see [Reading Tracks](../reading-tracks.md). Decision frameworks extracted from all essays are indexed at [Decision Frameworks](../decision-frameworks.md).
 
 ## Available Deep Dives
 

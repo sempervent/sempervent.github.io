@@ -1,6 +1,5 @@
 # Repository Standardization, Templates, and Lifecycle Governance: Best Practices for Polyglot Ecosystems
 
-**Objective**: Master production-grade repository standardization across Python, Go, Rust, Docker, Kubernetes, and data pipelines. When you need to eliminate snowflake repos, ensure consistency, and enable automated governance—this guide provides complete patterns and implementations.
 
 ## Introduction
 
@@ -2171,7 +2170,6 @@ class LLMDocsIngester:
 
 ## See Also
 
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Decision recording
 - **[Configuration Management](../operations-monitoring/configuration-management.md)** - Config governance
 - **[Release Management](../operations-monitoring/release-management-and-progressive-delivery.md)** - Deployment practices
 

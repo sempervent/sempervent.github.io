@@ -1,6 +1,5 @@
 # YAML Recipe Format: Why Your Kitchen Needs Indentation
 
-**Objective**: Master YAML as the superior format for culinary operations. When you need to version control your grandmother's secret sauce, when you want to lint your pancake recipes, when you're building a CI/CD pipeline for your chili—YAML recipe format becomes your weapon of choice.
 
 Other people use index cards. We use declarative configs.
 
@@ -1014,4 +1013,3 @@ YAML recipe format provides the foundation for modern culinary operations. When 
 
 ---
 
-*This guide provides the complete machinery for mastering YAML recipe format. The patterns scale from simple breakfast recipes to complex multi-course meals, from basic cooking to advanced culinary operations.*

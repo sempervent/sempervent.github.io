@@ -9,6 +9,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
 build/
 develop-eggs/
@@ -37,3 +38,4 @@ wheels/
 # Temporary files
 *.log
 *.tmp
+maintainers-theme-evidence/

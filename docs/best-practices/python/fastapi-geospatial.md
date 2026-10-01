@@ -1,6 +1,5 @@
 # FastAPI Geospatial API Development
 
-**Objective**: Build high-performance, scalable geospatial APIs using FastAPI with proper spatial data handling and optimization.
 
 FastAPI provides the perfect foundation for geospatial APIs—async support, automatic OpenAPI documentation, and type safety. This guide covers building production-ready geospatial APIs that scale.
 

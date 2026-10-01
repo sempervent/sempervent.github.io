@@ -1,6 +1,5 @@
 # Architectural Fitness Functions and Governance: Measuring and Evolving Architecture Quality
 
-**Objective**: Master production-grade architectural fitness functions and governance across distributed systems, databases, ML pipelines, and polyglot microservices. When you need to measure, evaluate, monitor, and evolve architecture quality—this guide provides complete patterns and implementations.
 
 ## Introduction
 
@@ -2036,7 +2035,6 @@ class LLMScorecardGenerator:
 
 ## See Also
 
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Decision recording
 - **[Repository Standardization](repository-standardization-and-governance.md)** - Repository governance
 - **[System Resilience](../operations-monitoring/system-resilience-and-concurrency.md)** - Resilience patterns
 

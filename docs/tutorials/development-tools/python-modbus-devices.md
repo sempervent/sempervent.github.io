@@ -1,6 +1,5 @@
 # Industrial Data Harvesting: Python Modbus Device Communication
 
-**Objective**: Master industrial device communication using Modbus protocol to connect to PLCs, sensors, and automation equipment. When you need to integrate with industrial systems, when you want to monitor manufacturing equipment, when you're building IoT solutions for industrial environments—Python Modbus becomes your weapon of choice.
 
 Industrial devices speak a different language. Let's learn to communicate with PLCs, HMIs, and sensors using the universal language of industrial automation: Modbus protocol.
 
@@ -1194,4 +1193,3 @@ Python Modbus requires understanding both industrial protocols and Python implem
 
 ---
 
-*This tutorial provides the complete machinery for Python Modbus device communication. The patterns scale from simple device reading to complex industrial automation, from basic protocol implementation to advanced device management.*

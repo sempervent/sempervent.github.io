@@ -1,6 +1,5 @@
 # Database Migrations & Schema Evolution
 
-**Objective**: Databases are living systems. Schema changes are inevitable. Handle them without breaking prod, corrupting data, or waking ops in the night.
 
 Databases are living systems. Schema changes are inevitable. Handle them without breaking prod, corrupting data, or waking ops in the night.
 
@@ -1002,4 +1001,3 @@ Database migrations require understanding schema evolution, data safety, and pro
 
 ---
 
-*This guide provides the complete machinery for database migrations. The patterns scale from simple table changes to complex geospatial schema evolution, from basic Alembic usage to advanced zero-downtime strategies.*

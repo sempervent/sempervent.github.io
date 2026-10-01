@@ -1,6 +1,5 @@
 # AWS Serverless Geospatial Processing
 
-**Objective**: Build scalable, cost-effective geospatial processing pipelines using AWS serverless services.
 
 Serverless architecture eliminates infrastructure management while providing automatic scaling and pay-per-use pricing. This guide covers building production-ready geospatial processing systems on AWS.
 

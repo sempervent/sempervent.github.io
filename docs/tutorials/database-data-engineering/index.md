@@ -1,6 +1,5 @@
 # Database & Data Engineering Tutorials
 
-**Objective**: Master complex database and data engineering implementations through step-by-step guides. When you need to implement specific database technologies, when you want to follow proven patterns, when you need copy-paste runnable examples—these tutorials become your weapon of choice.
 
 ## PostgreSQL & PostGIS
 
@@ -45,4 +44,3 @@
 
 ---
 
-*These tutorials provide the complete machinery for implementing key database and data engineering technologies and workflows. Each guide includes production-ready examples, configuration files, and best practices for enterprise deployment.*

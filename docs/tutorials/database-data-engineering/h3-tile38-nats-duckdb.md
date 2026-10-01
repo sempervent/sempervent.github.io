@@ -1,6 +1,5 @@
 # Hexes in Motion: H3 + Tile38 + NATS + DuckDB
 
-**Objective**: Build a geo event bus where devices publish positions to NATS JetStream, Tile38 triggers geofence enter/exit events, DuckDB keeps a compact columnar history for offline analytics, and H3 powers hex aggregation for heatmaps. Real-time geofences with hex aggregation and offline analytics.
 
 ## Architecture
 
@@ -624,4 +623,3 @@ docker compose exec tile38 bash /setup.sh
 
 ---
 
-*This tutorial provides the complete machinery for real-time geofencing with hexagonal spatial analytics. Each component is production-ready, copy-paste runnable, and designed to handle high-frequency position updates with sub-millisecond geofence detection.*

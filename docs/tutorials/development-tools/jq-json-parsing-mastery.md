@@ -1,6 +1,5 @@
 # The Art of JSON Parsing with jq: A Gonzo Journey Through Data Manipulation
 
-**Objective**: Master the dark art of JSON parsing with `jq`—from Docker Bake outputs to API responses, from simple filtering to complex transformations that would make a data scientist weep with joy.
 
 Welcome to the wild frontier of JSON manipulation, where `jq` reigns supreme as the Swiss Army knife of data parsing. This isn't just a tutorial—it's a gonzo expedition into the heart of structured data, where we'll emerge victorious over the most complex JSON nightmares you can throw at us.
 

@@ -1,8 +1,5 @@
 # Rust + CSR: Parse, Build from Parquet/DB, and Bend Sparse Data to Your Will
 
-**Objective**: Master CSR (Compressed Sparse Row) matrices in Rust. Parse them, build them from Parquet files and databases, understand why they matter, and wield them for sparse linear algebra that would make dense matrices weep.
-
-When your sparse data exceeds memory by orders of magnitude, when your graph algorithms need cache-friendly iteration, when your recommenders demand O(nnz) complexity—CSR becomes your weapon of choice. This guide shows you how to build, parse, and optimize CSR matrices in Rust with surgical precision.
 
 ## 0) Prerequisites (Read Once, Live by Them)
 
@@ -976,4 +973,3 @@ CSR matrices are the foundation of sparse linear algebra. When configured proper
 
 ---
 
-*This tutorial provides the complete machinery for building, parsing, and optimizing CSR matrices in Rust. The patterns scale from development to production, from small matrices to massive sparse datasets.*

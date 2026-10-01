@@ -1,6 +1,5 @@
 # Caching & Performance Best Practices
 
-**Objective**: Caches are accelerants. Done right, they make pipelines scream. Done wrong, they give you stale lies.
 
 Caches are accelerants. Done right, they make pipelines scream. Done wrong, they give you stale lies.
 
@@ -902,4 +901,3 @@ Caching requires understanding performance characteristics, invalidation strateg
 
 ---
 
-*This guide provides the complete machinery for caching and performance. The patterns scale from simple database queries to complex geospatial computations, from basic API responses to advanced ML model inference.*
