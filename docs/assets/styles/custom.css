@@ -266,6 +266,12 @@
   color: var(--md-default-fg-color--light);
 }
 
+.md-typeset .project-card,
+.md-typeset .card {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
 .project-card h3 {
   margin-top: 0;
   font-size: 1.15em;

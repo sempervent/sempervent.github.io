@@ -21,7 +21,12 @@ def main() -> int:
         print("Install playwright in the venv to capture screenshots", file=sys.stderr)
         return 1
 
-    subprocess.run(["mkdocs", "build", "--strict"], cwd=ROOT, check=True)
+    mkdocs = ROOT / ".venv" / "bin" / "mkdocs"
+    subprocess.run(
+        [str(mkdocs) if mkdocs.exists() else "mkdocs", "build", "--strict"],
+        cwd=ROOT,
+        check=True,
+    )
 
     class Handler(SimpleHTTPRequestHandler):
         def __init__(self, *args, **kwargs):
@@ -42,8 +47,13 @@ def main() -> int:
             ("tutorial-dark", "/tutorials/docker-infrastructure/rke2-raspberry-pi/"),
         ):
             page.goto(base + path.lstrip("/"), wait_until="networkidle")
+            page.evaluate(
+                "() => { const c = document.querySelector('[data-md-component=\"consent\"]'); if (c) c.remove(); }"
+            )
             if "dark" in name:
-                page.locator('label[for="__palette_1"], label[for="__palette_0"]').first.click()
+                page.evaluate(
+                    "() => { const i = document.querySelector('#__palette_2'); if (i) { i.checked = true; i.dispatchEvent(new Event('change', {bubbles: true})); } }"
+                )
                 page.wait_for_timeout(400)
             page.screenshot(path=str(OUT / f"{name}.png"), full_page=False)
         browser.close()
