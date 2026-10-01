@@ -102,7 +102,7 @@ Oak Ridge National Laboratory
 
 ## Next Steps
 
-1. **Review Portfolio**: Check out my [Projects](projects.md) for technical examples
+1. **Review Portfolio**: Check out my [Projects](projects/index.md) for technical examples
 2. **Technical Background**: Read my [Professional Profile](about.md) for detailed experience
 3. **Best Practices**: Explore the [Best Practices](best-practices/index.md) section for proven methodologies
 4. **Hands-on Tutorials**: Follow the [Tutorials](tutorials/index.md) for step-by-step implementations
@@ -132,5 +132,5 @@ Oak Ridge National Laboratory
 
 ### Core Documentation
 - [Professional Profile](about.md) - Detailed background and experience
-- [Projects Portfolio](projects.md) - Technical implementations and case studies
+- [Projects Portfolio](projects/index.md) - Technical implementations and case studies
 - [Technical Documentation](documentation.md) - Overview of methodologies and approaches

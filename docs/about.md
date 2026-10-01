@@ -1,5 +1,10 @@
 # Professional Profile
 
+!!! note "Personal site"
+    This site is Joshua N. Grant's personal portfolio and technical writing. Employer
+    biography below is factual; open-source projects and opinions here are independent
+    work unless explicitly attributed to Oak Ridge National Laboratory.
+
 ## About Me
 
 I'm a **Geospatial Systems Architect** at Oak Ridge National Laboratory, where I transform research and experiments into production-scalable solutions. My work sits at the intersection of geospatial data, cloud infrastructure, and distributed systems—building the pipelines, architectures, and tools that make complex data problems tractable.

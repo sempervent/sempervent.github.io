@@ -599,7 +599,9 @@ conn.execute("PRAGMA synchronous=NORMAL")
 
 ---
 
-## 5. Frontend: WebAudio + Web MIDI {#5-frontend-webaudio--web-midi}
+<span id="5-frontend-webaudio--web-midi"></span>
+
+## 5. Frontend: WebAudio + Web MIDI
 
 ### HTML Layout
 

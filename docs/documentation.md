@@ -77,5 +77,5 @@ Each guide is designed to be:
 ## Additional Resources
 
 - [Professional Profile](about.md) - Background and experience
-- [Projects Portfolio](projects.md) - Technical implementations
+- [Projects Portfolio](projects/index.md) - Technical implementations
 - [Contact & Collaboration](getting-started.md) - Get in touch
