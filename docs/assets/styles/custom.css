@@ -244,6 +244,33 @@
   text-decoration: underline;
 }
 
+/* Project cards (registry-generated) */
+.project-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25em;
+  margin: 1.5em 0;
+}
+
+.project-card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.25em 1.35em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.15em;
+  color: var(--md-primary-fg-color);
+}
+
+.project-card .md-button {
+  margin: 0.25em 0.35em 0.25em 0;
+  font-size: 0.85em;
+}
+
 /* ============================================
    Navigation & Sidebar
    ============================================ */

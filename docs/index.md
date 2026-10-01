@@ -2,92 +2,64 @@
 
 # Geospatial Systems, Data, and Strange Machinery
 
-*Building production-scale systems at the intersection of geospatial data, cloud infrastructure, and distributed computing*
+**Joshua N. Grant** — geospatial systems architect, data infrastructure engineer, and builder of developer tooling and experimental software.
 
 <div class="hero-actions" markdown="1">
-  [Best Practices →](best-practices/index.md){ .md-button .md-button--primary }
-  [Tutorials →](tutorials/index.md){ .md-button .md-button--primary }
-  [Projects →](projects.md){ .md-button .md-button--primary }
+  [Current work ↓](#current-work){ .md-button .md-button--primary }
+  [Projects →](projects/index.md){ .md-button .md-button--primary }
+  [Technical writing →](documentation.md){ .md-button .md-button--primary }
+  [About →](about.md){ .md-button }
+  [GitHub →](https://github.com/sempervent){ .md-button }
 </div>
 
 </div>
 
 ---
 
-## Welcome
+## Current work {#current-work}
 
-This is my technical studio—a curated collection of best practices, tutorials, and experiments from building production systems at **Oak Ridge National Laboratory** and beyond. Here you'll find deep dives into geospatial data engineering, distributed systems architecture, and the practical patterns that make complex systems reliable.
+Independent projects with recent public activity (from the [canonical registry](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)):
 
-!!! tip "What to Expect"
-    This site is organized into **Best Practices** (conceptual guides and patterns) and **Tutorials** (step-by-step implementations). Both are written for engineers who need production-ready solutions, not just examples.
+--8<-- "_generated/home-current-work.md"
+
+[Full project index →](projects/index.md) · [Live project docs sites →](projects/documentation-sites.md)
 
 ---
 
-## Quick Navigation
+## Technical writing
+
+Long-form **best practices**, **deep dives**, **ADRs**, and **tutorials** live here — production-derived patterns where noted, reference implementations elsewhere, and experiments clearly in the Lab.
 
 <div class="card-grid" markdown="1">
 
 <div class="card" markdown="1">
 
-### 🎯 Best Practices
+### Start with intent
 
-Production-grade patterns, architectures, and methodologies for building reliable distributed systems.
-
-**[Explore Best Practices →](best-practices/index.md)**
-
-**Highlights:**
-- [System Resilience & Concurrency](best-practices/operations-monitoring/system-resilience-and-concurrency.md)
-- [Configuration Management](best-practices/operations-monitoring/configuration-management.md)
-- [Release Management & Progressive Delivery](best-practices/operations-monitoring/release-management-and-progressive-delivery.md)
-- [IAM & RBAC Governance](best-practices/security/iam-rbac-abac-governance.md)
+**[Architectural compass →](start-here-architectural-paths.md)** — pick a problem domain and reading path.
 
 </div>
 
 <div class="card" markdown="1">
 
-### 📚 Tutorials
+### Representative guides
 
-Step-by-step guides with copy-paste examples for implementing key technologies and patterns.
-
-**[Browse Tutorials →](tutorials/index.md)**
-
-**Popular:**
-- [PostGIS Geometry Indexing](tutorials/database-data-engineering/postgis-geometry-indexing.md)
-- [PostgreSQL Auditing with PgAudit](tutorials/database-data-engineering/postgres-pgaudit-pgcron-auditing.md)
-- [RKE2 on Raspberry Pi](tutorials/docker-infrastructure/rke2-raspberry-pi.md)
-- [ONNX Browser Inference](tutorials/ml-ai/onnx-browser-inference.md)
+- [Geospatial system architecture](best-practices/geospatial/geospatial-system-design.md)
+- [PostGIS best practices](best-practices/postgres/postgis-best-practices.md)
+- [Parquet](best-practices/database-data/parquet.md) · [GeoParquet](best-practices/database-data/geoparquet.md)
+- [System resilience & concurrency](best-practices/operations-monitoring/system-resilience-and-concurrency.md)
+- [ADR & decision governance](best-practices/architecture-design/adr-decision-governance.md)
+- [Release management & progressive delivery](best-practices/operations-monitoring/release-management-and-progressive-delivery.md)
 
 </div>
 
 <div class="card" markdown="1">
 
-### 🏗️ Projects
+### Browse the corpus
 
-Technical implementations, experiments, and creative explorations at the edge of what's possible.
+**[Best practices →](best-practices/index.md)** · **[Deep dives →](deep-dives/index.md)** · **[Tutorials →](tutorials/index.md)**
 
-**[View Projects →](projects.md)**
-
-**Featured:**
-- Final Fantasy Football (semantic learning)
-- Where I've Been (travel visualization)
-- This Is A Casino (trading platform)
-- Decentralized Content Reward System
-
-</div>
-
-<div class="card" markdown="1">
-
-### 🎨 Just for Fun
-
-Creative, experimental, and occasionally absurd implementations — from generative art to MIDI-driven servers.
-
-**[Explore Just for Fun →](tutorials/just-for-fun/index.md)**
-
-**Recent:**
-- [Pi Sample Library Server](tutorials/just-for-fun/pi-sample-server.md)
-- [Recursive Cathedral Generator](tutorials/just-for-fun/kotlin-recursive-cathedral.md)
-- [Fractal Art Explorer](tutorials/just-for-fun/fractal-art-explorer-js.md)
-- [OSC + MQTT + SuperCollider](tutorials/just-for-fun/osc-mqtt-prometheus-supercollider.md)
+Curated additions: **[What's New](whats-new.md)** (updated when substantial docs land — not a live feed).
 
 </div>
 
@@ -95,67 +67,22 @@ Creative, experimental, and occasionally absurd implementations — from generat
 
 ---
 
-## 📌 Start Here
+## Lab & experiments
 
-If you're new to this site, these foundational guides will give you the most value:
+Games, generative art, MIDI, Raspberry Pi builds, and other **non-production** explorations.
 
-1. **[ADR and Technical Decision Governance](best-practices/architecture-design/adr-decision-governance.md)** — How we make and document architectural decisions
-2. **[Configuration Management](best-practices/operations-monitoring/configuration-management.md)** — Managing configs across multi-environment systems
-3. **[System Resilience & Concurrency](best-practices/operations-monitoring/system-resilience-and-concurrency.md)** — Patterns for building resilient distributed systems
-4. **[IAM & RBAC Governance](best-practices/security/iam-rbac-abac-governance.md)** — Identity and access management across heterogeneous stacks
+**[Lab overview →](lab/index.md)** · **[Just for Fun tutorials →](tutorials/just-for-fun/index.md)**
 
 ---
 
-## Featured Deep Dives
+## About this site
 
-### Parquet & Data Warehouses
+Personal portfolio and technical notebook. Content mixes ORNL-informed engineering practice, independent open source, tutorials, and creative experiments — not everything is production-derived.
 
-**[Fast queries & cheap storage](best-practices/database-data/parquet.md)** — How to lay out partitions, size files and row groups, enable predicate pushdown & column pruning, serve efficiently over S3 byte-range, and wire up `parquet_s3_fdw` in Postgres for pushdown.
+- Production-oriented guides are labeled as patterns from real systems where that applies.
+- Lab and Just for Fun material is experimental by design.
 
-### Geospatial Data Engineering
-
-**[PostGIS Best Practices](best-practices/postgres/postgis-best-practices.md)** — Production patterns for spatial indexing, raster workflows, and large-scale geospatial data management.
-
-### Release Management
-
-**[Release Management & Progressive Delivery](best-practices/operations-monitoring/release-management-and-progressive-delivery.md)** — Safe deployment strategies for coordinating changes across applications, databases, data pipelines, and ML systems.
-
----
-
-## What I'm Working On
-
-Currently focused on:
-
-- **[Advanced geospatial data warehouse architectures](best-practices/database-data/geoparquet-data-warehouses.md)** using GeoParquet and PostGIS
-- **[Real-time IoT tracking systems](tutorials/database-data-engineering/kafka-timescaledb-iot.md)** with Kafka, TimescaleDB, and geospatial processing
-- **[Production-grade configuration management](best-practices/operations-monitoring/configuration-management.md)** for multi-environment distributed systems
-- **[ML model deployment pipelines](tutorials/ml-ai/mcp-mlflow-toolchain.md)** with ONNX, MLflow, and progressive delivery
-
----
-
-## About This Site
-
-This documentation represents years of building production systems, learning from failures, and refining patterns that actually work. Everything here is battle-tested in real environments—from air-gapped clusters to cloud-native architectures.
-
-The content is organized to be **immediately useful**: copy-paste examples, production-ready configurations, and clear explanations of trade-offs. No fluff, no theory without practice.
-
-**[Learn more about me →](about.md)**
-
----
-
-## Latest Updates
-
-**Feb 2026:**
-- [Recursive Cathedral Generator (Kotlin + Processing)](tutorials/just-for-fun/kotlin-recursive-cathedral.md) — L-system generative architecture
-- [Pi-Based Sample Library Server](tutorials/just-for-fun/pi-sample-server.md) — WebAudio + SQLite + USB MIDI on a Raspberry Pi
-
-**2025:**
-- [Vibe → Agentic LLMs](best-practices/ml-ai/vibe-to-agentic.md) — Production agentic LLM architecture
-- [IAM & RBAC Governance](best-practices/security/iam-rbac-abac-governance.md) — Identity and access across heterogeneous stacks
-- [Release Management & Progressive Delivery](best-practices/operations-monitoring/release-management-and-progressive-delivery.md) — Safe deployments at scale
-- [ONNX Browser Inference](tutorials/ml-ai/onnx-browser-inference.md) — Run ML models client-side
-
-**[See all recent additions →](whats-new.md)**
+**[Professional profile →](about.md)** · **[Contact →](getting-started.md)**
 
 ---
 
@@ -165,5 +92,3 @@ The content is organized to be **immediately useful**: copy-paste examples, prod
 - **LinkedIn**: [Joshua N. Grant](https://linkedin.com/in/joshuanagrant)
 - **Email**: [jngrant@live.com](mailto:jngrant@live.com)
 - **Blog**: [Not Just a Datum](https://notjustadatum.blogspot.com)
-
-[Contact & Collaboration →](getting-started.md)
