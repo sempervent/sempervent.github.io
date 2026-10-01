@@ -116,7 +116,8 @@ def write_projects_index(projects: list[dict]) -> None:
 
 Open-source repositories and published doc sites.
 
-[Documentation sites](documentation-sites.md) — sibling MkDocs deployments on this GitHub Pages org (verified live September 2026).
+[Documentation sites](documentation-sites.md) on this GitHub Pages org.
+
 """
     parts = [HEADER, intro, ""]
     parts.append(section("Featured", sorted(featured, key=lambda p: p["name"].lower())))

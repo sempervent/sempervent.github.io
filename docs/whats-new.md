@@ -6,9 +6,8 @@ Edited when I add something worth mentioning — not a git log.
 
 ## September 2026
 
-- Reworked [homepage](index.md) and [Projects](projects/index.md) around current repos; [documentation sites](projects/documentation-sites.md) lists live sibling Pages deployments.
-- Navigation: **Writing** tab groups doctrine, best practices, tutorials, deep dives; removed duplicate Lab tab.
-- [Glitch Observatory](tutorials/just-for-fun/js-glitch-observatory.md) moved under Just for Fun (redirect from old Python Development path).
+- Reworked the [home](index.md) and [projects](projects/index.md) pages.
+- [Glitch Observatory](tutorials/just-for-fun/js-glitch-observatory.md) is under Just for Fun (old URL redirects).
 
 ---
 

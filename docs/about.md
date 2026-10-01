@@ -12,7 +12,7 @@ Geospatial systems architect at **Oak Ridge National Laboratory** — spatial da
 
 ## Outside work
 
-Code and write-ups live under [Projects](projects/index.md) — PARQONAUT, dotfiles, NUMBRANE, games, MIDI, and similar.
+[Projects](projects/index.md): PARQONAUT, dotfiles, NUMBRANE, games, MIDI, and the rest.
 
 ## Education
 

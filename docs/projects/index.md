@@ -3,7 +3,8 @@
 
 Open-source repositories and published doc sites.
 
-[Documentation sites](documentation-sites.md) — sibling MkDocs deployments on this GitHub Pages org (verified live September 2026).
+[Documentation sites](documentation-sites.md) on this GitHub Pages org.
+
 ## Featured
 
 <div class="project-card-grid" markdown="1">

@@ -26,7 +26,7 @@ Joshua N. Grant — geospatial systems architect. Most of my time goes to spatia
 
 Notes from production geospatial work, plus tutorials and longer essays. [Best practices](best-practices/index.md) for patterns and trade-offs; [tutorials](tutorials/index.md) for hands-on builds; [deep dives](deep-dives/index.md) and [ADRs](adr/index.md) when I had more to say.
 
-Not sure where to start: [Architectural compass](start-here-architectural-paths.md).
+[Architectural compass](start-here-architectural-paths.md)
 
 - [Geospatial system architecture](best-practices/geospatial/geospatial-system-design.md)
 - [PostGIS](best-practices/postgres/postgis-best-practices.md)

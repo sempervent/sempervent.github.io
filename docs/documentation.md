@@ -13,6 +13,4 @@ Technical notes, mostly on geospatial systems and data infrastructure. Some page
 
 **[Anti-patterns](anti-patterns.md)** — shortcuts that tend to fail.
 
-**[Recent additions](whats-new.md)** — edited when something new is worth a mention.
-
-The sidebar lists everything; these links are only entry points.
+**[Recent additions](whats-new.md)**
