@@ -1,8 +1,6 @@
 # Just for Fun
 
-Playful builds — generative art, MIDI, browser chaos, Pi hardware, and stacks that would never survive a architecture review deck.
-
-The tutorials are still rigorous: you can reproduce them. They are just not pretending to be sober production guidance.
+Builds that are reproducible but not meant as production guidance — generative art, MIDI, browser toys, Pi hardware, Kafka wired to things that should not receive Kafka.
 
 ## Creative & Experimental
 

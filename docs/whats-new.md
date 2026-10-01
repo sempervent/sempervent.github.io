@@ -1,17 +1,14 @@
 # Recent additions
 
-Curated when I publish something worth calling out — not an automatic feed from git.
+Edited when I add something worth mentioning — not a git log.
 
 ---
 
 ## September 2026
 
-### Portfolio & navigation
-
-- **Homepage** — current work from `data/projects.yaml`; less handbook, more front door.
-- **[Projects](projects/index.md)** — registry-driven index and [documentation sites](projects/documentation-sites.md) list.
-- **Writing tab** — Best Practices, Tutorials (including Just for Fun), Deep Dives, and ADRs grouped together; redundant **Lab** tab removed (redirect to Just for Fun).
-- **Taxonomy note** — [content audit](maintainers/content-taxonomy-audit-2026-09-30.md); [Glitch Observatory](tutorials/just-for-fun/js-glitch-observatory.md) moved under Just for Fun.
+- Reworked [homepage](index.md) and [Projects](projects/index.md) around current repos; [documentation sites](projects/documentation-sites.md) lists live sibling Pages deployments.
+- Navigation: **Writing** tab groups doctrine, best practices, tutorials, deep dives; removed duplicate Lab tab.
+- [Glitch Observatory](tutorials/just-for-fun/js-glitch-observatory.md) moved under Just for Fun (redirect from old Python Development path).
 
 ---
 

@@ -2,22 +2,21 @@
 
 # Project documentation sites
 
-MkDocs and other docs sites under `sempervent.github.io/*` that returned HTTP 200
-during the September 2026 recon (`docs/maintainers/portfolio-recon-2026-09-30.md`).
-Broken deploys stay off this list until they serve again.
+MkDocs and similar sites published under `sempervent.github.io/<repo>/`.
+Listed entries returned HTTP 200 in September 2026.
 
 | Project | Purpose | Site |
 | --- | --- | --- |
-| Agent LLM Wiki Matrix | MkDocs site comparing agentic coding tools and tracking repo-local signals — part literature review, part lab notebook. | [https://sempervent.github.io/agent-llm-wiki-matrix/](https://sempervent.github.io/agent-llm-wiki-matrix/) |
-| Blacklake (Python) | Git-like commits for datasets on S3-compatible storage, with JSON-LD metadata, SHACL checks, and Solr search over sem... | [https://sempervent.github.io/blacklake/](https://sempervent.github.io/blacklake/) |
-| Blacklake (Rust data portal) | Separate Rust codebase (repo `s3-rust-data-portal`): Axum API and CLI for versioned ML artifacts on S3, with Postgres... | [https://sempervent.github.io/s3-rust-data-portal/](https://sempervent.github.io/s3-rust-data-portal/) |
-| dots | My dotfiles repo, but really a bootstrap layer: one interactive `./dots` flow for macOS and Linux, with shared logic ... | [https://sempervent.github.io/dots/](https://sempervent.github.io/dots/) |
-| Generative MIDI Workbench | Scratch space for algorithmic MIDI — chord engines, performance hooks, and half-finished ideas that might become songs. | [https://sempervent.github.io/generative-midi-workbench/](https://sempervent.github.io/generative-midi-workbench/) |
-| gi | Combines `.gitignore` fragments across stacks — useful when every repo spawns another half-copy of the same ignore ru... | [https://sempervent.github.io/gi/](https://sempervent.github.io/gi/) |
-| LLM Wiki Template | Starter MkDocs layout for team wikis aimed at humans and coding agents alike. | [https://sempervent.github.io/llm-wiki-template/](https://sempervent.github.io/llm-wiki-template/) |
-| music-rig | Notes and wiring diagrams for my home recording setup — interfaces, monitoring, and the boring parts that keep sessio... | [https://sempervent.github.io/music-rig/](https://sempervent.github.io/music-rig/) |
-| OpenSAMPL | ORNL clock-probe aggregation and timing analysis (external repo — I contribute in that context, not as personal produ... | [https://ornl.github.io/OpenSAMPL/](https://ornl.github.io/OpenSAMPL/) |
-| PARQONAUT | I merged several Parquet utilities into one Rust workspace. `prqnt` scans local trees or S3 prefixes, runs repair wor... | [https://sempervent.github.io/PARQONAUT/](https://sempervent.github.io/PARQONAUT/) |
-| Postgres Query Autopsy Tool | .NET CLI that pulls apart PostgreSQL plans and workload traces so you can see where time goes without guessing from `... | [https://sempervent.github.io/postgres-query-autopsy-tool/](https://sempervent.github.io/postgres-query-autopsy-tool/) |
-| Smart Farm Wiki | Homelab / smart-farm automation notes collected as a wiki — MQTT, sensors, and whatever broke last week. | [https://sempervent.github.io/smart-farm-wiki/](https://sempervent.github.io/smart-farm-wiki/) |
-| Wildfire Smoke Risk Correlator | Public geospatial prototype linking smoke exposure layers to health-risk indicators — research code, not an operation... | [https://sempervent.github.io/wildfire-smoke-risk-correlator/](https://sempervent.github.io/wildfire-smoke-risk-correlator/) |
+| Agent LLM Wiki Matrix | MkDocs notes comparing agentic coding tools and repo-local measurements. | [https://sempervent.github.io/agent-llm-wiki-matrix/](https://sempervent.github.io/agent-llm-wiki-matrix/) |
+| Blacklake (Python) | Git-like dataset versioning on S3 with JSON-LD metadata, SHACL validation, and Solr search. | [https://sempervent.github.io/blacklake/](https://sempervent.github.io/blacklake/) |
+| Blacklake (Rust data portal) | Axum service and CLI in repo `s3-rust-data-portal` for versioned ML artifacts on S3 and Postgres JSONB search. Same n... | [https://sempervent.github.io/s3-rust-data-portal/](https://sempervent.github.io/s3-rust-data-portal/) |
+| dots | Dotfiles and a `./dots` bootstrap for macOS and Linux — shared `shell/` helpers with bash and zsh profiles. | [https://sempervent.github.io/dots/](https://sempervent.github.io/dots/) |
+| Generative MIDI Workbench | Algorithmic MIDI experiments — chord tools and performance hooks. | [https://sempervent.github.io/generative-midi-workbench/](https://sempervent.github.io/generative-midi-workbench/) |
+| gi | Merges `.gitignore` fragments for polyglot repos. | [https://sempervent.github.io/gi/](https://sempervent.github.io/gi/) |
+| LLM Wiki Template | MkDocs starter for team wikis and agent playbooks. | [https://sempervent.github.io/llm-wiki-template/](https://sempervent.github.io/llm-wiki-template/) |
+| music-rig | Home studio notes — patch routing, interfaces, MIDI, monitoring. | [https://sempervent.github.io/music-rig/](https://sempervent.github.io/music-rig/) |
+| OpenSAMPL | ORNL clock-probe aggregation and timing analysis (`ORNL/OpenSAMPL`). | [https://ornl.github.io/OpenSAMPL/](https://ornl.github.io/OpenSAMPL/) |
+| PARQONAUT | Rust workspace built around `prqnt`: scan and repair Parquet on disk or S3-compatible storage, plus an HTTP API for a... | [https://sempervent.github.io/PARQONAUT/](https://sempervent.github.io/PARQONAUT/) |
+| Postgres Query Autopsy Tool | .NET CLI for PostgreSQL plan and workload inspection beyond a bare `EXPLAIN`. | [https://sempervent.github.io/postgres-query-autopsy-tool/](https://sempervent.github.io/postgres-query-autopsy-tool/) |
+| Smart Farm Wiki | Homelab and sensor automation wiki. | [https://sempervent.github.io/smart-farm-wiki/](https://sempervent.github.io/smart-farm-wiki/) |
+| Wildfire Smoke Risk Correlator | Geospatial layers linking wildfire smoke exposure to health-risk indicators. | [https://sempervent.github.io/wildfire-smoke-risk-correlator/](https://sempervent.github.io/wildfire-smoke-risk-correlator/) |

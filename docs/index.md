@@ -2,14 +2,12 @@
 
 # Geospatial Systems, Data, and Strange Machinery
 
-I'm **Joshua N. Grant**. Day job: geospatial systems architecture and data infrastructure at scale. Nights and weekends: Rust data tools, dotfiles rabbitholes, generative art, and the occasional game that should not exist.
+Joshua N. Grant — geospatial systems architect. Most of my time goes to spatial data infrastructure; the rest shows up here as Rust tools, generative graphics, studio hardware, and small games.
 
 <div class="hero-actions" markdown="1">
-  [Current work ↓](#current-work){ .md-button .md-button--primary }
   [Projects →](projects/index.md){ .md-button .md-button--primary }
   [Writing →](documentation.md){ .md-button .md-button--primary }
   [About →](about.md){ .md-button }
-  [GitHub →](https://github.com/sempervent){ .md-button }
 </div>
 
 </div>
@@ -18,74 +16,35 @@ I'm **Joshua N. Grant**. Day job: geospatial systems architecture and data infra
 
 ## Current work {#current-work}
 
-These are the repos I'm actually touching in public right now (pulled from [`data/projects.yaml`](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)):
-
 --8<-- "_generated/home-current-work.md"
 
-[All projects →](projects/index.md) · [Project docs sites →](projects/documentation-sites.md)
+[Projects](projects/index.md) · [Documentation sites](projects/documentation-sites.md)
 
 ---
 
 ## Writing
 
-Most of this site is long-form notes: **best practices** (patterns and trade-offs), **tutorials** (step-by-step builds), **deep dives**, and **ADRs**. Some of it comes from production work; some is a reference sketch; the playful stuff lives under **Just for Fun**.
+Notes from production geospatial work, plus tutorials and longer essays. [Best practices](best-practices/index.md) for patterns and trade-offs; [tutorials](tutorials/index.md) for hands-on builds; [deep dives](deep-dives/index.md) and [ADRs](adr/index.md) when I had more to say.
 
-<div class="card-grid" markdown="1">
-
-<div class="card" markdown="1">
-
-### Where to start
-
-**[Architectural compass →](start-here-architectural-paths.md)** if you know the problem domain but not which essay to open first.
-
-</div>
-
-<div class="card" markdown="1">
-
-### A few pages I keep handy
+Not sure where to start: [Architectural compass](start-here-architectural-paths.md).
 
 - [Geospatial system architecture](best-practices/geospatial/geospatial-system-design.md)
 - [PostGIS](best-practices/postgres/postgis-best-practices.md)
-- [Parquet](best-practices/database-data/parquet.md) and [GeoParquet](best-practices/database-data/geoparquet.md)
+- [Parquet](best-practices/database-data/parquet.md) · [GeoParquet](best-practices/database-data/geoparquet.md)
 - [System resilience & concurrency](best-practices/operations-monitoring/system-resilience-and-concurrency.md)
-- [ADR governance](best-practices/architecture-design/adr-decision-governance.md)
-- [Release management](best-practices/operations-monitoring/release-management-and-progressive-delivery.md)
 
-</div>
-
-<div class="card" markdown="1">
-
-### Browse
-
-**[Best practices →](best-practices/index.md)** · **[Deep dives →](deep-dives/index.md)** · **[Tutorials →](tutorials/index.md)** · **[Just for Fun →](tutorials/just-for-fun/index.md)**
-
-**[Recent additions →](whats-new.md)** — curated when I publish something substantial, not a commit feed.
-
-</div>
-
-</div>
+[Recent additions](whats-new.md)
 
 ---
 
 ## Strange machinery
 
-Creative tutorials and weird hardware/software combinations — MIDI rigs, Pi sample servers, Kafka sonification, Kotlin particle nebulae. Technically serious, intentionally impractical.
-
-**[Just for Fun →](tutorials/just-for-fun/index.md)** · **[Creative projects on GitHub →](projects/index.md)** (filter: experiments & games in the portfolio)
+[MIDI rigs, Pi sample servers, PostGIS WebGL art, Kotlin particle sketches.](tutorials/just-for-fun/index.md)
 
 ---
 
-## About this site
+## Contact
 
-Personal portfolio and notebook. ORNL work informs some of the engineering writing; the repos and opinions here are mine unless stated otherwise.
+[jngrant@live.com](mailto:jngrant@live.com) · [@sempervent](https://github.com/sempervent) · [LinkedIn](https://linkedin.com/in/joshuanagrant) · [Not Just a Datum](https://notjustadatum.blogspot.com)
 
-**[Profile →](about.md)** · **[Contact →](getting-started.md)**
-
----
-
-## Connect
-
-- **GitHub**: [@sempervent](https://github.com/sempervent)
-- **LinkedIn**: [Joshua N. Grant](https://linkedin.com/in/joshuanagrant)
-- **Email**: [jngrant@live.com](mailto:jngrant@live.com)
-- **Blog**: [Not Just a Datum](https://notjustadatum.blogspot.com)
+Personal site — not an ORNL publication. [Profile](about.md) · [Contact form & details](getting-started.md)

@@ -2,7 +2,7 @@
 
 ## Get In Touch
 
-I'm always interested in discussing new opportunities, technical challenges, and collaborative projects. Whether you're looking for expertise in geospatial systems, data engineering, or cloud architecture, I'd love to hear from you.
+Reach out about geospatial data, pipelines, or open-source work listed on [Projects](projects/index.md).
 
 ## Contact Information
 

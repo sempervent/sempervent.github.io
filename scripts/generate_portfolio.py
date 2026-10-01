@@ -76,7 +76,7 @@ def project_card(project: dict, *, show_image: bool = False) -> str:
 
 def cards_grid(projects: list[dict], *, show_image: bool = False) -> str:
     if not projects:
-        return "_No projects in this section._\n"
+        return ""
     parts = ['<div class="project-card-grid" markdown="1">', ""]
     for p in projects:
         parts.append(project_card(p, show_image=show_image))
@@ -92,12 +92,15 @@ def write_current_work(projects: list[dict]) -> None:
     (GENERATED / "home-current-work.md").write_text(body, encoding="utf-8")
 
 
-def section(title: str, intro: str, projects: list[dict]) -> str:
-    lines = [f"## {title}", "", intro, ""]
-    if projects:
-        lines.append(cards_grid(projects))
-    else:
-        lines.append("_None listed._")
+def section(title: str, projects: list[dict], *, intro: str | None = None) -> str:
+    if not projects:
+        return ""
+    lines = [f"## {title}", ""]
+    if intro:
+        lines.extend([intro, ""])
+    grid = cards_grid(projects)
+    if grid:
+        lines.append(grid)
     lines.append("")
     return "\n".join(lines)
 
@@ -111,54 +114,19 @@ def write_projects_index(projects: list[dict]) -> None:
 
     intro = """# Projects
 
-Software I ship or maintain on my own time, plus a few wikis and games that never
-quite graduated. Summaries come from [`data/projects.yaml`](https://github.com/sempervent/sempervent.github.io/blob/main/data/projects.yaml)
-so this page stays aligned with one editable file.
+Open-source repositories and published doc sites.
 
-*active* — I'm still pushing code; *maintained* — works, updates are sporadic;
-*experimental* — prototype; *historical* — archived curiosity.
-
-**[Project documentation sites](documentation-sites.md)** lists GitHub Pages deployments that actually respond.
+[Documentation sites](documentation-sites.md) — sibling MkDocs deployments on this GitHub Pages org (verified live September 2026).
 """
     parts = [HEADER, intro, ""]
-    parts.append(
-        section(
-            "Featured",
-            "Work I'd point a collaborator at first.",
-            sorted(featured, key=lambda p: p["name"].lower()),
-        )
-    )
-    parts.append(
-        section(
-            "Active development",
-            "Other repos with recent commits.",
-            sorted(active, key=lambda p: p["name"].lower()),
-        )
-    )
-    parts.append(
-        section(
-            "Maintained tools & platforms",
-            "Tools that still compile and still solve a real annoyance.",
-            sorted(maintained, key=lambda p: p["name"].lower()),
-        )
-    )
-    parts.append(
-        section(
-            "Experiments & documentation",
-            "Wikis, games, MQTT oddities, and other half-finished ideas.",
-            sorted(experimental, key=lambda p: p["name"].lower()),
-        )
-    )
-    parts.append(
-        section(
-            "Historical archive",
-            "Older apps kept for reference — not current work.",
-            sorted(historical, key=lambda p: p["name"].lower()),
-        )
-    )
+    parts.append(section("Featured", sorted(featured, key=lambda p: p["name"].lower())))
+    parts.append(section("Active", sorted(active, key=lambda p: p["name"].lower())))
+    parts.append(section("Maintained", sorted(maintained, key=lambda p: p["name"].lower())))
+    parts.append(section("Experiments", sorted(experimental, key=lambda p: p["name"].lower())))
+    parts.append(section("Historical", sorted(historical, key=lambda p: p["name"].lower())))
 
     PROJECTS_DIR.mkdir(parents=True, exist_ok=True)
-    (PROJECTS_DIR / "index.md").write_text("\n".join(parts), encoding="utf-8")
+    (PROJECTS_DIR / "index.md").write_text("".join(parts), encoding="utf-8")
 
 
 def write_documentation_sites(projects: list[dict]) -> None:
@@ -188,9 +156,8 @@ def write_documentation_sites(projects: list[dict]) -> None:
         HEADER,
         "# Project documentation sites",
         "",
-        "MkDocs and other docs sites under `sempervent.github.io/*` that returned HTTP 200",
-        "during the September 2026 recon (`docs/maintainers/portfolio-recon-2026-09-30.md`).",
-        "Broken deploys stay off this list until they serve again.",
+        "MkDocs and similar sites published under `sempervent.github.io/<repo>/`.",
+        "Listed entries returned HTTP 200 in September 2026.",
         "",
         "| Project | Purpose | Site |",
         "| --- | --- | --- |",

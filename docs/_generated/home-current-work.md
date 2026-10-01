@@ -4,7 +4,7 @@
 <div class="project-card" markdown="1">
 ### dots
 
-My dotfiles repo, but really a bootstrap layer: one interactive `./dots` flow for macOS and Linux, with shared logic in `shell/` and profile-specific pieces alongside bash and zsh.
+Dotfiles and a `./dots` bootstrap for macOS and Linux — shared `shell/` helpers with bash and zsh profiles.
 
 *Shell · active*
 
@@ -15,7 +15,7 @@ My dotfiles repo, but really a bootstrap layer: one interactive `./dots` flow fo
 <div class="project-card" markdown="1">
 ### NUMBRANE
 
-Generative audiovisual pieces from math and simulation — no LLM inference in the runtime. NUMBRANE Studio is a canvas-first front end for stills, animation, and live reaction.
+Generative audiovisual work from procedural rules and simulation. No LLM weights in the runtime; NUMBRANE Studio is the canvas-first UI.
 
 *Python · active*
 
@@ -28,7 +28,7 @@ Generative audiovisual pieces from math and simulation — no LLM inference in t
 
 ### PARQONAUT
 
-I merged several Parquet utilities into one Rust workspace. `prqnt` scans local trees or S3 prefixes, runs repair workflows, and exposes an HTTP API for async jobs.
+Rust workspace built around `prqnt`: scan and repair Parquet on disk or S3-compatible storage, plus an HTTP API for async scan jobs.
 
 *Rust · active*
 
