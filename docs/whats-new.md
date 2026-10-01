@@ -1,6 +1,13 @@
-# What's New
+# Recent additions
 
-Recently added and updated content — in reverse chronological order.
+Edited when I add something worth mentioning — not a git log.
+
+---
+
+## September 2026
+
+- Reworked the [home](index.md) and [projects](projects/index.md) pages.
+- [Glitch Observatory](tutorials/just-for-fun/js-glitch-observatory.md) is under Just for Fun (old URL redirects).
 
 ---
 

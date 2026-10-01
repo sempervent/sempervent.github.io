@@ -1,9 +1,10 @@
-# Just for Fun Tutorials
+# Just for Fun
 
-**Objective**: Master creative and experimental implementations through step-by-step guides. When you need to implement creative solutions, when you want to follow proven patterns, when you need copy-paste runnable examples—these tutorials become your weapon of choice.
+Builds that are reproducible but not meant as production guidance — generative art, MIDI, browser toys, Pi hardware, Kafka wired to things that should not receive Kafka.
 
 ## Creative & Experimental
 
+- **[Glitch Observatory (JavaScript)](js-glitch-observatory.md)** - Entropy from mouse, keyboard, and audio turned into visuals and sound
 - **[Terminal to GIF](terminal-to-gif.md)** - Capturing command-line magic and converting to animated GIFs
 - **[Redis Streams + Web MIDI](redis-midi-music.md)** - Procedural MIDI jams with Redis Streams and Web MIDI API
 - **[PostGIS Rasters + WebGL Art](postgis-webgl-art.md)** - From elevation models to shader dreams with PostGIS and WebGL
@@ -29,7 +30,3 @@
 - **[MIDI-Driven Particle Nebula](kotlin-midi-particle-nebula.md)** - Live MIDI input drives a real-time OpenGL particle simulation. Notes become bursts; velocity becomes brightness; sustain pedal becomes gravity. `Kotlin · LWJGL · MIDI`
 - **[Cellular Automata Organism Garden](kotlin-cellular-automata-garden.md)** - Conway's Game of Life extended with energy accumulation, mutation probability, and heritable lineage coloring. Organisms evolve before your eyes. `Kotlin · Processing · Cellular Automata`
 - **[Pi-Powered Infinite Art Frame](pi-infinite-art-frame-kotlin.md)** - A headless Kotlin/JVM process on a Raspberry Pi renders generative art continuously, shifts palettes by time of day, and exposes an HTTP API for remote control. `Kotlin · Raspberry Pi · Ktor`
-
----
-
-*These tutorials provide the complete machinery for implementing creative and experimental technologies and workflows. Each guide includes production-ready examples, configuration files, and best practices for enterprise deployment.*

@@ -21,9 +21,13 @@ This repository uses [MkDocs](https://www.mkdocs.org/) with the [Material theme]
 
 ### Building the Site
 
-To build the static site:
+Validate the project registry and generate portfolio pages, then build:
+
 ```bash
-mkdocs build
+pip install -r requirements.txt
+python scripts/validate_projects.py
+python scripts/generate_portfolio.py
+mkdocs build --strict
 ```
 
 The generated site will be in the `site/` directory.
