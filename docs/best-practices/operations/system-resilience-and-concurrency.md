@@ -1,6 +1,5 @@
 # System Resilience, Rate Limiting, Concurrency Control & Backpressure: Best Practices for Distributed Systems
 
-**Objective**: Master production-grade resilience patterns for distributed systems. When you need to prevent cascading failures, control concurrency, implement rate limiting, handle backpressure, and maintain SLOs under load—this guide provides complete patterns and implementations.
 
 ## Introduction
 

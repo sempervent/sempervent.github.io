@@ -1,6 +1,5 @@
 # Scaling Spark Clusters Correctly
 
-**Objective**: Cluster sizing, executor strategy, and partitioning so Spark jobs run efficiently without waste or bottlenecks.
 
 ## Spark architecture overview
 

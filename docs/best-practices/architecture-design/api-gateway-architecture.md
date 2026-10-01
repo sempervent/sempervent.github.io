@@ -1,6 +1,5 @@
 # API Gateway Architecture: Best Practices
 
-**Objective**: Establish comprehensive API gateway architecture patterns for routing, security, rate limiting, and API management. When you need API gateway design, when you want unified API entry points, when you need API management—this guide provides the complete framework.
 
 ## Introduction
 

@@ -1,6 +1,5 @@
 # Cost-Aware System Architecture
 
-**Objective**: Design systems that account for operational cost as an architectural constraint, not an afterthought.
 
 ## Cost as an architectural constraint
 

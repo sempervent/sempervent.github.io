@@ -1,6 +1,5 @@
 # Creating iPXE Boot Images for Multi-System Network Booting
 
-**Objective**: Boot multiple OSes over the network using iPXE, no more juggling USB sticks. Set up a single server that can boot any Linux distribution, rescue utilities, or custom images across your entire infrastructure.
 
 When you're managing dozens of servers, workstations, or lab machines, USB sticks become a bottleneck. iPXE lets you boot any OS over the network with a single server. This guide shows you how to build a complete network booting infrastructure that scales from a single lab to enterprise deployment.
 
@@ -821,4 +820,3 @@ iPXE network booting transforms how you manage systems. Instead of juggling USB 
 
 ---
 
-*This tutorial provides the complete machinery for building iPXE network booting infrastructure. The patterns scale from development to production, from single machines to enterprise deployments.*

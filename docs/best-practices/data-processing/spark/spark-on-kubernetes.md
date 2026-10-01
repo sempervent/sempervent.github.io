@@ -1,6 +1,5 @@
 # Running Spark on Kubernetes
 
-**Objective**: Operational best practices for running Apache Spark on Kubernetes: architecture, deployment modes, resources, and storage.
 
 ## Why Kubernetes for Spark
 

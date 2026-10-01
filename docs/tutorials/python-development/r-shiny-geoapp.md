@@ -1,6 +1,5 @@
 # Building & Deploying a Geospatial R Shiny App (for Free)
 
-**Objective**: Build an interactive world map where clicking countries toggles them red (visited), then deploy it online for free.
 
 R Shiny transforms R into a web application framework. We'll create "Where Have You Been in the World?"—a clickable world map that tracks visited countries, then deploy it to the cloud without spending a dime.
 

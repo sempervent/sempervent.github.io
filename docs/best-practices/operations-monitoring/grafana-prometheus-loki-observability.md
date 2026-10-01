@@ -1,6 +1,5 @@
 # Best Practices for Monitoring & Observability with Grafana, Prometheus, Loki, Node Exporter, and Structured Logging
 
-**Objective**: Master production-grade observability with Grafana, Prometheus, Loki, and Node Exporter. When you need comprehensive monitoring, structured logging, alerting, and dashboards at scale—these best practices become your foundation.
 
 ## Introduction
 
@@ -2066,5 +2065,4 @@ This observability stack provides the foundation for understanding your systems 
 
 ---
 
-*This guide provides the complete machinery for production-grade observability. The patterns scale from single instances to enterprise deployments, from basic metrics to full distributed tracing.*
 

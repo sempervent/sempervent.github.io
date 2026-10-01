@@ -1,39 +1,19 @@
-# Advanced NiceGUI Architecture: Persistent Backends, Components, Spinners, and Real-Time UI
+# Advanced NiceGUI: backends, components, and live updates
 
-**Objective**: Master production-grade NiceGUI applications with persistent backends, reusable components, real-time updates, and advanced async patterns. When you need to build scalable, maintainable UI applications that integrate with Redis, PostgreSQL, and external APIs—this tutorial becomes your weapon of choice.
+NiceGUI examples often stop at a single file with buttons on a page. When I keep a UI around, I usually need **shared services** (database pools, Redis clients), **components** I can reuse, and **clear startup/shutdown** so connections do not leak across reloads.
 
-## Introduction
+This tutorial walks through **one layout** that has worked for me. It is not official NiceGUI doctrine — verify lifecycle hooks and APIs against the [NiceGUI docs](https://nicegui.io/) for your version.
 
-Most NiceGUI tutorials stop at "here's how to make a button." Real applications need persistent database connections, connection pooling, real-time updates, loading states, error handling, and reusable components. This tutorial covers the architecture patterns that transform NiceGUI from a prototyping tool into a production-capable framework.
+## What this covers
 
-**What "Advanced NiceGUI" Means**:
+- Class-based pages and small UI components
+- Long-lived connection pools (PostgreSQL, Redis) tied to app startup
+- Loading states and streaming output for slow work
+- Pub/sub or polling patterns for live UI updates
 
-- **Persistent Backends**: Connection pools for Redis and PostgreSQL that survive across page navigations
-- **Reusable Components**: Class-based UI components that encapsulate behavior and styling
-- **Real-Time Updates**: Redis pub/sub and WebSocket patterns for live UI updates
-- **Loading States**: Spinners, progress bars, and streaming output for long-running operations
-- **Lifecycle Management**: Startup/shutdown handlers, graceful connection cleanup, background tasks
-- **State Management**: Session state, global state, and reactive variables that sync across components
+## Project structure
 
-**Why Class-Based Pages Matter**:
-
-Single-file NiceGUI apps work for demos. Production apps need:
-- Separation of concerns (pages, components, services)
-- Dependency injection (shared services, connection pools)
-- Testability (mockable services, isolated components)
-- Maintainability (clear structure, reusable patterns)
-
-**How Backend Pools Improve Performance**:
-
-Creating new connections for every request is slow and wasteful. Connection pools:
-- Reuse existing connections (10-100x faster)
-- Limit concurrent connections (prevent resource exhaustion)
-- Handle reconnection automatically (resilience)
-- Provide connection health monitoring (observability)
-
-## Project Structure
-
-Here's a production-ready directory layout that scales:
+Example layout (adjust to your app):
 
 ```
 advanced-nicegui-app/
@@ -1536,5 +1516,4 @@ This architecture provides a solid foundation for building production-grade Nice
 
 ---
 
-*This tutorial provides the complete machinery for building production-grade NiceGUI applications. The patterns scale from prototypes to enterprise systems, from simple pages to complex real-time dashboards with multiple backend integrations.*
 

@@ -1,6 +1,5 @@
 # Secure Computes, Sandboxing, and Multi-Tenant Isolation for Polyglot Systems: Best Practices
 
-**Objective**: Establish comprehensive sandboxing and multi-tenant isolation patterns across Python, Rust, Go microservices, ML inference, embedded engines, and containerized workloads. When you need secure isolation, when you want multi-tenant safety, when you need zero-trust internal boundaries—this guide provides the complete framework.
 
 ## Introduction
 

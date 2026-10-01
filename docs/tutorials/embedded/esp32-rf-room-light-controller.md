@@ -6,7 +6,6 @@ tags:
 
 # ESP32 RF Room Light Controller (LCD + Rotary Encoder + Button + 433 MHz RF)
 
-**Objective**: Build a wall-mounted ESP32 controller that selects a room with a rotary encoder, toggles lights over 433 MHz RF, and displays current state on a 16×2 I2C LCD — all from a clean, non-blocking firmware.
 
 No cloud. No app. A physical knob on a wall that works instantly.
 

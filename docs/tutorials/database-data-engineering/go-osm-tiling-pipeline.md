@@ -1,6 +1,5 @@
 # Gluing the Real World: Go CLI for OSM → PostGIS → Tiles → Object Storage
 
-**Objective**: A single Go binary conducts PBF fetch, checksum, PostGIS load, view materialization, tile generation/serving, and publishing. Concrete, durable, and debuggable.
 
 ## Architecture Diagram
 

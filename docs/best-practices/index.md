@@ -1,170 +1,54 @@
 # Best Practices
 
-Notes on how systems behave in the wild: trade-offs, failure modes, governance, and the parts of operations that survive contact with production.
+Notes on how systems behave in the wild: trade-offs, failure modes, and the parts of operations that survive contact with production.
 
 These pages answer *why* and *when* more often than *follow these steps in order*. Code shows up when it clarifies a pattern — the point is judgment, not a runbook.
 
-## 🐍 Python Development
+## Start here
 
-Comprehensive guides for Python development, covering core Python, web development, and production patterns.
+- [Geospatial system architecture](geospatial/geospatial-system-design.md)
+- [Failure-oriented system design](operations/failure-oriented-design.md)
+- [System resilience and concurrency](operations-monitoring/system-resilience-and-concurrency.md)
+- [PostGIS patterns](postgres/postgis-best-practices.md)
+- [Parquet and GeoParquet](database-data/parquet.md) · [GeoParquet](database-data/geoparquet.md)
 
-- **[Python Development Overview](python/index.md)** - Core Python, web development, and production patterns
+## Languages and runtimes
 
-## 🦀 Rust Development
+- [Python](python/index.md)
+- [Rust](rust/index.md)
+- [Go](go/index.md)
+- [R](r/index.md)
 
-Systems programming and high-performance Rust development patterns.
+## Data and platforms
 
-- **[Rust Development Overview](rust/index.md)** - Systems programming and high-performance patterns
+- [Database and data management](database-data/index.md)
+- [PostgreSQL](postgres/index.md)
+- [Machine learning and AI](ml-ai/index.md)
+- [Docker and infrastructure](docker-infrastructure/index.md)
+- [Git and version control](git/index.md)
 
-## 🐹 Go Development
+## Architecture and operations
 
-High-performance systems programming and web services with Go.
+- [Architecture and design](architecture-design/index.md)
+- [Operations and monitoring](operations-monitoring/index.md)
+- [Data governance](data-governance/index.md)
+- [Security](security/index.md)
 
-- **[Go Development Overview](go/index.md)** - Systems programming, web services, and performance optimization
+## Embedded and home lab
 
-## 📊 R Development
+- [ESP32 and embedded](esp32/index.md)
+- [Power electronics](embedded/index.md)
+- [Home automation](home-automation/index.md)
 
-Statistical computing, data analysis, and reproducible research with R.
+## Diagrams
 
-- **[R Development Overview](r/index.md)** - Data science, statistical modeling, and reproducible research
+- [Systems diagramming](diagrams/systems-diagramming-best-practices.md)
+- [Mermaid → SVG workflow](diagrams/svg-workflow-generation.md)
 
-## 🐳 Docker & Infrastructure
+## Creative reference
 
-Containerization, orchestration, and infrastructure automation patterns.
-
-- **[Docker & Infrastructure Overview](docker-infrastructure/index.md)** - Containerization, orchestration, and automation
-
-## 📝 Git & Version Control
-
-Version control, repository management, and collaboration workflows.
-
-- **[Git & Version Control Overview](git/index.md)** - Repository structure, workflows, and collaboration patterns
-
-## 🗄️ Database & Data Management
-
-Database optimization, data architecture, and governance patterns.
-
-- **[Database & Data Management Overview](database-data/index.md)** - PostgreSQL, data architecture, and governance
-- **GeoParquet** — [Spatial Parquet done right](database-data/geoparquet.md): WKB geometry, GeoParquet metadata & CRS rules, object-storage serving (Garage/MinIO/AWS), and `parquet_s3_fdw` wiring with row-group filtering
-- **[PostgreSQL Development Overview](postgres/index.md)** - PostgreSQL optimization, performance, and enterprise patterns
-
-## 🤖 Machine Learning & AI
-
-ML operations, AI integration, and data science patterns.
-
-- **[Machine Learning & AI Overview](ml-ai/index.md)** - ML operations, AI integration, and data science
-
-## 🏗️ Architecture & Design
-
-System architecture, knowledge management, and data serialization patterns.
-
-- **[Architecture & Design Overview](architecture-design/index.md)** - System architecture, knowledge management, and serialization
-
-### 🎯 Integrated Best Practices Suite
-
-A cohesive suite of five deeply interrelated best-practices documents that form an integrated "constellation" of practices:
-
-1. **[System-Wide Naming, Taxonomy, and Structural Vocabulary Governance](architecture-design/system-taxonomy-governance.md)** - The foundational "lingua franca" that enables all other practices
-2. **[Cross-System Data Lineage, Inter-Service Metadata Contracts & Provenance Enforcement](database-data/data-lineage-contracts.md)** - Comprehensive data lineage and provenance tracking
-3. **[Secure-by-Design Lifecycle Architecture Across Polyglot Systems](security/secure-by-design-polyglot.md)** - Security as a lifecycle concern across all languages
-4. **[Observability as Architecture: Unified Telemetry Models](operations-monitoring/unified-observability-architecture.md)** - Unified observability across all systems
-5. **[Developer Experience (DX) as Infrastructure: Golden Paths, Tooling Ecosystems & Workflow Automation](python/dx-architecture-and-golden-paths.md)** - DX patterns that integrate all practices
-
-These documents are designed to work together, with each referencing the others and showing how they combine to reduce cognitive load, operational entropy, and system complexity.
-
-### 🎯 Architectural Resilience & Data Governance Suite
-
-A complementary suite of four deeply interrelated best-practices documents covering critical architectural gaps:
-
-1. **[Chaos Engineering, Fault Injection, and Reliability Validation](operations-monitoring/chaos-engineering-governance.md)** - Safe fault injection and systematic reliability validation across all system layers
-2. **[Multi-Region, Multi-Cluster Disaster Recovery, Failover Topologies, and Data Sovereignty](architecture-design/multi-region-dr-strategy.md)** - Comprehensive DR strategies with RTO/RPO frameworks and data sovereignty
-3. **[Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment](database-data/semantic-layer-engineering.md)** - Enterprise semantic layers with RDF/OWL integration and entity resolution
-4. **[ML Systems Architecture: Feature Stores, Model Serving, Experiment Governance, and Cross-System Reproducibility](ml-ai/ml-systems-architecture-governance.md)** - Complete ML lifecycle architecture with reproducibility and governance
-
-These documents form a cohesive framework for resilience, data governance, and ML systems, with each document cross-referencing the others and integrating with the foundational taxonomy and observability practices.
-
-### 🎯 System Efficiency & Data Reliability Suite
-
-A focused suite of three best-practices documents covering critical operational and governance gaps:
-
-1. **[Cost-Aware Architecture & Resource-Efficiency Governance](architecture-design/cost-aware-architecture-and-efficiency-governance.md)** - Comprehensive cost governance frameworks for measuring, optimizing, and controlling resource costs across all system layers
-2. **[Data Freshness, SLA/SLO Governance, and Pipeline Reliability Contracts](data-governance/data-freshness-sla-governance.md)** - Data freshness governance with SLA/SLO frameworks for ETL pipelines, real-time streaming, and geospatial processing
-3. **[Secure Computes, Sandboxing, and Multi-Tenant Isolation for Polyglot Systems](security/secure-sandboxing-and-multi-tenant-isolation.md)** - Comprehensive sandboxing and multi-tenant isolation patterns across all system components
-
-These documents address critical operational concerns: cost efficiency, data reliability, and secure isolation, with each integrating into the broader best-practices ecosystem.
-
-### 🎯 Foundational Architecture & Operations Suite
-
-A critical suite of three best-practices documents covering fundamental architectural and operational gaps:
-
-1. **[Holistic Capacity Planning, Scaling Economics, and Workload Modeling](architecture-design/capacity-planning-and-workload-modeling.md)** - Systematic capacity planning frameworks for modeling workloads, predicting resource needs, and optimizing scaling economics
-2. **[Data Retention, Archival Strategy, Lifecycle Governance & Cold Storage Patterns](data-governance/data-retention-archival-lifecycle-governance.md)** - Comprehensive data retention and archival strategies governing data lifecycle from hot to frozen storage
-3. **[Operational Risk Modeling, Blast Radius Reduction & Failure Domain Architecture](operations-monitoring/blast-radius-risk-modeling.md)** - Risk modeling frameworks for identifying failure domains, modeling blast radius, and designing containment strategies
-
-These documents address foundational concerns: capacity planning, data lifecycle, and operational risk—essential for any mature, coherent technical architecture.
-
-### 🎯 Enterprise Architecture & Governance Suite
-
-A comprehensive suite of six best-practices documents covering critical enterprise-grade architectural and operational gaps:
-
-1. **[Cross-Domain Identity Federation, AuthZ/AuthN Architecture & Identity Propagation Models](security/identity-federation-authz-authn-architecture.md)** - Unified identity federation architecture across all system layers and environments
-2. **[Cross-Environment Configuration Drift Prevention, Promotion Workflows & Release Channels](operations-monitoring/environment-promotion-drift-governance.md)** - Controlled environment promotion governance with drift prevention and release channel management
-3. **[Data Quality SLAs, Validation Layers, and Observability for Tabular, Geospatial, and ML Data](data-governance/data-quality-sla-validation-observability.md)** - Comprehensive data quality governance with SLAs and multi-layer validation
-4. **[API Governance, Backward Compatibility Rules, and Cross-Language Interface Stability](architecture-design/api-governance-interface-stability.md)** - API governance ensuring backward compatibility and interface stability across languages
-5. **[Secret Supply Chains, Encryption Lifecycle Management & Cryptographic Rotation Strategy](security/encryption-lifecycle-and-crypto-rotation.md)** - Encryption lifecycle governance with key rotation and cryptographic supply chain management
-6. **[Observability-Driven Development (ODD), Telemetry-First Coding Practices, and Preemptive Debugging Architecture](operations-monitoring/observability-driven-development.md)** - Embedding observability as a first-class design input with preemptive debugging patterns
-
-These documents address enterprise concerns: identity federation, environment promotion, data quality, API governance, encryption lifecycle, and observability-driven development—essential for mature, coherent distributed systems.
-
-## 🔧 Operations & Monitoring
-
-Performance monitoring, logging, testing, and security patterns.
-
-- **[Operations & Monitoring Overview](operations-monitoring/index.md)** - Performance, logging, testing, and security
-
-## 🔌 Embedded Systems & ESP32
-
-Safe, power-efficient, and maintainable firmware patterns for ESP32-based projects.
-
-- **[Embedded Systems Overview](esp32/index.md)** - Programming architecture, power management, safety, security, sensors, and e-ink displays
-- **[Programming Architecture](esp32/esp32-programming-architecture.md)** - Event loops, FreeRTOS tasks, state machines, ISR safety, memory discipline
-- **[Power Management & Deep Sleep](esp32/power-management-and-deep-sleep.md)** - Sleep modes, RTC memory, battery safety, sub-100 µA design
-- **[Hardware & Electrical Safety](esp32/esp32-hardware-and-electrical-safety.md)** - 3.3 V logic, GPIO limits, level shifting, LiPo safety
-- **[Embedded Security & OTA](esp32/embedded-security-and-ota.md)** - NVS secrets, secure boot, OTA updates, WiFi hygiene
-- **[Sensor Integration](esp32/sensor-integration-best-practices.md)** - I2C/SPI wiring, ADC caveats, filtering, calibration
-- **[E-Ink Display Integration](esp32/e-ink-display-best-practices.md)** - Partial vs full refresh, ghosting, hibernate, frame buffers
-- **[MQTT Security](esp32/mqtt-security-best-practices.md)** - Broker hardening, ACLs, TLS, topic design, credential storage for IoT
-- **[LoRa Best Practices (SX127x)](esp32/lora-best-practices-sx127x.md)** - Spreading factor, duty cycle compliance, antenna layout, power strategy, AES encryption for raw LoRa
-- **[Safety Checklist (Printable)](esp32/esp32-safety-checklist-printable.md)** - Pre-build checklist covering electrical, power, firmware, RF, and physical safety — print to PDF
-- **[ESP32-S3 and C3 Notes](esp32/esp32-s3-and-c3-architecture-notes.md)** - USB native, RISC-V, BLE 5.0, variant selection guide, DS/HMAC security peripherals
-
-## 🔋 Power Electronics & Embedded Hardware
-
-Cross-platform hardware engineering patterns — applies to ESP32, RP2040, and any microcontroller project.
-
-- **[Power Electronics Overview](embedded/index.md)** - Section overview
-- **[Power Electronics for ESP32](embedded/power-electronics-for-esp32.md)** - Logic-level MOSFETs, high/low-side switching, LiPo charging circuits, solar input, buck vs LDO, brownout protection
-
-## 🏠 Home Automation & MQTT
-
-Secure home automation architecture patterns.
-
-- **[Home Automation Overview](home-automation/index.md)** - Security-focused guides for home automation systems
-- **[Home Assistant Security Best Practices](home-automation/home-assistant-security-best-practices.md)** - Access control, TLS, reverse proxy, IoT VLAN, zero-trust mindset
-
-## 🖼️ Diagrams
-
-Systems diagramming doctrine, layering, boundaries, and Mermaid → SVG workflow.
-
-- **[Systems Diagramming Best Practices](diagrams/systems-diagramming-best-practices.md)** — Conceptual vs logical vs physical, layering (L0–L3), boundary clarity, entropy control, pattern library
-- **[Generating Complex Workflow Diagrams as SVG](diagrams/svg-workflow-generation.md)** — Mermaid-first, artifact-driven workflow and repository conventions
-
-## 🎨 Creative & Fun
-
-Creative solutions, opinions, and fun content patterns.
-
-- **[Creative & Fun Overview](creative-fun/index.md)** - Creative solutions, opinions, and fun content
+- [Creative and fun patterns](creative-fun/index.md) — idempotency, Celery notes, and similar (not the same as [Just for Fun tutorials](../tutorials/just-for-fun/index.md))
 
 ---
 
-*Pick a section that matches the problem; cross-links inside each guide point to related tutorials when you need a hands-on walkthrough.*
+*Pick a section that matches the problem; cross-links inside each guide point to [tutorials](../tutorials/index.md) when you need a hands-on walkthrough.*

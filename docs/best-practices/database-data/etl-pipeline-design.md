@@ -1,6 +1,5 @@
 # ETL Pipeline Design
 
-**Objective**: Build robust, scalable ETL pipelines for geospatial data processing using modern orchestration tools.
 
 ETL pipelines are the backbone of data engineering. This guide covers designing production-ready ETL systems that handle geospatial data at scale with reliability and performance.
 

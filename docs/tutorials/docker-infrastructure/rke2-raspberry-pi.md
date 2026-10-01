@@ -5,11 +5,11 @@ tags:
   - docker
 ---
 
-# RKE2 on a Raspberry Pi Farm
+# RKE2 on a Raspberry Pi lab cluster
 
-**Objective**: Build a production-ready Kubernetes cluster using RKE2 on Raspberry Pi hardware. Transform your Pi collection into a mini data center with enterprise-grade orchestration.
+I use RKE2 on ARM64 Pi hardware when I want a small Kubernetes cluster that behaves enough like the larger systems I work with to be useful for experiments. This is a **lab** setup — not a reference production deployment.
 
-Why use RKE2? ARM64 support, lightweight, secure defaults, manageable at scale. Why Raspberry Pi? Affordable lab cluster to learn Kubernetes orchestration without breaking the bank. This is your gateway to understanding how real data centers work.
+RKE2 is a reasonable fit here: ARM64 builds exist, the install is small, and you get a real kubelet/API without assembling the control plane by hand. Pis are cheap, loud, and thermally honest, which is fine for learning and integration tests.
 
 ## 1) Hardware Prep: The Foundation
 
@@ -114,28 +114,24 @@ sudo hostnamectl set-hostname rpi-worker-2
 sudo hostnamectl set-hostname rpi-worker-3
 ```
 
-**Why These Tools**: Essential for debugging and monitoring. You'll need them when things go wrong.
+### Static IP configuration
 
-### Static IP Configuration
+Kubernetes join tokens and firewall rules are easier when node addresses do not drift. On **Raspberry Pi OS Bookworm and later**, networking is usually **NetworkManager**, not `dhcpcd`.
 
 ```bash
-# Edit /etc/dhcpcd.conf
-sudo vim /etc/dhcpcd.conf
+# List connections — names vary by image
+nmcli -t -f NAME con show
 
-# Add at the end:
-interface eth0
-static ip_address=192.168.1.10/24  # Master
-static ip_address=192.168.1.11/24  # Worker 1
-static ip_address=192.168.1.12/24  # Worker 2
-static ip_address=192.168.1.13/24  # Worker 3
-static routers=192.168.1.1
-static domain_name_servers=192.168.1.1 8.8.8.8
-
-# Restart networking
-sudo systemctl restart dhcpcd
+# Example: static IPv4 on the wired profile (adjust NAME and address per node)
+sudo nmcli con mod "Wired connection 1" \
+  ipv4.method manual \
+  ipv4.addresses 192.168.1.10/24 \
+  ipv4.gateway 192.168.1.1 \
+  ipv4.dns "192.168.1.1 8.8.8.8"
+sudo nmcli con up "Wired connection 1"
 ```
 
-**Why Static IPs**: Kubernetes needs predictable networking. DHCP can cause cluster instability.
+Legacy images still on `dhcpcd` can use `/etc/dhcpcd.conf` static blocks — verify with `systemctl status NetworkManager` before editing the wrong stack.
 
 ### Enable cgroups (Critical for Kubernetes)
 
@@ -143,8 +139,8 @@ sudo systemctl restart dhcpcd
 # Edit /boot/firmware/cmdline.txt
 sudo vim /boot/firmware/cmdline.txt
 
-# Add to the end of the line:
-cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory
+# Append to the single kernel cmdline (do not add a second line):
+cgroup_enable=cpuset cgroup_enable=memory
 
 # Reboot
 sudo reboot
@@ -691,7 +687,6 @@ RKE2 on Raspberry Pi creates a powerful, affordable Kubernetes learning environm
 
 ---
 
-*This tutorial provides the complete machinery for building a production-ready RKE2 cluster on Raspberry Pi hardware. The cluster scales from learning to production, from megabytes to terabytes.*
 
 !!! tip "See also"
     - [Pi-Based Sample Library Server](../just-for-fun/pi-sample-server.md) — another production-quality Pi project; deploy the API on your RKE2 cluster

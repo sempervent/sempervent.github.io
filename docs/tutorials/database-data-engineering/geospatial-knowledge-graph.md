@@ -1,8 +1,5 @@
 # Geospatial Knowledge Graph: From Raw Geometry to Reasoning
 
-**Objective**: Build a geospatial knowledge graph that understands place relationships. Not just points on a map, but connections: roads connecting cities, facilities within flood zones, sensor streams near pipelines, routes avoiding hazards. This tutorial combines PostGIS (heavy geometry math) with Neo4j (graph model + pathfinding/semantics) to create an intelligent geospatial system.
-
-When you need to understand spatial relationships at scale, when you want to query "shortest safe route avoiding flood polygons within 24h", when you're building location-aware applications that reason about connectivity and proximity—geospatial knowledge graphs become your weapon of choice.
 
 ## 0) Prerequisites (Read Once, Live by Them)
 
@@ -1095,4 +1092,3 @@ Geospatial knowledge graphs provide the foundation for intelligent location-awar
 
 ---
 
-*This guide provides the complete machinery for mastering geospatial knowledge graphs. The patterns scale from simple proximity analysis to complex spatial reasoning, from basic connectivity to advanced graph analytics.*

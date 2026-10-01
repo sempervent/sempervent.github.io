@@ -1,6 +1,5 @@
 # Spark Performance Tuning
 
-**Objective**: Tune Spark jobs and data layout for throughput and stability: data layout, execution plans, memory, and join strategies.
 
 ## Data layout matters
 

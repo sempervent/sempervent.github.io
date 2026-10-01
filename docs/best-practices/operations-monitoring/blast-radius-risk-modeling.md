@@ -1,6 +1,5 @@
 # Operational Risk Modeling, Blast Radius Reduction & Failure Domain Architecture: Best Practices
 
-**Objective**: Establish comprehensive risk modeling frameworks that identify failure domains, model blast radius, and design containment strategies across clusters, databases, data pipelines, and ML systems. When you need to reduce risk, when you want to contain failures, when you need failure domain architecture—this guide provides the complete framework.
 
 ## Introduction
 

@@ -1,6 +1,5 @@
 # Event-Sourcing in Rust with Async Streams and RocksDB
 
-**Objective**: Build a high-performance event-sourcing engine that treats the log as the source of truth. When you need audit trails, when you want to replay history, when you're building systems where state is derived from events—event sourcing becomes your weapon of choice.
 
 Event sourcing flips persistence—don't store the final state, store every event. State is a derived view. This tutorial shows you how to wield event sourcing with the precision of a provocative systems engineer, covering everything from async event ingestion to high-performance projections and benchmarking.
 
@@ -1227,4 +1226,3 @@ Event sourcing requires understanding both domain modeling and system architectu
 
 ---
 
-*This tutorial provides the complete machinery for event sourcing in Rust. The patterns scale from simple event storage to complex distributed systems, from basic projections to advanced streaming architectures.*

@@ -1,6 +1,5 @@
 # Celery in Production: Picking the Right Jobs, Writing Safe Tasks, Running It Like You Mean It
 
-**Objective**: Master Celery task queues for reliable distributed processing in Python applications. When you need to offload HTTP requests, when you want to process background jobs, when you're building scalable data pipelines—Celery becomes your weapon of choice.
 
 Celery is a distributed task queue that provides reliable at-least-once execution with retries, scheduling, and monitoring. It's not a streaming processor or OLAP engine—it's designed for offloading work from web requests, processing scheduled jobs, and handling idempotent side effects at scale.
 
@@ -989,4 +988,3 @@ Celery requires understanding both distributed systems patterns and Python concu
 
 ---
 
-*This guide provides the complete machinery for Celery in production. The patterns scale from simple HTTP offloading to complex distributed workflows, from basic task execution to advanced orchestration.*

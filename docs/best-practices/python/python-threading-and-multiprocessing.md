@@ -1,6 +1,5 @@
 # Python Concurrency: Threads vs Processes (and Doing Pools the Right Way)
 
-**Objective**: Master Python concurrency with a focus on production performance, safety, and scalability. When you need to handle I/O-bound workloads, when you want true CPU parallelism, when you're building production systems—concurrency becomes your weapon of choice.
 
 The GIL is not your enemy, but it's not your friend either. Understanding when to use threads, processes, or asyncio determines whether your application scales or crumbles under load. This guide shows you how to wield Python concurrency with the precision of a battle-tested backend engineer.
 
@@ -1088,4 +1087,3 @@ Python concurrency requires understanding the GIL, choosing the right tool for t
 
 ---
 
-*This guide provides the complete machinery for mastering Python concurrency. The patterns scale from simple I/O operations to complex distributed processing, from basic threading to advanced multiprocessing architectures.*

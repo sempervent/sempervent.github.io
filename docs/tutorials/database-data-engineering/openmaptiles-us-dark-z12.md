@@ -1,6 +1,5 @@
 # Generating Dark OpenMapTiles for the Entire US at Zoom Level 12
 
-**Objective**: Master generating dark-themed vector tiles for the United States using OpenMapTiles. When you need custom basemaps for dashboards, offline mapping, or air-gapped deployments—this tutorial provides a complete, reproducible pipeline.
 
 ## Introduction
 

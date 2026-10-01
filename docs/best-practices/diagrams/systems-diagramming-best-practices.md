@@ -9,7 +9,6 @@ tags:
 
 # Systems Diagramming Best Practices (Mermaid, SVG, and Diagram Discipline)
 
-**Objective**: Define a clear doctrine for systems diagramming: conceptual vs physical diagrams, layering, system boundary clarity, and diagram entropy control so that diagrams remain accurate, readable, and maintainable.
 
 ---
 

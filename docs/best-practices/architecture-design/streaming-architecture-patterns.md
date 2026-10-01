@@ -1,6 +1,5 @@
 # Streaming Architecture Patterns: SAGA, CQRS, and Outbox: Best Practices
 
-**Objective**: Establish comprehensive streaming architecture patterns including SAGA for distributed transactions, CQRS for read/write separation, and Outbox for reliable event publishing. When you need distributed transactions, when you want read/write separation, when you need reliable events—this guide provides the complete framework.
 
 ## Introduction
 

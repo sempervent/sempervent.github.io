@@ -1,6 +1,5 @@
 # Holistic Capacity Planning, Scaling Economics, and Workload Modeling: Best Practices
 
-**Objective**: Establish comprehensive capacity planning frameworks that model workloads, predict resource needs, and optimize scaling economics across CPU/GPU clusters, data systems, and distributed services. When you need to plan capacity, when you want to model workloads, when you need scaling economics—this guide provides the complete framework.
 
 ## Introduction
 

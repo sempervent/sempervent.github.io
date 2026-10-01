@@ -1,6 +1,5 @@
 # R Data Exploration: Tidyverse vs data.table (and Why You Should Prefer data.table)
 
-**Objective**: Master R data exploration with a focus on production performance, scalability, and memory efficiency. When you need to handle large datasets, when you want maximum performance, when you're building production data pipelines—data.table becomes your weapon of choice.
 
 Tidyverse feels nice, but data.table keeps the lights on when the data gets ugly. While tidyverse excels at readability and teaching, data.table dominates when scale, speed, or reproducibility matter. This guide shows you how to wield data.table with the precision of a senior R engineer.
 
@@ -871,4 +870,3 @@ R data exploration requires understanding both tidyverse and data.table ecosyste
 
 ---
 
-*This guide provides the complete machinery for mastering R data exploration. The patterns scale from simple data manipulation to complex production pipelines, from basic analysis to advanced performance optimization.*

@@ -1,6 +1,5 @@
 # Web Performance Optimization
 
-**Objective**: Achieve optimal web performance through Core Web Vitals optimization, modern development practices, and comprehensive monitoring.
 
 Web performance directly impacts user experience, SEO rankings, and business metrics. This guide covers achieving sub-2.5s LCP, <100ms FID, and <0.1 CLS through proven optimization techniques.
 

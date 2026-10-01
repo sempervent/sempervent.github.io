@@ -1,6 +1,5 @@
 # Building a ZFS Tank with OS on NVMe
 
-**Objective**: Build a production-ready ZFS storage system with OS on fast NVMe and data on a resilient ZFS pool. Transform your storage from fragile to bulletproof.
 
 Why NVMe for OS? Speed + separation of concerns. Why ZFS tank? Snapshots, checksums, compression, resilience. This is how you build storage that doesn't die when drives fail.
 
@@ -691,4 +690,3 @@ ZFS transforms your storage from fragile to bulletproof. With OS on NVMe and dat
 
 ---
 
-*This tutorial provides the complete machinery for building a production-ready ZFS storage system. The tank scales from terabytes to petabytes, from home labs to data centers.*

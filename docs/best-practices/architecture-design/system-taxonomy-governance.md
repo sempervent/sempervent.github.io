@@ -1,6 +1,5 @@
 # System-Wide Naming, Taxonomy, and Structural Vocabulary Governance: Best Practices
 
-**Objective**: Establish enterprise-wide naming conventions, domain taxonomy, and structural vocabulary that serve as the "lingua franca" across all systems, services, databases, and codebases. When you need consistent naming, when you want to reduce cognitive load, when you need cross-system clarity—this guide provides the complete framework.
 
 ## Introduction
 

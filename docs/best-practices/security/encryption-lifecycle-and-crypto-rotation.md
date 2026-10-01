@@ -1,6 +1,5 @@
 # Secret Supply Chains, Encryption Lifecycle Management & Cryptographic Rotation Strategy: Best Practices
 
-**Objective**: Establish comprehensive encryption lifecycle governance that manages key rotation, cryptographic agility, and secret supply chains across data in motion, data at rest, and application-layer encryption. When you need encryption governance, when you want key rotation, when you need crypto agility—this guide provides the complete framework.
 
 ## Introduction
 

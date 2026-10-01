@@ -1,6 +1,5 @@
 # Best Practices for Designing an AI-Ready, ML-Enabled Geospatial Knowledge Graph
 
-**Objective**: Establish comprehensive best practices for designing, building, operating, and evolving an AI-ready, ML-enabled Geospatial Knowledge Graph (GeoKG) suitable for production environments, geospatial analytics, and advanced ML/RAG workflows. When you need to combine geospatial data with knowledge graphs, semantic layers, and ML systems—this guide provides the complete framework.
 
 ## Abstract
 

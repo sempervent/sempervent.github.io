@@ -1,6 +1,5 @@
 # Mixing PostGIS, Kafka, and Grafana with Go Glue
 
-**Objective**: A strange but powerful tutorial: wire a geospatial DB, a streaming engine, and a monitoring UI together — controlled by a Go CLI.
 
 ## Why This Stack?
 

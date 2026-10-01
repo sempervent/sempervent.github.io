@@ -7,7 +7,6 @@ tags:
 
 # Slim Geospatial + GPU Containers: Conda (GDAL) → Production Image Without 12 GB Bloat
 
-**Objective**: Build a Python geospatial + optional GPU stack with Conda (including GDAL, PROJ, GEOS), then ship a production image under 2–4 GB by being deliberate about every layer. No 12 GB monsters. No mystery bloat. No hand-waving about "just use conda-pack."
 
 ---
 

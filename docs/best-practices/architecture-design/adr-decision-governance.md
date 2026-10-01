@@ -1,6 +1,5 @@
 # Best Practices for Architecture Decision Records (ADRs) and Technical Decision Governance
 
-**Objective**: Establish a consistent, discoverable practice for recording and governing architecture and technical decisions. When you need to understand why a system is built a certain way, when you want to make decisions explicit and reviewable, when you need to prevent architectural amnesia—this guide provides the framework.
 
 ## Goals & Non-Goals
 

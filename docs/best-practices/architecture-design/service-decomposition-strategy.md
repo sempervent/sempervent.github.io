@@ -1,6 +1,5 @@
 # Service Decomposition Strategy: Best Practices
 
-**Objective**: Establish comprehensive service decomposition strategies that guide when and how to decompose monolithic systems into microservices, bounded contexts, and domain services. When you need decomposition guidance, when you want domain boundaries, when you need service boundaries—this guide provides the complete framework.
 
 ## Introduction
 

@@ -1,6 +1,5 @@
 # Real-Time Data Processing with Kafka and TimescaleDB
 
-**Objective**: Build a complete real-time data processing pipeline using Kafka for streaming and TimescaleDB for time-series storage.
 
 Real-time data processing enables immediate insights and responsive applications. This tutorial covers building a production-ready streaming pipeline that handles geospatial time-series data at scale.
 

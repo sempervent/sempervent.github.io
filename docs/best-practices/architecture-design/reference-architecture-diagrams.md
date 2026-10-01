@@ -1,6 +1,5 @@
 # Reference Architecture Diagrams: Best Practices
 
-**Objective**: Establish comprehensive reference architecture diagrams that document system topologies, component relationships, and architectural patterns. When you need reference architectures, when you want system documentation, when you need architectural blueprints—this guide provides the complete framework.
 
 ## Introduction
 

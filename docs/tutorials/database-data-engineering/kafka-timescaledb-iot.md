@@ -7,7 +7,6 @@ tags:
 
 # Streaming IoT Telemetry with Kafka + TimescaleDB (via Docker Compose)
 
-**Objective**: Simulate thousands of device ticks (JSON/Avro), publish to Kafka, sink into Timescale hypertables using Kafka Connect JDBC Sink. Cover schemas, partitioning, retention, and performance.
 
 This tutorial builds a complete IoT data streaming pipeline that ingests device telemetry, processes it through Kafka, and stores it in TimescaleDB for time-series analytics. You'll learn production patterns for high-throughput data ingestion and real-time analytics.
 

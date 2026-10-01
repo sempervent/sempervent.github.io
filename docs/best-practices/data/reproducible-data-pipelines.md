@@ -1,6 +1,5 @@
 # Reproducible Data Pipelines
 
-**Objective**: Define practices for building deterministic, auditable data pipelines that produce the same outputs from the same inputs and support governance and debugging.
 
 ## Why reproducibility matters
 
@@ -119,6 +118,6 @@ Avoid pipelines that depend on undocumented inputs, unversioned code, or overwri
 - [ETL Pipeline Design](../database-data/etl-pipeline-design.md) — production ETL patterns and orchestration
 - [Parquet](../database-data/parquet.md) and [GeoParquet](../database-data/geoparquet.md) — format and layout best practices
 - [Data Lineage, Contracts & Provenance](../database-data/data-lineage-contracts.md) — lineage and provenance enforcement
-- [Data Pipeline Quality, Governance & Observability](../../tutorials/best-practices-integration/data-pipeline-quality-governance-observability.md) — quality and observability in pipelines
+- [Metadata as control plane](metadata-control-plane.md) — lineage and operational metadata
 - [Why Most Data Pipelines Fail](../../deep-dives/why-most-data-pipelines-fail.md) — failure modes and structural fixes
 - [Lakehouse vs Warehouse vs Database](../../deep-dives/lakehouse-vs-warehouse-vs-database.md) — where pipelines land data

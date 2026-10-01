@@ -1,6 +1,5 @@
 # Solr + Postgres JSONB: Faceted, Full-Text, and Geo Search at Speed
 
-**Objective**: Master the art of hybrid search—keeping relational truth in Postgres while unleashing Solr's full-text, faceting, and geospatial powers on JSONB data. When you need lightning-fast search with facets, suggestions, and geo queries, when you want to combine the reliability of Postgres with the search prowess of Solr—this tutorial becomes your weapon of choice.
 
 ## Overview
 
@@ -810,4 +809,3 @@ curl "http://localhost:8983/solr/appcore/select?q=*:*&facet=true&facet.field=org
 
 ---
 
-*This tutorial provides the complete machinery for hybrid Postgres-Solr search. Each pattern includes implementation examples, search strategies, and real-world usage patterns for enterprise search systems.*

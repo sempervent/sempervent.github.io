@@ -1,6 +1,5 @@
 # Advanced Tmux Workflows (2025 Edition)
 
-**Objective**: Master production-grade tmux workflows for distributed geospatial and data engineering environments. When you need to orchestrate complex multi-service workflows, when you want to maintain persistent development environments, when you're debugging across multiple systems—advanced tmux becomes your weapon of choice.
 
 tmux is more than pane-splitting—it's your personal mission control.
 
@@ -702,4 +701,3 @@ Advanced tmux requires understanding distributed systems, workflow orchestration
 
 ---
 
-*This guide provides the complete machinery for advanced tmux workflows. The patterns scale from simple pane management to complex orchestration, from local development to distributed team collaboration.*

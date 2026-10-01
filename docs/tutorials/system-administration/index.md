@@ -1,6 +1,5 @@
 # System Administration Tutorials
 
-**Objective**: Master complex system administration implementations through step-by-step guides. When you need to implement specific system administration technologies, when you want to follow proven patterns, when you need copy-paste runnable examples—these tutorials become your weapon of choice.
 
 ## Network & Boot Management
 
@@ -17,4 +16,3 @@
 
 ---
 
-*These tutorials provide the complete machinery for implementing key system administration technologies and workflows. Each guide includes production-ready examples, configuration files, and best practices for enterprise deployment.*

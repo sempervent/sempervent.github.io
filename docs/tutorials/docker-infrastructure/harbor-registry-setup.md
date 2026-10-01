@@ -1,6 +1,5 @@
 # Harbor Container Registry Setup: Kubernetes & Docker Compose with Network Storage
 
-**Objective**: Master Harbor container registry deployment with production-grade storage and security. When you need enterprise container registry capabilities, when you want vulnerability scanning and image signing, when you're building secure CI/CD pipelines—Harbor becomes your weapon of choice.
 
 Harbor is an open-source container registry that provides enterprise-grade features including vulnerability scanning, image signing, RBAC, and replication. This tutorial shows you how to deploy Harbor with the precision of a DevOps engineer, covering both Kubernetes and Docker Compose environments with network-attached storage.
 
@@ -1301,4 +1300,3 @@ Harbor deployment requires understanding both container orchestration and storag
 
 ---
 
-*This tutorial provides the complete machinery for deploying Harbor with network storage. The patterns scale from simple single-node deployments to complex enterprise clusters, from basic container storage to advanced security and compliance.*

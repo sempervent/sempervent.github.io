@@ -1,6 +1,5 @@
 # Semantic Layer Engineering, Domain Models, and Knowledge Graph Alignment: Best Practices
 
-**Objective**: Establish enterprise semantic layers that bridge business concepts to physical storage across geospatial, infrastructure, ML/AI, and data domains. When you need domain models, when you want knowledge graph alignment, when you need semantic versioning—this guide provides the complete framework.
 
 ## Introduction
 

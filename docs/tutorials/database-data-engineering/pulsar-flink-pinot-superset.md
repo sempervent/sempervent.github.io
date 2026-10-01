@@ -1,6 +1,5 @@
 # Realtime Analytics: Pulsar → Flink → Pinot with Superset (2025 Edition)
 
-**Objective**: Build a sub-second analytics stack: Pulsar streams data, Flink shapes it, Pinot serves OLAP queries, and Superset paints the truth. One compose.yml, toggle systems with profiles, and watch time bend.
 
 ## Architecture
 
@@ -420,4 +419,3 @@ docker compose --profile viz up -d
 
 ---
 
-*This tutorial provides the complete machinery for sub-second streaming analytics. Each component is production-ready, copy-paste runnable, and designed to handle real-world data volumes with millisecond query latencies.*

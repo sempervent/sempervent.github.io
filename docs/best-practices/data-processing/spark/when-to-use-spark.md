@@ -1,6 +1,5 @@
 # When to Use Apache Spark (and When Not To)
 
-**Objective**: Help engineers decide when Spark is the right tool and when alternatives are a better fit.
 
 ## What Spark is designed for
 

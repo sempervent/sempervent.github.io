@@ -1,6 +1,5 @@
 # PostgreSQL Connection Pooling Best Practices
 
-**Objective**: Master production-grade PostgreSQL connection pooling for high-concurrency workloads. When you need to handle thousands of concurrent requests, when you're running FastAPI with geospatial queries, when you're managing Prefect agents and Dask workers—PostgreSQL connection pooling becomes your lifeline.
 
 Postgres will not forgive sloppy connection handling. Without pooling, you'll hit limits, crash services, and wonder why everything stalls.
 
@@ -870,4 +869,3 @@ PostgreSQL connection pooling requires understanding connection limits, pooling 
 
 ---
 
-*This guide provides the complete machinery for PostgreSQL connection pooling. The patterns scale from simple applications to complex microservices, from basic pooling to advanced connection management.*

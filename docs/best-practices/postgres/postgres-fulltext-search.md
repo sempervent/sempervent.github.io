@@ -1,6 +1,5 @@
 # PostgreSQL Full-Text Search Best Practices
 
-**Objective**: Master senior-level PostgreSQL full-text search patterns for production systems. When you need to implement powerful text search, when you want to optimize search performance, when you need enterprise-grade search strategies—these best practices become your weapon of choice.
 
 ## Core Principles
 
@@ -748,4 +747,3 @@ def setup_postgresql_fulltext_search():
 
 ---
 
-*This guide provides the complete machinery for PostgreSQL full-text search excellence. Each pattern includes implementation examples, optimization strategies, and real-world usage patterns for enterprise PostgreSQL search systems.*

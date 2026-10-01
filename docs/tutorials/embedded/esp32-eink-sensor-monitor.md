@@ -6,7 +6,6 @@ tags:
 
 # ESP32 E-Ink Environmental Monitor (Low Power + Safe Design)
 
-**Objective**: Build a battery-powered environmental sensor node that reads temperature, humidity, pressure, and light every 5 minutes, renders a clean dashboard on a 1.54" e-ink display, then deep-sleeps. Target: >7 days on a 2000 mAh LiPo.
 
 ---
 

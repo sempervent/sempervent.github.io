@@ -1,6 +1,5 @@
 # Ignoring Ruff Check Errors in pyproject.toml
 
-**Objective**: Master the art of selectively ignoring Ruff check errors in pyproject.toml. Handle specific files, error types, and maintain code quality while working with Python projects.
 
 When your Python project includes generated code, third-party bindings, or legacy code, you need fine-grained control over which Ruff check errors to ignore. This guide shows you how to configure pyproject.toml to ignore specific errors, files, and patterns while maintaining code quality.
 
@@ -812,4 +811,3 @@ Ruff check error ignoring in pyproject.toml provides fine-grained control over c
 
 ---
 
-*This tutorial provides the complete machinery for configuring Ruff check error ignoring in pyproject.toml. The patterns scale from development to production, from simple scripts to complex multi-package projects.*

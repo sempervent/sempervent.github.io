@@ -1,6 +1,5 @@
 # Click CLI to FastAPI Conversion: The Machine's Reckoning
 
-**Objective**: Automatically convert Click-based CLI hierarchies into fully functional FastAPI applications, preserving command semantics as HTTP endpoints while maintaining the dark art of parameter mapping.
 
 This isn't just a conversion—it's a systematic dismantling of CLI paradigms and their reconstruction as HTTP interfaces. The machine will do the heavy lifting, but you'll understand every cut it makes.
 
@@ -929,4 +928,3 @@ This isn't just a conversion tool—it's a systematic approach to bridging the g
 
 ---
 
-*This tutorial provides the complete machinery for converting Click CLI hierarchies into FastAPI endpoints. The machine handles the complexity, but you control the transformation.*

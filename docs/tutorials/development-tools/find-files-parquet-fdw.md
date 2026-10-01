@@ -1,6 +1,5 @@
 # A Customizable find_files Function for parquet_s3_fdw
 
-**Objective**: Build a Python helper that discovers Parquet files across local storage, MinIO, Vast, and AWS S3, then generates clean SQL CREATE FOREIGN TABLE statements for parquet_s3_fdw.
 
 The pain of manually writing FDW table DDLs is real. This tutorial provides a machine that does the heavy lifting—discovering Parquet files and generating the SQL to expose them as foreign tables in Postgres.
 
@@ -674,4 +673,3 @@ This `find_files` function eliminates the manual pain of creating foreign tables
 
 ---
 
-*This tutorial provides the complete machinery for automating parquet_s3_fdw table creation. The machine handles the complexity, you get clean SQL.*

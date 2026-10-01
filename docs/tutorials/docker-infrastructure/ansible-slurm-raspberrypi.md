@@ -1,6 +1,5 @@
 # Deploying SLURM on a Raspberry Pi Cluster with Ansible
 
-**Objective**: Master cluster automation with Ansible and SLURM on Raspberry Pi hardware. When you need to learn HPC concepts, when you want reproducible cluster deployments, when you're building educational or development clusters—Ansible becomes your weapon of choice.
 
 SLURM (Simple Linux Utility for Resource Management) is the de facto standard for job scheduling in HPC environments. Raspberry Pi clusters provide an affordable way to learn HPC concepts, and Ansible makes cluster deployment reproducible and scalable. This tutorial shows you how to wield Ansible with the precision of a cluster administrator.
 
@@ -995,4 +994,3 @@ SLURM cluster deployment requires understanding both HPC concepts and infrastruc
 
 ---
 
-*This tutorial provides the complete machinery for deploying SLURM clusters with Ansible. The patterns scale from simple educational clusters to complex production HPC environments, from basic job scheduling to advanced resource management.*

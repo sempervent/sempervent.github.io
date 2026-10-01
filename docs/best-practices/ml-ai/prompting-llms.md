@@ -1,6 +1,5 @@
 # Best Practices: Prompting LLMs (with Agent Instructions)
 
-**Objective**: Prompting isn't magic—it's controlled constraint. Your job: pin context, force structure, and require self-checks. The sections below include a Mermaid framing map, a table of prompt transformations, and a strict instruction block an agentic LLM can execute.
 
 ## Prompt Framing Map
 
@@ -243,4 +242,3 @@ Miss any one and the model improvises; give all six and it builds.
 
 ---
 
-*This guide provides the complete machinery for effective LLM prompting. Each technique is production-ready, copy-paste runnable, and designed for reliable, structured outputs with proper safety and verification.*

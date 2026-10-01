@@ -9,7 +9,6 @@ tags:
 
 # Layered Systems Diagrams: Mermaid Source → SVG Artifact (End-to-End Example)
 
-**Objective**: Build a small layered diagram set (Context + Workflow) for an IoT → MQTT → Data Lake → Dashboard system, keep Mermaid as source, render to SVG, and embed both in MkDocs.
 
 ---
 

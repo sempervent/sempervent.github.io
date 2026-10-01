@@ -1,6 +1,5 @@
 # Idempotency & De-dup: Designing Operations That Don't Double-Fire
 
-**Objective**: Master idempotency and de-duplication patterns to prevent duplicate operations in distributed systems. When you need safe retries, when you want to prevent double-billing, when you're building reliable APIs and data pipelines—idempotency becomes your weapon of choice.
 
 Retries happen (clients, proxies, workers). Without idempotency, you print money twice—or delete the same row twice. Build request identity, dedupe state, and committed outcomes into every layer.
 
@@ -584,4 +583,3 @@ Idempotency requires understanding both system reliability and data consistency 
 
 ---
 
-*This guide provides the complete machinery for idempotency and de-duplication. The patterns scale from simple HTTP APIs to complex distributed systems, from basic retry handling to advanced stream processing.*

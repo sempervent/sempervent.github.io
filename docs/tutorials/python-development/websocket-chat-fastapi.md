@@ -1,6 +1,5 @@
 # Building a Real-time Chat Application with WebSockets and FastAPI
 
-**Objective**: Build a production-ready real-time chat application using FastAPI, WebSockets, and modern web technologies. When you need real-time communication, when you want to understand WebSocket patterns, when you're building interactive applications—WebSocket chat becomes your weapon of choice.
 
 Real-time chat applications require understanding both WebSocket mechanics and modern web development patterns. This tutorial shows you how to build a complete chat system with the precision of a senior full-stack engineer, covering everything from basic WebSocket handling to production deployment.
 
@@ -1082,4 +1081,3 @@ WebSocket chat applications require understanding both real-time communication a
 
 ---
 
-*This tutorial provides the complete machinery for WebSocket chat applications. The patterns scale from simple messaging to complex real-time systems, from basic WebSocket handling to advanced production deployment.*

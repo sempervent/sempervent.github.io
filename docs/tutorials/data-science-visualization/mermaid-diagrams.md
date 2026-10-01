@@ -1,6 +1,5 @@
 # Creating Beautiful Diagrams with Mermaid in Markdown (MkDocs)
 
-**Objective**: Master the art of creating dynamic, beautiful diagrams with Mermaid directly in your Markdown files, eliminating the need for static images and external diagramming tools.
 
 Mermaid is a lightweight diagramming and charting tool that turns text into beautiful diagrams. It integrates seamlessly with MkDocs (especially when using the Material for MkDocs theme) and allows you to embed diagrams directly inside your Markdown files.
 

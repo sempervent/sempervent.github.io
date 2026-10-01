@@ -1,6 +1,5 @@
 # ML Systems Architecture: Feature Stores, Model Serving, Experiment Governance, and Cross-System Reproducibility
 
-**Objective**: Establish comprehensive ML systems architecture covering the full lifecycle from data ingestion to model deployment and monitoring. When you need feature stores, when you want experiment governance, when you need reproducibility—this guide provides the complete framework.
 
 ## Introduction
 
