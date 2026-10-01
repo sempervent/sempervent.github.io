@@ -94,4 +94,4 @@ You are selecting between Kubernetes and simpler deployment models, evaluating s
 
 If you encounter terms used across multiple essays without definition, the [Systems Thinking Glossary](systems-glossary.md) defines the shared vocabulary: control plane, data plane, abstraction debt, metadata debt, data gravity, blast radius, eventual consistency, schema contract, and operational entropy.
 
-For the intellectual principles behind the analytical positions taken across this site, read the [Philosophy of the Site](philosophy.md).
+For the engineering principles behind these paths, see [Systems engineering principles](philosophy.md).

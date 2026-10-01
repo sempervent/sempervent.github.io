@@ -7,7 +7,6 @@ Technical notes, mostly on geospatial systems and data infrastructure. Some page
 | Patterns, trade-offs, governance | [Best Practices](best-practices/index.md) |
 | Step-by-step builds | [Tutorials](tutorials/index.md) |
 | Longer essays | [Deep Dives](deep-dives/index.md) |
-| Decision records | [ADRs](adr/index.md) |
 | Problem-oriented reading paths | [Architectural compass](start-here-architectural-paths.md) |
 | Creative / odd builds | [Just for Fun](tutorials/just-for-fun/index.md) |
 

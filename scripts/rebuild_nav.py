@@ -9,6 +9,40 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MKDOCS = ROOT / "mkdocs.yml"
 
+# Nav sections removed from the public site (skip when merging from main).
+_REMOVED_SECTION_HEADERS = frozenset(
+    {
+        "- Architecture Decisions:",
+        "- Diagrams:",
+    }
+)
+_SKIP_LINE_SUBSTRINGS = (
+    "Contact & Collaboration",
+    "adr/",
+    "ADR-",
+    "Diagram Style Guide",
+    "adr-decision-governance",
+)
+
+
+def _filter_nav_body(lines: list[str]) -> list[str]:
+    filtered: list[str] = []
+    skip_depth: int | None = None
+    for line in lines:
+        stripped = line.strip()
+        if stripped in _REMOVED_SECTION_HEADERS:
+            skip_depth = len(line) - len(line.lstrip())
+            continue
+        if skip_depth is not None:
+            if stripped and (len(line) - len(line.lstrip())) <= skip_depth:
+                skip_depth = None
+            else:
+                continue
+        if any(s in line for s in _SKIP_LINE_SUBSTRINGS):
+            continue
+        filtered.append(line)
+    return filtered
+
 
 def main() -> None:
     original = subprocess.check_output(
@@ -21,8 +55,7 @@ def main() -> None:
 
     nav_lines = lines[nav_start:ext_start]
     idx = next(i for i, l in enumerate(nav_lines) if l.strip().startswith("- Doctrine:"))
-    body = nav_lines[idx:]
-    body = [l for l in body if "Contact & Collaboration" not in l]
+    body = _filter_nav_body(nav_lines[idx:])
 
     indented: list[str] = []
     for line in body:

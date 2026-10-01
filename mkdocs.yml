@@ -70,36 +70,16 @@ nav:
   - Writing:
     - Technical overview: documentation.md
     - Recent additions: whats-new.md
-    - Doctrine:
-      - Start Here — Architectural Compass: start-here-architectural-paths.md
+    - Start Here:
+      - Architectural Compass: start-here-architectural-paths.md
       - Reading Tracks: reading-tracks.md
       - Decision Frameworks: decision-frameworks.md
       - Anti-Patterns: anti-patterns.md
       - Philosophy: philosophy.md
       - Systems Glossary: systems-glossary.md
-      - Diagrams:
-        - Diagram Style Guide: diagrams/style-guide.md
-    - Architecture Decisions:
-      - Overview: adr/index.md
-      - "ADR-0001: Site Architecture": adr/0001-site-architecture.md
-      - "ADR-0002: MkDocs + Material": adr/0002-why-mkdocs-material.md
-      - "ADR-0003: Best Practices vs Tutorials": adr/0003-why-best-practices-vs-tutorials.md
-      - "ADR-0004: Why Just for Fun Exists": adr/0004-why-just-for-fun-exists.md
-      - "ADR-0005: ESP32 Section Architecture": adr/0005-esp32-section-architecture.md
-      - "ADR-0006: Embedded Expansion (LoRa + Power)": adr/0006-embedded-expansion-lora-power.md
-      - "ADR-0007: Deep Dives Section": adr/0007-deep-dives-section.md
-      - "ADR-0008: Expand Deep Dives Section": adr/0008-expand-deep-dives-section.md
-      - "ADR-0009: Deep Dives Expansion": adr/0009-deep-dives-expansion.md
-      - "ADR-0010: Deep Dives Governance": adr/0010-deep-dives-governance.md
-      - "ADR-0011: Deep Dives Expansion Phase II": adr/0011-deep-dives-expansion-phase-2.md
-      - "ADR-0012: Deep Dives Scale Governance": adr/0012-deep-dives-scale-governance.md
-      - "ADR-0013: Deep Dives Curation Model": adr/0013-deep-dives-curation-model.md
-      - "ADR-0014: Elevate Site to Systems Doctrine": adr/0014-elevate-site-to-systems-doctrine.md
-      - "ADR-0015: Standardize Diagrams on Mermaid": adr/0015-diagrams-mermaid.md
     - Best Practices:
       - Overview: best-practices/index.md
       - Start Here:
-        - ADR and Technical Decision Governance: best-practices/architecture-design/adr-decision-governance.md
         - Configuration Management: best-practices/operations-monitoring/configuration-management.md
         - System Resilience & Concurrency: best-practices/operations-monitoring/system-resilience-and-concurrency.md
         - IAM & RBAC Governance: best-practices/security/iam-rbac-abac-governance.md
@@ -250,7 +230,6 @@ nav:
         - Secrets Management: best-practices/architecture-design/secrets-management.md
         - Testing & CI/CD Pipelines: best-practices/architecture-design/ci-cd-pipelines.md
         - Documentation: best-practices/architecture-design/documentation.md
-        - ADR and Technical Decision Governance: best-practices/architecture-design/adr-decision-governance.md
         - Caching & Performance Layers: best-practices/architecture-design/caching-performance.md
         - Cache-Topology Architecture: best-practices/architecture-design/cache-topology-architecture.md
         - Data Mesh Architecture: best-practices/architecture-design/data-mesh-architecture.md
@@ -454,7 +433,7 @@ nav:
         - AWK Unix Text Processing: tutorials/system-administration/awk-unix-text-processing.md
       - Diagrams:
         - "Layered Systems Diagrams: Mermaid → SVG": tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md
-        - Mermaid → SVG Workflow Pipeline: tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md
+        - Rendering Mermaid diagrams to SVG: tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md
       - Data Science & Visualization:
         - Overview: tutorials/data-science-visualization/index.md
         - Jupyter Notebook Best Practices (Geospatial Edition): tutorials/data-science-visualization/jupyter-notebook-best-practices-geo.md
@@ -554,6 +533,8 @@ plugins:
       separator: '[\s\-\_\.]+'
   - redirects:
       redirect_maps:
+        adr/index.md: documentation.md
+        best-practices/architecture-design/adr-decision-governance.md: best-practices/architecture-design/index.md
         tags.md: documentation.md
         lab/index.md: tutorials/just-for-fun/index.md
         tutorials/python-development/js-glitch-observatory.md: tutorials/just-for-fun/js-glitch-observatory.md

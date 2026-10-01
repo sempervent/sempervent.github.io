@@ -2170,7 +2170,6 @@ class LLMDocsIngester:
 
 ## See Also
 
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Decision recording
 - **[Configuration Management](../operations-monitoring/configuration-management.md)** - Config governance
 - **[Release Management](../operations-monitoring/release-management-and-progressive-delivery.md)** - Deployment practices
 

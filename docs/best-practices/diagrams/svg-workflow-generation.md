@@ -231,7 +231,7 @@ A future GitHub Actions workflow might look like:
 
 ## Example: Data Platform Workflow
 
-The following Mermaid source represents the full data platform workflow for this site — sensors through serving, with governance and observability cross-cuts.
+The following Mermaid source is a full data platform workflow — sensors through serving, with governance and observability cross-cuts.
 
 **Mermaid source** (`docs/assets/diagrams/workflows/data-platform-workflow.mmd`):
 
@@ -316,6 +316,6 @@ flowchart LR
 ---
 
 !!! tip "See also"
-    - [Mermaid → SVG Workflow Pipeline (Tutorial)](../../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md) — step-by-step guide to setting up and running the render pipeline
-    - [Diagram Style Guide](../../diagrams/style-guide.md) — Mermaid snippet library and formatting conventions
-    - [ADR 0015: Standardize Diagrams on Mermaid](../../adr/0015-diagrams-mermaid.md) — the architectural decision record that established this standard
+    - [Rendering Mermaid diagrams to SVG](../../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md) — step-by-step setup and render pipeline
+    - [Systems Diagramming Best Practices](systems-diagramming-best-practices.md) — layering, boundaries, and entropy control
+    - [Layered Systems Diagrams tutorial](../../tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md) — end-to-end IoT → lakehouse example

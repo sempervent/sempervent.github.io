@@ -186,5 +186,5 @@ The MQTT persistent connection model means a compromised device maintains an aut
 **The practical answer for most production IoT systems is not a binary choice**: cloud IoT platforms (AWS IoT Core, Azure IoT Hub, Google Cloud IoT) accept both MQTT and HTTP from devices and route messages to the same backend topics/streams. Devices can use MQTT when frequently connected and HTTP when waking from deep sleep, with the same backend consuming both.
 
 !!! tip "See also"
-    - [ESP32 Section Architecture](../adr/0005-esp32-section-architecture.md) — the ADR explaining how this site's ESP32 content is structured
-    - [ESP32 Tutorials](../tutorials/embedded/index.md) — implementation examples using MQTT with an ESP32
+    - [ESP32 tutorials](../tutorials/embedded/index.md) — implementation examples using MQTT with an ESP32
+    - [ESP32 best practices](../best-practices/esp32/index.md) — durable patterns for embedded MQTT clients

@@ -100,7 +100,7 @@ graph TB
 - Ticket creation with labels
 
 **2. Design & ADR**:
-- Architecture Decision Record (see [ADR Guide](../architecture-design/adr-decision-governance.md))
+- Architecture Decision Record (see [Documentation](../architecture-design/documentation.md))
 - Design review
 - Risk classification
 
@@ -1874,7 +1874,6 @@ kubectl apply -f manifests/k8s/ -n prod
 
 ## See Also
 
-- **[ADR and Technical Decision Governance](../architecture-design/adr-decision-governance.md)** - Decision recording
 - **[Configuration Management](configuration-management.md)** - Config governance
 - **[System Resilience](../operations-monitoring/system-resilience-and-concurrency.md)** - Resilience patterns
 - **[Testing Best Practices](../operations-monitoring/testing-best-practices.md)** - Testing strategies

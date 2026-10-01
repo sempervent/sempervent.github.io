@@ -22,7 +22,6 @@ Reference architecture diagrams are essential for understanding, communicating, 
 
 **Related Documents**:
 This document integrates with:
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Decision documentation
 - **[Documentation](documentation.md)** - Documentation patterns
 - **[System-Wide Naming, Taxonomy, and Structural Vocabulary Governance](system-taxonomy-governance.md)** - Naming standards
 
@@ -97,7 +96,6 @@ diagram_standards:
 
 ## See Also
 
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Decisions
 - **[Documentation](documentation.md)** - Documentation
 - **[System-Wide Naming, Taxonomy, and Structural Vocabulary Governance](system-taxonomy-governance.md)** - Naming
 

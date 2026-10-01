@@ -17,7 +17,7 @@ tags:
 By the end of this tutorial you will:
 
 1. Have two diagram sources (context + workflow) under `docs/assets/diagrams/examples/`.
-2. Know how to render them to SVG using the site’s existing tooling in `tools/diagrams/`.
+2. Know how to render them to SVG with `@mermaid-js/mermaid-cli` (via the scripts in `tools/diagrams/` in this repo).
 3. Embed both Mermaid (source) and SVG (artifact) in a doc so readers see source and output.
 4. Apply the layering and boundary discipline from [Systems Diagramming Best Practices](../../best-practices/diagrams/systems-diagramming-best-practices.md).
 
@@ -125,7 +125,7 @@ Again, the `.mmd` file is only the Mermaid code (no ` ```mermaid ` wrapper).
 
 ## 5. Render to SVG
 
-The repo already provides Mermaid → SVG tooling in `tools/diagrams/`. No new tooling is required.
+Render with the Node scripts in `tools/diagrams/` (wrapping `mmdc`), or any equivalent `mmdc` invocation pointed at your `.mmd` files.
 
 1. **Install dependencies** (once):
 
@@ -148,7 +148,7 @@ The repo already provides Mermaid → SVG tooling in `tools/diagrams/`. No new t
    node render_mermaid_svg.mjs --input ../../docs/assets/diagrams/examples
    ```
 
-After a successful run, commit both the `.mmd` and `.svg` files so the site can serve the SVG without a build step.
+After a successful run, commit both the `.mmd` and `.svg` files if your documentation host serves static assets without running Mermaid at build time.
 
 ---
 
@@ -208,6 +208,5 @@ The SVG will scale cleanly; the Mermaid block will render in the browser via MkD
 ## 8. See also
 
 - **[Systems Diagramming Best Practices](../../best-practices/diagrams/systems-diagramming-best-practices.md)** — Layering, boundaries, entropy control, and pattern library.
-- **[Generating Complex Workflow Diagrams as SVG](../../best-practices/diagrams/svg-workflow-generation.md)** — Repository conventions and style for Mermaid → SVG.
-- **[Mermaid → SVG Workflow Pipeline](mermaid-to-svg-workflow-pipeline.md)** — Full pipeline and `data-platform-workflow` example.
-- **[Diagram Style Guide](../../diagrams/style-guide.md)** — Mermaid vs SVG, orientation, and accessibility.
+- **[Generating Complex Workflow Diagrams as SVG](../../best-practices/diagrams/svg-workflow-generation.md)** — Layout conventions and artifact workflow.
+- **[Rendering Mermaid diagrams to SVG](mermaid-to-svg-workflow-pipeline.md)** — Pipeline setup and `data-platform-workflow` example.

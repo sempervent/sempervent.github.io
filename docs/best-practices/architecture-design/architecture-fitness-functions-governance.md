@@ -2035,7 +2035,6 @@ class LLMScorecardGenerator:
 
 ## See Also
 
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Decision recording
 - **[Repository Standardization](repository-standardization-and-governance.md)** - Repository governance
 - **[System Resilience](../operations-monitoring/system-resilience-and-concurrency.md)** - Resilience patterns
 

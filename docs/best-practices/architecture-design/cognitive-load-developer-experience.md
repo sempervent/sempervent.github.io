@@ -2216,8 +2216,6 @@ class CognitiveRiskReview:
 
 - **[Architectural Fitness Functions](architecture-fitness-functions-governance.md)** - Architecture measurement
 - **[Repository Standardization](repository-standardization-and-governance.md)** - Repository governance
-- **[ADR and Technical Decision Governance](adr-decision-governance.md)** - Decision recording
-
 ---
 
 *This guide provides a complete framework for cognitive load management and developer experience. Start with measuring cognitive load, implement DX patterns, reduce complexity, and continuously improve. The goal is systems that remain mentally tractable and enable effective reasoning about architecture.*

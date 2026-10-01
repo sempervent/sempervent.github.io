@@ -4,7 +4,7 @@
 
 This tutorial combines:
 - **[Documentation Best Practices](../../best-practices/architecture-design/documentation.md)** - Writing and organizing useful documentation
-- **[ADR and Technical Decision Governance](../../best-practices/architecture-design/adr-decision-governance.md)** - Architecture Decision Records
+- **[Architecture & Design documentation](../../best-practices/architecture-design/documentation.md)** - includes ADR patterns as a general practice
 - **[Reference Architecture Diagrams](../../best-practices/architecture-design/reference-architecture-diagrams.md)** - System documentation
 - **[Cognitive Load Management and Developer Experience](../../best-practices/architecture-design/cognitive-load-developer-experience.md)** - Developer experience optimization
 

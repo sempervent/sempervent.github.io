@@ -109,13 +109,13 @@ The diagram makes the trust boundary explicit: Internet → DMZ → Internal. Us
 | Fast iteration and co-editing in docs | Reuse in other tools; consistent layout |
 | Diagram lives in the repo with the doc | You need a single export for external use |
 
-### Repo convention
+### Mermaid source and SVG artifacts
 
-- **Source**: `.mmd` files under `docs/assets/diagrams/` (e.g. `examples/iot-mqtt-lakehouse-context.mmd`).
-- **Artifact**: `.svg` committed **beside** the `.mmd` (same directory, same basename).
-- **Render**: Run the site’s render script from `tools/diagrams/` (e.g. `npm run render:all`) so SVG is regenerated from source. Never edit the SVG by hand; it will be overwritten.
+- **Source**: version-controlled `.mmd` files (one diagram per file).
+- **Artifact**: `.svg` committed beside the `.mmd` (same directory, same basename) when static docs must render without a Mermaid runtime.
+- **Render**: regenerate SVG from source with `@mermaid-js/mermaid-cli` or an equivalent script. Do not hand-edit generated SVG; it will be overwritten on the next render.
 
-See [Generating Complex Workflow Diagrams as SVG](svg-workflow-generation.md) and the [Layered Systems Diagrams tutorial](../../tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md) for the full pipeline.
+See [Generating Complex Workflow Diagrams as SVG](svg-workflow-generation.md) and the [Layered Systems Diagrams tutorial](../../tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md) for a worked example.
 
 ---
 
@@ -152,7 +152,7 @@ See [Generating Complex Workflow Diagrams as SVG](svg-workflow-generation.md) an
 - **Proprietary formats vs committed SVG**: Prefer committing SVG (and, when possible, Mermaid source) so the doc build and future readers don’t depend on a SaaS tool.
 - **Collaboration vs reproducibility**: For one-off workshops, Lucid or draw.io may be faster. For long-lived docs, Mermaid + rendered SVG gives reproducibility and version control.
 
-This site standardizes on **Mermaid as source** and **SVG as artifact** via `tools/diagrams/`. See the [Mermaid → SVG Workflow Pipeline](../../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md) and the [Diagram Style Guide](../../diagrams/style-guide.md).
+For documentation that ships as static HTML, **Mermaid as source** and **committed SVG as artifact** is a practical default. See the [Mermaid → SVG workflow tutorial](../../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md) for setup and rendering steps.
 
 ---
 
@@ -283,7 +283,7 @@ flowchart LR
   F -.-> H[Observability]
 ```
 
-The full example—source `.mmd` files and rendered SVG artifacts—lives under `docs/assets/diagrams/examples/` and is used in the [Layered Systems Diagrams: Mermaid Source → SVG Artifact](../../tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md) tutorial. Follow that tutorial to generate the SVGs and embed them in MkDocs.
+A full IoT → MQTT → lakehouse example—with `.mmd` sources and rendered SVG—is in the [Layered Systems Diagrams: Mermaid → SVG](../../tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md) tutorial.
 
 ---
 
@@ -292,7 +292,6 @@ The full example—source `.mmd` files and rendered SVG artifacts—lives under 
 !!! tip "See also"
 
     - **[Layered Systems Diagrams: Mermaid Source → SVG Artifact](../../tutorials/diagrams/layered-systems-diagrams-mermaid-to-svg.md)** — End-to-end tutorial with the IoT → MQTT → Lakehouse example and SVG embedding.
-    - **[Generating Complex Workflow Diagrams as SVG](svg-workflow-generation.md)** — Mermaid-first, artifact-driven workflow and repository conventions.
-    - **[Mermaid → SVG Workflow Pipeline](../../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md)** — Existing pipeline for rendering `.mmd` to `.svg` with `tools/diagrams/`.
-    - **[Diagram Style Guide](../../diagrams/style-guide.md)** — When to use Mermaid vs SVG, orientation, subgraphs, and accessibility.
+    - **[Generating Complex Workflow Diagrams as SVG](svg-workflow-generation.md)** — Mermaid-first, artifact-driven workflow and layout conventions.
+    - **[Rendering Mermaid diagrams to SVG](../../tutorials/diagrams/mermaid-to-svg-workflow-pipeline.md)** — Set up `mmdc` and render `.mmd` to `.svg`.
     - **Deep dives**: [Observability vs Monitoring](../../deep-dives/observability-vs-monitoring.md), [Why Most Data Pipelines Fail](../../deep-dives/why-most-data-pipelines-fail.md) — Systems context that diagrams should reflect.
