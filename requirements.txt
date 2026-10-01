@@ -21,3 +21,5 @@ mkdocs-redirects>=1.2.0
 mkdocs-exclude>=1.0.0
 mkdocs-macros-plugin>=0.7.0
 mkdocs-awesome-pages-plugin>=2.9.0
+
+pytest>=8.0

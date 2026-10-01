@@ -49,9 +49,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Validate and generate portfolio pages
+        run: |
+          python scripts/validate_projects.py
+          python scripts/generate_portfolio.py
+
       - name: Build with MkDocs
         run: |
-          mkdocs build --clean
+          mkdocs build --clean --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -88,6 +93,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Validate and generate portfolio pages
+        run: |
+          python scripts/validate_projects.py
+          python scripts/generate_portfolio.py
 
       - name: Build preview
         run: |
