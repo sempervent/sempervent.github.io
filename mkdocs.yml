@@ -1,5 +1,5 @@
 site_name: Joshua N. Grant - Geospatial Systems Architect
-site_description: Professional portfolio and technical documentation for Joshua N. Grant, Geospatial Systems Architect at Oak Ridge National Laboratory
+site_description: Technical writing and project notes by Joshua N. Grant, Geospatial Systems Architect at Oak Ridge National Laboratory
 site_author: Joshua N. Grant
 site_url: https://sempervent.github.io
 repo_url: https://github.com/sempervent/sempervent.github.io
@@ -57,9 +57,10 @@ theme:
     view: material/eye
   # Custom CSS for typography and personalization
   custom_dir: docs/assets/overrides
-  # Additional CSS for readability improvements
-  extra_css:
-    - assets/styles/custom.css
+
+# Loaded after Material styles (must be top-level, not under theme)
+extra_css:
+  - assets/styles/custom.css
 
 nav:
   - Home: index.md
@@ -499,7 +500,7 @@ nav:
 
   - About:
     - Professional Profile: about.md
-    - Contact & Collaboration: getting-started.md
+    - Contact: getting-started.md
 
 markdown_extensions:
   - pymdownx.snippets:
@@ -609,13 +610,6 @@ extra:
   version:
     provider: mike
   generator: false
-  consent:
-    title: Cookie consent
-    description: >- 
-      This site uses cookies to enhance your browsing experience and analyze site traffic.
-      By continuing to use this site, you consent to our use of cookies.
-    necessary: true
-    strict: true
   copyright: |
-    Copyright &copy; 2025 Joshua N. Grant - 
+    Personal site — not an ORNL publication. Copyright &copy; 2025 Joshua N. Grant —
     <a href="https://github.com/sempervent/sempervent.github.io/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>

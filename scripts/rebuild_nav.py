@@ -45,7 +45,7 @@ def main() -> None:
     - Just for Fun: tutorials/just-for-fun/index.md
   - About:
     - Professional Profile: about.md
-    - Contact & Collaboration: getting-started.md
+    - Contact: getting-started.md
 
 """
     new_content = (

@@ -47,4 +47,4 @@ Notes from production geospatial work, plus tutorials and longer essays. [Best p
 
 [jngrant@live.com](mailto:jngrant@live.com) · [@sempervent](https://github.com/sempervent) · [LinkedIn](https://linkedin.com/in/joshuanagrant) · [Not Just a Datum](https://notjustadatum.blogspot.com)
 
-Personal site — not an ORNL publication. [Profile](about.md) · [Contact form & details](getting-started.md)
+Personal site — not an ORNL publication. [About](about.md) · [Contact](getting-started.md)
